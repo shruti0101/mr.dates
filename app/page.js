@@ -9,6 +9,8 @@ import Whychoose from "@/components/Whychoose"
 import Banner from "@/components/Banner";
 import Testimonial from "@/components/Testimonial";
 import Benefit from "@/components/Benefits";
+import LeadingDatesSupplier from "@/components/LeadingDatesSupplier";
+import FaqDatesSupplier from "@/components/Faq";
 export default function Home() {
   return (
   <>
@@ -21,10 +23,13 @@ export default function Home() {
   <Countup></Countup>
  
   <Whychoose></Whychoose>
+    <LeadingDatesSupplier></LeadingDatesSupplier>
        <Slider></Slider>
   <Banner></Banner>
   <Testimonial></Testimonial>
   <Benefit></Benefit>
+  <FaqDatesSupplier></FaqDatesSupplier>
+
   </>
   );
 }

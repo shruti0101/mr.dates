@@ -109,18 +109,18 @@ export default function AboutSection() {
     <section
       ref={aboutRef}
       style={{ backgroundImage: "url(/aboutbg.webp)" }}
-      className="relative bg-cover bg-center py-16 lg:py-20 overflow-hidden"
+      className="relative bg-cover bg-center py-16 md:py-20 h-[900px] overflow-hidden"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div>
 
       <div className="relative z-10 mx-auto w-full px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
           {/* LEFT IMAGES */}
           <motion.div 
            initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1,x:-40,y:20 }}
+          animate={{ opacity: 1, scale: 1,x:0,y:20 }}
           transition={{ duration: 2 }}  
           exit={{ opacity: 0, scale: 0.9 }}
           
@@ -133,7 +133,7 @@ export default function AboutSection() {
               className="relative h-[420px] w-full overflow-hidden rounded-lg shadow-lg"
             >
               <Image
-                src="/about1.jpg"
+                src="/banner/2.png"
                 alt="Premium Dates"
                 fill
                 className="object-cover"
@@ -160,19 +160,69 @@ export default function AboutSection() {
               About Us
             </p>
 
-            <h2 className="mb-6  font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-black">
+            <h2 className="mb-6  font-serif text-3xl sm:text-4xl  font-bold text-black">
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich
             </h2>
 
             <p className="mb-8 max-w-xl text-2xl text-black">
-              Galaxy Premium Dates Trading LLC is a Dubai-based dates trading
-              company delivering exceptional quality dates sourced from Saudi
-              Arabia, Palestine, and Jordan.
+             Mr. Dates is a trusted <strong>dates supplier  </strong> and <strong>dry fruits supplier, delivering premium dates, premium dry fruits,</strong>  and <strong>healthy snacks </strong> sourced from the world’s finest farms. We cater to bulk orders and <strong>wholesale dates</strong>  requirements while ensuring every product is handpicked and processed to preserve natural taste, freshness, and nutrition.
             </p>
 
-            <button className="bg-black px-8 py-3 text-white hover:bg-gray-900 transition">
-              View More
-            </button>
+         
+<button
+  className=" cursor-pointer
+    group relative inline-flex items-center gap-3
+    px-7 py-3
+    rounded-full
+      bg-gradient-to-b from-[#8B5536] to-[#75442e]
+    text-white text-sm font-medium tracking-wide
+   
+   
+    overflow-hidden
+    transition-colors duration-300
+    hover:bg-[#9c735a]
+  "
+>
+  {/* Chocolate wave */}
+  <span
+    className="
+      pointer-events-none absolute left-0 top-0 h-full w-0
+      group-hover:w-full
+      transition-all duration-700 ease-out
+    "
+  >
+    <svg
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      className="h-full w-full"
+    >
+      <path
+        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
+        fill="#4E2A1A"
+      />
+    </svg>
+  </span>
+
+  {/* Date Image */}
+  <span
+    className="
+      relative z-10 flex h-7 w-7 items-center justify-center
+      transition-transform duration-300
+      group-hover:translate-x-1
+    "
+  >
+    <img
+      src="/date.png"
+      alt="Date fruit"
+      className="h-10 w-10 object-contain"
+    />
+  </span>
+
+  {/* Text */}
+  <span className="relative z-10 font-poppins">
+ Shop Now
+  </span>
+</button>
           </div>
 
         </div>

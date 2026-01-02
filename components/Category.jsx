@@ -182,7 +182,7 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
       transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
       className="max-w-2xl mx-auto text-black mb-15 text-sm sm:text-base"
     >
-      Discover our best sellers crafted with fresh ingredients and rich flavors.
+    Discover our best sellers featuring <strong> premium dates, dry fruits,</strong> and <strong>healthy snacks,</strong>  crafted with fresh ingredients and rich, natural flavors by a trusted <strong>dates supplier.</strong> 
     </motion.p>
 
 
@@ -244,9 +244,9 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
             transition={{ duration: 0.2 }}
             className="w-full bg-[#62493e] hover:bg-[#584339]
                        text-white text-sm font-medium py-2.5
-                       rounded-full shadow-sm"
+                       rounded-full shadow-sm font-poppins"
           >
-        Visit Product
+        Visit Category
           </motion.button>
         </motion.div>
       ))}
@@ -314,7 +314,7 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
   </span>
 
   {/* Text */}
-  <span className="relative z-10">
+  <span className="relative z-10 font-poppins">
     Explore All Categories
   </span>
 </button>

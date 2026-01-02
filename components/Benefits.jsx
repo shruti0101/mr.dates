@@ -1,44 +1,57 @@
 "use client";
 
 import Image from "next/image";
+
 const items = [
   {
     title: "Fitness",
-    desc: "Power your workouts with energy-rich dates and premium Dates that support strength and endurance.",
+    desc: "Power your workouts with energy-rich dates that support stamina, muscle recovery, and long-lasting endurance.",
     icon: "/slider/benefit1.avif",
     bg: "bg-[#DCEAD8]",
   },
   {
     title: "Maternity",
-    desc: "Naturally nourish mothers-to-be with iron-rich dates and carefully selected Dates.",
+    desc: "Support expecting mothers with iron-rich, naturally nourishing dates that promote strength and overall wellness.",
     icon: "/slider/benefit2.avif",
     bg: "bg-[#EAE4D4]",
   },
   {
     title: "Kids",
-    desc: "A healthy and tasty alternative to sweets, packed with natural energy and nutrients for growing kids.",
+    desc: "A delicious and healthy alternative to sugary snacks, packed with natural energy for growing minds and bodies.",
     icon: "/slider/benefit3.avif",
     bg: "bg-[#DDEAE6]",
   },
   {
     title: "Elder Care",
-    desc: "Soft, easy-to-digest dates and Dates that support daily nutrition and overall well-being.",
+    desc: "Soft, easy-to-digest dates that help maintain daily nutrition, vitality, and digestive comfort.",
     icon: "/slider/benefit4.avif",
     bg: "bg-[#E9DADA]",
   },
 ];
 
-
 export default function UseCaseSection() {
   return (
     <section className="bg-[#faf7f2] py-20">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="grid grid-cols-1 gap-14 text-center sm:grid-cols-2 lg:grid-cols-4">
 
+        {/* Section Heading */}
+        <div className="mb-10 text-center">
+      <h2 className="text-3xl font-bold text-black sm:text-4xl">
+  Natural Nutrition for Modern Lifestyles
+</h2>
+
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-gray-600">
+            From active lifestyles to everyday wellness, our premium dates
+            provide natural nutrition, energy, and care for all age groups.
+          </p>
+        </div>
+
+        {/* Benefits Grid */}
+        <div className="grid grid-cols-1 gap-14 text-center sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (
             <div key={i} className="flex flex-col items-center">
-              
-              {/* Icon Circle */}
+
+              {/* Icon */}
               <div
                 className={`flex h-36 w-36 items-center justify-center rounded-full ${item.bg}`}
               >
@@ -47,7 +60,7 @@ export default function UseCaseSection() {
                   alt={item.title}
                   width={100}
                   height={100}
-                  className="object-contain  transition-all"
+                  className="object-contain"
                 />
               </div>
 
@@ -57,14 +70,20 @@ export default function UseCaseSection() {
               </h3>
 
               {/* Description */}
-              <p className="mt-2 max-w-xs text-sm text-gray-600 leading-6">
+              <p className="mt-2 max-w-xs text-sm leading-6 text-black">
                 {item.desc}
               </p>
             </div>
           ))}
-
         </div>
+
       </div>
+
+
+
+
+
+
     </section>
   );
 }

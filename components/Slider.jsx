@@ -9,9 +9,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const categories = [
-  { title: "Almond", image: "/slider/almond.webp", bg: "#8C6A5D" },
-  { title: "Cashew", image: "/slider/cashew.png", bg: "#0E6B82" },
-  { title: "Dates", image: "/date.png", bg: "#6F775F" },
+  { title: "chocolate Dates", image: "/slider/chocodate.png", bg: "#0E6B82" },
+  { title: "Sagai Dates", image: "/slider/sagai.png", bg: "#6F775F" },
+  { title: "Ajwa Dates", image: "/slider/ajwa.png", bg: "#6F775F" },
+  { title: "Sukkari Dates", image: "/slider/sukari.png", bg: "#6F775F" },
+  { title: "Cashew", image: "/slider/cashew.png", bg: "#8C6A5D" },
   { title: "Walnut", image: "/slider/walnut.webp", bg: "#8A1D3D" },
     { title: "Almond", image: "/slider/almond.webp", bg: "#8C6A5D" },
   { title: "Raisin", image: "/slider/raisin.png", bg: "#B48A63" },
@@ -37,14 +39,14 @@ export default function CategorySlider() {
 
         <Swiper
           modules={[Navigation]}
-          slidesPerView={6}
+          slidesPerView={5}
           spaceBetween={28}
           navigation
           grabCursor
           speed={700}
           breakpoints={{
             640: { slidesPerView: 2.5 },
-            1024: { slidesPerView: 4 },
+            1024: { slidesPerView: 5 },
           }}
         >
           {categories.map((item, index) => (

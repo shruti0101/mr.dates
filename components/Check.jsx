@@ -119,9 +119,7 @@ export default function Check() {
           </h1>
 
           <p className="text-lg leading-relaxed max-w-md text-[#5c4636]">
-            Sourced from the fertile lands of Saudi Arabia, Palestine, and Jordan,
-            our premium dates are hand-selected for richness, purity, and taste —
-            ideal for wholesale, gifting, and luxury consumption.
+         As a trusted <strong>dates supplier,  Mr. Dates</strong>  offers premium dates hand-selected for richness, purity, and exceptional taste. Our collection is ideal for <strong>wholesale dates,</strong>  luxury consumption, and elegant gifting, delivering consistent quality in every pack.
           </p>
 
           <div className="flex gap-4 pt-4">
@@ -173,11 +171,11 @@ export default function Check() {
   </span>
 
   {/* Text */}
-  <span className="relative z-10">
+  <span className="relative z-10 font-poppins">
     Explore More
   </span>
 </button>
-            <button className="border border-[#4a2e1f] px-8 py-3 rounded-full text-[#4a2e1f] hover:bg-[#4a2e1f]/10 transition">
+            <button className="font-poppins border border-[#4a2e1f] px-8 py-3 rounded-full text-[#4a2e1f] hover:bg-[#4a2e1f]/10 transition">
               Contact Sales
             </button>
           </div>

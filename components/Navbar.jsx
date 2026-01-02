@@ -12,7 +12,7 @@ const megaProducts = [
   },
   {
     title: "Ajwa Dates",
-    image: "/img3.png",
+    image: "/img6.png",
     tag: "Export Quality",
   },
   {
@@ -46,7 +46,7 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={`transition-all duration-300 ${
-          scrolled ? "bg-white/80 backdrop-blur-xl " : "bg-transparent"
+          scrolled ? "bg-white/80 backdrop-blur-xl " : "bg-[#8A5436]/20"
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-10 py-3">
@@ -142,7 +142,7 @@ export default function Navbar() {
             </div>
 
 
-     {[ "Contact"].map((item) => (
+     {["Blogs","Bulk Order", "Contact"].map((item) => (
               <a
                 key={item}
                 href="#"
@@ -155,14 +155,66 @@ export default function Navbar() {
 
           </nav>
 
-          {/* CTA */}
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.96 }}
-            className="rounded-full border border-gray-900 px-6 py-2 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition"
-          >
-         Get Started
-          </motion.button>
+{/* CTA */}
+
+
+
+<button
+  className=" cursor-pointer
+    group relative inline-flex items-center gap-3
+    px-7 py-3
+    rounded-full
+      bg-gradient-to-b from-[#8B5536] to-[#75442e]
+    text-white text-sm font-medium tracking-wide
+   
+   
+    overflow-hidden
+    transition-colors duration-300
+    hover:bg-[#9c735a]
+  "
+>
+  {/* Chocolate wave */}
+  <span
+    className="
+      pointer-events-none absolute left-0 top-0 h-full w-0
+      group-hover:w-full
+      transition-all duration-700 ease-out
+    "
+  >
+    <svg
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      className="h-full w-full"
+    >
+      <path
+        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
+        fill="#4E2A1A"
+      />
+    </svg>
+  </span>
+
+  {/* Date Image */}
+  <span
+    className="
+      relative z-10 flex h-7 w-7 items-center justify-center
+      transition-transform duration-300
+      group-hover:translate-x-1
+    "
+  >
+    <img
+      src="/date.png"
+      alt="Date fruit"
+      className="h-10 w-10 object-contain"
+    />
+  </span>
+
+  {/* Text */}
+  <span className="relative z-10 font-poppins">
+   Get a Quote
+  </span>
+</button>
+
+
         </div>
       </motion.div>
     </header>

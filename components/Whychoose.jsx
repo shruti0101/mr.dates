@@ -86,29 +86,21 @@ export default function AboutStoreSection() {
                 variants={fadeUp}
                 className="text-[#4A2E1F] font-serif text-3xl lg:text-4xl font-bold mb-5"
               >
-                WHY CHOOSE MR. DATES
+           Why Choose Mr. Dates as a Dates Supplier
               </motion.h2>
 
               <motion.p
                 variants={fadeUp}
                 className="text-black text-[18px] leading-7 mb-5"
               >
-                Mr. Dates brings you premium-quality dates and dry fruits sourced
-                directly from the world’s finest farms, including Saudi Arabia,
-                Iran, and select global origins. Every product is carefully
-                handpicked and hygienically processed to preserve natural taste,
-                freshness, and nutrition.
+                At <strong> Mr. Dates,</strong> we are dedicated to delivering superior quality and authentic taste in every product. As a trusted <strong>dates supplier,</strong>  we carefully source premium dates and dry fruits to meet the highest standards of freshness, nutrition, and consistency.
               </motion.p>
 
               <motion.p
                 variants={fadeUp}
                 className="text-black text-[18px] leading-7 mb-6"
               >
-                With a strong focus on quality and authenticity, we ensure that
-                every pack meets the highest standards of freshness. From daily
-                consumption to festive gifting and corporate requirements,
-                Mr. Dates delivers products you can rely on for taste, purity,
-                and consistency.
+              What sets us apart:
               </motion.p>
 
               <motion.ul
@@ -119,6 +111,7 @@ export default function AboutStoreSection() {
                 <li>• Hygienic processing & quality-controlled packaging</li>
                 <li>• Ideal for daily use, gifting & bulk requirements</li>
                 <li>• Trusted by customers for freshness & authenticity</li>
+                <li>•	Bulk & Wholesale Availability</li>
               </motion.ul>
 
 <button
@@ -169,7 +162,7 @@ export default function AboutStoreSection() {
   </span>
 
   {/* Text */}
-  <span className="relative z-10">
+  <span className="relative z-10 font-poppins">
     Explore Mr. Dates
   </span>
 </button>

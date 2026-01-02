@@ -26,13 +26,13 @@ const products = [
     title: "Healthy Dates",
     main: "/img1.png",
     thumb: "/img1.png",
-    desc: "Naturally sweet and soft-textured dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients, perfect for a healthy and balanced lifestyle.",
+    desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
   {
     title: "Premium Kalmi Dates",
     main: "/img2.png",
     thumb: "/img2.png",
-    desc: "Rich in taste with a premium bite, Kalmi dates are handpicked at peak ripeness. Nothing added, nothing artificial — just pure flavor, authentic texture, and uncompromised quality.",
+    desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
   },
   {
     title: "Ajwa Dates",
@@ -44,13 +44,13 @@ const products = [
     title: "Classic Dates",
     main: "/img4.png",
     thumb: "/img4.png",
-    desc: "Perfect for daily consumption, these classic dates deliver balanced sweetness and a satisfying chew. Naturally fresh and versatile, ideal for snacking or culinary use.",
+    desc: "As a trusted dates supplier, we bring you these Classic Dates, perfect for daily consumption. They deliver balanced sweetness and a satisfying chew, naturally fresh and versatile—ideal for snacking or culinary use.",
   },
   {
     title: "Dry Fruits Mix",
     main: "/img5.png",
     thumb: "/img5.png",
-    desc: "A thoughtfully curated blend of premium dry fruits, crafted to support immunity and overall wellness. Wholesome, nourishing, and ideal for mindful snacking.",
+    desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
   },
 ];
 
@@ -234,7 +234,7 @@ useEffect(() => {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -10 }}
                   transition={{ duration: 0.9 }}
-                  className="inline-block mb-4 rounded-full bg-green-100 px-4 py-1 text-xs font-semibold tracking-wide text-green-700"
+                  className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-xs font-semibold tracking-wide text-black"
                 >
                   Premium Farm Select
                 </motion.span>
@@ -247,7 +247,7 @@ useEffect(() => {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -24 }}
                   transition={{ duration: 0.9}}
-                  className="text-5xl font-extrabold leading-tight text-gray-900"
+                  className="text-5xl font-extrabold leading-tight text-[#4A2E1F]"
                 >
                   {products[activeIndex].title}
                 </motion.h1>
@@ -257,7 +257,7 @@ useEffect(() => {
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 0.9 }}
-                className="mt-6 h-[3px] w-20 origin-left rounded-full bg-gradient-to-r from-green-600 to-green-300"
+                className="mt-6 h-[3px] w-20 origin-left rounded-full bg-gradient-to-r from-[#392d21] "
               />
 
          
@@ -279,18 +279,65 @@ useEffect(() => {
 </div>
 
               <div className="mt-8 flex items-center gap-8">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="group relative overflow-hidden rounded-full bg-green-600 px-10 py-4 text-white font-semibold shadow-lg"
-                >
-                  <span className="relative z-10">Shop Now</span>
-                  <span className="absolute inset-0 bg-green-700 translate-y-full transition-transform duration-300 group-hover:translate-y-0" />
-                </motion.button>
+           
+<button
+  className=" cursor-pointer
+    group relative inline-flex items-center gap-3
+    px-7 py-3
+    rounded-full
+      bg-gradient-to-b from-[#8B5536] to-[#75442e]
+    text-white text-sm font-medium tracking-wide
+   
+   
+    overflow-hidden
+    transition-colors duration-300
+    hover:bg-[#9c735a]
+  "
+>
+  {/* Chocolate wave */}
+  <span
+    className="
+      pointer-events-none absolute left-0 top-0 h-full w-0
+      group-hover:w-full
+      transition-all duration-700 ease-out
+    "
+  >
+    <svg
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      className="h-full w-full"
+    >
+      <path
+        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
+        fill="#4E2A1A"
+      />
+    </svg>
+  </span>
+
+  {/* Date Image */}
+  <span
+    className="
+      relative z-10 flex h-7 w-7 items-center justify-center
+      transition-transform duration-300
+      group-hover:translate-x-1
+    "
+  >
+    <img
+      src="/date.png"
+      alt="Date fruit"
+      className="h-10 w-10 object-contain"
+    />
+  </span>
+
+  {/* Text */}
+  <span className="relative z-10 font-poppins">
+Explore More
+  </span>
+</button>
 
                 <motion.span
                   whileHover={{ x: 6 }}
-                  className="flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-green-600 transition cursor-pointer"
+                  className="flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-[#8A5436] transition cursor-pointer"
                 >
                   View Details →
                 </motion.span>
@@ -300,7 +347,7 @@ useEffect(() => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6 }}
-                className="mt-10 flex items-center gap-4 text-xs text-gray-500"
+                className="mt-10 flex items-center gap-4 text-xs text-[#4E2A1A]"
               >
                 <span>✓ 100% Natural</span>
                 <span className="h-1 w-1 rounded-full bg-black" />
@@ -317,7 +364,7 @@ useEffect(() => {
             <Image
               width={650}
               height={760}
-              className="absolute opacity-80 z-30 right-20 -top-20 animate-pulse"
+              className="absolute opacity-30 z-30 right-20 -top-20 animate-pulse"
               src="/leaf2.png"
               alt=""
             />
@@ -372,7 +419,7 @@ useEffect(() => {
             </motion.div>
 
             <motion.div
-              className="w-[900px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-green-100/30 z-5"
+              className="w-[900px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-[#F1F9F5]/30 z-5"
               animate={{ scale: [1, 1.04, 1] }}
               transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
             />

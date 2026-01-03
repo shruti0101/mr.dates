@@ -46,7 +46,7 @@ const containerVariants = {
 
 
 
-const categories = [
+const category = [
   
   {
     title: "Organic Dates",
@@ -194,7 +194,7 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
       viewport={{ once: true }}
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-27"
     >
-      {categories.map((item, index) => (
+      {category.map((item, index) => (
 <motion.div
   key={index}
   variants={cardVariants}
@@ -213,15 +213,16 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
           <div className="absolute inset-0 rounded-2xl ring-1 ring-black/5 pointer-events-none" />
 
           {/* Image */}
-          <div className="relative  mx-auto -mt-25 mb-5 border-[5px] border-white ">
-            <Image
-              src={item.image}
-              alt={item.title}
-              width={400}
-              height={400}
-              className="object-cover"
-            />
-          </div>
+        <div className="relative mx-auto -mt-[100px] mb-5 border-[5px] border-white">
+  <Image
+    src={item.image}
+    alt={item.title}
+    width={400}
+    height={400}
+    className="object-cover"
+  />
+</div>
+
 
           {/* Title */}
           <h3 className="text-base font-semibold text-gray-900 mb-1">

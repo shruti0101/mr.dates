@@ -3,33 +3,17 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-const megaProducts = [
-  {
-    title: "Premium Kalmi Dates",
-    image: "/img2.png",
-    tag: "Best Seller",
-  },
-  {
-    title: "Ajwa Dates",
-    image: "/img6.png",
-    tag: "Export Quality",
-  },
-  {
-    title: "Healthy Dates",
-    image: "/img1.png",
-    tag: "Daily Nutrition",
-  },
-  {
-    title: "Dry Fruits Mix",
-    image: "/img5.png",
-    tag: "Premium Blend",
-  },
-];
+import { categories } from "@/Data/data";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => {
@@ -39,6 +23,18 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  
+  const navTextColor =
+    isHome && !scrolled ? "text-black" : "text-white";
+
+    const navButtonColor= 
+      isHome && !scrolled ? " bg-gradient-to-b from-[#8B5536] to-[#75442e]" : "bg-[#ECDEC3]";
+
+      const navButtonText=
+  isHome && !scrolled ? " text-white" : "text-black";
+
+
+
   return (
     <header className="fixed top-0 left-0 z-50 w-full">
       <motion.div
@@ -46,46 +42,51 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={`transition-all duration-300 ${
-          scrolled ? "bg-white/80 backdrop-blur-xl " : "bg-[#8A5436]/20"
+          isHome
+            ? scrolled
+              ? "bg-[#8A5436]/85 backdrop-blur-md"
+              : "bg-transparent"
+            : "bg-[#8A5436]/95 backdrop-blur-md"
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-10 py-3">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
 
           {/* LOGO */}
-          <Image
-            src="/logo.webp"
-            alt="Brand Logo"
-            width={120}
-            height={40}
-            className="object-contain"
-          />
+          <Link href="/">
+            <Image
+              src="/logo.webp"
+              alt="Brand Logo"
+              width={120}
+              height={40}
+              className="object-contain"
+            />
+          </Link>
 
           {/* NAV LINKS */}
-          <nav className="hidden md:flex items-center gap-10 relative">
-
-       
+          <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
             {["Home", "About"].map((item) => (
               <a
                 key={item}
                 href="#"
-                className="text-md font-medium text-black hover:text-black transition"
+                className={`text-lg ${navTextColor} hover:text-[#c8bf7c] transition`}
               >
                 {item}
               </a>
             ))}
 
-
-
-     {/* MEGA MENU */}
+            {/* MEGA MENU */}
             <div
               onMouseEnter={() => setMegaOpen(true)}
               onMouseLeave={() => setMegaOpen(false)}
               className="relative"
             >
-              <button className="text-md font-medium text-black hover:text-black transition">
+              <Link
+                href="/products"
+                className={`text-lg ${navTextColor} hover:text-[#F8CC19] transition`}
+              >
                 Our Products
-              </button>
+              </Link>
 
               <AnimatePresence>
                 {megaOpen && (
@@ -94,127 +95,76 @@ export default function Navbar() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute left-1/2 top-full mt-8 w-[880px] -translate-x-1/2 rounded-3xl bg-white p-10 shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
+                    className="absolute left-1/2 top-full mt-8 w-[880px]
+                               -translate-x-1/2 rounded-3xl bg-white p-10
+                               shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
-                    {/* GRID */}
+                    <p className="text-gray-600 pb-3">Our Category Range</p>
+
                     <div className="grid grid-cols-4 gap-8">
-                      {megaProducts.map((item) => (
-                        <motion.div
-                          key={item.title}
-                          whileHover={{ y: -6 }}
-                          className="group cursor-pointer"
+                      {categories.map((cat) => (
+                        <Link
+                          key={cat.id}
+                          href={`/categories/${cat.id}`}
+                          className="group"
                         >
-                          <div className="relative aspect-square overflow-hidden rounded-2xl bg-gray-100">
+                          <div className="relative aspect-square rounded-2xl bg-gray-100 overflow-hidden">
                             <Image
-                              src={item.image}
-                              alt={item.title}
+                              src={cat.image}
+                              alt={cat.name}
                               fill
-                              className="object-contain p-6 transition-transform duration-500 group-hover:scale-150"
+                              className="object-contain p-6 transition-transform
+                                         duration-500 group-hover:scale-125"
                             />
-                            <span className="absolute left-3 top-3 rounded-full bg-black/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-white">
-                              {item.tag}
-                            </span>
+                            {cat.badge && (
+                              <span className="absolute top-3 left-3
+                                               rounded-full bg-black/80
+                                               px-3 py-1 text-[10px]
+                                               uppercase tracking-wide text-white">
+                                {cat.badge}
+                              </span>
+                            )}
                           </div>
 
                           <h4 className="mt-4 text-sm font-semibold text-gray-900">
-                            {item.title}
+                            {cat.name}
                           </h4>
-
-                          <p className="mt-1 text-xs text-gray-500">
+                          <p className="text-xs text-gray-600">
                             View product →
                           </p>
-                        </motion.div>
+                        </Link>
                       ))}
-                    </div>
-
-                    {/* FOOTER */}
-                    <div className="mt-10 flex items-center justify-between border-t pt-6">
-                      <p className="text-xs text-gray-500">
-                        Premium quality • Farm sourced • Export ready
-                      </p>
-                      <button className="text-sm font-semibold text-gray-900 hover:underline">
-                        View All Products →
-                      </button>
                     </div>
                   </motion.div>
                 )}
               </AnimatePresence>
             </div>
 
-
-     {["Blogs","Bulk Order", "Contact"].map((item) => (
+            {["Blogs", "Bulk Order", "Contact"].map((item) => (
               <a
                 key={item}
                 href="#"
-                className="text-md font-medium text-black hover:text-black transition"
+                className={`text-lg ${navTextColor} hover:text-[#F8CC19] transition`}
               >
                 {item}
               </a>
             ))}
-
-
           </nav>
 
-{/* CTA */}
+          {/* CTA */}
+          <button className={`group relative cursor-pointer inline-flex items-center gap-3
+                             px-7 py-3 rounded-full
+                            ${navButtonColor }
+                             ${navButtonText} text-md font-medium tracking-wide
+                             overflow-hidden`}>
 
 
+            <span className="relative z-10 flex h-7 w-7">
+              <img src="/date.png" alt="Date" className="h-10 w-10 object-contain" />
+            </span>
 
-<button
-  className=" cursor-pointer
-    group relative inline-flex items-center gap-3
-    px-7 py-3
-    rounded-full
-      bg-gradient-to-b from-[#8B5536] to-[#75442e]
-    text-white text-sm font-medium tracking-wide
-   
-   
-    overflow-hidden
-    transition-colors duration-300
-    hover:bg-[#9c735a]
-  "
->
-  {/* Chocolate wave */}
-  <span
-    className="
-      pointer-events-none absolute left-0 top-0 h-full w-0
-      group-hover:w-full
-      transition-all duration-700 ease-out
-    "
-  >
-    <svg
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      className="h-full w-full"
-    >
-      <path
-        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
-        fill="#4E2A1A"
-      />
-    </svg>
-  </span>
-
-  {/* Date Image */}
-  <span
-    className="
-      relative z-10 flex h-7 w-7 items-center justify-center
-      transition-transform duration-300
-      group-hover:translate-x-1
-    "
-  >
-    <img
-      src="/date.png"
-      alt="Date fruit"
-      className="h-10 w-10 object-contain"
-    />
-  </span>
-
-  {/* Text */}
-  <span className="relative z-10 font-poppins">
-   Get a Quote
-  </span>
-</button>
-
-
+            <span className="relative  z-10">Get a Quote</span>
+          </button>
         </div>
       </motion.div>
     </header>

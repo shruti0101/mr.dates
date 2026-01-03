@@ -8,7 +8,7 @@ export default function LeadingDatesSupplier() {
 
           {/* LEFT CONTENT */}
           <div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#4A2E1F] mb-6">
+            <h1 className="text-3xl font-serif sm:text-4xl lg:text-5xl font-bold text-[#4A2E1F] mb-6">
               Leading Dates Supplier
             </h1>
 
@@ -42,7 +42,7 @@ export default function LeadingDatesSupplier() {
 
           {/* RIGHT HIGHLIGHTS */}
           <div className="bg-[#FAF7F2] rounded-2xl p-10">
-            <h3 className="text-xl font-semibold text-[#4A2E1F] mb-6">
+            <h3 className="text-xl font-semibold text-[#4A2E1F] font-serif mb-6">
               Why Mr. Dates is the Preferred Dates Supplier
             </h3>
 

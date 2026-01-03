@@ -6,7 +6,7 @@ import Category from "@/components/Category";
 import Slider from "@/components/Slider";
 import Countup from "@/components/Countup";
 import Whychoose from "@/components/Whychoose"
-import Banner from "@/components/Banner";
+// import Banner from "@/components/Banner";
 import Testimonial from "@/components/Testimonial";
 import Benefit from "@/components/Benefits";
 import LeadingDatesSupplier from "@/components/LeadingDatesSupplier";
@@ -25,7 +25,7 @@ export default function Home() {
   <Whychoose></Whychoose>
     <LeadingDatesSupplier></LeadingDatesSupplier>
        <Slider></Slider>
-  <Banner></Banner>
+  {/* <Banner></Banner> */}
   <Testimonial></Testimonial>
   <Benefit></Benefit>
   <FaqDatesSupplier></FaqDatesSupplier>

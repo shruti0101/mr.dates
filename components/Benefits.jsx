@@ -31,16 +31,16 @@ const items = [
 
 export default function UseCaseSection() {
   return (
-    <section className="bg-[#faf7f2] py-20">
+    <section className="bg-[#faf7f2] py-15">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Section Heading */}
-        <div className="mb-10 text-center">
-      <h2 className="text-3xl font-bold text-black sm:text-4xl">
+        <div className="mb-15 text-center">
+      <h2 className="text-3xl font-bold text-black sm:text-4xl font-serif">
   Natural Nutrition for Modern Lifestyles
 </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-gray-600">
+          <p className="mx-auto mt-4 max-w-2xl text-md leading-6 text-black">
             From active lifestyles to everyday wellness, our premium dates
             provide natural nutrition, energy, and care for all age groups.
           </p>

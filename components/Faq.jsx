@@ -82,7 +82,7 @@ export default function FaqDatesSupplier() {
 
         {/* Heading */}
         <div className="mb-12 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mb-3">
             Frequently Asked Questions (FAQs)
           </h2>
           <p className="text-white">

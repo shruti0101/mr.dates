@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const items = [
   {
@@ -29,31 +30,67 @@ const items = [
   },
 ];
 
+/* Animations */
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+const container = {
+  hidden: {},
+  show: {
+    transition: { staggerChildren: 0.15 },
+  },
+};
+
 export default function UseCaseSection() {
   return (
-    <section className="bg-[#faf7f2] py-15">
+    <section className="bg-[#faf7f2] py-16">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Section Heading */}
-        <div className="mb-15 text-center">
-      <h2 className="text-3xl font-bold text-black sm:text-4xl font-serif">
-  Natural Nutrition for Modern Lifestyles
-</h2>
+        <motion.div
+          className="mb-16 text-center"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl font-bold text-black sm:text-4xl font-serif">
+            Natural Nutrition for Modern Lifestyles
+          </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-md leading-6 text-black">
             From active lifestyles to everyday wellness, our premium dates
             provide natural nutrition, energy, and care for all age groups.
           </p>
-        </div>
+        </motion.div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 gap-14 text-center sm:grid-cols-2 lg:grid-cols-4">
+        <motion.div
+          className="grid grid-cols-1 gap-14 text-center sm:grid-cols-2 lg:grid-cols-4"
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+        >
           {items.map((item, i) => (
-            <div key={i} className="flex flex-col items-center">
-
+            <motion.div
+              key={i}
+              variants={fadeUp}
+              className="flex flex-col items-center"
+            >
               {/* Icon */}
-              <div
+              <motion.div
                 className={`flex h-36 w-36 items-center justify-center rounded-full ${item.bg}`}
+                initial={{ scale: 0.85, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <Image
                   src={item.icon}
@@ -62,7 +99,7 @@ export default function UseCaseSection() {
                   height={100}
                   className="object-contain"
                 />
-              </div>
+              </motion.div>
 
               {/* Title */}
               <h3 className="mt-6 text-xl font-semibold text-black">
@@ -73,17 +110,11 @@ export default function UseCaseSection() {
               <p className="mt-2 max-w-xs text-sm leading-6 text-black">
                 {item.desc}
               </p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
       </div>
-
-
-
-
-
-
     </section>
   );
 }

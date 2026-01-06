@@ -37,15 +37,15 @@ export default function ProductPage({ params }) {
 
    {/* ===== Banner Section ===== */}
       <div
-        className="relative bg-cover bg-center h-[50vh] md:h-[65vh] flex flex-col items-center justify-center text-center overflow-hidden"
+        className="relative bg-cover bg-center h-[50vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
           backgroundImage:
-            "url('/footerbg.webp')",
+            "url('/bg3.png')",
         }}
       >
-   
+      <div className="absolute inset-0 bg-black/30 "></div>
 <div className="relative z-10 text-white px-6 ">
-  <h2 className="max-w-4xl  text-center font-serif  text-2xl md:text-5xl font-bold z-10 ">
+  <h2 className="max-w-4xl  text-center font-serif tracking-wide text-2xl md:text-[85px] font-medium z-10 ">
             {product.name}
           </h2>
 
@@ -54,7 +54,7 @@ export default function ProductPage({ params }) {
 
 </div>
 
-         <div className="absolute inset-0 bg-black/70 h-[91vh]"></div>
+      
       </div>
    
 

@@ -12,35 +12,44 @@ const images = [
   "/banner/2.png",
   "/banner/3.png",
   "/banner/4.png",
-    "/banner/5.png",
+  "/banner/5.png",
 ];
 
 /* Animations */
 const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 40 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
 const container = {
   hidden: {},
   show: {
-    transition: { staggerChildren: 0.12 },
+    transition: { staggerChildren: 0.14 },
+  },
+};
+
+const imageAnim = {
+  hidden: { opacity: 0, scale: 1.05 },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 1.1, ease: "easeOut" },
   },
 };
 
 export default function AboutStoreSection() {
   return (
     <section className="relative w-full bg-[#fbf6eb] overflow-hidden">
-      <div className="mx-auto ">
+      <div className="mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
 
           {/* LEFT – IMAGE CAROUSEL */}
           <motion.div
-            variants={fadeUp}
+            variants={imageAnim}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
@@ -68,108 +77,92 @@ export default function AboutStoreSection() {
 
           {/* RIGHT – CONTENT */}
           <motion.div
-          style={{backgroundImage:"url(/mock.webp)"}}
+            style={{ backgroundImage: "url(/mock.webp)" }}
             variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="relative flex items-center px-8 py-12 lg:px-14
-                      
-                       "
+            className="relative flex items-center px-8 py-12 lg:px-14"
           >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-white/60 z-10"></div>
 
- <div className="absolute inset-0 bg-white/60 z-10"></div>
-
-
-            <div className="max-w-xl z-20">
+            <div className="relative z-20 max-w-xl">
               <motion.h2
                 variants={fadeUp}
                 className="text-[#4A2E1F] font-serif text-3xl lg:text-4xl font-bold mb-5"
               >
-           Why Choose Mr. Dates as a Dates Supplier
+                Why Choose Mr. Dates as a Dates Supplier
               </motion.h2>
 
               <motion.p
                 variants={fadeUp}
                 className="text-black text-[18px] leading-7 mb-5"
               >
-                At <strong> Mr. Dates,</strong> we are dedicated to delivering superior quality and authentic taste in every product. As a trusted <strong>dates supplier,</strong>  we carefully source premium dates and dry fruits to meet the highest standards of freshness, nutrition, and consistency.
+                At <strong>Mr. Dates</strong>, we are dedicated to delivering
+                superior quality and authentic taste in every product. As a
+                trusted <strong>dates supplier</strong>, we carefully source
+                premium dates and dry fruits to meet the highest standards of
+                freshness, nutrition, and consistency.
               </motion.p>
 
               <motion.p
                 variants={fadeUp}
-                className="text-black text-[18px] leading-7 mb-6"
+                className="text-black text-[18px] leading-7 mb-4"
               >
-              What sets us apart:
+                What sets us apart:
               </motion.p>
 
               <motion.ul
-                variants={fadeUp}
+                variants={container}
                 className="text-black text-[18px] leading-7 mb-8 space-y-2"
               >
-                <li>• Premium dates sourced from trusted global farms</li>
-                <li>• Hygienic processing & quality-controlled packaging</li>
-                <li>• Ideal for daily use, gifting & bulk requirements</li>
-                <li>• Trusted by customers for freshness & authenticity</li>
-                <li>•	Bulk & Wholesale Availability</li>
+                {[
+                  "Premium dates sourced from trusted global farms",
+                  "Hygienic processing & quality-controlled packaging",
+                  "Ideal for daily use, gifting & bulk requirements",
+                  "Trusted by customers for freshness & authenticity",
+                  "Bulk & Wholesale Availability",
+                ].map((item, i) => (
+                  <motion.li
+                    key={i}
+                    variants={fadeUp}
+                  >
+                    • {item}
+                  </motion.li>
+                ))}
               </motion.ul>
 
-<button
-  className=" cursor-pointer
-    group relative inline-flex items-center gap-3
-    px-7 py-3
-    rounded-full
-    bg-[#7A4A2E]
-    text-white text-sm font-medium
-    overflow-hidden
-    transition-colors duration-300
-    hover:bg-[#6A3F25]
-  "
->
-  {/* Chocolate wave */}
-  <span
-    className="
-      pointer-events-none absolute left-0 top-0 h-full w-0
-      group-hover:w-full
-      transition-all duration-700 ease-out
-    "
-  >
-    <svg
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      className="h-full w-full"
-    >
-      <path
-        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
-        fill="#4E2A1A"
-      />
-    </svg>
-  </span>
+              {/* CTA BUTTON */}
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.96 }}
+                className="
+                  cursor-pointer group relative inline-flex items-center gap-3
+                  px-7 py-3 rounded-full bg-[#7A4A2E]
+                  text-white text-sm font-medium overflow-hidden
+                  transition-colors duration-300 hover:bg-[#6A3F25]
+                "
+              >
+                {/* Chocolate wave */}
+                <span className="pointer-events-none absolute left-0 top-0 h-full w-0 group-hover:w-full transition-all duration-700 ease-out">
+                  <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="h-full w-full">
+                    <path
+                      d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
+                      fill="#4E2A1A"
+                    />
+                  </svg>
+                </span>
 
-  {/* Date Image */}
-  <span
-    className="
-      relative z-10 flex h-7 w-7 items-center justify-center
-      transition-transform duration-300
-      group-hover:translate-x-1
-    "
-  >
-    <img
-      src="/date.png"
-      alt="Date fruit"
-      className="h-9 w-9 object-contain"
-    />
-  </span>
+                {/* Date Image */}
+                <span className="relative z-10 flex h-7 w-7 items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
+                  <img src="/date.png" alt="Date fruit" className="h-9 w-9 object-contain" />
+                </span>
 
-  {/* Text */}
-  <span className="relative z-10 font-poppins">
-    Explore Mr. Dates
-  </span>
-</button>
-
-
-
-
+                <span className="relative z-10 font-poppins">
+                  Explore Mr. Dates
+                </span>
+              </motion.button>
             </div>
           </motion.div>
 

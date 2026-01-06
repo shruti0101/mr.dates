@@ -24,14 +24,7 @@ export default function Navbar() {
   }, []);
 
   
-  const navTextColor =
-    isHome && !scrolled ? "text-black" : "text-white";
 
-    const navButtonColor= 
-      isHome && !scrolled ? " bg-gradient-to-b from-[#8B5536] to-[#75442e]" : "bg-[#ECDEC3]";
-
-      const navButtonText=
-  isHome && !scrolled ? " text-white" : "text-black";
 
 
 
@@ -45,7 +38,7 @@ export default function Navbar() {
           isHome
             ? scrolled
               ? "bg-[#8A5436]/85 backdrop-blur-md"
-              : "bg-transparent"
+              : "bg-[#8A5436]/85"
             : "bg-[#8A5436]/95 backdrop-blur-md"
         }`}
       >
@@ -68,8 +61,8 @@ export default function Navbar() {
             {["Home", "About"].map((item) => (
               <a
                 key={item}
-                href="#"
-                className={`text-lg ${navTextColor} hover:text-[#c8bf7c] transition`}
+                href={`/${item.toLowerCase()}`}
+                className={`text-lg text-white hover:text-[#F8CC19] transition`}
               >
                 {item}
               </a>
@@ -83,7 +76,7 @@ export default function Navbar() {
             >
               <Link
                 href="/products"
-                className={`text-lg ${navTextColor} hover:text-[#F8CC19] transition`}
+                className={`text-lg text-white hover:text-[#F8CC19] transition`}
               >
                 Our Products
               </Link>
@@ -144,7 +137,7 @@ export default function Navbar() {
               <a
                 key={item}
                 href="#"
-                className={`text-lg ${navTextColor} hover:text-[#F8CC19] transition`}
+                className={`text-lg text-white hover:text-[#F8CC19] transition`}
               >
                 {item}
               </a>
@@ -153,9 +146,9 @@ export default function Navbar() {
 
           {/* CTA */}
           <button className={`group relative cursor-pointer inline-flex items-center gap-3
-                             px-7 py-3 rounded-full
-                            ${navButtonColor }
-                             ${navButtonText} text-md font-medium tracking-wide
+                             px-7 py-3 rounded-full bg-[#F8CC19]]
+                          bg-[#FFF8C6]
+                          text-md font-medium tracking-wide
                              overflow-hidden`}>
 
 

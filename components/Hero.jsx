@@ -219,7 +219,7 @@ useEffect(() => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative w-full bg-white py-14  overflow-hidden"
+        className="relative w-full bg-[#EFE6D8] py-14  overflow-hidden"
       >
         <div className="grid grid-cols-2 items-center">
 
@@ -234,7 +234,7 @@ useEffect(() => {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -10 }}
                   transition={{ duration: 0.9 }}
-                  className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-xs font-semibold tracking-wide text-black"
+                  className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-sm font-semibold tracking-wide text-black"
                 >
                   Premium Farm Select
                 </motion.span>
@@ -247,7 +247,7 @@ useEffect(() => {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -24 }}
                   transition={{ duration: 0.9}}
-                  className="text-5xl font-extrabold leading-tight text-[#4A2E1F]"
+                  className="text-6xl font-extrabold leading-tight text-[#4A2E1F]"
                 >
                   {products[activeIndex].title}
                 </motion.h1>
@@ -271,7 +271,7 @@ useEffect(() => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -14 }}
                   transition={{ duration: 0.6 }}
-                  className="mt-6 text-[15px] text-black leading-[1.75]"
+                  className="mt-6 text-[17px] text-black leading-[1.75]"
                 >
                   {products[activeIndex].desc}
                 </motion.p>
@@ -347,7 +347,7 @@ Explore More
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6 }}
-                className="mt-10 flex items-center gap-4 text-xs text-[#4E2A1A]"
+                className="mt-10 flex items-center gap-4 text-sm font-bold text-[#4E2A1A]"
               >
                 <span>✓ 100% Natural</span>
                 <span className="h-1 w-1 rounded-full bg-black" />

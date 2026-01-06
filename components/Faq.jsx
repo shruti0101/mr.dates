@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
-/* Split FAQs into two columns */
+/* FAQs */
 const leftFaqs = [
   {
     q: "Is Mr. Dates a trusted dates supplier?",
@@ -49,30 +50,29 @@ const rightFaqs = [
   },
 ];
 
+/* Animations */
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+const container = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12 } },
+};
+
 export default function FaqDatesSupplier() {
-  const [openLeft, setOpenLeft] = useState(
-    Array(leftFaqs.length).fill(false)
-  );
-  const [openRight, setOpenRight] = useState(
-    Array(rightFaqs.length).fill(false)
-  );
-
-  const toggleLeft = (index) => {
-    setOpenLeft((prev) =>
-      prev.map((item, i) => (i === index ? !item : item))
-    );
-  };
-
-  const toggleRight = (index) => {
-    setOpenRight((prev) =>
-      prev.map((item, i) => (i === index ? !item : item))
-    );
-  };
+  const [openLeft, setOpenLeft] = useState(Array(leftFaqs.length).fill(false));
+  const [openRight, setOpenRight] = useState(Array(rightFaqs.length).fill(false));
 
   return (
     <section
       style={{ backgroundImage: "url(/faq.jpg)" }}
-      className="relative bg-cover bg-center py-15 "
+      className="relative bg-cover bg-center py-16"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40 z-0"></div>
@@ -81,75 +81,113 @@ export default function FaqDatesSupplier() {
       <div className="relative z-10 mx-auto max-w-6xl px-6">
 
         {/* Heading */}
-        <div className="mb-12 text-center">
+        <motion.div
+          className="mb-12 text-center"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+        >
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mb-3">
             Frequently Asked Questions (FAQs)
           </h2>
           <p className="text-white">
             Everything you need to know about Mr. Dates as a trusted dates supplier.
           </p>
-        </div>
+        </motion.div>
 
-        {/* Two Independent Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-
+        {/* Two Columns */}
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 gap-4"
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+        >
           {/* LEFT COLUMN */}
           <div className="space-y-3">
             {leftFaqs.map((item, index) => (
-              <div
+              <motion.div
                 key={index}
+                variants={fadeUp}
                 className="bg-white rounded-xl shadow-sm border border-gray-100"
               >
                 <button
-                  onClick={() => toggleLeft(index)}
+                  onClick={() =>
+                    setOpenLeft((p) => p.map((v, i) => (i === index ? !v : v)))
+                  }
                   className="w-full flex justify-between items-center px-6 py-4 text-left"
                 >
                   <span className="font-medium text-[#4A2E1F]">
                     {item.q}
                   </span>
-                  <span className="text-xl text-[#4A2E1F]">
+                  <motion.span
+                    animate={{ rotate: openLeft[index] ? 180 : 0 }}
+                    className="text-xl text-[#4A2E1F]"
+                  >
                     {openLeft[index] ? "−" : "+"}
-                  </span>
+                  </motion.span>
                 </button>
 
-                {openLeft[index] && (
-                  <div className="px-6 pb-5 text-black text-[16px] leading-7">
-                    {item.a}
-                  </div>
-                )}
-              </div>
+                <AnimatePresence>
+                  {openLeft[index] && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeOut" }}
+                      className="overflow-hidden px-6 pb-5 text-black text-[16px] leading-7"
+                    >
+                      {item.a}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))}
           </div>
 
           {/* RIGHT COLUMN */}
           <div className="space-y-3">
             {rightFaqs.map((item, index) => (
-              <div
+              <motion.div
                 key={index}
+                variants={fadeUp}
                 className="bg-white rounded-xl shadow-sm border border-gray-100"
               >
                 <button
-                  onClick={() => toggleRight(index)}
+                  onClick={() =>
+                    setOpenRight((p) => p.map((v, i) => (i === index ? !v : v)))
+                  }
                   className="w-full flex justify-between items-center px-6 py-4 text-left"
                 >
                   <span className="font-medium text-[#4A2E1F]">
                     {item.q}
                   </span>
-                  <span className="text-xl text-[#4A2E1F]">
+                  <motion.span
+                    animate={{ rotate: openRight[index] ? 180 : 0 }}
+                    className="text-xl text-[#4A2E1F]"
+                  >
                     {openRight[index] ? "−" : "+"}
-                  </span>
+                  </motion.span>
                 </button>
 
-                {openRight[index] && (
-                  <div className="px-6 pb-5 text-black text-[16px] leading-7">
-                    {item.a}
-                  </div>
-                )}
-              </div>
+                <AnimatePresence>
+                  {openRight[index] && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeOut" }}
+                      className="overflow-hidden px-6 pb-5 text-black text-[16px] leading-7"
+                    >
+                      {item.a}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))}
           </div>
-
-        </div>
+        </motion.div>
       </div>
     </section>
   );

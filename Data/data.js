@@ -1,128 +1,110 @@
 // data.js
 
 export const categories = [
-  // category 1 modular office workstation
-{
+  {
     id: "kalmi-dates",
-  name: "Kalmi Dates",
-  metaTitle: "Calcium Carbonate – Premium White Mineral for Paints, Plastics & Paper" ,
-  metaDescription:
-    "Explore high-quality Calcium Carbonate for use in paints, plastics, paper, rubber, and construction materials. Ensure superior whiteness, opacity, and consistency with industrial-grade Calcium Carbonate from Aanya Enterprises",
-image:"/img1.png",
-badge:"bestseller",
+    name: "Kalmi Dates",
+    metaTitle: "Kalmi Dates Supplier in India | Premium Quality Dates",
+    metaDescription:
+      "Premium Kalmi Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
+    image: "/img1.png",
+    badge: "bestseller",
 
-  products: [
-    // product 1
+    products: [
+      /* ================= AJWA DATES ================= */
+      {
+        id: "ajwa-dates",
+        name: "Ajwa Dates",
+        metaTitle: "Ajwa Dates Supplier | Premium Ajwa Dates in Bulk",
+        metaDescription:
+          "Premium Ajwa Dates known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
 
+        description: [
+          {
+            type: "h2",
+            text: "Ajwa Dates – Premium Quality & Authentic Taste",
+          },
+          {
+            type: "p",
+            text: "Ajwa Dates are among the most valued and premium varieties of dates, known for their deep flavor, soft texture, and natural nutritional benefits. Our Ajwa Dates are carefully sourced from trusted farms and handled under strict hygiene standards to preserve freshness, taste, and authenticity.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Ajwa Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally rich flavor with a soft, moist texture",
+              "Sourced from reliable farms ensuring consistent quality",
+              "No artificial additives or preservatives",
+              "Hygienically processed and securely packed",
+              "Suitable for daily consumption, gifting, and bulk distribution",
+              "Preferred choice for retail stores and institutional buyers",
+            ],
+          },
+        ],
 
-{
-  id: "ajwa-date",
-  name: "Ajwa Date",
-  metaTitle: "Calcium Carbonate BP – Aanya Enterprises",
-  metaDescription:
-    "Calcium Carbonate BP Grade – Pharmaceutical-grade white powder with 96% purity, used in supplements, antacids, and oral formulations. Supplied by Aanya Enterprises.",
+        specs: [
+          { label: "Variety", value: "Ajwa Dates" },
+          { label: "Taste Profile", value: "Rich & Mildly Sweet" },
+          { label: "Texture", value: "Soft & Moist" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
 
-  description: [
-    {
-      type: "h2",
-      text: "Calcium Carbonate – BP Grade | Aanya Enterprises",
-    },
-    {
-      type: "p",
-      text: "Calcium Carbonate BP Grade is a pharmaceutical-grade white powder offered by Aanya Enterprises. Produced according to British Pharmacopoeia (BP) standards, it is widely used in pharmaceutical and healthcare applications such as tablets, capsules, syrups, and oral solutions. Known for its high purity, bioavailability, and safety, this grade ensures effective calcium supplementation and smooth processing in oral formulations.",
-    },
-    {
-      type: "h2",
-      text: "Key Features – Calcium Carbonate BP Grade",
-    },
-    {
-      type: "ul",
-      items: [
-        "Meets British Pharmacopoeia Standards – produced according to BP norms for pharmaceutical and healthcare use.",
-        "High Purity & Safety – free from heavy metals and contaminants, ensuring safe internal consumption.",
-        "Excellent Bioavailability – provides an efficient source of elemental calcium for supplements and antacids.",
-        "Odourless and Tasteless – suitable for oral dosage forms without affecting taste or aroma.",
-        "Fine Particle Size – enables uniform blending in tablets, syrups, and liquid formulations.",
-        "Versatile Applications – used in calcium supplements, antacids, oral suspensions, and as an excipient in pharmaceutical manufacturing.",
-        "Standard Packaging – supplied in pharma-grade, sealed 25 kg bags or drums to ensure hygiene and compliance.",
-      ],
-    },
-  ],
+        image: {
+          src: "/img1.png",
+          alt: "Premium Ajwa Dates",
+        },
+      },
 
-  specs: [
-    { label: "Grade Standard", value: "Industrial Grade" },
-    { label: "Purity %", value: "96%" },
-    { label: "Appearance", value: "White Powder" },
-    { label: "Packaging", value: "25 Kg/Bag" },
-  ],
+      /* ================= SUKKARI DATES ================= */
+      {
+        id: "sukkari-dates",
+        name: "Sukkari Dates",
+        metaTitle: "Sukkari Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality Sukkari Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
 
-  image: 
-    {
-      src: "/img1.png",
-      alt: "Calcium Carbonate BP",
-    },
-  
-},
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
 
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
 
-{
-  id: "sukkari-date",
-  name: "Sukkari Date",
-  metaTitle: "Calcium Carbonate BP – Aanya Enterprises",
-  metaDescription:
-    "Calcium Carbonate BP Grade – Pharmaceutical-grade white powder with 96% purity, used in supplements, antacids, and oral formulations. Supplied by Aanya Enterprises.",
-
-
-  description: [
-    {
-      type: "h2",
-      text: "Calcium Carbonate – BP Grade | Aanya Enterprises",
-    },
-    {
-      type: "p",
-      text: "Calcium Carbonate BP Grade is a pharmaceutical-grade white powder offered by Aanya Enterprises. Produced according to British Pharmacopoeia (BP) standards, it is widely used in pharmaceutical and healthcare applications such as tablets, capsules, syrups, and oral solutions. Known for its high purity, bioavailability, and safety, this grade ensures effective calcium supplementation and smooth processing in oral formulations.",
-    },
-    {
-      type: "h2",
-      text: "Key Features – Calcium Carbonate BP Grade",
-    },
-    {
-      type: "ul",
-      items: [
-        "Meets British Pharmacopoeia Standards – produced according to BP norms for pharmaceutical and healthcare use.",
-        "High Purity & Safety – free from heavy metals and contaminants, ensuring safe internal consumption.",
-        "Excellent Bioavailability – provides an efficient source of elemental calcium for supplements and antacids.",
-        "Odourless and Tasteless – suitable for oral dosage forms without affecting taste or aroma.",
-        "Fine Particle Size – enables uniform blending in tablets, syrups, and liquid formulations.",
-        "Versatile Applications – used in calcium supplements, antacids, oral suspensions, and as an excipient in pharmaceutical manufacturing.",
-        "Standard Packaging – supplied in pharma-grade, sealed 25 kg bags or drums to ensure hygiene and compliance.",
-      ],
-    },
-  ],
-
-  specs: [
-    { label: "Grade Standard", value: "Industrial Grade" },
-    { label: "Purity %", value: "96%" },
-    { label: "Appearance", value: "White Powder" },
-    { label: "Packaging", value: "25 Kg/Bag" },
-  ],
-
-  image: 
-    {
-      src: "/img2.png",
-      alt: "Calcium Carbonate BP",
-    },
-  
-},
-
-
-
-
-
-    
-  ],
-},
-
-
-]
+        image: {
+          src: "/img2.png",
+          alt: "Premium Sukkari Dates",
+        },
+      },
+    ],
+  },
+];

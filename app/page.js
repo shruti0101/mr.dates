@@ -12,6 +12,9 @@ import Benefit from "@/components/Benefits";
 import LeadingDatesSupplier from "@/components/LeadingDatesSupplier";
 import FaqDatesSupplier from "@/components/Faq";
 import Cta from "@/components/Cta";
+
+import Parallex from "@/components/Parallex";
+
 export default function Home() {
   return (
   <>
@@ -19,6 +22,7 @@ export default function Home() {
 
   <AboutSection></AboutSection>
   <Check></Check>
+  <Parallex></Parallex>
   <Category></Category>
 
   <Countup></Countup>

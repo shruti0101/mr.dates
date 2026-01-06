@@ -33,7 +33,7 @@ const ContactPage = () => {
 
       {/* ================= CONTACT SECTION ================= */}
       <section className="py-24 bg-[#FBF7F1]">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="max-w-7xl mx-auto mt-10 px-6 grid grid-cols-1 lg:grid-cols-2 gap-20">
 
           {/* ================= LEFT INFO ================= */}
           <motion.div
@@ -65,7 +65,7 @@ const ContactPage = () => {
                 <Phone className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-[#444]">+91 95607 59698</p>
+                  <p className="text-[#444]">+91 7065 650411</p>
                 </div>
               </div>
 
@@ -73,7 +73,8 @@ const ContactPage = () => {
                 <Mail className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-[#444]">info@mrdates.com</p>
+                  <p className="text-[#444]">customercare@mrdates.in</p>
+                     <p className="text-[#444]">sales@mrdates.in</p>
                 </div>
               </div>
 
@@ -92,7 +93,7 @@ const ContactPage = () => {
 
 <Image src="/leaf2.png" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
 
-<Image src="/cta.png" width={400} height={400} alt="Leaf" className="absolute -bottom-160 -left-10 "></Image>
+
 
           {/* ================= FORM ================= */}
           <motion.div
@@ -143,6 +144,8 @@ const ContactPage = () => {
 
         </div>
       </section>
+
+      <Image src="/cta.png" width={400} height={400} alt="Leaf" className="absolute bottom-0 -left-20 "></Image>
     </div>
   );
 };

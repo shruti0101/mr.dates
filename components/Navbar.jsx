@@ -37,9 +37,9 @@ export default function Navbar() {
         className={`transition-all duration-300 ${
           isHome
             ? scrolled
-              ? "bg-[#8A5436]/85 backdrop-blur-md"
-              : "bg-[#8A5436]/85"
-            : "bg-[#8A5436]/95 backdrop-blur-md"
+              ? "bg-[#4A2E1F]/85 backdrop-blur-md"
+              : "bg-[#4A2E1F]/85"
+            : "bg-[#4A2E1F]/95 backdrop-blur-md"
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
@@ -89,10 +89,10 @@ export default function Navbar() {
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="absolute left-1/2 top-full mt-8 w-[880px]
-                               -translate-x-1/2 rounded-3xl bg-white p-10
+                               -translate-x-1/2 rounded-3xl bg-[#99684C]/90 p-10
                                shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
-                    <p className="text-gray-600 pb-3">Our Category Range</p>
+                    <p className="text-white pb-3">Our Category Range</p>
 
                     <div className="grid grid-cols-4 gap-8">
                       {categories.map((cat) => (
@@ -119,10 +119,10 @@ export default function Navbar() {
                             )}
                           </div>
 
-                          <h4 className="mt-4 text-sm font-semibold text-gray-900">
+                          <h4 className="mt-4 text-sm text-center font-semibold text-white">
                             {cat.name}
                           </h4>
-                          <p className="text-xs text-gray-600">
+                          <p className="text-xs text-center text-white">
                             View product →
                           </p>
                         </Link>

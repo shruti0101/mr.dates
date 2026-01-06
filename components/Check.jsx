@@ -101,7 +101,7 @@ export default function Check() {
     <section
       ref={aboutRef}
       className="relative h-screen overflow-hidden
-      bg-gradient-to-br from-[#f8efe6] via-[#f2e3d3] to-[#e8d1b6]"
+      bg-[#f6cdb5]"
     >
       {/* Decorative Glow */}
       <div className="absolute -top-32 -left-32 h-[420px] w-[420px] bg-[#c6a647]/30 blur-[120px]" />

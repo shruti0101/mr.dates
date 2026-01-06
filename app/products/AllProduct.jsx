@@ -4,6 +4,8 @@ import { categories } from "@/Data/data";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import Slider from "@/components/Slider";
+
 
 const Page = () => {
   const itemsPerPage = 12;
@@ -31,15 +33,15 @@ const Page = () => {
     <div className="bg-[#F9FAFB]">
       {/* ================= HERO ================= */}
       <div
-        className="relative h-[45vh] md:h-[65vh] flex items-center justify-center text-center"
+        className="relative h-[45vh] md:h-[80vh] flex items-center justify-center text-center"
         style={{
           backgroundImage:
-            "url('/footerbg.webp')",
+            "url('/bg3.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/30" />
 
         <div className="relative z-10 text-white max-w-3xl px-4">
           <Link
@@ -52,11 +54,17 @@ const Page = () => {
             All Products
           </h1>
           <p className="mt-4 text-gray-200 text-base md:text-lg">
-            Explore our complete range of premium modular office furniture
-            solutions.
+            Explore our complete range of premium Dates
+        
           </p>
         </div>
       </div>
+
+
+
+<Slider></Slider>
+
+
 
       {/* ================= PRODUCTS ================= */}
       <section className="py-16">

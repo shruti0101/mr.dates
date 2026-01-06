@@ -136,7 +136,7 @@ export default function Navbar() {
             {["Blogs", "Bulk Order", "Contact"].map((item) => (
               <a
                 key={item}
-                href="#"
+                href={`/${item.toLowerCase()}`}
                 className={`text-lg text-white hover:text-[#F8CC19] transition`}
               >
                 {item}
@@ -156,7 +156,7 @@ export default function Navbar() {
               <img src="/date.png" alt="Date" className="h-10 w-10 object-contain" />
             </span>
 
-            <span className="relative  z-10">Get a Quote</span>
+            <Link href="/contact" className="relative  z-10">Get a Quote</Link>
           </button>
         </div>
       </motion.div>

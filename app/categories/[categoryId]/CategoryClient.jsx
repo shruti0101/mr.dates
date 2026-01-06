@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { categories } from "@/Data/data";
+import Slider from "@/components/Slider";
+
 
 export default function CategoryPage({ category }) {
   if (!category) {
@@ -35,6 +37,10 @@ export default function CategoryPage({ category }) {
           </div>
         </div>
       </section>
+
+
+<Slider></Slider>
+
 
       {/* ================= CONTENT ================= */}
       <section className="bg-[#faf7ef] py-24">

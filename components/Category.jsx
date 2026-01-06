@@ -49,24 +49,30 @@ const containerVariants = {
 const category = [
   
   {
-    title: "Organic Dates",
+    title: "Mejdool  Dates",
     image: "/category/1.png",
   },
   {
-    title: "Chocolate Dates",
+    title: "Kalmi Dates",
     image: "/category/2.png",
   },
 
 
     {
-    title: "Gift Packs",
+    title: "Dry Kimia Dates",
     image: "/category/3.png",
   },
 
     {
-    title: "Gift Packs",
+    title: "Kimia Gold Dates",
     image: "/category/4.png",
   },
+
+    {
+    title: "sukkari Dates",
+    image: "/category/2.png",
+  },
+
 ];
 
 
@@ -160,7 +166,7 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
 
 
   {/* EXISTING CONTENT */}
-  <div className="max-w-7xl mx-auto px-6 text-center">
+  <div className="w-full mx-auto px-8 text-center">
     {/* your existing code stays EXACTLY the same */}
 
 
@@ -192,7 +198,7 @@ const leafOpacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-27"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mt-27"
     >
       {category.map((item, index) => (
 <motion.div

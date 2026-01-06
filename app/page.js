@@ -11,6 +11,7 @@ import Testimonial from "@/components/Testimonial";
 import Benefit from "@/components/Benefits";
 import LeadingDatesSupplier from "@/components/LeadingDatesSupplier";
 import FaqDatesSupplier from "@/components/Faq";
+import Cta from "@/components/Cta";
 export default function Home() {
   return (
   <>
@@ -23,10 +24,14 @@ export default function Home() {
   <Countup></Countup>
  
   <Whychoose></Whychoose>
+   
     <LeadingDatesSupplier></LeadingDatesSupplier>
        <Slider></Slider>
   <Banner></Banner>
+
+
   <Testimonial></Testimonial>
+   <Cta></Cta>
   <Benefit></Benefit>
   <FaqDatesSupplier></FaqDatesSupplier>
 

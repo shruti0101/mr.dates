@@ -156,9 +156,15 @@ export default function AboutSection() {
 
           {/* RIGHT CONTENT */}
           <div>
-            <p className="mb-3 text-lg italic font-medium tracking-wide text-white">
-              About Us
-            </p>
+          {/* Luxury Tag */}
+              <div className="inline-flex items-center gap-3 mb-3">
+                <span className="h-[1px] w-10 bg-white" />
+                <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-white">
+                  About Mr. Dates
+                </span>
+        
+            <Image src="/date.png" width={45} height={45} alt="Dates icon" ></Image>
+              </div>
 
             <h2 className="mb-6  font-serif text-3xl sm:text-4xl  font-bold text-black">
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich

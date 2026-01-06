@@ -214,12 +214,12 @@ useEffect(() => {
 
 
 
-    <section className="min-h-screen pt-20 flex items-center justify-center bg-[#eef7f3]">
+    <section className="min-h-screen bg-[#EFDECC] pt-20  flex items-center justify-center ">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative w-full bg-[#EFE6D8] py-14  overflow-hidden"
+        className="relative w-full  py-14  overflow-hidden"
       >
         <div className="grid grid-cols-2 items-center">
 

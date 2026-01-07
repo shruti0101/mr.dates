@@ -1,21 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Facebook,
-  Instagram,
-} from "lucide-react";
+import { Phone, MapPin, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-  const [state, setState] = useState("idle");
-
   return (
-    <footer className="relative text-white pt-10 pb-15 overflow-hidden">
+    <footer className="relative text-white pt-10 pb-16 overflow-hidden">
       {/* BACKGROUND IMAGE */}
       <div
         className="absolute inset-0 -z-20 bg-cover bg-center"
@@ -34,12 +25,11 @@ export default function Footer() {
       />
 
       {/* TOP ACCENT */}
-      <div className="absolute top-0 left-0 h-1 w-full -z-5 bg-gradient-to-r from-amber-400 to-amber-600" />
+      <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-amber-400 to-amber-600" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-
           {/* BRAND */}
           <div>
             <Image
@@ -60,7 +50,7 @@ export default function Footer() {
 
           {/* QUICK LINKS */}
           <div>
-            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+            <h3 className="font-serif font-semibold text-xl mb-4">
               Quick Links
             </h3>
             <ul className="space-y-3 text-sm">
@@ -73,7 +63,7 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-white hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
                   >
                     {label}
                   </Link>
@@ -82,9 +72,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* PRODUCT CATEGORIES */}
+          {/* PRODUCTS */}
           <div>
-            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+            <h3 className="font-serif font-semibold text-xl mb-4">
               Our Products
             </h3>
             <ul className="space-y-3 text-sm">
@@ -98,7 +88,7 @@ export default function Footer() {
                 <li key={item}>
                   <Link
                     href="#"
-                    className="text-white hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
                   >
                     {item}
                   </Link>
@@ -109,59 +99,61 @@ export default function Footer() {
 
           {/* CONTACT */}
           <div>
-            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+            <h3 className="font-serif font-semibold text-xl mb-4">
               Contact Us
             </h3>
 
             <div className="flex items-start gap-3 mb-4">
-              <MapPin className="text-amber-400 w-5 h-5" />
-              <p className="text-sm text-white/95">
+              <MapPin className="text-amber-400 w-5 h-5 mt-0.5" />
+              <p className="text-sm">
                 Mr. Dates
                 <br />
                 New Delhi, India
               </p>
             </div>
 
-            <div className="space-y-2 text-sm">
+            <div className="space-y-3 text-sm">
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-amber-400" />
                 <a
-                  href="tel:+919560759698"
+                  href="tel:+917065650411"
                   className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
                 >
-                  +91 95607 59698
+                  +91 7065 650411
                 </a>
               </p>
 
-              <p className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-amber-400" />
+              <div className="space-y-1">
                 <a
-                  href="mailto:sales@mrdates.com"
-                  className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  href="mailto:sales@mrdates.in"
+                  className="block hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
                 >
-                  sales@mrdates.com
+                  sales@mrdates.in
                 </a>
-              </p>
+                <a
+                  href="mailto:customercare@mrdates.in"
+                  className="block hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                >
+                  customercare@mrdates.in
+                </a>
+              </div>
             </div>
 
             {/* SOCIAL */}
             <div className="flex gap-4 mt-5">
-              {[Instagram, Facebook].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="flex items-center justify-center rounded-md transition transform hover:-translate-y-0.5"
-                >
-                  <Icon className="w-5 h-5 text-amber-500" />
-                </a>
-              ))}
+              <a href="#" aria-label="Instagram">
+                <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
             </div>
           </div>
         </div>
 
         {/* COPYRIGHT */}
-        <div className="mt-10 border-t border-white/10 pt-4 text-sm text-white">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-10 border-t border-white/10 pt-4 text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p>© 2025 Mr. Dates. All Rights Reserved.</p>
             <p>
               Website Designed By{" "}

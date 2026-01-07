@@ -89,7 +89,7 @@ export default function Navbar() {
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="absolute left-1/2 top-full mt-8 w-[880px]
-                               -translate-x-1/2 rounded-3xl bg-[#99684C]/90 p-10
+                               -translate-x-1/2 rounded-3xl bg-white p-10
                                shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
                     <p className="text-white pb-3">Our Category Range</p>
@@ -119,10 +119,10 @@ export default function Navbar() {
                             )}
                           </div>
 
-                          <h4 className="mt-4 text-sm text-center font-semibold text-white">
+                          <h4 className="mt-4 text-sm text-center font-semibold text-black">
                             {cat.name}
                           </h4>
-                          <p className="text-xs text-center text-white">
+                          <p className="text-xs text-center text-black">
                             View product →
                           </p>
                         </Link>

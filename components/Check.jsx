@@ -104,7 +104,6 @@ export default function Check() {
       bg-[#FFF3E3]"
     >
       {/* Decorative Glow */}
-      <div className="absolute -top-32 -left-32 h-[420px] w-[420px] bg-[#c6a647]/30 blur-[120px]" />
 
       <div className="relative max-w-7xl mx-auto h-full px-6 grid md:grid-cols-2 items-center">
 

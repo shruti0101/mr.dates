@@ -73,8 +73,8 @@ const ContactPage = () => {
                 <Mail className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-[#444]">customercare@mrdates.in</p>
-                     <p className="text-[#444]">sales@mrdates.in</p>
+                  <p className="text-black">customercare@mrdates.in</p>
+                     <p className="text-black">sales@mrdates.in</p>
                 </div>
               </div>
 
@@ -82,9 +82,8 @@ const ContactPage = () => {
                 <MapPin className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold">Location</p>
-                  <p className="text-[#444]">
-                    Delhi NCR, India <br />
-                    Serving PAN India & Export Orders
+                  <p className="text-black">
+                  2nd, 328, Bhai Parmanand Colony, Dr. Mukherjee Nagar Delhi, New Delhi-110009, Delhi, India
                   </p>
                 </div>
               </div>

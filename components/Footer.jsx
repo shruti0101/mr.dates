@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, MapPin, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin,Mail, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -98,57 +98,65 @@ export default function Footer() {
           </div>
 
           {/* CONTACT */}
-          <div>
-            <h3 className="font-serif font-semibold text-xl mb-4">
-              Contact Us
-            </h3>
+       <div>
+  <h3 className="font-serif font-semibold text-xl mb-4">
+    Contact Us
+  </h3>
 
-            <div className="flex items-start gap-3 mb-4">
-              <MapPin className="text-amber-400 w-5 h-5 mt-0.5" />
-              <p className="text-sm">
-                Mr. Dates
-                <br />
-                New Delhi, India
-              </p>
-            </div>
+  <div className="space-y-4 text-sm">
+    {/* ADDRESS */}
+    <div className="flex gap-3 items-start">
+      <MapPin className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+      <p className="leading-relaxed">
+        2nd, 328, Bhai Parmanand Colony,
+        <br />
+        Dr. Mukherjee Nagar, New Delhi – 110009,
+        <br />
+        Delhi, India
+      </p>
+    </div>
 
-            <div className="space-y-3 text-sm">
-              <p className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-amber-400" />
-                <a
-                  href="tel:+917065650411"
-                  className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-                >
-                  +91 7065 650411
-                </a>
-              </p>
+    {/* PHONE */}
+    <div className="flex gap-3 items-center">
+      <Phone className="w-5 h-5 text-amber-400 shrink-0" />
+      <a
+        href="tel:+917065650411"
+        className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+      >
+        +91 7065 650411
+      </a>
+    </div>
 
-              <div className="space-y-1">
-                <a
-                  href="mailto:sales@mrdates.in"
-                  className="block hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-                >
-                  sales@mrdates.in
-                </a>
-                <a
-                  href="mailto:customercare@mrdates.in"
-                  className="block hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-                >
-                  customercare@mrdates.in
-                </a>
-              </div>
-            </div>
+    {/* EMAILS */}
+    <div className="flex gap-3 items-start">
+      <Mail className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+      <div className="flex flex-col gap-1">
+        <a
+          href="mailto:sales@mrdates.in"
+          className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+        >
+          sales@mrdates.in
+        </a>
+        <a
+          href="mailto:customercare@mrdates.in"
+          className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+        >
+          customercare@mrdates.in
+        </a>
+      </div>
+    </div>
+  </div>
 
-            {/* SOCIAL */}
-            <div className="flex gap-4 mt-5">
-              <a href="#" aria-label="Instagram">
-                <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-              </a>
-              <a href="#" aria-label="Facebook">
-                <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-              </a>
-            </div>
-          </div>
+  {/* SOCIAL */}
+  <div className="flex gap-4 mt-6">
+    <a href="#" aria-label="Instagram">
+      <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+    </a>
+    <a href="#" aria-label="Facebook">
+      <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+    </a>
+  </div>
+</div>
         </div>
 
         {/* COPYRIGHT */}

@@ -23,7 +23,7 @@ const products = [
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
   {
-    title: "Premium Kalmi Dates",
+    title: " Kalmi Dates",
     main: "/img2.png",
     thumb: "/img2.png",
     desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
@@ -240,7 +240,7 @@ export default function HeroDatesExact() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -24 }}
                     transition={{ duration: 0.9 }}
-                    className="text-[82px] font-bold text-white "
+                    className="text-[82px] uppercase font-bold text-white "
                   >
                     {products[activeIndex].title}
                   </motion.h1>

@@ -112,7 +112,7 @@ export default function AboutSection() {
       className="relative bg-cover bg-center py-16 md:py-20 h-[900px] overflow-hidden"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div>
+      {/* <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div> */}
 
       <div className="relative z-10 mx-auto w-full px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">

@@ -34,20 +34,20 @@ export default function Navbar() {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`transition-all duration-300 ${
-          isHome
-            ? scrolled
-              ? "bg-[#4A2E1F]/85 backdrop-blur-md"
-              : "bg-[#4A2E1F]/85"
-            : "bg-[#4A2E1F]/95 backdrop-blur-md"
-        }`}
+        // className={`transition-all duration-300 ${
+        //   isHome
+        //     ? scrolled
+        //       ? "bg-[#4A2E1F]/85 backdrop-blur-md"
+        //       : "bg-[#4A2E1F]/85"
+        //     : "bg-white/95 backdrop-blur-md"
+        // }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
 
           {/* LOGO */}
           <Link href="/">
             <Image
-              src="/logo.webp"
+              src="/logooo.png"
               alt="Brand Logo"
               width={120}
               height={40}

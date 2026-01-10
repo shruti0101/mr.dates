@@ -144,7 +144,6 @@ const ContactPage = () => {
         </div>
       </section>
 
-      <Image src="/cta.png" width={400} height={400} alt="Leaf" className="absolute bottom-0 -left-20 "></Image>
     </div>
   );
 };

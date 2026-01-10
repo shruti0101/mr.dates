@@ -214,12 +214,17 @@ useEffect(() => {
 
 
 
-    <section className="min-h-screen bg-[#EFDECC] pt-20  flex items-center justify-center ">
+    <section style={{backgroundImage:"url(/check10.png)"}} className="min-h-screen pt-20 bg-center bg-cover flex items-center justify-center ">
+
+
+<div className="absolute inset-0 bg-black/40"></div>
+
+
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative w-full  py-14  overflow-hidden"
+        className="relative w-full  py-14 overflow-hidden"
       >
         <div className="grid grid-cols-2 items-center">
 
@@ -247,7 +252,7 @@ useEffect(() => {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -24 }}
                   transition={{ duration: 0.9}}
-                  className="text-6xl font-extrabold leading-tight text-[#4A2E1F]"
+                  className="text-6xl font-extrabold leading-tight text-white"
                 >
                   {products[activeIndex].title}
                 </motion.h1>
@@ -271,7 +276,7 @@ useEffect(() => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -14 }}
                   transition={{ duration: 0.6 }}
-                  className="mt-6 text-[17px] text-black leading-[1.75]"
+                  className="mt-6 text-[17px] text-white leading-[1.75]"
                 >
                   {products[activeIndex].desc}
                 </motion.p>
@@ -285,13 +290,13 @@ useEffect(() => {
     group relative inline-flex items-center gap-3
     px-7 py-3
     rounded-full
-      bg-gradient-to-b from-[#8B5536] to-[#75442e]
-    text-white text-sm font-medium tracking-wide
+      bg-white
+    text-black text-sm font-medium tracking-wide
    
    
     overflow-hidden
     transition-colors duration-300
-    hover:bg-[#9c735a]
+    hover:bg-white
   "
 >
   {/* Chocolate wave */}
@@ -337,7 +342,7 @@ Explore More
 
                 <motion.span
                   whileHover={{ x: 6 }}
-                  className="flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-[#8A5436] transition cursor-pointer"
+                  className="flex items-center gap-2 text-sm font-semibold text-white hover:text-white transition cursor-pointer"
                 >
                   View Details →
                 </motion.span>
@@ -347,12 +352,12 @@ Explore More
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6 }}
-                className="mt-10 flex items-center gap-4 text-sm font-bold text-[#4E2A1A]"
+                className="mt-10 flex items-center gap-4 text-sm font-bold text-white"
               >
                 <span>✓ 100% Natural</span>
-                <span className="h-1 w-1 rounded-full bg-black" />
+                <span className="h-1 w-1 rounded-full bg-white" />
                 <span>✓ Hygienically Packed</span>
-                <span className="h-1 w-1 rounded-full bg-black" />
+                <span className="h-1 w-1 rounded-full bg-white" />
                 <span>✓ Pan India Delivery</span>
               </motion.div>
 
@@ -418,11 +423,11 @@ Explore More
               />
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
               className="w-[900px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-[#F1F9F5]/30 z-5"
               animate={{ scale: [1, 1.04, 1] }}
               transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-            />
+            /> */}
           </div>
         </div>
       </motion.div>

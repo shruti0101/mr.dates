@@ -240,7 +240,7 @@ export default function HeroDatesExact() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -24 }}
                     transition={{ duration: 0.9 }}
-                    className="text-[82px] font-bold text-white"
+                    className="text-[82px] font-bold text-white "
                   >
                     {products[activeIndex].title}
                   </motion.h1>
@@ -261,7 +261,7 @@ export default function HeroDatesExact() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -14 }}
                       transition={{ duration: 0.6 }}
-                      className="text-[19px] text-white font-normal leading-[1.75]"
+                      className="text-[22px]  text-white font-medium leading-[1.75]"
                     >
                       {products[activeIndex].desc}
                     </motion.p>

@@ -240,7 +240,7 @@ export default function HeroDatesExact() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -24 }}
                     transition={{ duration: 0.9 }}
-                    className="text-[82px] uppercase font-bold text-white "
+                    className="text-[82px] uppercase tracking-wide font-bold text-white "
                   >
                     {products[activeIndex].title}
                   </motion.h1>

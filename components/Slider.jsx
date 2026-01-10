@@ -9,26 +9,29 @@ import { useState } from "react";
 import "swiper/css";
 
 const categories = [
-  // Dates (rich, luxurious tones)
-  { title: "Mejdool Dates", image: "/slider/mejdooldates.png", bg: "#3B1F1A" }, // dark cocoa
-  { title: "Sagai Dates", image: "/slider/sukkaridates.png", bg: "#6B3E2E" },     // roasted brown
-  { title: "Ajwa Dates", image: "/slider/ajwadates.png", bg: "#1F1A16" },        // deep black-brown
-  { title: "Sukkari Dates", image: "/slider/rabbidates.png", bg: "#8C5A2E" },    // golden caramel
-  { title: "Fard Dates", image: "/slider/farddates.png", bg: "#4A2E1F" },        // date seed brown
-  { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F" },   // dark chocolate
-
-  // Dry Fruits (warm nut tones)
-  { title: "Cashew", image: "/slider/cashew.png", bg: "#C9A26A" },               // cashew cream
-  { title: "Walnut", image: "/slider/walnut.webp", bg: "#5A3A2E" },              // walnut shell
-  { title: "Almond", image: "/slider/almond.webp", bg: "#D1B07C" },              // almond beige
-  { title: "Raisin", image: "/slider/raisin.png", bg: "#6E3B3B" },               // raisin wine
+  { title: "Mejdool Dates", image: "/slider/mejdooldates.png" },
+  { title: "Sagai Dates", image: "/slider/sukkaridates.png" },
+  { title: "Ajwa Dates", image: "/slider/ajwadates.png" },
+  { title: "Sukkari Dates", image: "/slider/rabbidates.png" },
+  { title: "Fard Dates", image: "/slider/farddates.png" },
+  { title: "Chocolate Dates", image: "/slider/chocodate.png" },
+  { title: "Cashew", image: "/slider/cashew.png" },
+  { title: "Walnut", image: "/slider/walnut.webp" },
+  { title: "Almond", image: "/slider/almond.webp" },
+  { title: "Raisin", image: "/slider/raisin.png" },
 ];
 
 export default function CategorySlider() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="py-20 bg-gray-300">
+    <section className="py-18 bg-white">
+      <div className="mb-12 text-center">
+        <h2 className="text-5xl font-extrabold text-black">
+          Timeless Taste of Authentic Dates
+        </h2>
+      </div>
+
       <div className="max-w-7xl mx-auto px-6">
         <Swiper
           modules={[Autoplay]}
@@ -83,7 +86,7 @@ function Card3D({ item, isActive }) {
       style={{
         rotateX,
         rotateY,
-        backgroundColor: item.bg,
+        backgroundColor: "#ffffff",
         transformStyle: "preserve-3d",
       }}
       animate={{
@@ -93,14 +96,15 @@ function Card3D({ item, isActive }) {
       transition={{ type: "spring", stiffness: 160, damping: 18 }}
       className="
         relative h-[220px] rounded-[36px]
-        shadow-[0_35px_60px_rgba(0,0,0,0.28)]
+        shadow-[0_35px_60px_rgba(0,0,0,0.18)]
         transform-gpu
+        border border-gray-200
       "
     >
       {/* DEPTH BASE */}
-      <div className="absolute inset-0 rounded-[36px] bg-black/25 translate-z-[-60px]" />
+      <div className="absolute inset-0 rounded-[36px] bg-black/5 translate-z-[-60px]" />
 
-      {/* IMAGE (MID LAYER) */}
+      {/* IMAGE */}
       <motion.div
         className="
           absolute inset-0 flex items-center justify-center
@@ -116,15 +120,15 @@ function Card3D({ item, isActive }) {
           alt={item.title}
           width={200}
           height={200}
-          className="object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.45)]"
+          className="object-contain drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)]"
         />
       </motion.div>
 
-      {/* TITLE (TOP LAYER – FIXED) */}
+      {/* TITLE */}
       <div className="absolute bottom-0 left-0 right-0 p-6 translate-z-[120px] z-20">
         <motion.h3
           animate={{ letterSpacing: isActive ? "0.08em" : "0.02em" }}
-          className="text-white text-xl font-semibold text-center"
+          className="text-black text-xl font-semibold text-center"
         >
           {item.title}
         </motion.h3>

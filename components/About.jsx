@@ -108,11 +108,11 @@ export default function AboutSection() {
     
     <section
       ref={aboutRef}
-      style={{ backgroundImage: "url(/aboutbg.webp)" }}
+      style={{ backgroundImage: "url(/date-palm.jpg)" }}
       className="relative bg-cover bg-center py-16 md:py-20 h-[900px] overflow-hidden"
     >
       {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div> */}
+      <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div>
 
       <div className="relative z-10 mx-auto w-full px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -170,7 +170,7 @@ export default function AboutSection() {
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich
             </h2>
 
-            <p className="mb-8 max-w-xl text-2xl text-black">
+            <p className="mb-8 max-w-2xl text-3xl text-black">
              Mr. Dates is a trusted <strong>dates supplier  </strong> and <strong>dry fruits supplier, delivering premium dates, premium dry fruits,</strong>  and <strong>healthy snacks </strong> sourced from the world’s finest farms. We cater to bulk orders and <strong>wholesale dates</strong>  requirements while ensuring every product is handpicked and processed to preserve natural taste, freshness, and nutrition.
             </p>
 

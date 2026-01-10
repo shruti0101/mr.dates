@@ -62,7 +62,7 @@ export default function Navbar() {
               <a
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className={`text-[18px] tracking-wider uppercase font-bold text-white hover:text-[#F8CC19] transition`}
+                className={`text-[18px] tracking-widest uppercase font-bold text-white hover:text-[#F8CC19] transition`}
               >
                 {item}
               </a>
@@ -76,7 +76,7 @@ export default function Navbar() {
             >
               <Link
                 href="/products"
-                className={`text-[18px] uppercase tracking-wider font-bold  text-white hover:text-[#F8CC19] transition`}
+                className={`text-[18px] uppercase tracking-widest font-bold  text-white hover:text-[#F8CC19] transition`}
               >
                 Our Products
               </Link>
@@ -137,7 +137,7 @@ export default function Navbar() {
               <a
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className={`text-[18px] tracking-wider font-bold uppercase text-white hover:text-[#F8CC19] transition`}
+                className={`text-[18px] tracking-widest font-bold uppercase text-white hover:text-[#F8CC19] transition`}
               >
                 {item}
               </a>

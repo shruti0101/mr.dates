@@ -19,7 +19,7 @@ export default function Home() {
   return (
   <>
   <HeroDatesExact></HeroDatesExact>
-
+   <Slider></Slider>
   <AboutSection></AboutSection>
   <Check></Check>
   <Parallex></Parallex>
@@ -30,7 +30,7 @@ export default function Home() {
   <Whychoose></Whychoose>
    
     <LeadingDatesSupplier></LeadingDatesSupplier>
-       <Slider></Slider>
+    
   <Banner></Banner>
 
 

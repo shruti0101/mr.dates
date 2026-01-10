@@ -1,21 +1,22 @@
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const monaSansCondensed = localFont({
+  src: [
+    {
+      path: "../public/font/monalight.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/font/mona.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-mona-sans",
+  display: "swap",
 });
 
 export const metadata = {
@@ -28,14 +29,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={`${monaSansCondensed.variable} antialiased`}
       >
-     
-    <main>
+        <main>
           <LayoutWrapper>{children}</LayoutWrapper>
         </main>
-
-     
       </body>
     </html>
   );

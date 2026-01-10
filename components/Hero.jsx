@@ -24,13 +24,13 @@ const products = [
   },
   {
     title: " Kalmi Dates",
-    main: "/img2.png",
+    main: "/testimg2.png",
     thumb: "/img2.png",
     desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
   },
   {
     title: "Ajwa Dates",
-    main: "/img6.png",
+    main: "/testimg3.png",
     thumb: "/img6.png",
     desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste ",
   },

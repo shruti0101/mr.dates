@@ -34,13 +34,7 @@ export default function Navbar() {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        // className={`transition-all duration-300 ${
-        //   isHome
-        //     ? scrolled
-        //       ? "bg-[#4A2E1F]/85 backdrop-blur-md"
-        //       : "bg-[#4A2E1F]/85"
-        //     : "bg-white/95 backdrop-blur-md"
-        // }`}
+  
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
 

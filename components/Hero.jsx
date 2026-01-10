@@ -18,7 +18,7 @@ gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 const products = [
   {
     title: "Healthy Dates",
-    main: "/img1.png",
+    main: "/testimg.png",
     thumb: "/img1.png",
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
@@ -359,7 +359,7 @@ export default function HeroDatesExact() {
 
               <svg
                 viewBox="0 0 500 500"
-                className="absolute left-[-200px] z-10 top-1/2 -translate-y-1/2 w-[600px]"
+                className="absolute left-[-210px] z-10 top-1/2 -translate-y-1/2 w-[600px]"
               >
                 <path
                   id="arcPath"
@@ -404,7 +404,7 @@ export default function HeroDatesExact() {
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="w-full will-change-transform"
+                  className="w-[500] will-change-transform"
                   alt=""
                   draggable={false}
                 />

@@ -4,16 +4,13 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-
+import { Menu, X } from "lucide-react";
 import { categories } from "@/Data/data";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
-
-  const pathname = usePathname();
-  const isHome = pathname === "/";
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,18 +20,16 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  
-
-
-
-
   return (
     <header className="fixed top-0 left-0 z-50 w-full">
       <motion.div
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-  
+        className={`
+          transition-colors duration-500
+          ${scrolled ? "bg-black/40 backdrop-blur-md shadow-lg" : "bg-transparent"}
+        `}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
 
@@ -49,20 +44,20 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* NAV LINKS */}
+          {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
             {["Home", "About"].map((item) => (
-              <a
+              <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className={`text-[18px] tracking-widest uppercase font-bold text-white hover:text-[#F8CC19] transition`}
+                className="text-[18px] tracking-widest uppercase font-bold text-white hover:text-[#F8CC19] transition"
               >
                 {item}
-              </a>
+              </Link>
             ))}
 
-            {/* MEGA MENU */}
+            {/* MEGA MENU (DESKTOP ONLY) */}
             <div
               onMouseEnter={() => setMegaOpen(true)}
               onMouseLeave={() => setMegaOpen(false)}
@@ -70,7 +65,7 @@ export default function Navbar() {
             >
               <Link
                 href="/products"
-                className={`text-[18px] uppercase tracking-widest font-bold  text-white hover:text-[#F8CC19] transition`}
+                className="text-[18px] uppercase tracking-widest font-bold text-white hover:text-[#F8CC19] transition"
               >
                 Our Products
               </Link>
@@ -83,11 +78,9 @@ export default function Navbar() {
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="absolute left-1/2 top-full mt-8 w-[880px]
-                               -translate-x-1/2 rounded-3xl bg-white p-10
-                               shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
+                      -translate-x-1/2 rounded-3xl bg-white p-10
+                      shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
-                    <p className="text-white pb-3">Our Category Range</p>
-
                     <div className="grid grid-cols-4 gap-8">
                       {categories.map((cat) => (
                         <Link
@@ -100,25 +93,13 @@ export default function Navbar() {
                               src={cat.image}
                               alt={cat.name}
                               fill
-                              className="object-contain p-6 transition-transform
-                                         duration-500 group-hover:scale-125"
+                              className="object-contain p-6 transition-transform duration-500 group-hover:scale-125"
                             />
-                            {cat.badge && (
-                              <span className="absolute top-3 left-3
-                                               rounded-full bg-black/80
-                                               px-3 py-1 text-[10px]
-                                               uppercase tracking-wide text-white">
-                                {cat.badge}
-                              </span>
-                            )}
                           </div>
 
                           <h4 className="mt-4 text-sm text-center font-semibold text-black">
                             {cat.name}
                           </h4>
-                          <p className="text-xs text-center text-black">
-                            View product →
-                          </p>
                         </Link>
                       ))}
                     </div>
@@ -128,31 +109,76 @@ export default function Navbar() {
             </div>
 
             {["Blogs", "Bulk Order", "Contact"].map((item) => (
-              <a
+              <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className={`text-[18px] tracking-widest font-bold uppercase text-white hover:text-[#F8CC19] transition`}
+                className="text-[18px] tracking-widest font-bold uppercase text-white hover:text-[#F8CC19] transition"
               >
                 {item}
-              </a>
+              </Link>
             ))}
           </nav>
 
-          {/* CTA */}
-          <button className={`group relative cursor-pointer inline-flex items-center gap-3
-                             px-7 py-3 rounded-full bg-[#F8CC19]]
-                          bg-[#FFF8C6]
-                          text-md font-medium tracking-wide
-                             overflow-hidden`}>
+          {/* CTA (DESKTOP) */}
+          <Link
+            href="/contact"
+            className="hidden md:inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
+          >
+            <img src="/date.png" alt="" className="h-8 w-8" />
+            Get a Quote
+          </Link>
 
-
-            <span className="relative z-10 flex h-7 w-7">
-              <img src="/date.png" alt="Date" className="h-10 w-10 object-contain" />
-            </span>
-
-            <Link href="/contact" className="relative  z-10">Get a Quote</Link>
+          {/* ================= MOBILE BUTTON ================= */}
+          <button
+            onClick={() => setMobileOpen(true)}
+            className="md:hidden text-white"
+          >
+            <Menu size={28} />
           </button>
         </div>
+
+        {/* ================= MOBILE MENU ================= */}
+        <AnimatePresence>
+          {mobileOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+              className="md:hidden bg-black/95 backdrop-blur-lg"
+            >
+              <div className="flex justify-between items-center px-6 py-4">
+                <span className="text-white font-bold">Menu</span>
+                <button onClick={() => setMobileOpen(false)}>
+                  <X size={26} className="text-white" />
+                </button>
+              </div>
+
+              <div className="flex flex-col px-6 pb-6 gap-5 text-white font-bold tracking-widest uppercase">
+                {["Home", "About", "Products", "Blogs", "Bulk Order", "Contact"].map(
+                  (item) => (
+                    <Link
+                      key={item}
+                      href={`/${item.toLowerCase()}`}
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {item}
+                    </Link>
+                  )
+                )}
+
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileOpen(false)}
+                  className="mt-4 inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#FFF8C6] text-black"
+                >
+                  <img src="/date.png" className="h-7 w-7" alt="" />
+                  Get a Quote
+                </Link>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
     </header>
   );

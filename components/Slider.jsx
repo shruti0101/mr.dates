@@ -36,7 +36,7 @@ export default function CategorySlider() {
 
 
     <div className="mb-12 text-center">
-  <h2 className="text-[66px] uppercase font-extrabold text-black">
+  <h2 className="text-2xl md:text-[66px] uppercase font-extrabold text-black">
     Timeless Taste of Authentic Dates
   </h2>
  
@@ -60,7 +60,7 @@ export default function CategorySlider() {
             640: { slidesPerView: 2.5 },
             1024: { slidesPerView: 5 },
           }}
-          className="!overflow-visible"
+          className="md:!overflow-visible"
         >
           {categories.map((item, index) => (
             <SwiperSlide key={index} className="[perspective:1600px]">
@@ -107,7 +107,7 @@ function Card3D({ item, isActive }) {
       transition={{ type: "spring", stiffness: 160, damping: 18 }}
       className="
         relative h-[220px] rounded-[36px]
-        shadow-[0_35px_60px_rgba(0,0,0,0.28)]
+      
         transform-gpu
       "
     >

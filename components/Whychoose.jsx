@@ -43,7 +43,7 @@ const imageAnim = {
 
 export default function AboutStoreSection() {
   return (
-    <section className="relative w-full bg-[#fbf6eb] overflow-hidden">
+    <section className="relative w-full bg-white overflow-hidden">
       <div className="mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
 
@@ -77,7 +77,7 @@ export default function AboutStoreSection() {
 
           {/* RIGHT – CONTENT */}
           <motion.div
-            style={{ backgroundImage: "url(/mock.webp)" }}
+    
             variants={container}
             initial="hidden"
             whileInView="show"
@@ -85,7 +85,7 @@ export default function AboutStoreSection() {
             className="relative flex items-center px-8 py-12 lg:px-14"
           >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-white/60 z-10"></div>
+
 
             <div className="relative z-20 max-w-xl">
               <motion.h2

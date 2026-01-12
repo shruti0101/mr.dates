@@ -4,20 +4,15 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from "@studio-freight/lenis";
+import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-import Lenis from "@studio-freight/lenis";
-
-import {motion} from "framer-motion"
-
 export default function AboutSection() {
   const aboutRef = useRef(null);
-
   const imgMid = useRef(null);
   const imgBack = useRef(null);
-
 
   /* ---------------- LENIS ---------------- */
   useEffect(() => {
@@ -33,22 +28,18 @@ export default function AboutSection() {
     };
 
     requestAnimationFrame(raf);
-
-    return () => {
-      lenis.destroy();
-    };
+    return () => lenis.destroy();
   }, []);
 
-
-
+  /* ---------------- GSAP (DESKTOP ONLY) ---------------- */
   useEffect(() => {
+    if (typeof window === "undefined" || window.innerWidth < 1024) return;
+
     const ctx = gsap.context(() => {
-      /* ---- BASIC DEPTH ---- */
       gsap.set([imgMid.current, imgBack.current], {
         transformStyle: "preserve-3d",
       });
 
-      /* ---- PINNED STORY ---- */
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: aboutRef.current,
@@ -62,7 +53,6 @@ export default function AboutSection() {
         },
       });
 
-      /* ---- FRONT IMAGE (STRONGER PARALLAX) ---- */
       tl.to(
         imgMid.current,
         {
@@ -74,7 +64,6 @@ export default function AboutSection() {
         0
       );
 
-      /* ---- BACK IMAGE (SUBTLE PARALLAX) ---- */
       tl.to(
         imgBack.current,
         {
@@ -85,7 +74,6 @@ export default function AboutSection() {
         0
       );
 
-      /* ---- TEXT REVEAL ---- */
       gsap.from(aboutRef.current.querySelectorAll("h2, p"), {
         opacity: 0,
         y: 20,
@@ -102,35 +90,38 @@ export default function AboutSection() {
   }, []);
 
   return (
-
-    <>
-    
-    
     <section
       ref={aboutRef}
-      style={{ backgroundImage: "url(/date-palm.jpg)" }}
-      className="relative bg-cover bg-center py-16 md:py-20 h-[900px] overflow-hidden"
+      style={{ backgroundImage: "url(/aboutbg.jpg)" }}
+      className="
+        relative bg-cover bg-center overflow-hidden
+        py-16 md:py-20
+        min-h-[auto] lg:h-[900px]
+      "
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#c6a647]/60 z-0"></div>
+      <div className="absolute inset-0 bg-[#c6a647]/70 z-0" />
 
-      <div className="relative z-10 mx-auto w-full px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 mx-auto w-full px-4 sm:px-6 md:px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
           {/* LEFT IMAGES */}
-          <motion.div 
-           initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1,x:0,y:20 }}
-          transition={{ duration: 2 }}  
-          exit={{ opacity: 0, scale: 0.9 }}
-          
-
-          
-          className="grid grid-cols-2 gap-6 perspective-[1200px]">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1, x: 0, y: 20 }}
+            transition={{ duration: 2 }}
+            className="
+              grid grid-cols-1 sm:grid-cols-2 gap-6
+              perspective-[1200px]
+            "
+          >
             {/* BACK IMAGE */}
             <div
               ref={imgBack}
-              className="relative h-[420px] w-full overflow-hidden rounded-lg shadow-lg"
+              className="
+                hidden md:block relative h-[260px] sm:h-[360px] lg:h-[420px]
+                w-full overflow-hidden rounded-lg shadow-lg
+              "
             >
               <Image
                 src="/banner/2.png"
@@ -143,7 +134,10 @@ export default function AboutSection() {
             {/* FRONT IMAGE */}
             <div
               ref={imgMid}
-              className="relative h-[420px] w-full overflow-hidden rounded-lg shadow-lg"
+              className="
+                relative h-[260px] sm:h-[360px] lg:h-[420px]
+                w-full overflow-hidden rounded-lg shadow-lg
+              "
             >
               <Image
                 src="/about2.avif"
@@ -156,99 +150,59 @@ export default function AboutSection() {
 
           {/* RIGHT CONTENT */}
           <div>
-          {/* Luxury Tag */}
-              <div className="inline-flex items-center gap-3 mb-3">
-                <span className="h-[1px] w-10 bg-white" />
-                <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-white">
-                  About Mr. Dates
-                </span>
-        
-            <Image src="/date.png" width={45} height={45} alt="Dates icon" ></Image>
-              </div>
+            {/* Luxury Tag */}
+            <div className="inline-flex items-center gap-3 mb-3">
+              <span className="h-[1px] w-10 bg-white" />
+              <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-white">
+                About Mr. Dates
+              </span>
+              <Image src="/date.png" width={45} height={45} alt="Dates icon" />
+            </div>
 
-            <h2 className="mb-6  font-serif text-3xl sm:text-4xl  font-bold text-black">
+            <h2 className="mb-6 font-serif font-bold text-black text-2xl sm:text-3xl md:text-4xl">
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich
             </h2>
 
-            <p className="mb-8 max-w-2xl text-3xl text-black">
-             Mr. Dates is a trusted <strong>dates supplier  </strong> and <strong>dry fruits supplier, delivering premium dates, premium dry fruits,</strong>  and <strong>healthy snacks </strong> sourced from the world’s finest farms. We cater to bulk orders and <strong>wholesale dates</strong>  requirements while ensuring every product is handpicked and processed to preserve natural taste, freshness, and nutrition.
+            <p className="mb-8 max-w-2xl text-lg sm:text-xl md:text-3xl text-black">
+              Mr. Dates is a trusted <strong>dates supplier</strong> and{" "}
+              <strong>dry fruits supplier</strong>, delivering premium dates,
+              premium dry fruits, and <strong>healthy snacks</strong> sourced
+              from the world’s finest farms. We cater to bulk orders and{" "}
+              <strong>wholesale dates</strong> requirements while ensuring every
+              product is handpicked and processed to preserve natural taste,
+              freshness, and nutrition.
             </p>
 
-         
-<button
-  className=" cursor-pointer
-    group relative inline-flex items-center gap-3
-    px-7 py-3
-    rounded-full
-      bg-gradient-to-b from-[#8B5536] to-[#75442e]
-    text-white text-sm font-medium tracking-wide
-   
-   
-    overflow-hidden
-    transition-colors duration-300
-    hover:bg-[#9c735a]
-  "
->
-  {/* Chocolate wave */}
-  <span
-    className="
-      pointer-events-none absolute left-0 top-0 h-full w-0
-      group-hover:w-full
-      transition-all duration-700 ease-out
-    "
-  >
-    <svg
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      className="h-full w-full"
-    >
-      <path
-        d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
-        fill="#4E2A1A"
-      />
-    </svg>
-  </span>
+            {/* CTA BUTTON — UNCHANGED */}
+            <button
+              className="
+                group relative inline-flex items-center gap-3
+                px-7 py-3 rounded-full
+                bg-gradient-to-b from-[#8B5536] to-[#75442e]
+                text-white text-sm font-medium tracking-wide
+                overflow-hidden transition-colors duration-300
+                hover:bg-[#9c735a]
+              "
+            >
+              <span className="pointer-events-none absolute left-0 top-0 h-full w-0 group-hover:w-full transition-all duration-700 ease-out">
+                <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="h-full w-full">
+                  <path
+                    d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
+                    fill="#4E2A1A"
+                  />
+                </svg>
+              </span>
 
-  {/* Date Image */}
-  <span
-    className="
-      relative z-10 flex h-7 w-7 items-center justify-center
-      transition-transform duration-300
-      group-hover:translate-x-1
-    "
-  >
-    <img
-      src="/date.png"
-      alt="Date fruit"
-      className="h-10 w-10 object-contain"
-    />
-  </span>
+              <span className="relative z-10 flex h-7 w-7">
+                <img src="/date.png" alt="Date fruit" className="h-10 w-10 object-contain" />
+              </span>
 
-  {/* Text */}
-  <span className="relative z-10 font-poppins">
- Shop Now
-  </span>
-</button>
+              <span className="relative z-10 font-poppins">Shop Now</span>
+            </button>
           </div>
 
         </div>
       </div>
     </section>
-
-
-
-
-
-
-    </>
-
-
-
-
-
-
-
-
-
   );
 }

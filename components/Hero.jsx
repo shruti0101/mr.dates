@@ -205,7 +205,7 @@ export default function HeroDatesExact() {
   style={{
     backgroundImage: `url(${bgImages[activeIndex]})`,
   }}
-  className="h-[100vh]   bg-center bg-cover flex items-center justify-center transition-all duration-1000"
+  className="h-[70vh] md:h-[100vh]  relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
 >
 
         <div className="absolute inset-0 bg-black/50"></div>
@@ -214,12 +214,12 @@ export default function HeroDatesExact() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="relative w-full z-10  py-14 mt-25 overflow-hidden"
+          className="relative w-full z-10  py-14 mt-15 md:mt-25 overflow-hidden"
         >
-          <div className="grid grid-cols-2 items-center ">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center ">
             {/* LEFT CONTENT */}
-            <div className="px-5">
-              <div className=" p-10 ">
+            <div className=" md:px-10">
+              <div className="p-8 md:p-10 ">
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={`tag-${activeIndex}`}
@@ -240,7 +240,7 @@ export default function HeroDatesExact() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -24 }}
                     transition={{ duration: 0.9 }}
-                    className="text-[82px] uppercase tracking-wide font-bold text-white "
+                    className="  text-[42px] sm:text-[56px] md:text-[82px] uppercase tracking-wide font-bold text-white "
                   >
                     {products[activeIndex].title}
                   </motion.h1>
@@ -261,7 +261,7 @@ export default function HeroDatesExact() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -14 }}
                       transition={{ duration: 0.6 }}
-                      className="text-[22px]  text-white font-medium leading-[1.75]"
+                      className="md:text-[22px]  text-white font-medium leading-[1.75]"
                     >
                       {products[activeIndex].desc}
                     </motion.p>
@@ -336,7 +336,7 @@ export default function HeroDatesExact() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.6 }}
-                  className="mt-10 flex items-center gap-4 text-sm font-bold text-white"
+                  className="mt-10 flex items-center gap-3 md:gap-4 text-xs md:text-sm font-bold text-white"
                 >
                   <span>✓ 100% Natural</span>
                   <span className="h-1 w-1 rounded-full bg-white" />
@@ -348,7 +348,7 @@ export default function HeroDatesExact() {
             </div>
 
             {/* RIGHT VISUAL */}
-            <div className="relative h-[460px] flex items-center justify-end">
+            <div className="hidden md:flex relative h-[460px] items-center justify-end">
               <Image
                 width={650}
                 height={760}
@@ -397,14 +397,14 @@ export default function HeroDatesExact() {
               </div>
 
               <motion.div
-                className="relative z-10 w-[530px]"
+                className="relative z-10 w-[570px]"
                 whileHover={{ scale: 1.03, y: -6 }}
                 transition={{ type: "spring", stiffness: 120, damping: 18 }}
               >
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="w-[500] will-change-transform"
+                  className="w-[700] will-change-transform"
                   alt=""
                   draggable={false}
                 />

@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { categories } from "@/Data/data";
 
 import Head from "next/head";
-// import Enquiry from "@/components/Enquiry";
-import { ArrowUpRight } from "lucide-react";
+
+
 
 
 
@@ -48,7 +48,7 @@ export default function ProductPage({ params }) {
       >
       <div className="absolute inset-0 bg-black/30 "></div>
 <div className="relative z-10 text-white px-6 ">
-  <h2 className="max-w-4xl  text-center font-serif tracking-wide text-2xl md:text-[85px] font-medium z-10 ">
+  <h2 className="max-w-4xl  text-center  tracking-wide text-2xl md:text-[90px] font-medium z-10 ">
             {product.name}
           </h2>
 
@@ -158,7 +158,7 @@ export default function ProductPage({ params }) {
     <span className="text-xl">→</span>
   </button>
 
-  <button className="w-full cursor-pointer mt-2 bg-[#1c7e26] text-white py-4 rounded-xl text-md tracking-[0.25em] flex items-center justify-center gap-4  transition">
+  <button className="w-full cursor-pointer mt-2 bg-[#1c7e26] text-white py-4 rounded-xl text-md tracking-[0.25em] flex items-center justify-center gap-4 transition animate-pulse">
    WHATSAPP US
     <span className="text-xl">→</span>
   </button>
@@ -248,27 +248,25 @@ export default function ProductPage({ params }) {
 
 
     {/* ================= PRODUCT DETAILS ================= */}
-<section className="bg-[#F5F2EC] py-24">
-  <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-20">
+<section className="bg-[#F5F2EC] py-20">
+  <div className="w-full mx-auto px-22 grid grid-cols-2 gap-20">
 
     {/* ================= LEFT CONTENT ================= */}
     <div>
-      <span className="block text-xs tracking-[0.25em] text-[#8b7b6a] uppercase mb-4">
+      <span className="block text-sm tracking-[0.25em] text-black uppercase mb-4">
         The Details
       </span>
 
-      <h2 className="text-[52px] leading-tight font-serif text-[#6b1f2b]">
+      <h2 className="text-[80px] leading-tight  text-[#6b1f2b]">
         Exquisite Profile
       </h2>
 
-      <p className="mt-6 max-w-xl text-[17px] leading-[1.8] text-[#6f6f6f]">
-        Each Medjool date is a testament to the rich soils of the Jordan
-        Valley. With a skin that yields to a creamy, fibrous flesh, the
-        taste profile balances deep molasses with subtle hints of cinnamon.
-      </p>
+
+
+   
 
       {/* Meta Info */}
-      <div className="mt-14 grid grid-cols-2 gap-x-16 gap-y-12">
+      <div className="mt-10 grid grid-cols-2 gap-x-16 gap-y-12">
 
         <div className="flex gap-4">
           <div className="w-px bg-[#d2b48c]" />
@@ -277,38 +275,14 @@ export default function ProductPage({ params }) {
               Variety
             </span>
             <span className="block mt-2 text-xl font-serif text-[#6b1f2b]">
-              Jumbo Medjool
+            {product.variety}
             </span>
           </div>
         </div>
 
         <div className="flex gap-4">
           <div className="w-px bg-[#d2b48c]" />
-          <div>
-            <span className="block text-xs tracking-[0.2em] uppercase text-[#8b7b6a]">
-              Origin
-            </span>
-            <span className="block mt-2 text-xl font-serif text-[#6b1f2b]">
-              Jordan Valley
-            </span>
-          </div>
-        </div>
-
-        <div className="flex gap-4">
-          <div className="w-px bg-[#d2b48c]" />
-          <div>
-            <span className="block text-xs tracking-[0.2em] uppercase text-[#8b7b6a]">
-              Harvest
-            </span>
-            <span className="block mt-2 text-xl font-serif text-[#6b1f2b]">
-              Sept – Oct
-            </span>
-          </div>
-        </div>
-
-        <div className="flex gap-4">
-          <div className="w-px bg-[#d2b48c]" />
-          <div>
+           <div>
             <span className="block text-xs tracking-[0.2em] uppercase text-[#8b7b6a]">
               Texture
             </span>
@@ -318,66 +292,193 @@ export default function ProductPage({ params }) {
           </div>
         </div>
 
+
+       
+
       </div>
+
+
+
+
+      {/* ================= PRODUCT DESCRIPTION ================= */}
+<div className="mt-10 space-y-8 max-w-xl">
+
+  {product.description.map((block, index) => {
+    switch (block.type) {
+      case "h2":
+        return (
+          <h3
+            key={index}
+            className="text-[28px] font-serif text-[#6b1f2b] leading-tight"
+          >
+            {block.text}
+          </h3>
+        );
+
+      case "p":
+        return (
+          <p
+            key={index}
+            className="text-[18px] leading-[1.8] text-black"
+          >
+            {block.text}
+          </p>
+        );
+
+      case "ul":
+        return (
+          <ul
+            key={index}
+            className="list-disc pl-6 space-y-3 text-[17px] text-black"
+          >
+            {block.items.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+          </ul>
+        );
+
+      default:
+        return null;
+    }
+  })}
+
+</div>
+
     </div>
 
-    {/* ================= RIGHT CARD ================= */}
-    <div className="bg-white rounded-3xl p-12 relative shadow-sm">
+ 
+   {/* ================= RIGHT CARD ================= */}
+  <div className="bg-white rounded-3xl p-12  shadow-sm h-160">
 
-      {/* Decorative Icon */}
-      <div className="absolute top-8 right-8 opacity-10">
-        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#6b1f2b" strokeWidth="1.5">
-          <path d="M12 2C7 7 4 10 4 14a8 8 0 0 0 16 0c0-4-3-7-8-12Z" />
-        </svg>
+  {/* Decorative Icon */}
+  <div className="absolute top-8 right-8 opacity-10">
+    <svg
+      width="90"
+      height="90"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke="#6b1f2b"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M32 6c-8 8-14 16-14 26 0 12 6 20 14 20s14-8 14-20c0-10-6-18-14-26Z" />
+      <path d="M26 18c-2 6-2 18 0 26" />
+      <path d="M32 16c-1 7-1 22 0 30" />
+      <path d="M38 18c2 6 2 18 0 26" />
+    </svg>
+  </div>
+
+  <h3 className="text-[34px] font-serif text-[#6b1f2b]">
+    Product Specifications
+  </h3>
+
+  <p className="mt-2 text-sm text-[#8b7b6a]">
+    Key Product Details
+  </p>
+
+  {/* ================= SPECS TABLE ================= */}
+  <div className="mt-10 space-y-6 text-[16px]">
+
+    {product.specs.map((spec, index) => (
+      <div
+        key={index}
+        className={`flex justify-between ${
+          index !== product.specs.length - 1
+            ? "border-b border-dotted pb-2"
+            : ""
+        }`}
+      >
+        <span className="text-black text-lg">
+          {spec.label}
+        </span>
+
+        <span className="font-medium text-lg text-[#6b1f2b] text-right max-w-[55%]">
+          {spec.value}
+        </span>
       </div>
-
-      <h3 className="text-[34px] font-serif text-[#6b1f2b]">
-        Nutritional Composition
-      </h3>
-
-      <p className="mt-2 text-sm text-[#8b7b6a]">
-        Per 100g Serving
-      </p>
-
-      <div className="mt-10 space-y-6 text-[16px]">
-
-        <div className="flex justify-between border-b border-dotted pb-2">
-          <span>Energy</span>
-          <span className="font-medium text-[#6b1f2b]">277 kcal</span>
-        </div>
-
-        <div className="flex justify-between border-b border-dotted pb-2">
-          <span>Carbohydrates</span>
-          <span className="font-medium text-[#6b1f2b]">75g</span>
-        </div>
-
-        <div className="flex justify-between text-[#7a7a7a]">
-          <span>Dietary Fiber</span>
-          <span>7g</span>
-        </div>
-
-        <div className="flex justify-between text-[#7a7a7a]">
-          <span>Natural Sugars</span>
-          <span>66g</span>
-        </div>
-
-        <div className="flex justify-between border-b border-dotted pb-2">
-          <span>Potassium</span>
-          <span className="font-medium text-[#6b1f2b]">696mg</span>
-        </div>
-
-        <div className="flex justify-between">
-          <span>Protein</span>
-          <span className="font-medium text-[#6b1f2b]">1.8g</span>
-        </div>
-
-      </div>
-    </div>
+    ))}
 
   </div>
+</div>
+
+  </div>
+
+
+
+
+  
+</section>
+{/* RELATED */}
+
+<section className="bg-[#FDFBF7]  py-20">
+
+
+   <div className="max-w-7xl mx-auto px-6 ">
+
+  {/* Section Header */}
+  <p className="italic text-[#b0895a] mb-3">Curated Selection</p>
+
+  <h2 className="text-[36px] md:text-[56px] font-serif text-[#6b1f2b] mb-10">
+    You May Also Desire
+  </h2>
+
+  {/* Product Grid */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    {categories
+      .find((c) => c.products.some((p) => p.id === product.id))
+      ?.products.filter((p) => p.id !== product.id)
+      .slice(0, 4)
+      .map((item) => (
+        <a
+          key={item.id}
+          href={`/products/${item.id}`}
+          className="group"
+        >
+          {/* Image Card */}
+          <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b] bg-black/20">
+
+            {/* Badge */}
+            {item.badge && (
+              <span
+                className={`absolute top-4 left-4 z-10 px-4 py-2 text-xs tracking-widest uppercase text-white
+                ${
+                  item.badge === "bestseller"
+                    ? "bg-[#8b2d36]"
+                    : "bg-black"
+                }`}
+              >
+                {item.badge === "bestseller" ? "Best Seller" : "Limited"}
+              </span>
+            )}
+
+            <Image
+              src={item.image.src}
+              alt={item.name}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="mt-6 text-center">
+            <h3 className="text-[22px] font-serif text-[#6b1f2b]">
+              {item.name}
+            </h3>
+
+            <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
+              {item.variety || "Premium Selection"}
+            </p>
+          </div>
+        </a>
+      ))}
+  </div>
+</div>
 </section>
 
  
+
+
 </>
 
     

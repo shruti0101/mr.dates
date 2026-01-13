@@ -92,53 +92,55 @@ export default function CategoryPage({ category }) {
 
           {/* ========= PRODUCTS ========= */}
           <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
 
-              {category.products.map((product) => (
-                <Link
-                  key={product.id}
-                  href={`/products/${product.id}`}
-                  className="group rounded-3xl bg-white
-                  border border-[#ead9b0]
-                  shadow-[0_10px_30px_rgba(0,0,0,0.06)]
-                  hover:shadow-[0_20px_50px_rgba(0,0,0,0.15)]
-                  transition-all duration-500 hover:-translate-y-1"
-                >
-                  {/* Image */}
-                  <div className="relative h-[240px] rounded-t-3xl overflow-hidden bg-gradient-to-br from-[#fff6df] to-[#f7e7b4]">
-                    <Image
-                      src={product.image.src}
-                      alt={product.name}
-                      fill
-                      className="object-contain p-8 transition-transform duration-700
-                      group-hover:scale-110"
-                      unoptimized
-                    />
+  {category.products.map((product) => (
+    <Link
+      key={product.id}
+      href={`/products/${product.id}`}
+      className="group block"
+    >
+      {/* IMAGE */}
+      <div className="relative aspect-[3/4] overflow-hidden rounded-lg bg-black/20 border-1 border-[#6b1f2b]">
 
-                    <div className="absolute top-4 right-4 h-9 w-9 rounded-full
-                    bg-black/70 text-white flex items-center justify-center
-                    opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100
-                    transition">
-                      <ArrowUpRight size={16} />
-                    </div>
-                  </div>
+        {/* Badge (optional) */}
+        {product.badge && (
+          <span
+            className={`absolute top-4 left-4 z-10 px-4 py-2 text-xs tracking-widest uppercase text-white
+            ${
+              product.badge === "bestseller"
+                ? "bg-[#8b2d36]"
+                : "bg-black/50"
+            }`}
+          >
+            {product.badge === "bestseller" ? "Best Seller" : "Limited"}
+          </span>
+        )}
 
-                  {/* Content */}
-                  <div className="p-6 text-center">
-                    <h3 className="text-sm font-semibold text-[#3b2a10] tracking-wide">
-                      {product.name}
-                    </h3>
+        <Image
+          src={product.image.src}
+          alt={product.name}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          priority={false}
+        />
+      </div>
 
-                    <p className="mt-2 text-[11px] uppercase tracking-widest text-[#9c7c2e]">
-                      Premium • Export Grade
-                    </p>
+      {/* TEXT */}
+      <div className="mt-6 text-center">
+        <h3 className="text-[22px] font-serif text-[#6b1f2b]">
+          {product.name}
+        </h3>
 
-                    <div className="mt-4 mx-auto h-[1px] w-12 bg-gradient-to-r from-transparent via-[#d8b85c] to-transparent" />
-                  </div>
-                </Link>
-              ))}
+        <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
+          {product.variety || "Premium Selection"}
+        </p>
+      </div>
+    </Link>
+  ))}
 
-            </div>
+</div>
+
           </div>
 
         </div>

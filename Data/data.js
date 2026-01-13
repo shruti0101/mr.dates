@@ -22,6 +22,8 @@ export const categories = [
 
 excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
 
+variety:"Ajwa Dates",
+
         description: [
           {
             type: "h2",
@@ -56,7 +58,7 @@ excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa 
         ],
 
         image: {
-          src: "/img1.png",
+          src: "/testimg.png",
           alt: "Premium Ajwa Dates",
         },
       },
@@ -68,6 +70,10 @@ excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa 
         metaTitle: "Sukkari Dates Supplier | Naturally Sweet Premium Dates",
         metaDescription:
           "High-quality Sukkari Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Sukkari Dates",
+
 
         description: [
           {
@@ -103,7 +109,7 @@ excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa 
         ],
 
         image: {
-          src: "/img2.png",
+          src: "/testimg3.png",
           alt: "Premium Sukkari Dates",
         },
       },

@@ -21,8 +21,9 @@ export default function Home() {
   <HeroDatesExact></HeroDatesExact>
    <Slider></Slider>
   <AboutSection></AboutSection>
-    <Category></Category>
   <Check></Check>
+    <Category></Category>
+  
   <Parallex></Parallex>
 
 

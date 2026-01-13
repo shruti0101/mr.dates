@@ -56,9 +56,12 @@ const Category = () => {
   return (
     <section
       ref={sectionRef}
-      style={{ backgroundImage: "url(/check10.png)" }}
-      className="relative py-10 overflow-hidden [perspective:1200px]"
+      style={{ backgroundImage: "url(/texture.jpg)" }}
+      className="relative py-20 overflow-hidden [perspective:1200px] bg-cover bg-center"
     >
+
+  <div className="absolute inset-0 bg-black/10 "></div>
+
       {/* Decorative Leaves */}
       <motion.div
         className="pointer-events-none absolute top-0 left-0 w-20 sm:w-28 md:w-44"
@@ -97,7 +100,7 @@ const Category = () => {
       </motion.div>
 
       {/* Content */}
-      <div className="w-full mx-auto px-4 sm:px-8 text-center">
+      <div className="w-full relative mx-auto px-4 sm:px-8 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -173,7 +176,7 @@ const Category = () => {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="mt-12"
         >
-          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#7A4A2E] text-white text-md font-medium overflow-hidden hover:bg-[#6A3F25]">
+          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-white text-black text-lg font-medium overflow-hidden cursor-pointer">
             <span className="relative z-10 flex h-7 w-7">
               <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
             </span>

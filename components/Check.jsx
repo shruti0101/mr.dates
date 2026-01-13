@@ -90,7 +90,7 @@ export default function Check() {
     <section
       ref={aboutRef}
       className="
-        relative overflow-hidden bg-[#FFF3E3]
+        relative overflow-hidden bg-white
         min-h-[auto] lg:h-screen
       "
     >
@@ -102,11 +102,11 @@ export default function Check() {
             Premium Dates Trading
           </span>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-tight text-[#4a2e1f]">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-black">
             Nature’s Finest <br /> Dates Collection
           </h1>
 
-          <p className="text-base sm:text-lg leading-relaxed max-w-md text-[#5c4636]">
+          <p className="text-base sm:text-lg leading-relaxed max-w-md text-black">
             As a trusted <strong>dates supplier, Mr. Dates</strong> offers premium
             dates hand-selected for richness, purity, and exceptional taste.
             Our collection is ideal for <strong>wholesale dates</strong>, luxury
@@ -119,7 +119,7 @@ export default function Check() {
               className="
                 group relative inline-flex items-center gap-3
                 px-7 py-3 rounded-full
-                bg-[#7A4A2E] text-white text-sm font-medium
+                bg-[#7A4A2E] text-white text-md font-medium
                 overflow-hidden transition-colors duration-300
                 hover:bg-[#6A3F25]
               "
@@ -137,13 +137,13 @@ export default function Check() {
                 <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
               </span>
 
-              <span className="relative z-10 font-poppins">
+              <span className="relative z-10 text-md">
                 Explore More
               </span>
             </button>
 
             {/* SECONDARY CTA */}
-            <button className="font-poppins border border-[#4a2e1f] px-8 py-3 rounded-full text-[#4a2e1f] hover:bg-[#4a2e1f]/10 transition">
+            <button className=" border border-[#4a2e1f] px-8 py-3 rounded-full text-black hover:bg-[#4a2e1f]/10 transition text-md">
               Contact Sales
             </button>
           </div>

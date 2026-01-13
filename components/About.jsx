@@ -178,10 +178,10 @@ export default function AboutSection() {
               className="
                 group relative inline-flex items-center gap-3
                 px-7 py-3 rounded-full
-                bg-gradient-to-b from-[#8B5536] to-[#75442e]
-                text-white text-sm font-medium tracking-wide
+                bg-white
+                text-black text-md font-medium tracking-wide
                 overflow-hidden transition-colors duration-300
-                hover:bg-[#9c735a]
+                hover:bg-[#9c735a] hover:text-white
               "
             >
               <span className="pointer-events-none absolute left-0 top-0 h-full w-0 group-hover:w-full transition-all duration-700 ease-out">
@@ -197,7 +197,7 @@ export default function AboutSection() {
                 <img src="/date.png" alt="Date fruit" className="h-10 w-10 object-contain" />
               </span>
 
-              <span className="relative z-10 font-poppins">Shop Now</span>
+              <span className="relative z-10 text-md">Shop Now</span>
             </button>
           </div>
 

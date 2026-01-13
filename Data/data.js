@@ -20,6 +20,8 @@ export const categories = [
         metaDescription:
           "Premium Ajwa Dates known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
 
+excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
+
         description: [
           {
             type: "h2",

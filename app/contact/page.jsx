@@ -22,7 +22,7 @@ const ContactPage = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative z-10 px-6 text-white"
         >
-          <h1 className=" text-3xl md:text-6xl tracking-wide font-medium">
+          <h1 className=" text-3xl md:text-[85px] tracking-wide font-medium">
             Contact Mr. Dates
           </h1>
           <p className="mt-4 max-w-2xl text-md mx-auto text-white/90">

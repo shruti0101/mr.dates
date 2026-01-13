@@ -88,10 +88,10 @@ export default function FaqDatesSupplier() {
           whileInView="show"
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mb-3">
+          <h2 className="text-3xl sm:text-5xl  font-bold text-white mb-3">
             Frequently Asked Questions (FAQs)
           </h2>
-          <p className="text-white">
+          <p className="text-white text-lg  ">
             Everything you need to know about Mr. Dates as a trusted dates supplier.
           </p>
         </motion.div>
@@ -123,7 +123,7 @@ export default function FaqDatesSupplier() {
                   </span>
                   <motion.span
                     animate={{ rotate: openLeft[index] ? 180 : 0 }}
-                    className="text-xl text-[#4A2E1F]"
+                    className="text-2xl text-[#4A2E1F]"
                   >
                     {openLeft[index] ? "−" : "+"}
                   </motion.span>
@@ -165,7 +165,7 @@ export default function FaqDatesSupplier() {
                   </span>
                   <motion.span
                     animate={{ rotate: openRight[index] ? 180 : 0 }}
-                    className="text-xl text-[#4A2E1F]"
+                    className="text-2xl text-[#4A2E1F]"
                   >
                     {openRight[index] ? "−" : "+"}
                   </motion.span>

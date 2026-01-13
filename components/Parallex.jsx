@@ -91,7 +91,7 @@ export default function BestsellerSection() {
       <div
         className="
           w-full flex flex-col text-white 
-          transition-[background] duration-[600ms] relative ease-in-out h-[100vh]
+          transition-[background] duration-[600ms] relative ease-in-out 
         "
         style={{ backgroundImage:"url(/check12.png)" }}
       >
@@ -113,7 +113,7 @@ export default function BestsellerSection() {
                 space-y-6
               "
             >
-              <span className="block text-sm tracking-[0.3em] uppercase text-white/40">
+              <span className="block text-sm tracking-[0.3em] uppercase text-white/90">
                 Best Sellers
               </span>
 
@@ -130,13 +130,13 @@ export default function BestsellerSection() {
                 whileTap={{ scale: 0.95 }}
                 className="
                   inline-flex items-center
-                  bg-black/90 text-white
+                  bg-white text-black
                   px-[34px] py-[14px]
                   rounded-full
                   font-semibold
                   tracking-wide
                   shadow-lg shadow-black/30
-                  hover:bg-black
+                  hover:bg-gray-100 cursor-pointer
                 "
               >
                 Explore More
@@ -146,7 +146,7 @@ export default function BestsellerSection() {
 
           {/* RIGHT */}
           <div className="relative flex-1 flex flex-col items-center justify-center mt-12 lg:mt-0">
-            <div className="relative w-[260px] sm:w-[350px] lg:w-[480px] h-[320px] sm:h-[480px] lg:h-screen flex items-center justify-center overflow-hidden">
+            <div className="relative w-[260px] sm:w-[350px] lg:w-[480px] h-[320px] sm:h-[480px] lg:h-[85vh] flex items-center justify-center overflow-hidden">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={index}
@@ -184,35 +184,7 @@ export default function BestsellerSection() {
               </AnimatePresence>
             </div>
 
-            {/* CLICK */}
-            <div
-              onClick={handleNext}
-              className="
-                mt-6 lg:absolute lg:bottom-[32px]
-                w-[62px] h-[62px]
-                rounded-full
-                bg-white/10
-                border border-white/40
-                backdrop-blur-md
-                flex items-center justify-center
-                cursor-pointer
-                transition
-                hover:bg-white/80
-                hover:translate-y-[2px]
-                group
-              "
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="white"
-                fill="none"
-                className="w-[26px] h-[26px] transition group-hover:stroke-black group-hover:scale-110"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
+         
           </div>
 
         </div>

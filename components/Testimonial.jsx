@@ -51,10 +51,10 @@ export default function TestimonialsSlider() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-[#4A2E1F] mb-3">
+          <h2 className="text-3xl lg:text-5xl  font-bold text-[#4A2E1F] mb-3">
             What Our Customers Say
           </h2>
-          <p className="text-gray-600 max-w-xl mx-auto">
+          <p className="text-black max-w-xl mx-auto">
             Real experiences from people who love the taste and freshness of our dates.
           </p>
         </motion.div>

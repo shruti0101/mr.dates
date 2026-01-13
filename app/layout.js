@@ -2,17 +2,54 @@ import localFont from "next/font/local";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-const monaSansCondensed = localFont({
+const monaSans = localFont({
   src: [
+    // -------- Regular Width --------
     {
-      path: "../public/font/monalight.woff2",
+      path: "../public/font/mona-sans/Mona-Sans-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/font/mona-sans/Mona-Sans-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/font/mona.woff2",
+      path: "../public/font/mona-sans/Mona-Sans-Bold.ttf",
       weight: "700",
       style: "normal",
+    },
+    {
+      path: "../public/font/mona-sans/Mona-Sans-Black.ttf",
+      weight: "900",
+      style: "normal",
+    },
+
+    // -------- Condensed / Narrow --------
+    {
+      path: "../public/font/mona-sans/Mona-Sans-LightNarrow.ttf",
+      weight: "300",
+      style: "normal",
+      fontStretch: "75%",
+    },
+    {
+      path: "../public/font/mona-sans/Mona-Sans-RegularNarrow.ttf",
+      weight: "400",
+      style: "normal",
+      fontStretch: "75%",
+    },
+    {
+      path: "../public/font/mona-sans/Mona-Sans-BoldNarrow.ttf",
+      weight: "700",
+      style: "normal",
+      fontStretch: "75%",
+    },
+    {
+      path: "../public/font/mona-sans/Mona-Sans-BlackNarrow.ttf",
+      weight: "900",
+      style: "normal",
+      fontStretch: "75%",
     },
   ],
   variable: "--font-mona-sans",
@@ -27,13 +64,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        suppressHydrationWarning
-        className={`${monaSansCondensed.variable} antialiased`}
-      >
-        <main>
-          <LayoutWrapper>{children}</LayoutWrapper>
-        </main>
+      <body className={`${monaSans.variable} antialiased`}>
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );

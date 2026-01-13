@@ -17,7 +17,7 @@ const Countup = () => {
           {/* Item 1 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
             <Image alt="logistics" width={100} height={100} src="/countup/delivery.gif" />
-            <p className="text-lg font-medium leading-snug">
+            <p className="text-xl font-medium leading-snug">
               Reliable Supply<br />& Logistics
             </p>
             <span className="hidden md:block absolute right-[-1.5rem] top-1/2 -translate-y-1/2 h-20 w-px bg-white/40" />
@@ -26,7 +26,7 @@ const Countup = () => {
           {/* Item 2 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
             <Image alt="partnerships" width={100} height={100} src="/countup/pay.gif" />
-            <p className="text-lg font-medium">
+            <p className="text-xl font-medium">
               Trusted Trade<br />Partnerships
             </p>
             <span className="hidden md:block absolute right-[-1.5rem] top-1/2 -translate-y-1/2 h-20 w-px bg-white/40" />
@@ -35,7 +35,7 @@ const Countup = () => {
           {/* Item 3 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
             <Image alt="quality" width={100} height={100} src="/countup/quality.gif" />
-            <p className="text-lg font-medium">
+            <p className="text-xl font-medium">
               Quality-Checked<br />& Hygienic Processing
             </p>
             <span className="hidden md:block absolute right-[-1.5rem] top-1/2 -translate-y-1/2 h-20 w-px bg-white/40" />
@@ -44,7 +44,7 @@ const Countup = () => {
           {/* Item 4 */}
           <div className="flex flex-col items-center text-center gap-4">
             <Image alt="experience" width={100} height={100} src="/countup/reward.gif" />
-            <p className="text-lg font-medium">
+            <p className="text-xl font-medium">
               Years of Industry<br />Experience
             </p>
           </div>

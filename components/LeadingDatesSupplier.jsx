@@ -12,7 +12,7 @@ export default function LeadingDatesSupplier() {
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto w-full px-18">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
           {/* LEFT CONTENT */}
@@ -22,11 +22,11 @@ export default function LeadingDatesSupplier() {
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h1 className="text-3xl font-serif sm:text-4xl lg:text-5xl font-bold text-[#4A2E1F] mb-6">
+            <h1 className="text-3xl  sm:text-4xl lg:text-6xl font-bold text-black mb-6">
               Leading Dates Supplier
             </h1>
 
-            <p className="text-black text-[17px] leading-7 mb-5">
+            <p className="text-black text-[19px] leading-7 mb-5">
               <strong>Mr. Dates</strong> is a trusted and professional{" "}
               <strong>dates supplier</strong> offering{" "}
               <strong>premium dates, bulk dates,</strong> and{" "}
@@ -38,7 +38,7 @@ export default function LeadingDatesSupplier() {
               standards.
             </p>
 
-            <p className="text-black text-[17px] leading-7 mb-5">
+            <p className="text-black text-[19px] leading-7 mb-5">
               As an experienced <strong>dates supplier</strong>, we source our
               products from trusted farms and process them under strict hygiene
               standards to preserve natural sweetness, rich flavor, and
@@ -48,7 +48,7 @@ export default function LeadingDatesSupplier() {
               supply.</strong>
             </p>
 
-            <p className="text-black text-[17px] leading-7">
+            <p className="text-black text-[19px] leading-7">
               We specialize in <strong>bulk dates supply</strong> and{" "}
               <strong>wholesale dates distribution</strong>, ensuring consistent
               quality, competitive pricing, and reliable service. Whether you
@@ -66,12 +66,12 @@ export default function LeadingDatesSupplier() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h3 className="text-xl font-semibold text-[#4A2E1F] font-serif mb-6">
+            <h3 className="text-xl font-semibold text-black  mb-6">
               Why Mr. Dates is the Preferred Dates Supplier
             </h3>
 
             <motion.ul
-              className="space-y-4 text-gray-700 text-[17px] leading-6"
+              className="space-y-4 text-black text-[17px] leading-6"
               initial="hidden"
               whileInView="show"
               viewport={{ once: true }}

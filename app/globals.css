@@ -27,10 +27,8 @@ body {
 
 
 
-html,
 body {
-  font-family: var(--font-mona-sans), sans-serif;
-
+  font-family: var(--font-mona-sans), system-ui, sans-serif;
 }
 
 

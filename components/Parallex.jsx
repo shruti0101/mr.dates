@@ -77,7 +77,7 @@ export default function BestsellerSection() {
           Our Bestsellers
         </span>
 
-        <h2 className="font-['IBM_Plex_Serif'] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#111]">
+        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#111]">
           Customer Favorite Collection
         </h2>
 
@@ -90,12 +90,14 @@ export default function BestsellerSection() {
       {/* ================= SLIDER ================= */}
       <div
         className="
-          w-full flex flex-col text-white font-[Poppins]
-          transition-[background] duration-[600ms] ease-in-out
+          w-full flex flex-col text-white 
+          transition-[background] duration-[600ms] relative ease-in-out h-[100vh]
         "
-        style={{ background: current.color }}
+        style={{ backgroundImage:"url(/check12.png)" }}
       >
-        <div className="flex flex-col lg:flex-row items-center justify-between mt-10">
+
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="flex relative z-10 flex-col lg:flex-row items-center justify-between ">
 
           {/* LEFT */}
           <AnimatePresence mode="wait">
@@ -106,20 +108,20 @@ export default function BestsellerSection() {
               exit={{ y: -450, opacity: 0 }}
               transition={{ duration: 0.99, ease: "easeInOut" }}
               className="
-                w-full lg:max-w-[520px]
+                w-full lg:max-w-[620px]
                 px-6 lg:ml-[60px]
                 space-y-6
               "
             >
-              <span className="block text-sm tracking-[0.3em] uppercase text-white/70">
+              <span className="block text-sm tracking-[0.3em] uppercase text-white/40">
                 Best Sellers
               </span>
 
-              <h1 className="font-serif text-[2.5rem] sm:text-[3.2rem] lg:text-[4.1rem] font-bold tracking-[1.5px] leading-tight">
+              <h1 className="heading-condensed text-[2.5rem] sm:text-[3.2rem] lg:text-[5.1rem] font-bold tracking-[1.5px] leading-tight">
                 {current.name}
               </h1>
 
-              <p className="text-[1rem] sm:text-[1.1rem] leading-[1.85] text-white">
+              <p className="text-[1rem] sm:text-[1.3rem]  text-white">
                 {current.desc}
               </p>
 
@@ -153,7 +155,7 @@ export default function BestsellerSection() {
                   exit={{ y: -250, opacity: 0 }}
                   transition={{ duration: 0.4, ease: "easeInOut" }}
                   className="
-                    absolute w-full h-full
+                    absolute w-full h-130
                     bg-white/12
                     border border-white/30
                     backdrop-blur-[12px]
@@ -172,7 +174,7 @@ export default function BestsellerSection() {
                   transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }}
                   className="
                     absolute z-[2]
-                    w-[220px] sm:w-[360px] lg:w-[600px]
+                    w-[220px] sm:w-[360px] lg:w-[500px]
                     object-cover
                     pointer-events-none
                     left-1/2 top-1/2

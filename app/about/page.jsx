@@ -116,7 +116,7 @@ const client=[
         <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 text-white px-6">
-          <h1 className="max-w-5xl font-serif tracking-wide text-3xl md:text-[85px] font-medium leading-tight">
+          <h1 className="max-w-5xl  tracking-wide text-3xl md:text-[85px] font-medium leading-tight">
             About Mr. Dates
           </h1>
 
@@ -147,27 +147,27 @@ const client=[
       {/* Luxury Tag */}
       <div className="inline-flex items-center gap-3 mb-3">
         <span className="h-[1px] w-10 bg-[#B88A2E]" />
-        <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+        <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
           About Mr. Dates
         </span>
 
     <Image src="/date.png" width={45} height={45} alt="Dates icon" ></Image>
       </div>
 
-      <h2 className="font-serif text-4xl md:text-5xl lg:text-[50px] font-semibold leading-tight mb-5 text-[#111]">
+      <h2 className=" text-4xl md:text-5xl lg:text-[65px] font-semibold leading-tight mb-5 text-[#111]">
         Crafted by Nature.<br />
         Perfected by Us.
       </h2>
 
-      <p className="text-[18px] leading-[1.9] mb-4 text-black max-w-[640px]">
-        <span className="font-semibold text-[#6B091D]">Mr. Dates</span> is a
+      <p className="text-[20px] leading-[1.9] mb-4 text-black max-w-[640px]">
+        <span className=" text-[#6B091D]">Mr. Dates</span> is a
         premium dates and dry fruits brand dedicated to delivering authentic
         taste, superior quality, and natural nutrition. We work closely with
         trusted farms and suppliers to bring you the finest handpicked dates —
         rich in flavor, freshness, and goodness.
       </p>
 
-      <p className="text-[18px] leading-[1.9] text-black max-w-[640px] mb-8">
+      <p className="text-[20px] leading-[1.9] text-black max-w-[640px] mb-8">
         From sourcing and processing to hygienic packaging and timely delivery,
         every step reflects our commitment to excellence. Retailers,
         wholesalers, and families trust us for consistency, transparency, and
@@ -175,10 +175,10 @@ const client=[
       </p>
 
       {/* Trust Metrics */}
-      <div className="flex font-['IBM_Plex_Serif'] flex-wrap gap-10 mt-6">
+      <div className="flex  flex-wrap gap-10 mt-6">
         <div>
           <p className="text-3xl font-bold text-[#6B091D]">15k+</p>
-          <p className="text-sm text-[#555] mt-1">Happy Customers</p>
+          <p className="text-sm text-  mt-1">Happy Customers</p>
         </div>
         <div>
           <p className="text-3xl font-bold text-[#6B091D]">100%</p>
@@ -221,10 +221,10 @@ const client=[
   className="bg-[#EEF1EA] py-16 px-4 md:px-12"
 >
 
-  <div className="max-w-7xl mx-auto font-[Poppins] text-[#111]">
+  <div className="max-w-7xl mx-auto  text-[#111]">
 
     {/* ================= HEADER BADGE ================= */}
-    <div className="flex items-center gap-2 mb-2 bg-[#f4ea9d] text-black px-5 py-3 rounded-full text-sm font-medium w-fit font-['IBM_Plex_Serif']">
+    <div className="flex items-center gap-2 mb-2 bg-[#f4ea9d] text-black px-5 py-3 rounded-full text-sm font-medium w-fit ">
       <span>BEST DATES</span>
       <Image
         width={35}
@@ -236,7 +236,7 @@ const client=[
 
     {/* ================= HERO CONTENT ================= */}
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
-      <h1 className="text-3xl sm:text-4xl lg:text-[56px] font-bold leading-tight max-w-[650px] font-serif">
+      <h1 className="text-3xl sm:text-4xl lg:text-[65px] font-bold leading-tight max-w-[650px] ">
         PURE DATES. NATURAL ENERGY. REAL GOODNESS.
       </h1>
 
@@ -300,7 +300,7 @@ const client=[
             Naturally Sweet. Purely Nutritious.
           </h3>
           <div className="h-px w-full bg-white/40 mb-4" />
-          <ul className="space-y-4 text-sm">
+          <ul className="space-y-6 text-lg">
             {[
               "100% natural dates with no added sugar or preservatives",
               "Rich source of energy, fiber, and essential minerals",
@@ -352,7 +352,7 @@ const client=[
             The Authentic Taste of Premium Dates
           </h3>
           <div className="h-px w-full bg-white/40 mb-4" />
-          <ul className="space-y-4 text-sm">
+          <ul className="space-y-6 text-lg">
             {[
               "Soft texture and rich natural sweetness in every bite",
               "Ideal for health-conscious consumers and fitness diets",
@@ -393,12 +393,12 @@ const client=[
       {/* Accent */}
       <div className="flex items-center gap-3 mb-6">
         <span className="h-[1px] w-10 bg-[#B88A2E]" />
-        <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+        <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
           Our Mission
         </span>
       </div>
 
-      <h3 className="font-serif text-3xl font-semibold mb-6 text-[#111]">
+      <h3 className=" text-2xl md:text-4xl font-semibold mb-6 text-[#111]">
         Nourishing Lives with Nature’s Finest
       </h3>
 
@@ -416,12 +416,12 @@ const client=[
       {/* Accent */}
       <div className="flex items-center gap-3 mb-6">
         <span className="h-[1px] w-10 bg-[#B88A2E]" />
-        <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+        <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
           Our Vision
         </span>
       </div>
 
-      <h3 className="font-serif text-3xl font-semibold mb-6 text-[#111]">
+      <h3 className=" text-2xl md:text-4xl font-semibold mb-6 text-[#111]">
         Setting the Standard for Premium Dates
       </h3>
 
@@ -448,7 +448,7 @@ const client=[
 
     {/* Heading */}
     <div className="max-w-3xl mb-16">
-      <h2 className="font-['IBM_Plex_Serif'] text-3xl md:text-4xl lg:text-5xl font-semibold text-[#111] mb-4">
+      <h2 className=" text-3xl md:text-4xl lg:text-5xl font-semibold text-[#111] mb-4">
         Why Choose Mr. Dates
       </h2>
       <p className="text-[17px] leading-7 text-[#444]">
@@ -496,7 +496,7 @@ const client=[
 
           {/* CONTENT */}
           <div className="relative z-10">
-            <h4 className="font-semibold text-lg mb-2 text-white group-hover:text-white transition-colors duration-300">
+            <h4 className="font-semibold text-xl mb-2 text-white group-hover:text-white transition-colors duration-300">
               {item.title}
             </h4>
             <p className="text-sm leading-6 text-white group-hover:text-white/90 transition-colors duration-300">

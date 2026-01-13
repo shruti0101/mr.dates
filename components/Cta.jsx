@@ -37,7 +37,7 @@ const Cta = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="font-['IBM_Plex_Serif'] mt-9 text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 leading-tight"
+            className="mt-9 text-3xl md:text-4xl lg:text-6xl font-semibold mb-6 leading-tight"
           >
             Experience Premium Dates,
             <br className="hidden md:block" />
@@ -50,7 +50,7 @@ const Cta = () => {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
             viewport={{ once: true }}
-            className="max-w-2xl mx-auto mb-12 text-[17px] leading-7 text-white/85"
+            className="max-w-2xl mx-auto mb-12 text-[19px] leading-7 text-white/85"
           >
             From everyday nutrition to premium gifting and reliable wholesale
             supply,

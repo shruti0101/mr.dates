@@ -90,14 +90,14 @@ export default function AboutStoreSection() {
             <div className="relative z-20 max-w-xl">
               <motion.h2
                 variants={fadeUp}
-                className="text-[#4A2E1F] font-serif text-3xl lg:text-4xl font-bold mb-5"
+                className="text-black  text-3xl lg:text-5xl font-bold mb-5"
               >
                 Why Choose Mr. Dates as a Dates Supplier
               </motion.h2>
 
               <motion.p
                 variants={fadeUp}
-                className="text-black text-[18px] leading-7 mb-5"
+                className="text-black text-[19px] leading-7 mb-5"
               >
                 At <strong>Mr. Dates</strong>, we are dedicated to delivering
                 superior quality and authentic taste in every product. As a
@@ -108,14 +108,14 @@ export default function AboutStoreSection() {
 
               <motion.p
                 variants={fadeUp}
-                className="text-black text-[18px] leading-7 mb-4"
+                className="text-black text-[19px] leading-7 mb-4"
               >
                 What sets us apart:
               </motion.p>
 
               <motion.ul
                 variants={container}
-                className="text-black text-[18px] leading-7 mb-8 space-y-2"
+                className="text-black text-[19px] leading-7 mb-8 space-y-2"
               >
                 {[
                   "Premium dates sourced from trusted global farms",
@@ -140,7 +140,7 @@ export default function AboutStoreSection() {
                 className="
                   cursor-pointer group relative inline-flex items-center gap-3
                   px-7 py-3 rounded-full bg-[#7A4A2E]
-                  text-white text-sm font-medium overflow-hidden
+                  text-white text-md font-medium overflow-hidden
                   transition-colors duration-300 hover:bg-[#6A3F25]
                 "
               >

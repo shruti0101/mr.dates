@@ -100,7 +100,7 @@ export default function AboutSection() {
       "
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#c6a647]/70 z-0" />
+      <div className="absolute inset-0 bg-[#8A592D]/80 z-0" />
 
       <div className="relative z-10 mx-auto w-full px-4 sm:px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -153,17 +153,17 @@ export default function AboutSection() {
             {/* Luxury Tag */}
             <div className="inline-flex items-center gap-3 mb-3">
               <span className="h-[1px] w-10 bg-white" />
-              <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-white">
+              <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-white">
                 About Mr. Dates
               </span>
               <Image src="/date.png" width={45} height={45} alt="Dates icon" />
             </div>
 
-            <h2 className="mb-6 font-serif font-bold text-black text-2xl sm:text-3xl md:text-4xl">
+            <h2 className="mb-6 font-bold text-white text-2xl sm:text-3xl leading-16 md:text-5xl">
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich
             </h2>
 
-            <p className="mb-8 max-w-2xl text-lg sm:text-xl md:text-3xl text-black">
+            <p className="mb-8 max-w-3xl text-lg sm:text-xl md:text-2xl tracking-wide text-white">
               Mr. Dates is a trusted <strong>dates supplier</strong> and{" "}
               <strong>dry fruits supplier</strong>, delivering premium dates,
               premium dry fruits, and <strong>healthy snacks</strong> sourced

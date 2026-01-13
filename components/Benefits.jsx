@@ -60,11 +60,11 @@ export default function UseCaseSection() {
           whileInView="show"
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold text-black sm:text-4xl font-serif">
+          <h2 className="text-3xl font-bold text-black sm:text-5xl ">
             Natural Nutrition for Modern Lifestyles
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-md leading-6 text-black">
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-6 text-black">
             From active lifestyles to everyday wellness, our premium dates
             provide natural nutrition, energy, and care for all age groups.
           </p>
@@ -102,12 +102,12 @@ export default function UseCaseSection() {
               </motion.div>
 
               {/* Title */}
-              <h3 className="mt-6 text-xl font-semibold text-black">
+              <h3 className="mt-6 text-2xl font-semibold text-black">
                 {item.title}
               </h3>
 
               {/* Description */}
-              <p className="mt-2 max-w-xs text-sm leading-6 text-black">
+              <p className="mt-2 max-w-xs text-base leading-6 text-black">
                 {item.desc}
               </p>
             </motion.div>

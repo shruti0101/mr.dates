@@ -22,10 +22,10 @@ const ContactPage = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative z-10 px-6 text-white"
         >
-          <h1 className="font-serif text-3xl md:text-6xl font-medium">
+          <h1 className=" text-3xl md:text-6xl tracking-wide font-medium">
             Contact Mr. Dates
           </h1>
-          <p className="mt-4 max-w-2xl mx-auto text-white/90">
+          <p className="mt-4 max-w-2xl text-md mx-auto text-white/90">
             Let’s connect for premium dates, bulk orders, or business enquiries
           </p>
         </motion.div>
@@ -49,11 +49,11 @@ const ContactPage = () => {
               </span>
             </div>
 
-            <h2 className="font-serif text-4xl md:text-5xl font-semibold mb-6 text-[#111]">
+            <h2 className="text-4xl md:text-5xl font-semibold mb-6 text-[#111]">
               We’d Love to Hear From You
             </h2>
 
-            <p className="text-[18px] leading-[1.9] text-[#333] mb-10 max-w-[520px]">
+            <p className="text-[20px] leading-[1.9] text-[#333] mb-10 max-w-[520px]">
               Whether you’re looking for premium dates, wholesale supply,
               corporate gifting, or retail partnership — our team is here to
               assist you with reliable service and expert guidance.
@@ -64,25 +64,25 @@ const ContactPage = () => {
               <div className="flex items-start gap-4">
                 <Phone className="text-[#6B091D]" />
                 <div>
-                  <p className="font-semibold">Phone</p>
-                  <p className="text-[#444]">+91 7065 650411</p>
+                  <p className="font-semibold text-xl">Phone</p>
+                  <p className="text-black text-xl">+91 7065 650411</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <Mail className="text-[#6B091D]" />
                 <div>
-                  <p className="font-semibold">Email</p>
-                  <p className="text-black">customercare@mrdates.in</p>
-                     <p className="text-black">sales@mrdates.in</p>
+                  <p className="font-semibold text-xl">Email</p>
+                  <p className="text-black text-xl">customercare@mrdates.in</p>
+                     <p className="text-black text-xl">sales@mrdates.in</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <MapPin className="text-[#6B091D]" />
                 <div>
-                  <p className="font-semibold">Location</p>
-                  <p className="text-black">
+                  <p className="font-semibold text-xl">Location</p>
+                  <p className="text-black text-xl">
                   2nd, 328, Bhai Parmanand Colony, Dr. Mukherjee Nagar Delhi, New Delhi-110009, Delhi, India
                   </p>
                 </div>

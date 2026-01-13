@@ -157,7 +157,7 @@ const Category = () => {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 transition={{ duration: 0.2 }}
-                className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-sm font-medium py-2.5 rounded-full shadow-sm font-poppins"
+                className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-md font-medium py-2.5 rounded-full shadow-sm font-poppins"
               >
                 Visit Category
               </motion.button>
@@ -173,11 +173,11 @@ const Category = () => {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="mt-12"
         >
-          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#7A4A2E] text-white text-sm font-medium overflow-hidden hover:bg-[#6A3F25]">
+          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#7A4A2E] text-white text-md font-medium overflow-hidden hover:bg-[#6A3F25]">
             <span className="relative z-10 flex h-7 w-7">
               <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
             </span>
-            <span className="relative z-10 font-poppins">
+            <span className="relative z-10 ">
               Explore All Categories
             </span>
           </button>

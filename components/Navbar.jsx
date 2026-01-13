@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { categories } from "@/Data/data";
-
+import { usePathname } from "next/navigation";
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
@@ -20,17 +20,31 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+const pathname = usePathname();
+
+const isSingleProduct =
+  pathname.startsWith("/products/") && pathname !== "/products";
+
+const navTextClass = isSingleProduct ? "text-black" : "text-white";
+
   return (
     <header className="fixed top-0 left-0 z-50 w-full">
-      <motion.div
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`
-          transition-colors duration-500
-          ${scrolled ? "bg-black/40 backdrop-blur-md shadow-lg" : "bg-transparent"}
-        `}
-      >
+ <motion.div
+  initial={{ y: -30, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+  className={`
+    transition-colors duration-500
+    ${
+      isSingleProduct
+        ? "bg-[#FDFBF7] text-black shadow-lg"
+        : scrolled
+        ? "bg-black/40 backdrop-blur-md shadow-lg"
+        : "bg-transparent"
+    }
+  `}
+>
+
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
 
           {/* LOGO */}
@@ -51,7 +65,7 @@ export default function Navbar() {
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className="text-[18px] tracking-widest uppercase font-bold text-white hover:text-[#F8CC19] transition"
+                className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
               >
                 {item}
               </Link>
@@ -65,7 +79,7 @@ export default function Navbar() {
             >
               <Link
                 href="/products"
-                className="text-[18px] uppercase tracking-widest font-bold text-white hover:text-[#F8CC19] transition"
+                className={`text-[18px] uppercase tracking-widest font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
               >
                 Our Products
               </Link>
@@ -112,7 +126,7 @@ export default function Navbar() {
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className="text-[18px] tracking-widest font-bold uppercase text-white hover:text-[#F8CC19] transition"
+                className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
               >
                 {item}
               </Link>

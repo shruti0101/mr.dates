@@ -11,12 +11,12 @@ const desktopImages = [
   "/banner/slider3.png",
 ];
 
-const mobileImages = [
-  "/mobile1.webp",
-  "/mobile2.webp",
-  "/mobile3.webp",
-  "/mobile4.webp",
-];
+// const mobileImages = [
+//   "/mobile1.webp",
+//   "/mobile2.webp",
+//   "/mobile3.webp",
+//   "/mobile4.webp",
+// ];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);

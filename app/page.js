@@ -24,15 +24,15 @@ export default function Home() {
   <Check></Check>
     <Category></Category>
   
-  <Parallex></Parallex>
+
 
 
   <Countup></Countup>
  
   <Whychoose></Whychoose>
-   
-    <LeadingDatesSupplier></LeadingDatesSupplier>
     
+    <LeadingDatesSupplier></LeadingDatesSupplier>
+     <Parallex></Parallex>
   <Banner></Banner>
 
 

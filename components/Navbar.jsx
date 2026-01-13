@@ -47,7 +47,7 @@ export default function Navbar() {
           {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
-            {["Home", "About"].map((item) => (
+            {[ "About"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
@@ -155,7 +155,7 @@ export default function Navbar() {
               </div>
 
               <div className="flex flex-col px-6 pb-6 gap-5 text-white font-bold tracking-widest uppercase">
-                {["Home", "About", "Products", "Blogs", "Bulk Order", "Contact"].map(
+                {[ "About", "Products", "Blogs", "Bulk Order", "Contact"].map(
                   (item) => (
                     <Link
                       key={item}

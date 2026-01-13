@@ -65,28 +65,26 @@ export default function ProductPage({ params }) {
 
 
 
-    <section className="bg-[#FDFBF7] py-20">
+    <section className="bg-[#FDFBF7] py-10">
       <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-20 items-start">
 
         {/* ================= LEFT IMAGE ================= */}
         <div className="relative">
           {/* Badge */}
-          <div className="absolute top-6 left-6 z-10 space-y-2">
+          <div className="absolute top-6 left-6 z-10 ">
             <span className="block bg-[#7a1f2b] text-white text-xs tracking-wide px-4 py-2">
               Grand Reserve
             </span>
-            <span className="block bg-white text-black text-xs tracking-widest px-4 py-2 border">
-              GRADE A
-            </span>
+         
           </div>
 
-          <div className="rounded-xl overflow-hidden shadow-sm">
+          <div className=" overflow-hidden ">
             <Image
               src={product.image.src}
               alt="Imperial Medjool Dates"
               width={800}
               height={800}
-              className="w-full h-auto object-cover"
+              className="w-full  object-cover"
               priority
             />
           </div>
@@ -108,7 +106,7 @@ export default function ProductPage({ params }) {
           </div>
 
           {/* Title */}
-          <h1 className="mt-8 text-[85px] leading-[1.05] font-serif text-[#6b1f2b]">
+          <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b]">
     {product.name}
           </h1>
 

@@ -1275,32 +1275,32 @@ variety:"Mr. Dates Products",
 // cat 6
 
   {
-    id: "other-products",
-    name: "Other Products",
-    metaTitle: "Kalmi Dates Supplier in India | Premium Quality Dates",
+    id: "dry-fruits",
+    name: "Dry Fruits",
+    metaTitle: "Dry Fruits Supplier in India | Premium Quality Dates",
     metaDescription:
-      "Premium Kalmi Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
+      "Premium Dry Fruits sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/img1.png",
+    image: "/products/anjeer.webp",
     badge: "bestseller",
 
     products: [
     
       {
-        id: "ajwa-dates",
-        name: "Ajwa Dates",
-        metaTitle: "Ajwa Dates Supplier | Premium Ajwa Dates in Bulk",
+        id: "anjeer",
+        name: "Anjeer ",
+        metaTitle: "Anjeer Supplier | Premium Ajwa Dates in Bulk",
         metaDescription:
-          "Premium Ajwa Dates known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
+          "Premium Anjeer known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
 
-excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
+excerpt: "Anjeer – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
 
-variety:"Ajwa Dates",
+variety:"Dry Fruits",
 
 packaging:[
-  { type:"box", weight:"50g" },
-  { type:"box", weight:"1kg" },
+  { type:"box", weight:"1g" },
   { type:"box", weight:"5kg" },
+  { type:"box", weight:"10kg" },
 ],
 
         description: [
@@ -1337,63 +1337,13 @@ packaging:[
         ],
 
         image: {
-          src: "/testimg.png",
+          src: "/products/anjeer.webp",
           alt: "Premium Ajwa Dates",
         },
       },
 
      
-      {
-        id: "sukkari-dates",
-        name: "Sukkari Dates",
-        metaTitle: "Sukkari Dates Supplier | Naturally Sweet Premium Dates",
-        metaDescription:
-          "High-quality Sukkari Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
-          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
-
-variety:"Sukkari Dates",
-
-
-
-
-        description: [
-          {
-            type: "h2",
-            text: "Sukkari Dates – Naturally Sweet & Soft",
-          },
-          {
-            type: "p",
-            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
-          },
-          {
-            type: "h2",
-            text: "Key Features – Sukkari Dates",
-          },
-          {
-            type: "ul",
-            items: [
-              "Naturally sweet flavor without added sugar",
-              "Soft texture with an appealing golden appearance",
-              "Carefully selected for uniform size and quality",
-              "Hygienically processed to maintain freshness",
-              "Ideal for retail shelves, gifting, and bulk orders",
-              "Trusted by wholesalers and distributors",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Variety", value: "Sukkari Dates" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Tender" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-        ],
-
-        image: {
-          src: "/testimg3.png",
-          alt: "Premium Sukkari Dates",
-        },
-      },
+  
     ],
   },
 
@@ -1406,27 +1356,27 @@ variety:"Sukkari Dates",
     metaDescription:
       "Premium Kalmi Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/img1.png",
+    image: "/products/sukkari.webp",
     badge: "bestseller",
 
     products: [
       /* ================= AJWA DATES ================= */
       {
-        id: "ajwa-dates",
-        name: "Ajwa Dates",
-        metaTitle: "Ajwa Dates Supplier | Premium Ajwa Dates in Bulk",
+        id: "aalu-dates",
+        name: "Aalu Dates",
+        metaTitle: "Aalu Dates Supplier | Premium Ajwa Dates in Bulk",
         metaDescription:
-          "Premium Ajwa Dates known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
+          "Premium Aalu Dates known for rich taste and natural goodness. Carefully sourced and hygienically packed for wholesale, retail, and institutional supply.",
 
-excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
+excerpt: "Aalu Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa dates are prized for their grand size, velvety texture, and complex notes of wild honey and caramel. Hand-selected at peak ripeness to ensure a moist, luscious experience",
 
-variety:"Ajwa Dates",
+variety:"Other Dates",
 
-packaging:[
-  { type:"box", weight:"50g" },
-  { type:"box", weight:"1kg" },
-  { type:"box", weight:"5kg" },
-],
+// packaging:[
+//   { type:"box", weight:"50g" },
+//   { type:"box", weight:"1kg" },
+//   { type:"box", weight:"5kg" },
+// ],
 
         description: [
           {
@@ -1462,8 +1412,8 @@ packaging:[
         ],
 
         image: {
-          src: "/testimg.png",
-          alt: "Premium Ajwa Dates",
+          src: "/products/aalu.webp",
+          alt: "Premium Aalu Dates",
         },
       },
 
@@ -1476,9 +1426,15 @@ packaging:[
           "High-quality Sukkari Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
           excerpt:"Sukkari Dates – Naturally Sweet & Soft",
 
-variety:"Sukkari Dates",
+variety:"Other Dates",
 
 
+
+packaging:[
+  { type:"box", weight:"3 kg" },
+  // { type:"box", weight:"1kg" },
+  // { type:"box", weight:"5kg" },
+],
 
 
         description: [
@@ -1515,10 +1471,382 @@ variety:"Sukkari Dates",
         ],
 
         image: {
-          src: "/testimg3.png",
+          src: "/products/sukkari.webp",
           alt: "Premium Sukkari Dates",
         },
       },
+
+      // 3
+
+         {
+        id: "sagai-dates",
+        name: "Sagai Dates",
+        metaTitle: "Sagai Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality Sagai Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sagai Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/sagai.webp",
+          alt: "Premium Sagai Dates",
+        },
+      },
+
+
+
+// 4
+
+   {
+        id: "shanshaha-dates",
+        name: "shanshaha Dates",
+        metaTitle: "shanshaha Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality shanshaha Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/shanshaha.webp",
+          alt: "Premium shanshaha Dates",
+        },
+      },
+
+
+      // 5
+
+
+       {
+        id: "razan-dates",
+        name: "razan Dates",
+        metaTitle: "razan Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality razan Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/razan.webp",
+          alt: "Premium shanshaha Dates",
+        },
+      },
+
+// 6
+
+
+      {
+        id: "rabbi-dates",
+        name: "Rabbi Dates",
+        metaTitle: "Rabbi Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality Rabbi Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/rabbi.webp",
+          alt: "Premium Rabbi Dates",
+        },
+      },
+
+
+      // 7
+
+            {
+        id: "lajawab-buman",
+        name: "Lajawab Buman",
+        metaTitle: "Lajawab Buman Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality Lajawab Buman Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/lajawab.webp",
+          alt: "Premium shanshaha Dates",
+        },
+      },
+
+
+// 8
+
+      {
+        id: "hana-gold-kalute-dates",
+        name: "Hana Gold Kalute Dates",
+        metaTitle: "Hana Gold Kalute Dates Supplier | Naturally Sweet Premium Dates",
+        metaDescription:
+          "High-quality Hana Gold Kalute Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
+          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+
+variety:"Other Dates",
+
+
+
+// packaging:[
+//   { type:"box", weight:"3 kg" },
+//   // { type:"box", weight:"1kg" },
+//   // { type:"box", weight:"5kg" },
+// ],
+
+
+        description: [
+          {
+            type: "h2",
+            text: "Sukkari Dates – Naturally Sweet & Soft",
+          },
+          {
+            type: "p",
+            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
+          },
+          {
+            type: "h2",
+            text: "Key Features – Sukkari Dates",
+          },
+          {
+            type: "ul",
+            items: [
+              "Naturally sweet flavor without added sugar",
+              "Soft texture with an appealing golden appearance",
+              "Carefully selected for uniform size and quality",
+              "Hygienically processed to maintain freshness",
+              "Ideal for retail shelves, gifting, and bulk orders",
+              "Trusted by wholesalers and distributors",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Variety", value: "Sukkari Dates" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Tender" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+        ],
+
+        image: {
+          src: "/products/hana.webp",
+          alt: "Hana Gold Kalute Dates",
+        },
+      },
+
+// 9
+
+
+
     ],
   },
 

@@ -156,7 +156,7 @@ const client=[
 
       <h2 className=" text-4xl md:text-5xl lg:text-[65px] font-semibold leading-tight mb-5 text-[#111]">
         Crafted by Nature.<br />
-        Perfected by Us.
+        Perfected by Us.🍂
       </h2>
 
       <p className="text-[20px] leading-[1.9] mb-4 text-black max-w-[640px]">
@@ -237,7 +237,7 @@ const client=[
     {/* ================= HERO CONTENT ================= */}
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
       <h1 className="text-3xl sm:text-4xl lg:text-[65px] font-bold leading-tight max-w-[650px] ">
-        PURE DATES. NATURAL ENERGY. REAL GOODNESS.
+        PURE DATES. NATURAL ENERGY. REAL GOODNESS. 
       </h1>
 
       <div>
@@ -449,7 +449,7 @@ const client=[
     {/* Heading */}
     <div className="max-w-3xl mb-16">
       <h2 className=" text-3xl md:text-4xl lg:text-5xl font-semibold text-[#111] mb-4">
-        Why Choose Mr. Dates
+        Why Choose Mr. Dates 🌾
       </h2>
       <p className="text-[17px] leading-7 text-[#444]">
         Quality, consistency, and trust define everything we deliver.

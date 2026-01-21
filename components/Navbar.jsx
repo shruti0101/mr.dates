@@ -45,7 +45,7 @@ const navTextClass = isSingleProduct ? "text-black" : "text-white";
   `}
 >
 
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-1">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-2">
 
 
           {/* LOGO */}

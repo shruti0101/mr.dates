@@ -99,14 +99,14 @@ export default function Check() {
         {/* TEXT */}
         <div className="space-y-6">
           <span className="inline-block px-4 py-1 rounded-full bg-[#c6a647]/20 text-[#7a5c2e] text-sm tracking-wide">
-            Premium Dates Trading
+            Premium Dates Trading 🌍
           </span>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-black">
-            Nature’s Finest <br /> Dates Collection
+            Nature’s Finest <br /> Dates Collection 
           </h1>
 
-          <p className="text-base sm:text-lg leading-relaxed max-w-md text-black">
+          <p className="text-base sm:text-xl leading-relaxed max-w-md text-black">
             As a trusted <strong>dates supplier, Mr. Dates</strong> offers premium
             dates hand-selected for richness, purity, and exceptional taste.
             Our collection is ideal for <strong>wholesale dates</strong>, luxury

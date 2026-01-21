@@ -229,7 +229,7 @@ export default function HeroDatesExact() {
                     transition={{ duration: 0.9 }}
                     className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-sm font-semibold tracking-wide text-black"
                   >
-                    Premium Farm Select
+                    Premium Farm Select 🤎
                   </motion.span>
                 </AnimatePresence>
 
@@ -275,12 +275,12 @@ export default function HeroDatesExact() {
     px-7 py-3
     rounded-full
       bg-white
-    text-black text-sm font-medium tracking-wide
+    text-black text-md font-medium tracking-wide
    
    
     overflow-hidden
     transition-colors duration-300
-    hover:bg-white
+    hover:bg-white hover:text-white
   "
                   >
                     {/* Chocolate wave */}
@@ -308,7 +308,7 @@ export default function HeroDatesExact() {
                       className="
       relative z-10 flex h-7 w-7 items-center justify-center
       transition-transform duration-300
-      group-hover:translate-x-1
+      group-hover:translate-x-1 
     "
                     >
                       <img
@@ -326,9 +326,9 @@ export default function HeroDatesExact() {
 
                   <motion.span
                     whileHover={{ x: 6 }}
-                    className="flex items-center gap-2 text-sm font-semibold text-white hover:text-white transition cursor-pointer"
+                    className="flex items-center gap-2 text-lg font-semibold text-white hover:text-white transition cursor-pointer"
                   >
-                    View Details →
+                    🌿 View Details →
                   </motion.span>
                 </div>
 

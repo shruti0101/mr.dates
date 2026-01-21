@@ -37,7 +37,7 @@ export default function CategorySlider() {
 
     <div className="mb-12 text-center">
   <h2 className="text-2xl md:text-[66px] uppercase font-extrabold text-black">
-    Timeless Taste of Authentic Dates
+    Timeless Taste of Authentic Dates 🌿
   </h2>
  
 </div>

@@ -114,7 +114,7 @@ export default function BestsellerSection() {
               "
             >
               <span className="block text-sm tracking-[0.3em] uppercase text-white/90">
-                Best Sellers
+                Best Sellers ⭐
               </span>
 
               <h1 className="heading-condensed text-[2.5rem] sm:text-[3.2rem] lg:text-[5.1rem] font-bold tracking-[1.5px] leading-tight">

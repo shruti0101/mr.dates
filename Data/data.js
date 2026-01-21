@@ -24,6 +24,12 @@ excerpt: "Ajwa Dates – Cultivated in the sun-drenched Jordan Valley, our Ajwa 
 
 variety:"Ajwa Dates",
 
+packaging:[
+  { type:"box", weight:"50g" },
+  { type:"box", weight:"1kg" },
+  { type:"box", weight:"5kg" },
+],
+
         description: [
           {
             type: "h2",
@@ -73,6 +79,8 @@ variety:"Ajwa Dates",
           excerpt:"Sukkari Dates – Naturally Sweet & Soft",
 
 variety:"Sukkari Dates",
+
+
 
 
         description: [

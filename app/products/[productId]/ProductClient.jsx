@@ -36,26 +36,26 @@ export default function ProductPage({ params }) {
 
       {/* MAIN */}
 
-      <section className="bg-[#FDFBF7]  mt-6">
+      <section className="bg-[#FDFBF7]  mt-2">
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start">
           {/* ================= LEFT IMAGE ================= */}
        
            
 
-            <div className=" overflow-hidden ">
+            <div className="md:sticky top-0 overflow-hidden ">
               <Image
                 src={product.image.src}
-                alt="Imperial Medjool Dates"
+                alt={product.image.alt || product.name}
                 width={500}
                 height={300}
-                className="  object-contain"
+                className="  object-cover"
                 priority
               />
             </div>
         
 
           {/* ================= RIGHT CONTENT ================= */}
-          <div className="mt-10">
+          <div className="mt-17">
       
             {/* Title */}
             <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b]">
@@ -64,7 +64,7 @@ export default function ProductPage({ params }) {
 
             {/* Tagline */}
             <p className="mt-2 text-lg italic text-[#7a7a7a] ">
-              “The Diamond of Dates”
+              “The Diamond of Dates 🌴”
             </p>
 
             {/* Description */}
@@ -75,6 +75,55 @@ export default function ProductPage({ params }) {
             {/* Divider */}
             <div className="mt-6 w-full h-px bg-[#e6e1da]" />
 
+
+            {/* ================= SELECT PACKAGING ================= */}
+<div className="mt-8 max-w-xl">
+  {/* Header */}
+  <div className="flex items-center justify-between mb-4">
+    <h3 className="text-sm tracking-[0.25em] uppercase text-black">
+      Select Packaging 📦
+    </h3>
+
+ 
+  </div>
+
+
+{Array.isArray(product.packaging) && product.packaging.length > 0 && (
+  <>
+    {/* Options */}
+    <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      {product.packaging.map((pack, index) => (
+        <button
+          key={index}
+          className={`rounded-xl p-5 text-left transition
+            ${
+              index === 1
+                ? "border-2 border-[#8b2d36] bg-[#f6efe5]"
+                : "border border-[#e2d6c6] bg-white hover:border-[#8b2d36]"
+            }`}
+        >
+          <span className="block text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
+            {pack.type}
+          </span>
+
+          <span className="block mt-3 text-2xl font-serif text-[#6b1f2b]">
+            {pack.weight}
+          </span>
+
+          {pack.price && (
+            <span className="block mt-2 text-sm text-[#6b1f2b]">
+              {pack.price}
+            </span>
+          )}
+        </button>
+      ))}
+    </div>
+  </>
+)}
+
+</div>
+
+
             {/* ================= ORDER QUANTITY ================= */}
             <div className="mt-7 bg-[#f6efe5] rounded-2xl p-6 max-w-xl">
               {/* Quantity Row */}
@@ -83,20 +132,12 @@ export default function ProductPage({ params }) {
                   Contact to Order
                 </span>
 
-                <div className="flex items-center border border-[#e2d6c6] rounded-lg overflow-hidden bg-white">
-                  {/* <button className="w-12 h-12 flex items-center justify-center text-xl text-[#7a1f2b]">
-        –
-      </button>
-
-      <span className="w-16 text-center text-xl font-medium text-[#7a1f2b]">
-        50
-      </span> */}
-
-                  {/* <button className="w-12 h-12 flex items-center justify-center text-xl text-[#7a1f2b]">
-        +
-      </button> */}
-                </div>
+              
               </div>
+
+
+
+
 
               {/* Divider */}
               <div className="my-4 h-px bg-[#e2d6c6]" />
@@ -200,11 +241,11 @@ export default function ProductPage({ params }) {
           {/* ================= LEFT CONTENT ================= */}
           <div>
             <span className="block text-sm tracking-[0.25em] text-black uppercase mb-4">
-              The Details
+          Crafted Details 🌿
             </span>
 
             <h2 className="text-[80px] leading-tight  text-[#6b1f2b]">
-              Exquisite Profile
+          Product Attributes
             </h2>
 
             {/* Meta Info */}
@@ -235,7 +276,7 @@ export default function ProductPage({ params }) {
             </div>
 
             {/* ================= PRODUCT DESCRIPTION ================= */}
-            <div className="mt-10 space-y-8 max-w-xl">
+            <div className=" mt-10 space-y-8 max-w-xl">
               {product.description.map((block, index) => {
                 switch (block.type) {
                   case "h2":
@@ -278,7 +319,7 @@ export default function ProductPage({ params }) {
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className="bg-white relative rounded-3xl p-12  shadow-sm h-160">
+          <div className=" md:sticky top-20 bg-white relative rounded-3xl p-12  shadow-sm h-160">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg
@@ -331,7 +372,7 @@ export default function ProductPage({ params }) {
       <section className="bg-[#FDFBF7]  py-20">
         <div className="max-w-7xl mx-auto px-6 ">
           {/* Section Header */}
-          <p className="italic text-[#b0895a] mb-3">Curated Selection</p>
+          <p className="italic text-[#b0895a] mb-3">Curated Selection 🤎</p>
 
           <h2 className="text-[36px] md:text-[56px] font-serif text-[#6b1f2b] mb-10">
             You May Also Desire

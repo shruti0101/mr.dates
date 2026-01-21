@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Lenis from "@studio-freight/lenis";
+
 import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -14,22 +14,7 @@ export default function AboutSection() {
   const imgMid = useRef(null);
   const imgBack = useRef(null);
 
-  /* ---------------- LENIS ---------------- */
-  useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.08,
-      smoothWheel: true,
-    });
 
-    const raf = (time) => {
-      lenis.raf(time);
-      ScrollTrigger.update();
-      requestAnimationFrame(raf);
-    };
-
-    requestAnimationFrame(raf);
-    return () => lenis.destroy();
-  }, []);
 
   /* ---------------- GSAP (DESKTOP ONLY) ---------------- */
   useEffect(() => {
@@ -46,9 +31,7 @@ export default function AboutSection() {
           start: "top top",
           end: "+=140%",
           scrub: true,
-          pin: true,
-          pinSpacing: false,
-          pinType: "transform",
+        
           force3D: true,
         },
       });
@@ -56,7 +39,7 @@ export default function AboutSection() {
       tl.to(
         imgMid.current,
         {
-          y: 120,
+          y: 180,
           scale: 0.97,
           opacity: 0.85,
           ease: "none",
@@ -67,7 +50,7 @@ export default function AboutSection() {
       tl.to(
         imgBack.current,
         {
-          y: 60,
+          y: 140,
           opacity: 0.6,
           ease: "none",
         },
@@ -81,7 +64,7 @@ export default function AboutSection() {
         duration: 0.8,
         scrollTrigger: {
           trigger: aboutRef.current,
-          start: "top 65%",
+          start: "top 95%",
         },
       });
     }, aboutRef);
@@ -95,14 +78,15 @@ export default function AboutSection() {
       style={{ backgroundImage: "url(/aboutbg.jpg)" }}
       className="
         relative bg-cover bg-center overflow-hidden
-        py-16 md:py-20
-        min-h-[auto] lg:h-[900px]
+        py-16 
+        min-h-[auto] lg:h-[110vh] 
+      
       "
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#8A592D]/80 z-0" />
 
-      <div className="relative z-10 mx-auto w-full px-4 sm:px-6 md:px-10">
+      <div className="relative z-10 mx-auto w-full px-4 sm:px-6 md:px-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
           {/* LEFT IMAGES */}

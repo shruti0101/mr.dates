@@ -26,7 +26,7 @@ export default function LeadingDatesSupplier() {
               Leading Dates Supplier
             </h1>
 
-            <p className="text-black text-[19px] leading-7 mb-5">
+            <p className="text-black text-[21px] leading-7 mb-5">
               <strong>Mr. Dates</strong> is a trusted and professional{" "}
               <strong>dates supplier</strong> offering{" "}
               <strong>premium dates, bulk dates,</strong> and{" "}
@@ -38,7 +38,7 @@ export default function LeadingDatesSupplier() {
               standards.
             </p>
 
-            <p className="text-black text-[19px] leading-7 mb-5">
+            <p className="text-black text-[21px] leading-7 mb-5">
               As an experienced <strong>dates supplier</strong>, we source our
               products from trusted farms and process them under strict hygiene
               standards to preserve natural sweetness, rich flavor, and
@@ -48,7 +48,7 @@ export default function LeadingDatesSupplier() {
               supply.</strong>
             </p>
 
-            <p className="text-black text-[19px] leading-7">
+            <p className="text-black text-[21px] leading-7">
               We specialize in <strong>bulk dates supply</strong> and{" "}
               <strong>wholesale dates distribution</strong>, ensuring consistent
               quality, competitive pricing, and reliable service. Whether you
@@ -96,6 +96,7 @@ export default function LeadingDatesSupplier() {
                     show: { opacity: 1, x: 0 },
                   }}
                   transition={{ duration: 0.5 }}
+                  className="text-xl"
                 >
                   • {item}
                 </motion.li>

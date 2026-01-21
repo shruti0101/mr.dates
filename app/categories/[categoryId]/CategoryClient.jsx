@@ -61,7 +61,7 @@ export default function CategoryPage({ category }) {
                   return (
                     <li key={cat.id}>
                       <Link
-                        href={`/category/${cat.id}`}
+                        href={`/categories/${cat.id}`}
                         className={`group flex items-center justify-between
                         rounded-xl px-4 py-3 transition-all
                         ${

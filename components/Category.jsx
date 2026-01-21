@@ -60,7 +60,7 @@ const Category = () => {
       className="relative py-20 overflow-hidden [perspective:1200px] bg-cover bg-center"
     >
 
-  <div className="absolute inset-0 bg-black/35 "></div>
+  <div className="absolute inset-0 bg-black/25 "></div>
 
       {/* Decorative Leaves */}
       <motion.div

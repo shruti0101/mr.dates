@@ -42,7 +42,7 @@ export default function ProductPage({ params }) {
        
            
 
-            <div className="md:sticky top-0 overflow-hidden ">
+            <div className="md:sticky top-0 mt-11 overflow-hidden ">
               <Image
                 src={product.image.src}
                 alt={product.image.alt || product.name}

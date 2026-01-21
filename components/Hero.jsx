@@ -3,16 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from "@studio-freight/lenis";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-gsap.registerPlugin(MotionPathPlugin);
-
-import Lenis from "@studio-freight/lenis";
-
-gsap.registerPlugin(ScrollTrigger);
-
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// ✅ Register only once, in correct order
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 
 const products = [
@@ -23,7 +19,7 @@ const products = [
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
   {
-    title: " Kalmi Dates",
+    title: "Kalmi Dates",
     main: "/testimg2.png",
     thumb: "/img2.png",
     desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
@@ -32,7 +28,7 @@ const products = [
     title: "Ajwa Dates",
     main: "/testimg3.png",
     thumb: "/img6.png",
-    desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste ",
+    desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste",
   },
   {
     title: "Classic Dates",
@@ -57,99 +53,93 @@ export default function HeroDatesExact() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [visibleIndex, setVisibleIndex] = useState(0);
 
-  
-
-
   const bgImages = [
-  "/check10.png",
-  "/check11.png",
-  "/check12.png",
-  "/check13.png",
-   "/check12.png",
+    "/check10.png",
+    "/check11.png",
+    "/check12.png",
+    "/check13.png",
+    "/check12.png",
+  ];
 
-];
-
-  /* ================= ARC + THUMB POSITION ================= */
+  /* ✅ GSAP THUMBS */
   useEffect(() => {
-    const spacing = 0.2;
-    let lastActive = -1;
+    const ctx = gsap.context(() => {
+      const spacing = 0.2;
+      let lastActive = -1;
 
-    gsap.to(driver.current, {
-      progress: 1,
-      duration: 16,
-      repeat: -1,
-      ease: "none",
-      onUpdate: () => {
-        if (isAnimating.current) return;
-
- 
-        const base = gsap.utils.wrap(0, 1, driver.current.progress);
-
-        thumbRefs.current.forEach((el, i) => {
-          if (!el) return;
-
-          let p = base - i * spacing;
-          p = gsap.utils.wrap(0, 1, p);
-
-          gsap.set(el, {
-            motionPath: {
-              path: "#arcPath",
-              align: "#arcPath",
-              alignOrigin: [0.5, 0.5],
-              start: p,
-              end: p,
-            },
-            force3D: true,
-          });
-
-          if (Math.abs(p - 0.5) < 0.012 && lastActive !== i) {
-            lastActive = i;
-            setActiveIndex(i);
-          }
-        });
-      },
-    });
-
-    return () => gsap.killTweensOf(driver.current);
-  }, []);
-
-  /* ---------------- LENIS SMOOTH SCROLL ---------------- */
-  useEffect(() => {
-    const lenis = new Lenis({
-      smooth: true,
-      lerp: 0.08,
-    });
-
-    function raf(time) {
-      lenis.raf(time);
-      ScrollTrigger.update();
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-  }, []);
-
-  /* ================= CONTINUOUS THUMB ROTATION ================= */
-  useEffect(() => {
-    thumbRefs.current.forEach((el) => {
-      if (!el) return;
-
-      gsap.to(el, {
-        rotate: 360,
-        duration: 30,
+      gsap.to(driver.current, {
+        progress: 1,
+        duration: 16,
         repeat: -1,
         ease: "none",
-        transformOrigin: "50% 50%",
-        force3D: true,
+        onUpdate: () => {
+          if (isAnimating.current) return;
+
+          const base = gsap.utils.wrap(0, 1, driver.current.progress);
+
+          thumbRefs.current.forEach((el, i) => {
+            if (!el) return;
+
+            let p = base - i * spacing;
+            p = gsap.utils.wrap(0, 1, p);
+
+            gsap.set(el, {
+              motionPath: {
+                path: "#arcPath",
+                align: "#arcPath",
+                alignOrigin: [0.5, 0.5],
+                start: p,
+                end: p,
+              },
+            });
+
+            if (Math.abs(p - 0.5) < 0.012 && lastActive !== i) {
+              lastActive = i;
+              setActiveIndex(i);
+            }
+          });
+        },
+      });
+
+      thumbRefs.current.forEach((el) => {
+        if (!el) return;
+        gsap.to(el, {
+          rotate: 360,
+          duration: 30,
+          repeat: -1,
+          ease: "none",
+          transformOrigin: "50% 50%",
+        });
       });
     });
 
+    return () => ctx.revert();
+  }, []);
+
+  /* ✅ LENIS (proper RAF cancel) */
+  useEffect(() => {
+    const lenis = new Lenis({
+      smoothWheel: true,
+      lerp: 0.08,
+    });
+
+    let rafId;
+
+    const raf = (time) => {
+      lenis.raf(time);
+      ScrollTrigger.update();
+      rafId = requestAnimationFrame(raf); // ✅ IMPORTANT
+    };
+
+    rafId = requestAnimationFrame(raf);
+
     return () => {
-      thumbRefs.current.forEach((el) => el && gsap.killTweensOf(el));
+      cancelAnimationFrame(rafId);
+      lenis.destroy();
     };
   }, []);
 
-  /* ================= MAIN IMAGE EXIT ================= */
+  /* ✅ MAIN IMAGE EXIT */
   useEffect(() => {
     if (activeIndex === visibleIndex) return;
 
@@ -171,9 +161,9 @@ export default function HeroDatesExact() {
         isAnimating.current = false;
       },
     });
-  }, [activeIndex]);
+  }, [activeIndex, visibleIndex]);
 
-  /* ================= MAIN IMAGE ENTER ================= */
+  /* ✅ MAIN IMAGE ENTER */
   useEffect(() => {
     const img = imageRef.current;
     if (!img) return;
@@ -182,12 +172,7 @@ export default function HeroDatesExact() {
 
     gsap.fromTo(
       img,
-      {
-        opacity: 0,
-        x: 300,
-        rotate: 16,
-        scale: 0.9,
-      },
+      { opacity: 0, x: 300, rotate: 16, scale: 0.9 },
       {
         opacity: 1,
         x: 0,
@@ -201,14 +186,11 @@ export default function HeroDatesExact() {
 
   return (
     <>
-      <section
-  style={{
-    backgroundImage: `url(${bgImages[activeIndex]})`,
-  }}
-  className="h-[70vh] md:h-[110vh]  relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
->
-
-        <div className="absolute inset-0 bg-black/50"></div>
+    <section
+      style={{ backgroundImage: `url(${bgImages[activeIndex]})` }}
+      className="h-[70vh] md:h-[110vh] relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
+    >
+      <div className="absolute inset-0 bg-black/50" />
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -229,7 +211,7 @@ export default function HeroDatesExact() {
                     transition={{ duration: 0.9 }}
                     className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-sm font-semibold tracking-wide text-black"
                   >
-                    Premium Farm Select 🤎
+                    Premium Farm Select
                   </motion.span>
                 </AnimatePresence>
 
@@ -275,12 +257,12 @@ export default function HeroDatesExact() {
     px-7 py-3
     rounded-full
       bg-white
-    text-black text-md font-medium tracking-wide
+    text-black text-sm font-medium tracking-wide
    
    
     overflow-hidden
     transition-colors duration-300
-    hover:bg-white hover:text-white
+    hover:bg-white
   "
                   >
                     {/* Chocolate wave */}
@@ -308,7 +290,7 @@ export default function HeroDatesExact() {
                       className="
       relative z-10 flex h-7 w-7 items-center justify-center
       transition-transform duration-300
-      group-hover:translate-x-1 
+      group-hover:translate-x-1
     "
                     >
                       <img
@@ -326,9 +308,9 @@ export default function HeroDatesExact() {
 
                   <motion.span
                     whileHover={{ x: 6 }}
-                    className="flex items-center gap-2 text-lg font-semibold text-white hover:text-white transition cursor-pointer"
+                    className="flex items-center gap-2 text-sm font-semibold text-white hover:text-white transition cursor-pointer"
                   >
-                    🌿 View Details →
+                    View Details →
                   </motion.span>
                 </div>
 
@@ -354,15 +336,6 @@ export default function HeroDatesExact() {
                 height={760}
                 className="absolute  z-30 right-20 -top-20 animate-pulse"
                 src="/leaf2.png"
-                alt=""
-              />
-
-
-                <Image
-                width={100}
-                height={160}
-                className="absolute  z-30 right-25 top-10 animate-pulse"
-                src="/gurantee.png"
                 alt=""
               />
 
@@ -406,21 +379,21 @@ export default function HeroDatesExact() {
               </div>
 
               <motion.div
-                className="relative z-10 w-[500px]"
+                className="relative z-10 w-[570px]"
                 whileHover={{ scale: 1.03, y: -6 }}
                 transition={{ type: "spring", stiffness: 120, damping: 18 }}
               >
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="w-[500] will-change-transform"
+                  className="w-[700] will-change-transform"
                   alt=""
                   draggable={false}
                 />
               </motion.div>
 
               {/* <motion.div
-              className="w-[700px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-white/10 z-5"
+              className="w-[900px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-[#F1F9F5]/30 z-5"
               animate={{ scale: [1, 1.04, 1] }}
               transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
             /> */}

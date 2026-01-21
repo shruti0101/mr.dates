@@ -82,7 +82,7 @@ export default function HeroDatesExact() {
       onUpdate: () => {
         if (isAnimating.current) return;
 
-        // 🔥 FIX: smooth wrapping (no jump at last → first)
+ 
         const base = gsap.utils.wrap(0, 1, driver.current.progress);
 
         thumbRefs.current.forEach((el, i) => {
@@ -205,7 +205,7 @@ export default function HeroDatesExact() {
   style={{
     backgroundImage: `url(${bgImages[activeIndex]})`,
   }}
-  className="h-[70vh] md:h-[100vh]  relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
+  className="h-[70vh] md:h-[110vh]  relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
 >
 
         <div className="absolute inset-0 bg-black/50"></div>
@@ -357,6 +357,15 @@ export default function HeroDatesExact() {
                 alt=""
               />
 
+
+                <Image
+                width={100}
+                height={160}
+                className="absolute  z-30 right-25 top-10 animate-pulse"
+                src="/gurantee.png"
+                alt=""
+              />
+
               <svg
                 viewBox="0 0 500 500"
                 className="absolute left-[-210px] z-10 top-1/2 -translate-y-1/2 w-[600px]"
@@ -397,21 +406,21 @@ export default function HeroDatesExact() {
               </div>
 
               <motion.div
-                className="relative z-10 w-[570px]"
+                className="relative z-10 w-[500px]"
                 whileHover={{ scale: 1.03, y: -6 }}
                 transition={{ type: "spring", stiffness: 120, damping: 18 }}
               >
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="w-[700] will-change-transform"
+                  className="w-[500] will-change-transform"
                   alt=""
                   draggable={false}
                 />
               </motion.div>
 
               {/* <motion.div
-              className="w-[900px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-[#F1F9F5]/30 z-5"
+              className="w-[700px] h-[600px] absolute left-1/2 -translate-x-1/2 rounded-full bg-white/10 z-5"
               animate={{ scale: [1, 1.04, 1] }}
               transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
             /> */}

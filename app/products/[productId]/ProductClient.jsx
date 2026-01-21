@@ -36,65 +36,49 @@ export default function ProductPage({ params }) {
 
       {/* MAIN */}
 
-      <section className="bg-[#FDFBF7] py-10  mt-20">
-        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-20 items-start">
+      <section className="bg-[#FDFBF7]  mt-6">
+        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start">
           {/* ================= LEFT IMAGE ================= */}
-          <div className="relative">
-            {/* Badge */}
-            <div className="absolute top-6 left-6 z-10 ">
-              <span className="block bg-[#7a1f2b] text-white text-xs tracking-wide px-4 py-2">
-                Grand Reserve
-              </span>
-            </div>
+       
+           
 
             <div className=" overflow-hidden ">
               <Image
                 src={product.image.src}
                 alt="Imperial Medjool Dates"
-                width={800}
-                height={800}
-                className="w-full  object-cover"
+                width={500}
+                height={300}
+                className="  object-contain"
                 priority
               />
             </div>
-          </div>
+        
 
           {/* ================= RIGHT CONTENT ================= */}
-          <div className="pt-4">
-            {/* Reviews */}
-            <div className="flex items-center gap-3 text-sm text-[#9c9c9c]">
-              <div className="flex gap-[2px] text-[#c9a24d]">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} size={14} fill="currentColor" />
-                ))}
-              </div>
-              <span className="uppercase tracking-widest text-xs">
-                128 Reviews
-              </span>
-            </div>
-
+          <div className="mt-10">
+      
             {/* Title */}
             <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b]">
               {product.name}
             </h1>
 
             {/* Tagline */}
-            <p className="mt-4 text-lg italic text-[#7a7a7a] ">
+            <p className="mt-2 text-lg italic text-[#7a7a7a] ">
               “The Diamond of Dates”
             </p>
 
             {/* Description */}
-            <p className="mt-8 max-w-xl text-[23px] leading-[1.5] text-black">
+            <p className="mt-3 max-w-xl text-[20px] leading-[1.5] text-black">
               {product.excerpt}
             </p>
 
             {/* Divider */}
-            <div className="mt-10 w-full h-px bg-[#e6e1da]" />
+            <div className="mt-6 w-full h-px bg-[#e6e1da]" />
 
             {/* ================= ORDER QUANTITY ================= */}
-            <div className="mt-8 bg-[#f6efe5] rounded-2xl p-8 max-w-xl">
+            <div className="mt-7 bg-[#f6efe5] rounded-2xl p-6 max-w-xl">
               {/* Quantity Row */}
-              <div className="flex items-center justify-between">
+              <div className="flex  items-center justify-between">
                 <span className="text-base text-[#3b3b3b]">
                   Contact to Order
                 </span>
@@ -115,22 +99,27 @@ export default function ProductPage({ params }) {
               </div>
 
               {/* Divider */}
-              <div className="my-6 h-px bg-[#e2d6c6]" />
+              <div className="my-4 h-px bg-[#e2d6c6]" />
 
-              {/* CTA Button */}
-              <button className="w-full cursor-pointer bg-[#8b2d36] text-white py-4 rounded-xl text-md tracking-[0.25em] flex items-center justify-center gap-4 hover:bg-[#7a1f2b] transition">
+              <div className="flex flex-row gap-4">
+   {/* CTA Button */}
+              <button className="w-full cursor-pointer bg-[#8b2d36] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 hover:bg-[#7a1f2b] transition">
                 REQUEST QUOTE
                 <span className="text-xl">→</span>
               </button>
 
-              <button className="w-full cursor-pointer mt-2 bg-[#1c7e26] text-white py-4 rounded-xl text-md tracking-[0.25em] flex items-center justify-center gap-4 transition animate-pulse">
+              <button className="w-full cursor-pointer  bg-[#1c7e26] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 transition ">
                 WHATSAPP US
                 <span className="text-xl">→</span>
               </button>
+
+              </div>
+
+           
             </div>
 
             {/* ================= PRODUCT HIGHLIGHTS ================= */}
-            <div className="mt-10 pt-10 border-t border-[#e6e1da]">
+            <div className="mt-10 pt-10 border-t border-[#e6e1da] mb-7">
               <div className="grid grid-cols-3 items-center text-center">
                 {/* Organic */}
                 <div className="flex flex-col items-center gap-4">
@@ -152,7 +141,7 @@ export default function ProductPage({ params }) {
                 </div>
 
                 {/* Divider */}
-                <div className="absolute left-1/3 h-10 w-px bg-[#e6e1da]" />
+        
 
                 {/* Grade A */}
                 <div className="flex flex-col items-center gap-4 relative">
@@ -170,13 +159,13 @@ export default function ProductPage({ params }) {
                       <path d="M12 6.5l1 2 2 .3-1.5 1.5.4 2.2-1.9-1-1.9 1 .4-2.2L9 8.8l2-.3 1-2Z" />
                     </svg>
                   </div>
-                  <span className="text-xs tracking-[0.25em] text-[#6b170d]">
-                    GRADE A
+                 <span className="text-xs tracking-[0.25em] text-[#6b170d]">
+                 BEST QUALTIY
                   </span>
                 </div>
 
-                {/* Divider */}
-                <div className="absolute left-2/3 h-10 w-px bg-[#e6e1da]" />
+          
+          
 
                 {/* Global Ship */}
                 <div className="flex flex-col items-center gap-4">
@@ -219,7 +208,7 @@ export default function ProductPage({ params }) {
             </h2>
 
             {/* Meta Info */}
-            <div className="mt-10 grid grid-cols-2 gap-x-16 gap-y-12">
+            <div className="relative mt-10 grid grid-cols-2 gap-x-16 gap-y-12">
               <div className="flex gap-4">
                 <div className="w-px bg-[#d2b48c]" />
                 <div>
@@ -289,7 +278,7 @@ export default function ProductPage({ params }) {
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className="bg-white rounded-3xl p-12  shadow-sm h-160">
+          <div className="bg-white relative rounded-3xl p-12  shadow-sm h-160">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg

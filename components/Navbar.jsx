@@ -37,7 +37,7 @@ const navTextClass = isSingleProduct ? "text-black" : "text-white";
     transition-colors duration-500
     ${
       isSingleProduct
-        ? "bg-[#FDFBF7] text-black shadow-lg"
+        ? "bg-[#FDFBF7] text-black shadow-lg "
         : scrolled
         ? "bg-black/40 backdrop-blur-md shadow-lg"
         : "bg-transparent"
@@ -45,9 +45,24 @@ const navTextClass = isSingleProduct ? "text-black" : "text-white";
   `}
 >
 
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-1">
+
 
           {/* LOGO */}
+
+          {
+isSingleProduct ? (
+              <Link href="/">
+                <Image
+                  src="/logo-black.png"
+                  alt="Brand Logo"
+                  width={100}
+                  height={40}
+                  className="object-contain" 
+                />
+              </Link>
+            ) : (   
+          
           <Link href="/">
             <Image
               src="/logooo.png"
@@ -57,6 +72,9 @@ const navTextClass = isSingleProduct ? "text-black" : "text-white";
               className="object-contain"
             />
           </Link>
+            )
+          }
+            
 
           {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">

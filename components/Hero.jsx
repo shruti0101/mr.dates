@@ -330,7 +330,7 @@ export default function HeroDatesExact() {
             </div>
 
             {/* RIGHT VISUAL */}
-            <div className="hidden xl:flex relative h-[460px] items-center justify-end">
+            <div className="hidden md:flex relative h-[460px] items-center justify-end">
               <Image
                 width={650}
                 height={760}
@@ -386,7 +386,7 @@ export default function HeroDatesExact() {
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className=" w-[700] will-change-transform"
+                  className="md:w-[400] xl:w-[700] will-change-transform"
                   alt=""
                   draggable={false}
                 />

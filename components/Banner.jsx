@@ -32,7 +32,7 @@ export default function Hero() {
   return (
     <>
       {/* DESKTOP */}
-      <section className="relative  bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] lg:h-[80vh] overflow-hidden">
+      <section className="relative  bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] xl:h-[80vh] overflow-hidden">
         <AnimatePresence mode="sync">
           <motion.div
             key={index}

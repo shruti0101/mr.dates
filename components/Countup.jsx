@@ -5,7 +5,7 @@ const Countup = () => {
   return (
     <section
       style={{ backgroundImage: "url(/check/bgcount.jpg)" }}
-      className="py-16 bg-cover bg-center bg-fixed bg-[#F0E0CE]"
+      className="py-16 bg-contain lg:bg-cover bg-center bg-fixed bg-[#F0E0CE]"
     >
       <div className="max-w-7xl mx-auto px-6">
         <div

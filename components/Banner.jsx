@@ -32,7 +32,7 @@ export default function Hero() {
   return (
     <>
       {/* DESKTOP */}
-      <section className="relative  w-full h-[100vh] overflow-hidden">
+      <section className="relative  bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] lg:h-[80vh] overflow-hidden">
         <AnimatePresence mode="sync">
           <motion.div
             key={index}
@@ -42,14 +42,15 @@ export default function Hero() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="absolute inset-0"
           >
-            <Image
-              src={desktopImages[index % desktopImages.length]}
-              alt="Hero banner"
+             <Image
+            src={desktopImages[index % desktopImages.length]}
+            alt="Hero banner"
             width={2000}
             height={2000}
-              priority
-              className="max-w-full  h-auto "
-            />
+            priority
+            className="max-w-full h-auto object-cover object-center"
+   
+          />
           </motion.div>
         </AnimatePresence>
       </section>

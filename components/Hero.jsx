@@ -330,7 +330,7 @@ export default function HeroDatesExact() {
             </div>
 
             {/* RIGHT VISUAL */}
-            <div className="hidden lg:flex relative h-[460px] items-center justify-end">
+            <div className="hidden xl:flex relative h-[460px] items-center justify-end">
               <Image
                 width={650}
                 height={760}

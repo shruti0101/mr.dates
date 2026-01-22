@@ -379,14 +379,14 @@ export default function HeroDatesExact() {
               </div>
 
               <motion.div
-                className="relative z-10 md:w-[350px] xl:w-[540px]"
+                className="relative z-10 md:w-[400px] xl:w-[540px]"
                 whileHover={{ scale: 1.03, y: -6 }}
                 transition={{ type: "spring", stiffness: 120, damping: 18 }}
               >
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="md:w-[440] xl:w-[600] will-change-transform"
+                  className="w-[600] will-change-transform"
                   alt=""
                   draggable={false}
                 />

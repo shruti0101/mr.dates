@@ -3,7 +3,7 @@ import HeroDatesExact from "@/components/Hero";
 import AboutSection from "@/components/About";
 import Check from "@/components/Check";
 import Category from "@/components/Category";
-// import Slider from "@/components/Slider";
+import Slider from "@/components/Slider";
 import Countup from "@/components/Countup";
 import Whychoose from "@/components/Whychoose"
 import Banner from "@/components/Banner";
@@ -19,7 +19,7 @@ export default function Home() {
   return (
   <>
   <HeroDatesExact></HeroDatesExact>
-   {/* <Slider></Slider> */}
+   <Slider></Slider>
   <AboutSection></AboutSection>
   <Check></Check>
     <Category></Category>

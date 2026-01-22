@@ -61,7 +61,7 @@ export default function Check() {
   }, [spacerHeight]);
 
   return (
-    <section ref={sectionRef} className="lg:hidden block relative bg-white">
+    <section ref={sectionRef} className="block lg:hidden xl:block relative bg-white">
       <div className="mx-auto max-w-7xl px-6">
         {/* ✅ sticky pin */}
         <div className="lg:sticky lg:top-0 lg:h-screen flex items-center">

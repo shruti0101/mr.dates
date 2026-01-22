@@ -104,7 +104,7 @@ export default function Check() {
         </div>
 
         {/* ✅ exact pin duration spacer (180% vh) */}
-        <div className="hidden lg:block" style={{ height: spacerHeight }} />
+        <div className="hidden xl:block" style={{ height: spacerHeight }} />
       </div>
     </section>
   );

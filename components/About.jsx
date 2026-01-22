@@ -111,7 +111,7 @@ export default function AboutSection() {
                 src="/banner/2.png"
                 alt="Premium Dates"
                 fill
-                className="object-cover"
+                className="max-w-full h-auto object-cover"
               />
             </div>
 
@@ -127,7 +127,7 @@ export default function AboutSection() {
                 src="/about2.avif"
                 alt="Luxury Dates"
                 fill
-                className="object-cover"
+                className="max-w-full h-auto object-cover"
               />
             </div>
           </motion.div>

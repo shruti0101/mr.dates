@@ -386,7 +386,7 @@ export default function HeroDatesExact() {
                 <img
                   ref={imageRef}
                   src={products[visibleIndex].main}
-                  className="w-[700] will-change-transform"
+                  className="w-[400] lg:w-[700] will-change-transform"
                   alt=""
                   draggable={false}
                 />

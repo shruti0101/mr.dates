@@ -109,11 +109,11 @@ isSingleProduct ? (
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute left-1/2 top-full mt-8 w-[880px]
+                    className="absolute left-1/2 top-full mt-8 w-[980px]
                       -translate-x-1/2 rounded-3xl bg-white p-10
                       shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
-                    <div className="grid grid-cols-4 gap-8">
+                    <div className="grid grid-cols-5 gap-6">
                       {categories.map((cat) => (
                         <Link
                           key={cat.id}
@@ -124,12 +124,13 @@ isSingleProduct ? (
                             <Image
                               src={cat.image}
                               alt={cat.name}
-                              fill
-                              className="object-contain p-6 transition-transform duration-500 group-hover:scale-125"
+                              width={600}
+                              height={600}
+                              className="object-cover p-6 transition-transform duration-500 group-hover:scale-125"
                             />
                           </div>
 
-                          <h4 className="mt-4 text-sm text-center font-semibold text-black">
+                          <h4 className="mt-4 tracking-[1.2] text-xl text-center font-bold text-black">
                             {cat.name}
                           </h4>
                         </Link>

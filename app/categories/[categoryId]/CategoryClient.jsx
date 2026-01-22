@@ -44,14 +44,14 @@ export default function CategoryPage({ category }) {
 
       {/* ================= CONTENT ================= */}
       <section className="bg-[#faf7ef] py-24">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-16">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-20">
 
           {/* ========= SIDEBAR ========= */}
           <aside className="hidden lg:block">
             <div className="sticky top-28 space-y-8">
 
-              <h3 className="font-serif text-lg tracking-wide text-[#3b2a10]">
-                Categories
+              <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
+                Our Category 
               </h3>
 
               <ul className="space-y-2">
@@ -70,7 +70,7 @@ export default function CategoryPage({ category }) {
                             : "text-[#5a4320] hover:bg-[#efe3c8]"
                         }`}
                       >
-                        <span className="font-medium tracking-wide">
+                        <span className="font-medium text-2xl tracking-wide">
                           {cat.name}
                         </span>
 

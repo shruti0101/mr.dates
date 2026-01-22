@@ -14,31 +14,31 @@ gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 const products = [
   {
     title: "Healthy Dates",
-    main: "/testimg.png",
+    main: "/products/kimia6.webp",
     thumb: "/img1.png",
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
   {
     title: "Kalmi Dates",
-    main: "/testimg2.png",
+    main: "/products/anjeer.webp",
     thumb: "/img2.png",
     desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
   },
   {
     title: "Ajwa Dates",
-    main: "/testimg3.png",
+    main: "/products/self2.webp",
     thumb: "/img6.png",
     desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste",
   },
   {
     title: "Classic Dates",
-    main: "/img4.png",
+    main: "/products/self1.webp",
     thumb: "/img4.png",
     desc: "As a trusted dates supplier, we bring you these Classic Dates, perfect for daily consumption. They deliver balanced sweetness and a satisfying chew, naturally fresh and versatile—ideal for snacking or culinary use.",
   },
   {
     title: "Dry Fruits Mix",
-    main: "/img5.png",
+    main: "/products/self3.webp",
     thumb: "/img5.png",
     desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
   },

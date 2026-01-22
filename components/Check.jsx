@@ -61,7 +61,7 @@ export default function Check() {
   }, [spacerHeight]);
 
   return (
-    <section ref={sectionRef} className="relative bg-white">
+    <section ref={sectionRef} className="lg:hidden block relative bg-white">
       <div className="mx-auto max-w-7xl px-6">
         {/* ✅ sticky pin */}
         <div className="lg:sticky lg:top-0 lg:h-screen flex items-center">
@@ -104,7 +104,7 @@ export default function Check() {
         </div>
 
         {/* ✅ exact pin duration spacer (180% vh) */}
-        <div className="hidden xl:block" style={{ height: spacerHeight }} />
+        <div className="hidden lg:block" style={{ height: spacerHeight }} />
       </div>
     </section>
   );

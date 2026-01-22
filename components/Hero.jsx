@@ -26,13 +26,13 @@ const products = [
   },
   {
     title: "Ajwa Dates",
-    main: "/products/self2.webp",
+    main: "/testimg.png",
     thumb: "/img6.png",
     desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste",
   },
   {
     title: "Classic Dates",
-    main: "/products/self1.webp",
+    main: "/testimg3.png",
     thumb: "/img4.png",
     desc: "As a trusted dates supplier, we bring you these Classic Dates, perfect for daily consumption. They deliver balanced sweetness and a satisfying chew, naturally fresh and versatile—ideal for snacking or culinary use.",
   },

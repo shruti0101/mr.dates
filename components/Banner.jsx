@@ -32,7 +32,7 @@ export default function Hero() {
   return (
     <>
       {/* DESKTOP */}
-      <section className="relative hidden md:block w-full h-[80vh] overflow-hidden">
+      <section className="relative  w-full h-[80vh] overflow-hidden">
         <AnimatePresence mode="sync">
           <motion.div
             key={index}
@@ -45,16 +45,17 @@ export default function Hero() {
             <Image
               src={desktopImages[index % desktopImages.length]}
               alt="Hero banner"
-              fill
+            width={2000}
+            height={2000}
               priority
-              className="object-cover"
+              className="max-w-full  h-auto "
             />
           </motion.div>
         </AnimatePresence>
       </section>
 
       {/* MOBILE */}
-      <section className="relative md:hidden w-full h-[50vh] overflow-hidden">
+      {/* <section className="relative md:hidden w-full h-[50vh] overflow-hidden">
         <AnimatePresence mode="sync">
           <motion.div
             key={`mobile-${index}`}
@@ -73,7 +74,7 @@ export default function Hero() {
             />
           </motion.div>
         </AnimatePresence>
-      </section>
+      </section> */}
     </>
   );
 }

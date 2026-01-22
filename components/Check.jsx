@@ -76,8 +76,7 @@ export default function Check() {
               </h1>
 
               <p className="text-base sm:text-xl leading-relaxed max-w-md text-black">
-                As a trusted <strong>dates supplier, Mr. Dates</strong> offers premium
-                dates hand-selected for richness, purity, and exceptional taste.
+             As a trusted <strong>dates supplier</strong>  , <strong> Mr. Dates  </strong>offers premium dates such as Medjoul Dates , Kalmi Dates , and Tunisian Dates , hand-selected for richness, purity, and exceptional taste. Our collection also includes Dry Fruits Mix , Almonds, Cashews , Walnuts , Pistachios , and wholesome healthy snacks, perfect for daily use, gifting, or bulk orders.
               </p>
             </div>
 

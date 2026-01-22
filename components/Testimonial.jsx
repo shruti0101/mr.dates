@@ -40,7 +40,7 @@ const testimonials = [
 
 export default function TestimonialsSlider() {
   return (
-    <section className="bg-[#EFDECC]  py-10 overflow-hidden">
+    <section className="bg-[#EFDECC]  overflow-hidden">
       <div className="mx-auto max-w-6xl px-6">
 
         {/* Heading */}

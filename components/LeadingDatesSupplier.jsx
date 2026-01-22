@@ -12,7 +12,7 @@ export default function LeadingDatesSupplier() {
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="mx-auto w-full px-18">
+      <div className="mx-auto w-full px-4 md:px-18">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
           {/* LEFT CONTENT */}

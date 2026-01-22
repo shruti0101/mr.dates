@@ -42,7 +42,7 @@ export default function Check() {
           id: "check-sticky-pin",
           trigger: sectionRef.current,
           start: "top top",
-          end: `+=${Math.round(window.innerHeight * 1.8)}`, // ✅ EXACT 180%
+          end: `+=${Math.round(window.innerHeight * 1.8)}`, 
           scrub: true,
           invalidateOnRefresh: true,
         },
@@ -103,7 +103,7 @@ export default function Check() {
           </div>
         </div>
 
-        {/* ✅ exact pin duration spacer (180% vh) */}
+       
         <div className="hidden lg:block" style={{ height: spacerHeight }} />
       </div>
     </section>

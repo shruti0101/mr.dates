@@ -32,7 +32,7 @@ export default function CategorySlider() {
     <>
 
     
-    <section className="py-18 bg-white">
+    <section className="py-18 bg-white overflow-hidden">
 
 
     <div className="mb-12 text-center">

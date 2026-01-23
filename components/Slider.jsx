@@ -74,7 +74,7 @@ export default function CategorySlider() {
   );
 }
 
-/* ================= 3D CARD ================= */
+
 
 function Card3D({ item, isActive }) {
   const x = useMotionValue(0);
@@ -134,7 +134,7 @@ function Card3D({ item, isActive }) {
         />
       </motion.div>
 
-      {/* TITLE (TOP LAYER – FIXED) */}
+     
       <div className="absolute bottom-0 left-0 right-0 p-6 translate-z-[120px] z-20">
         <motion.h3
           animate={{ letterSpacing: isActive ? "0.08em" : "0.02em" }}

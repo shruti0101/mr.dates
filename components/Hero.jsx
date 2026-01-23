@@ -42,6 +42,13 @@ const products = [
     thumb: "/img5.png",
     desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
   },
+
+  {
+    title: "Arabian Dates",
+    main: "/products/arabiandelight.webp",
+    thumb: "/img5.png",
+    desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
+  },
 ];
 
 export default function HeroDatesExact() {

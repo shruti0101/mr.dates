@@ -43,12 +43,12 @@ const products = [
     desc: "As a premium dates supplier, we offer Medjool Dates known for their large size, soft juicy texture, and naturally rich sweetness. A perfect choice for gifting, retail packs, and bulk supply with premium quality assurance.",
   },
 
-  {
-    title: "Arabian Dates",
-    main: "/heroimg.png",
-    thumb: "/img5.png",
-    desc: "As a trusted dates supplier, we offer authentic Arabian Dates with rich natural sweetness and a soft, satisfying texture. Ideal for daily consumption, gifting, and bulk supply—carefully packed to preserve taste and freshness.",
-  },
+  // {
+  //   title: "Arabian Dates",
+  //   main: "/heroimg.png",
+  //   thumb: "/img5.png",
+  //   desc: "As a trusted dates supplier, we offer authentic Arabian Dates with rich natural sweetness and a soft, satisfying texture. Ideal for daily consumption, gifting, and bulk supply—carefully packed to preserve taste and freshness.",
+  // },
 ];
 
 

@@ -319,7 +319,7 @@ export default function ProductPage({ params }) {
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className=" md:sticky top-20 bg-white relative rounded-3xl p-12  shadow-sm h-160">
+          <div className=" md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-200">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg
@@ -343,10 +343,10 @@ export default function ProductPage({ params }) {
               Product Specifications
             </h3>
 
-            <p className="mt-2 text-sm text-[#8b7b6a]">Key Product Details</p>
+            <p className="mt-2 text-sm text-[#8b7b6a]">Key Product Details 📜</p>
 
             {/* ================= SPECS TABLE ================= */}
-            <div className="mt-10 space-y-6 text-[16px]">
+            <div className="mt-5 space-y-4 text-[16px]">
               {product.specs.map((spec, index) => (
                 <div
                   key={index}

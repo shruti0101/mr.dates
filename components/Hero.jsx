@@ -26,7 +26,7 @@ const products = [
   },
   {
     title: "Ajwa Dates",
-    main: "/testimg.png",
+    main: "/heroimg2.png",
     thumb: "/img6.png",
     desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste",
   },
@@ -45,7 +45,7 @@ const products = [
 
   {
     title: "Arabian Dates",
-    main: "/products/arabiandelight.webp",
+    main: "/heroimg.png",
     thumb: "/img5.png",
     desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
   },

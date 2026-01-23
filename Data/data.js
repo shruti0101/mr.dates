@@ -4332,7 +4332,7 @@ variety:"Other Dates",
   ],
 
   image: {
-    src: "/products/aalu.webp",
+    src: "/products/alu.webp",
     alt: "Premium Aalu Dates",
   },
 },

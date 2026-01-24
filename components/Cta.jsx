@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Cta = () => {
   return (
@@ -112,9 +113,9 @@ const Cta = () => {
                 />
               </span>
 
-              <span className="relative z-10 font-poppins">
+              <Link href="/contact" className="relative z-10 font-poppins">
                 Contact Us
-              </span>
+              </Link>
             </motion.button>
 
             {/* BUTTON 2 */}

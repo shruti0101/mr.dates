@@ -1,7 +1,7 @@
 'use client'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -32,10 +32,11 @@ const Category = () => {
   };
 
   const category = [
-    { title: "Mejdool  Dates", image: "/category/1.png" },
-    { title: "Kalmi Dates", image: "/category/2.png" },
-    { title: "Dry Kimia Dates", image: "/category/3.png" },
-    { title: "Kimia Gold Dates", image: "/category/4.png" },
+    { title: "Ajwa Dates", image: "/products/ajwa3.webp",link:"/categories/ajwa-dates" },
+ 
+    { title: "Barari Dates", image: "/products/brarichocolate.webp" , link:"/categories/barari-dates" },
+    { title: " Kimia Dates", image: "/products/kimia1.webp",link:"/categories/kimia-dates" },
+    { title: "Kalmi Dates", image: "/products/kalmi3.webp",link: "/categories/kalmi-gold-dates" },
     // { title: "sukkari Dates", image: "/category/2.png" },
   ];
 
@@ -124,7 +125,9 @@ const Category = () => {
         </motion.p>
 
         {/* Cards */}
+        
         <motion.div
+
           variants={containerVariants}
           initial="hidden"
           whileInView="show"
@@ -132,7 +135,10 @@ const Category = () => {
           className="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 mt-20"
         >
           {category.map((item, index) => (
+            <Link key={index} href={item.link} className="block">
             <motion.div
+            link={item.link}
+             
               key={index}
               variants={cardVariants}
               whileHover={{ y: -10, rotateX: 4, rotateY: -4, scale: 1.02 }}
@@ -142,13 +148,13 @@ const Category = () => {
               <div className="absolute inset-0 rounded-2xl ring-1 ring-black/5 pointer-events-none" />
 
               {/* Image */}
-              <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5 border-[5px] border-white max-w-[220px]">
+              <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5 border-[5px] border-white max-w-[230px]">
                 <Image
                   src={item.image}
                   alt={item.title}
-                  width={500}
-                  height={400}
-                  className="object-cover"
+                  width={600}
+                  height={600}
+                  className="object-cover bg-white"
                 />
               </div>
 
@@ -160,13 +166,15 @@ const Category = () => {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 transition={{ duration: 0.2 }}
-                className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-md font-medium py-2.5 rounded-full shadow-sm font-poppins"
+                className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-md font-medium py-2.5 rounded-full shadow-sm "
               >
                 Visit Category
               </motion.button>
             </motion.div>
+            </Link>
           ))}
         </motion.div>
+
 
         {/* Bottom CTA */}
         <motion.div
@@ -180,9 +188,9 @@ const Category = () => {
             <span className="relative z-10 flex h-7 w-7">
               <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
             </span>
-            <span className="relative z-10 ">
+            <Link href="/products" className="relative z-10 ">
               Explore All Categories
-            </span>
+            </Link>
           </button>
         </motion.div>
       </div>

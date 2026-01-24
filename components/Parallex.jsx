@@ -2,40 +2,40 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import Link from "next/link";
 export default function BestsellerSection() {
-  const flowers = [
-    {
-      name: "AJWA DATES",
-      image: "/banner/2.png",
-      desc:
-        "Premium Ajwa Dates known for their rich taste, soft texture, and natural nutritional benefits. A customer favorite for daily consumption, gifting, and wellness-focused buyers.",
-    },
-    {
-      name: "MEDJOOL DATES",
-      image: "/banner/1.png",
-      desc:
-        "Often called the King of Dates, Medjool Dates are large, juicy, and naturally sweet. Perfect for premium gifting, retail shelves, and bulk supply.",
-    },
-    {
-      name: "MABROOM DATES",
-      image: "/banner/3.png",
-      desc:
-        "Mabroom Dates offer a mildly sweet flavor with a firm yet chewy texture. A popular choice among customers who prefer authentic and traditional dates.",
-    },
-    {
-      name: "SAFAWI DATES",
-      image: "/banner/4.png",
-      desc:
-        "Dark, soft, and rich in flavor, Safawi Dates are ideal for everyday use. Known for their long shelf life and consistent quality.",
-    },
-    {
-      name: "KALMI DATES",
-      image: "/banner/1.png",
-      desc:
-        "Kalmi Dates are valued for their balanced sweetness and soft bite. Hygienically processed and carefully packed for retail and wholesale buyers.",
-    },
-  ];
+const flowers = [
+  {
+    name: "AJWA DATES",
+    image: "/banner/2.png",
+    desc:
+      "Premium Ajwa Dates are cherished for their deep, rich flavor, soft texture, and high nutritional value. Sourced from Madinah, they are highly sought after for daily consumption, gifting, and wellness-focused buyers.",
+  },
+  {
+    name: "MEDJOOL DATES",
+    image: "/banner/1.png",
+    desc:
+      "Often called the King of Dates, Medjool Dates are large, juicy, and naturally caramel-sweet. Their luxurious texture makes them perfect for premium gifting, retail displays, and bulk supply.",
+  },
+  {
+    name: "KIMIA DATES",
+    image: "/banner/31.png",
+    desc:
+      "Kimia Dates are known for their soft, moist texture and rich sweetness. These glossy dark dates are a favorite for snacking, desserts, and high-end retail packaging.",
+  },
+  {
+    name: "BARARI DATES",
+    image: "/banner/41.png",
+    desc:
+      "Barari Dates are premium quality dates valued for their freshness, natural sweetness, and soft bite. Carefully selected and hygienically packed, they are ideal for both retail and wholesale markets.",
+  },
+  {
+    name: "ARABIAN DATES",
+    image: "/banner/1.png",
+    desc:
+      "Arabian Dates represent a curated selection of the finest varieties from the Middle East, known for their rich taste, natural energy, and superior quality — perfect for everyday use and special occasions.",
+  },
+];
 
   const [index, setIndex] = useState(0);
   const timerRef = useRef(null);
@@ -98,13 +98,18 @@ export default function BestsellerSection() {
                 {current.desc}
               </p>
 
-              <motion.button
+<Link href="/products">
+
+  <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="mx-auto lg:mx-0 inline-flex bg-white text-black px-8 py-3 rounded-full font-semibold shadow-lg"
               >
                 Explore More
               </motion.button>
+</Link>
+
+            
             </motion.div>
           </AnimatePresence>
 

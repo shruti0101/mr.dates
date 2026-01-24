@@ -48,17 +48,23 @@ export default function Footer() {
             </p>
           </div>
 
+
+         
+
+
+          
           {/* QUICK LINKS */}
           <div>
             <h3 className="font-serif font-semibold text-xl mb-4">
               Quick Links
             </h3>
-            <ul className="space-y-3 text-sm">
+            <ul className="space-y-3 text-sm md:text-base tracking-wider">
               {[
                 ["Home", "/"],
-                ["About Us", "/about-us"],
+                ["About Us", "/about"],
                 ["Blogs", "/blogs"],
-                ["Contact Us", "/contact-us"],
+                ["Contact Us", "/contact"],
+                ["Products", "/products"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <Link
@@ -72,30 +78,40 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* PRODUCTS */}
+
+
+
+
+
+ {/* PRODUCTS */}
           <div>
             <h3 className="font-serif font-semibold text-xl mb-4">
               Our Products
             </h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                "Premium Dates",
-                "Ajwa & Kalmi Dates",
-                "Almonds & Cashews",
-                "Raisins & Dry Fruits",
-                "Gift & Combo Packs",
-              ].map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+        <ul className="space-y-3 text-sm md:text-base tracking-wider">
+  {[
+    { name: "Kalmi Dates", link: "/categories/kalmi-dates" },
+    { name: "Ajwa Dates", link: "/categories/ajwa-dates" },
+    { name: "Barari Dates", link: "/categories/barari-dates" },
+    { name: "Dry Fruits", link: "/categories/dry-fruits" },
+    { name: "Kimia Dates", link: "/categories/kimia-dates" },
+    { name: "Mr. Dates Products", link: "/categories/mr-dates-products" },
+    { name: "Other Products", link: "/categories/other-products" },
+  ].map((item) => (
+    <li key={item.name}>
+      <Link
+        href={item.link}
+        className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+      >
+        {item.name}
+      </Link>
+    </li>
+  ))}
+</ul>
           </div>
+
+
+
 
           {/* CONTACT */}
        <div>
@@ -164,12 +180,12 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p>© 2025 Mr. Dates. All Rights Reserved.</p>
             <p>
-              Website Designed By{" "}
+Website Designed By Promozione Branding Pvt. Ltd. {"  "}
               <a
                 href="https://promozionebranding.com/"
                 className="underline underline-offset-4 text-amber-500"
               >
-                Promozione Branding Pvt. Ltd.
+                Website Designing Company
               </a>
             </p>
           </div>

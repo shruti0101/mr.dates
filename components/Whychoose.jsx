@@ -4,14 +4,14 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 import "swiper/css";
 
 const images = [
   "/banner/1.png",
   "/banner/2.png",
-  "/banner/3.png",
-  "/banner/4.png",
+  "/banner/31.png",
+  "/banner/41.png",
   "/banner/5.png",
 ];
 
@@ -159,9 +159,9 @@ export default function AboutStoreSection() {
                   <img src="/date.png" alt="Date fruit" className="h-9 w-9 object-contain" />
                 </span>
 
-                <span className="relative z-10 font-poppins">
+                <Link href="/about" className="relative z-10 font-poppins">
                   Explore Mr. Dates
-                </span>
+                </Link>
               </motion.button>
             </div>
           </motion.div>

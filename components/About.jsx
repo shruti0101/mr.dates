@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -187,7 +187,7 @@ export default function AboutSection() {
                 <img src="/date.png" alt="Date fruit" className="h-10 w-10 object-contain" />
               </span>
 
-              <span className="relative z-10 text-md">Shop Now</span>
+              <Link href="/products" className="relative z-10 text-md">Shop Now</Link>
             </button>
           </div>
 

@@ -155,7 +155,7 @@ isSingleProduct ? (
               </AnimatePresence>
             </div>
 
-            {["Blogs", "Bulk Order", "Contact"].map((item) => (
+            {["Blogs",  "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}

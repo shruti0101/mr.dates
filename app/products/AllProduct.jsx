@@ -94,7 +94,7 @@ const Page = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-5 text-center">
+                <div className="p-7 mt-2 text-center">
                   <h2 className="text-base md:text-lg font-semibold text-gray-900 leading-snug">
                     {product.name}
                   </h2>

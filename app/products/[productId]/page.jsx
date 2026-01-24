@@ -1,17 +1,27 @@
 import { categories } from "@/Data/data";
 import ProductClient from "./ProductClient";
 
-// ✅ Dynamic metadata for each product
 export async function generateMetadata({ params }) {
-  const { productId } = params;
+  // ✅ NEW: await params
+  const { productId } = await params;
 
-  const allProducts = categories.flatMap((c) => c.products);
-  const product = allProducts.find((p) => p.id === productId);
+  if (!productId) {
+    return {
+      title: "Premium Dates Collection | Mr. Dates",
+      description: "Explore our wide range of high-quality dates.",
+    };
+  }
+
+  const allProducts = categories.flatMap((c) => c.products || []);
+
+  const product = allProducts.find(
+    (p) => p?.id?.toLowerCase() === productId.toLowerCase()
+  );
 
   if (!product) {
     return {
-      title: "Product Not Found",
-      description: "The requested product could not be found.",
+      title: "Premium Dates Collection | Mr. Dates",
+      description: "Explore our wide range of high-quality dates.",
     };
   }
 
@@ -21,12 +31,11 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: product.metaTitle || product.name,
       description: product.metaDescription || product.name,
-      images: [product.image],
+      images: [product.image?.src || product.image],
     },
   };
 }
 
-// ✅ Render client component
 export default function Page({ params }) {
   return <ProductClient params={params} />;
 }

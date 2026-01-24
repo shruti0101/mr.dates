@@ -101,7 +101,7 @@ export default function CategoryPage({ category }) {
       className="group block"
     >
       {/* IMAGE */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-lg bg-black/20 border-1 border-[#6b1f2b]">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b]">
 
         {/* Badge (optional) */}
         {product.badge && (

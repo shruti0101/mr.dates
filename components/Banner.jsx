@@ -7,8 +7,8 @@ import Image from "next/image";
 /* Images */
 const desktopImages = [
   "/banner/slider1.png",
-  "/banner/slider2.png",
-  "/banner/slider3.png",
+  // "/banner/slider2.png",
+  // "/banner/slider3.png",
 ];
 
 // const mobileImages = [
@@ -32,7 +32,7 @@ export default function Hero() {
   return (
     <>
       {/* DESKTOP */}
-      <section className="relative  bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] xl:h-[80vh] overflow-hidden">
+      <section className="relative   bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] xl:h-[80vh] overflow-hidden">
         <AnimatePresence mode="sync">
           <motion.div
             key={index}
@@ -40,7 +40,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="absolute inset-0"
+            className="absolute inset-0 "
           >
              <Image
             src={desktopImages[index % desktopImages.length]}
@@ -48,7 +48,7 @@ export default function Hero() {
             width={2000}
             height={2000}
             priority
-            className="max-w-full h-auto object-cover object-center"
+            className="max-w-full h-auto object-cover object-center "
    
           />
           </motion.div>

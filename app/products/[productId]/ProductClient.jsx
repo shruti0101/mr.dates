@@ -49,7 +49,7 @@ export default function ProductPage({ params }) {
             />
           </div>
 
-          {/* ================= RIGHT CONTENT ================= */}
+{/* right content */}
           <div className="mt-17 max-md:mt-0">
             {/* Title */}
             <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b] max-md:text-[44px] max-md:mt-4">

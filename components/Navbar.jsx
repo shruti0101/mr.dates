@@ -79,7 +79,21 @@ isSingleProduct ? (
           {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
-            {[ "About"].map((item) => (
+
+
+ {["Home" ].map((item) => (
+              <Link
+                key={item}
+                href="/"
+                className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
+              >
+                {item}
+              </Link>
+            ))}
+
+
+
+            {["About"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}

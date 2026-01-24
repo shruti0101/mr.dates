@@ -50,68 +50,16 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Aman Kalmi Dates, premium-grade dates supplied by a professional Dates Supplier",
-        "Variety: Ajwa Dates, one of the most popular and nutritionally valued date varieties",
-        "Related Varieties: Kalmi Dates, commonly preferred for their soft texture and balanced sweetness",
-        "Category: Premium Natural Dates for retail, wholesale, and export",
-        "Quality Grade: Export quality with uniform color, size, and moisture level",
-        "Processing Method: Hand-sorted, hygienically cleaned, and quality-checked by an experienced Dates Supplier",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Rich and mildly sweet taste derived from natural sugars without any artificial additives",
-        "Balanced sweetness makes these dates suitable for regular consumption and special occasions",
-        "Smooth and pleasant flavor profile similar to premium Ajwa Dates and Kalmi Dates",
-        "Preferred by customers seeking traditional, authentic date taste",
-      ],
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and moist texture that remains fresh for extended periods",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally smooth surface with no excessive stickiness",
-        "Maintains optimal softness when stored under recommended conditions",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and large-volume buyers",
-        "Custom packing solutions offered for retail branding and private labeling",
-        "Food-grade, export-standard packaging used to maintain freshness and hygiene",
-        "Packaging designed to protect dates during long-distance transport",
-      ],
-    },
+
+  
+
+  
 
     {
       type: "h2",
@@ -209,68 +157,10 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+   
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Barkat Kalmi Dates, premium dates supplied by an experienced Dates Supplier",
-        "Variety: Sukkari Dates, valued for their naturally sweet taste and tender texture",
-        "Related Varieties: Kalmi Dates, with market relevance similar to Ajwa Dates, Medjool Dates, and Mabroom Dates",
-        "Category: Natural Dates suitable for retail, wholesale, and international export",
-        "Quality Grade: Export-quality with consistent size, color, softness, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to meet global standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor developed from high natural sugar content",
-        "Smooth and rich taste without artificial sweeteners or preservatives",
-        "Balanced sweetness makes it suitable for consumers who enjoy Sukkari Dates and Medjool Dates",
-        "Pleasant taste profile that appeals to both traditional and modern consumers",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture similar to premium Wet Dates",
-        "Easy to chew and digest, making it suitable for children and elderly consumers",
-        "Naturally moist consistency maintained through controlled processing and packaging",
-        "Can also be supplied in slightly drier or semi-soft grades based on buyer requirements",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and large-volume buyers",
-        "Custom packing solutions offered for retail branding, private labels, and export markets",
-        "Food-grade, export-compliant packaging materials used to preserve freshness",
-        "Options available for loose dates, packed dates, and processing-grade supply such as Seedless Dates",
-      ],
-    },
+ 
+  
 
     {
       type: "h2",
@@ -372,68 +262,8 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Green Kalmi Dates, premium-quality dates supplied by a reliable Dates Supplier",
-        "Variety: Sukkari Dates, widely appreciated for their natural sweetness and tender bite",
-        "Related Varieties: Kalmi Dates with market relevance similar to Ajwa Dates, Medjool Dates, and Mabroom Dates",
-        "Category: Natural Dates suitable for retail, wholesale, and international export",
-        "Quality Grade: Export-quality dates with consistent size, color, softness, and moisture content",
-        "Processing Method: Hygienically cleaned, carefully hand-sorted, and quality-inspected to meet global standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor developed from high natural sugar content",
-        "Clean, smooth taste without artificial sweeteners or preservatives",
-        "Balanced sweetness preferred by consumers who enjoy Sukkari Dates and Medjool Dates",
-        "Pleasant flavor profile suitable for regular consumption and festive occasions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture offering a premium mouthfeel",
-        "Easy to chew and digest, suitable for children and elderly consumers",
-        "Naturally moist consistency comparable to high-quality Wet Dates",
-        "Maintains softness and freshness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging options available for wholesalers, distributors, and export buyers",
-        "Custom packing solutions available for retail branding and private-label requirements",
-        "Food-grade and export-compliant packaging materials used to preserve freshness",
-        "Can also be supplied in processing-ready formats, including Seedless Dates, upon request",
-      ],
-    },
 
     {
       type: "h2",
@@ -537,68 +367,7 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Royal Palm Kalmi Dates, premium dates supplied by a reliable Dates Supplier",
-        "Variety: Sukkari Dates, widely valued for their naturally sweet flavor and tender texture",
-        "Related Category: Kalmi Dates with premium grading similar to Ajwa Dates, Medjool Dates, and Mabroom Dates",
-        "Category: Natural Dates suitable for retail, wholesale, and international export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture balance",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-inspected to meet global standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Clean, smooth taste with no artificial sweeteners or preservatives",
-        "Balanced sweetness preferred by consumers who enjoy Sukkari Dates and Medjool Dates",
-        "Suitable for daily consumption as well as festive and gifting occasions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture that enhances the overall eating experience",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist consistency comparable to premium Wet Dates",
-        "Retains softness and freshness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and large-volume buyers",
-        "Custom packing options offered for retail branding and private labeling",
-        "Food-grade and export-standard packaging materials used to preserve quality",
-        "Options available for processing-grade supply, including Seedless Dates, upon request",
-      ],
-    },
+  
 
     {
       type: "h2",
@@ -725,68 +494,7 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Barari Chocolate Dates, premium-grade dates supplied by a professional Dates Supplier",
-        "Variety: Ajwa Dates, known for its superior taste, soft texture, and rich natural sweetness",
-        "Related Varieties: Comparable to Medjool Dates, Mabroom Dates, and other luxury date varieties",
-        "Category: Natural premium dates suitable for retail, wholesale, and export markets",
-        "Quality Grade: Export-quality dates with uniform size, color, and moisture balance",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain the integrity of flavor and texture",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally rich and mildly sweet flavor with a distinct chocolate-like aroma",
-        "Balanced sweetness that appeals to a wide audience, suitable for both snacking and culinary use",
-        "Free from artificial sweeteners or preservatives, retaining the authentic taste of Barari Dates",
-        "Often preferred by consumers seeking premium dates with a luxurious taste profile",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and moist texture that provides a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Retains optimal moisture and tenderness for extended shelf life",
-        "Comparable to soft varieties such as Wet Dates while maintaining the firmness preferred in Seedless Dates for processing",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesale buyers, distributors, and export markets",
-        "Custom packaging solutions offered for retail branding and private labels",
-        "Food-grade, export-standard packaging materials used to preserve freshness and quality",
-        "Can be supplied in loose, vacuum-packed, or processing-ready formats, including Seedless Dates, based on buyer requirements",
-      ],
-    },
 
     {
       type: "h2",
@@ -888,69 +596,7 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Barari Guchchi Dates, premium-grade dates supplied by an experienced Dates Supplier",
-        "Variety: Sukkari Dates, known for their naturally sweet flavor and soft, tender texture",
-        "Related Varieties: Comparable to Kalmi Dates, Ajwa Dates, and Medjool Dates in quality and consumer appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export markets",
-        "Quality Grade: Export-quality dates with consistent size, color, softness, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to ensure premium quality",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, balanced sweetness preferred by consumers who enjoy Sukkari Dates and Medjool Dates",
-        "Free from artificial additives or preservatives, ensuring authentic taste",
-        "Popular choice for both daily consumption and gifting purposes",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture ideal for snacking and culinary use",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to premium Wet Dates",
-        "Maintains optimal freshness and tenderness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and large-volume buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-compliant packaging materials used to preserve quality and hygiene",
-        "Can also be supplied in processing-ready formats, including Seedless Dates, for bakery and food production purposes",
-      ],
-    },
-
+   
     {
       type: "h2",
       text: "Key Features",
@@ -1051,68 +697,7 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Barari Medjool Jumbo Dates, premium-grade dates supplied by an experienced Dates Supplier",
-        "Variety: Sukkari Dates, widely appreciated for natural sweetness and large, tender size",
-        "Related Varieties: Comparable to Medjool Dates, Ajwa Dates, and Mabroom Dates in premium quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export markets",
-        "Quality Grade: Export-quality, consistently uniform in size, color, and moisture",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to ensure freshness and consistency",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Balanced sweetness with rich, mellow notes preferred by consumers of Medjool Dates and Sukkari Dates",
-        "Free from artificial additives or preservatives, ensuring authentic taste",
-        "Ideal for snacking, desserts, and culinary use",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture offering a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and juicy, comparable to premium Wet Dates",
-        "Maintains freshness and softness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packaging options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to maintain freshness and hygiene",
-        "Can be supplied in processing-ready formats including Seedless Dates for bakery, confectionery, or industrial use",
-      ],
-    },
+  
 
     {
       type: "h2",
@@ -1214,68 +799,6 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Barari Sukhari Dates, premium-grade dates supplied by a professional Dates Supplier",
-        "Variety: Sukkari Dates, renowned for their natural sweetness and soft, tender texture",
-        "Related Varieties: Comparable to Kalmi Dates, Ajwa Dates, and Medjool Dates in premium quality and consumer preference",
-        "Category: Natural premium dates suitable for retail, wholesale, and export markets",
-        "Quality Grade: Export-quality dates with uniform size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-inspected to ensure consistency and freshness",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth and rich taste without artificial additives or preservatives",
-        "Balanced sweetness ideal for consumers who enjoy Sukkari Dates, Medjool Dates, and Mabroom Dates",
-        "Suitable for snacking, gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for children and elderly consumers",
-        "Naturally moist and comparable to soft Wet Dates",
-        "Maintains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and large-volume buyers",
-        "Custom packing options available for retail branding and private-label requirements",
-        "Food-grade and export-compliant packaging materials used to preserve freshness and hygiene",
-        "Can also be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -1398,72 +921,7 @@ export const categories = [
           ],
         },
 
-        {
-          type: "h2",
-          text: "Product Specifications",
-        },
-
-        {
-          type: "h3",
-          text: "Key Product Details",
-        },
-        {
-          type: "ul",
-          items: [
-            "Product Name: Kimia Bam Dates, premium dates supplied by a reliable Dates Supplier",
-            "Variety: Bam Dates (Kimia Dates), known for ultra-soft texture and rich natural sweetness",
-            "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-            "Category: Premium soft Wet Dates for retail, wholesale, and export",
-            "Quality Grade: Export-quality with uniform size, deep dark color, and high moisture content",
-            "Processing Method: Hand-picked, hygienically cleaned, graded, and quality-inspected",
-          ],
-        },
-
-        {
-          type: "h3",
-          text: "Taste Profile",
-        },
-        {
-          type: "ul",
-          items: [
-            "Naturally sweet with deep, rich, and caramel-like flavor",
-            "Smooth and juicy sweetness preferred by premium date consumers",
-            "Free from artificial flavors, preservatives, or added sugar",
-            "Perfect for snacking, desserts, smoothies, and gourmet recipes",
-            "Popular among customers who enjoy premium Medjool Dates and Ajwa Dates",
-          ],
-        },
-
-        {
-          type: "h3",
-          text: "Texture",
-        },
-        {
-          type: "ul",
-          items: [
-            "Extremely soft, moist, and tender texture",
-            "Juicy flesh with smooth skin and luxurious mouthfeel",
-            "Easy to chew and digest, suitable for children, adults, and elderly",
-            "Classified as premium Wet Dates due to naturally high moisture content",
-            "Retains softness and freshness when stored in cool or refrigerated conditions",
-          ],
-        },
-
-        {
-          type: "h3",
-          text: "Packaging",
-        },
-        {
-          type: "ul",
-          items: [
-            "Bulk packaging available for wholesalers, distributors, and exporters",
-            "Custom packaging options offered for private labeling, premium gifting, and retail branding",
-            "Food-grade, hygienic, and export-standard packaging used to preserve freshness",
-            "Available in chilled packaging to maintain moisture and softness",
-            "Can be supplied in Seedless Dates format for bakery, confectionery, and industrial applications",
-          ],
-        },
-
+   
         {
           type: "h2",
           text: "Key Features",
@@ -1566,71 +1024,10 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Mazafati Dates, premium dates supplied by a reliable Dates Supplier",
-        "Variety: Mazafati Dates, known for ultra-soft texture and rich natural sweetness",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-        "Category: Premium soft Wet Dates for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, deep dark color, and high moisture content",
-        "Processing Method: Hand-picked, hygienically cleaned, graded, and quality-inspected",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a deep, rich, and caramel-like flavor",
-        "Smooth, creamy sweetness preferred by premium date consumers",
-        "Free from artificial flavors, preservatives, or added sugar",
-        "Ideal for luxury snacking, desserts, smoothies, and gourmet recipes",
-        "Popular among customers who enjoy premium Medjool Dates and Ajwa Dates",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Extremely soft, moist, and tender texture",
-        "Juicy flesh with smooth skin and rich mouthfeel",
-        "Easy to chew and digest, suitable for children, adults, and elderly consumers",
-        "Classified as premium Wet Dates due to high natural moisture",
-        "Maintains softness and freshness when stored under proper refrigeration or cool storage",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and exporters",
-        "Custom packaging options offered for private labeling, premium gifting, and retail branding",
-        "Food-grade, hygienic, and export-standard packaging used to preserve freshness",
-        "Available in chilled packs to maintain softness and moisture",
-        "Can be supplied in Seedless Dates format for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -1737,71 +1134,8 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+  
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Dates Original, premium dates supplied by a reliable Dates Supplier",
-        "Variety: Original Kimia Dates, known for authentic taste and premium softness",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-        "Category: Natural premium dates for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and optimal moisture",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a rich, smooth, and balanced flavor",
-        "Authentic original Kimia taste preferred by premium date consumers",
-        "Free from artificial sweeteners, preservatives, or additives",
-        "Delicious for everyday snacking, dessert preparation, and gifting",
-        "Popular among customers who enjoy the refined sweetness of Medjool Dates and Sukkari Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Smooth outer skin with a rich, fleshy interior",
-        "Easy to chew and digest, suitable for children, adults, and elderly consumers",
-        "Comparable softness to premium Wet Dates",
-        "Retains softness and freshness when stored in recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, retailers, and international buyers",
-        "Custom packaging options offered for private labeling, gifting, and retail branding",
-        "Food-grade, hygienic, and export-standard packaging materials used",
-        "Available in retail packs, bulk cartons, and processing-ready formats",
-        "Can be supplied as Seedless Dates for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -1905,67 +1239,9 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Gold Al Emirates Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Kimia Dates, prized for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, golden-brown color, and optimal moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
+   
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with rich, smooth, and delicate flavor preferred by consumers of Kimia Dates, Sukkari Dates, and Medjool Dates",
-        "Soft, tender, and naturally moist without artificial additives or preservatives",
-        "Perfect for direct consumption, gifting, culinary use, and premium packaging",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Comparable in moisture and softness to high-quality Wet Dates",
-        "Retains freshness, tenderness, and premium quality when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -2066,67 +1342,8 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Gold Blue Tape Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Kimia Dates, prized for firm yet tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, golden-brown color, and optimal moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with rich, delicious flavor preferred by consumers of Kimia Dates, Sukkari Dates, and Medjool Dates",
-        "Soft, tender, and naturally moist without any artificial additives or preservatives",
-        "Perfect for direct consumption, gifting, culinary use, and premium packaging",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Firm yet tender flesh with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Maintains freshness, tenderness, and premium quality when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -2229,67 +1446,7 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Gold Delicious Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Kimia Dates, prized for soft, tender texture and naturally sweet, delicious flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with rich, delicious flavor preferred by consumers of Kimia Dates, Sukkari Dates, and Medjool Dates",
-        "Soft, tender, and naturally moist without any artificial additives or preservatives",
-        "Perfect for direct consumption, gifting, culinary use, and premium packaging",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Comparable in moisture and softness to high-quality Wet Dates",
-        "Retains freshness, softness, and premium quality when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -2380,6 +1537,7 @@ export const categories = [
       type: "h2",
       text: "Product Overview",
     },
+
     {
       type: "ul",
       items: [
@@ -2392,68 +1550,9 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+  
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Kimia Gold Dry Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Kimia Dates, prized for firm yet tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and consumer appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, golden-brown color, and optimal moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Kimia Dates, Sukkari Dates, and Medjool Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for direct consumption, gifting, or culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Firm yet tender flesh with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Maintains freshness and firmness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -2580,67 +1679,9 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+    
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Royal Palm Ajwa Dates, premium-grade dates supplied by a trusted Dates Supplier",
-        "Variety: Ajwa Dates, prized for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in premium quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, dark color, and optimal moisture content",
-        "Processing Method: Handpicked, hygienically cleaned, and quality-checked to maintain superior standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor with smooth, rich, and slightly earthy undertones unique to Ajwa Dates",
-        "Soft, tender, and naturally moist without artificial additives or preservatives",
-        "Perfect for direct consumption, gifting, culinary use, and religious observances",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and juicy texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Retains freshness, softness, and premium quality when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -2742,67 +1783,8 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Ajwa Premium Dates, supplied by a trusted Dates Supplier",
-        "Variety: Ajwa Dates, renowned for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in premium quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, dark color, and optimal moisture content",
-        "Processing Method: Handpicked, hygienically cleaned, and quality-checked to maintain superior standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a rich, smooth, and slightly earthy undertone unique to Ajwa Dates",
-        "Soft, tender, and naturally moist without artificial preservatives or additives",
-        "Perfect for direct consumption, gifting, culinary use, and religious observances",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and juicy texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Maintains freshness, softness, and premium quality when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -2906,67 +1888,13 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Saudi Ajwa Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Ajwa Dates, renowned for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, dark color, and optimal moisture content",
-        "Processing Method: Handpicked, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor with smooth, rich, and slightly earthy undertones unique to Ajwa Dates",
-        "Soft, tender, and naturally moist without any artificial additives or preservatives",
-        "Perfect for direct consumption, gifting, culinary use, and religious observances",
-      ],
-    },
+  
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Retains freshness and softness when stored under recommended conditions",
-      ],
-    },
+ 
+   
 
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and quality",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -3093,68 +2021,6 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Mr. Dates Zubi, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Zubi Dates, prized for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and consumer appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hand-sorted, hygienically cleaned, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Zubi Dates, Sukkari Dates, and Medjool Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for direct consumption, gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Comparable to high-quality Wet Dates in softness",
-        "Maintains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -3255,69 +2121,8 @@ export const categories = [
         "Ideal for retail, wholesale, bulk supply, gifting, and export markets",
         "Processed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, taste, and nutritional value",
       ],
-    },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Mr. Dates Fard, premium-grade dates supplied by a trusted Dates Supplier",
-        "Variety: Fard Dates, known for firm texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, and quality-inspected to maintain superior standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Fard Dates, Sukkari Dates, and Medjool Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for direct consumption, gifting, or culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Firm, meaty texture with a satisfying bite",
-        "Easy to handle, ideal for snacking, cooking, or mixing with nuts and dry fruits",
-        "Naturally moist but slightly denser than Wet Dates, making them suitable for long storage",
-        "Maintains firmness and freshness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve quality and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
     },
 
     {
@@ -3394,17 +2199,17 @@ export const categories = [
       // 3
 
     
-
+  
 
 {
-  id: "mr-dates-medjoul-jumbo",
-  name: "Mr. Dates Medjoul (Jumbo)",
-  metaTitle: "Mr. Dates Medjoul Jumbo Dates | Bulk & Export Supplier | Mr. Dates",
+  id: "mr-dates-Medjool-jumbo",
+  name: "Mr. Dates Medjool (Jumbo)",
+  metaTitle: "Mr. Dates Medjool Jumbo Dates | Bulk & Export Supplier | Mr. Dates",
   metaDescription:
-    "Buy Mr. Dates Medjoul (Jumbo) from Mr. Dates – trusted Dates Supplier. Extra-large Medjool dates with rich sweetness, soft juicy texture & premium export packing for wholesale, retail & gifting.",
+    "Buy Mr. Dates Medjool (Jumbo) from Mr. Dates – trusted Dates Supplier. Extra-large Medjool dates with rich sweetness, soft juicy texture & premium export packing for wholesale, retail & gifting.",
 
   excerpt:
-    "Mr. Dates Medjoul (Jumbo) are premium Medjool Dates supplied by a professional Dates Supplier. Extra-large, soft, and naturally sweet. Perfect for retail, gifting, and bulk distribution. Carefully packed to maintain freshness and premium quality.",
+    "Mr. Dates Medjool (Jumbo) are premium Medjool Dates supplied by a professional Dates Supplier. Extra-large, soft, and naturally sweet. Perfect for retail, gifting, and bulk distribution. Carefully packed to maintain freshness and premium quality.",
 
   variety: "Medjool Dates",
 
@@ -3416,77 +2221,17 @@ export const categories = [
     {
       type: "ul",
       items: [
-        "Mr. Dates Medjoul (Jumbo) are premium, extra-large Medjoul dates supplied by Mr. Dates, a trusted global Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
+        "Mr. Dates Medjool (Jumbo) are premium, extra-large Medjool dates supplied by Mr. Dates, a trusted global Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
         "Sourced from top-quality farms specializing in Medjool Dates, ensuring exceptional size, naturally sweet flavor, and soft, tender texture",
-        "These jumbo Medjoul dates are prized for their visually impressive size, rich sweetness, and soft, juicy consistency, perfect for snacking, gifting, and culinary applications",
+        "These jumbo Medjool dates are prized for their visually impressive size, rich sweetness, and soft, juicy consistency, perfect for snacking, gifting, and culinary applications",
         "Comparable in quality to luxury varieties such as Ajwa Dates, Mabroom Dates, and Sukkari Dates",
         "Ideal for retail, wholesale, gifting, bulk supply, and export markets",
         "Processed under strict hygiene standards by a professional Dates Supplier, preserving freshness, taste, and nutritional integrity",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Mr. Dates Medjoul (Jumbo), premium-grade dates supplied by a trusted Dates Supplier",
-        "Variety: Medjoul Dates (Jumbo), known for extra-large size, soft texture, and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in premium quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hand-sorted, hygienically cleaned, and quality-inspected to maintain superior standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Medjoul Dates, Sukkari Dates, and Mabroom Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for direct consumption, gifting, or culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, juicy, and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Maintains freshness and softness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade, export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -3495,8 +2240,8 @@ export const categories = [
     {
       type: "ul",
       items: [
-        "100% natural, preservative-free jumbo Medjoul Dates",
-        "Soft, tender, and naturally sweet Medjoul Dates supplied by a professional Dates Supplier",
+        "100% natural, preservative-free jumbo Medjool Dates",
+        "Soft, tender, and naturally sweet Medjool Dates supplied by a professional Dates Supplier",
         "Comparable quality to Ajwa Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
         "Suitable for retail, wholesale, gifting, and industrial applications",
         "Available in bulk and custom packaging for all market needs",
@@ -3539,7 +2284,7 @@ export const categories = [
   ],
 
   specs: [
-    { label: "Product Name", value: "Mr. Dates Medjoul (Jumbo)" },
+    { label: "Product Name", value: "Mr. Dates Medjool (Jumbo)" },
     { label: "Variety", value: "Medjool Dates" },
     { label: "Size Grade", value: "Jumbo" },
     { label: "Taste Profile", value: "Rich & Naturally Sweet" },
@@ -3554,21 +2299,21 @@ export const categories = [
 
   image: {
     src: "/products/self3.webp",
-    alt: "Mr. Dates Medjoul (Jumbo)",
+    alt: "Mr. Dates Medjool (Jumbo)",
   },
 },
 
 
 // 4
 {
-  id: "mr-dates-medjoul-large",
-  name: "Mr. Dates Medjoul (Large)",
-  metaTitle: "Mr. Dates Medjoul Large Dates | Bulk & Export Supplier | Mr. Dates",
+  id: "mr-dates-Medjool-large",
+  name: "Mr. Dates Medjool (Large)",
+  metaTitle: "Mr. Dates Medjool Large Dates | Bulk & Export Supplier | Mr. Dates",
   metaDescription:
-    "Buy Mr. Dates Medjoul (Large) from Mr. Dates – trusted Dates Supplier. Large Medjool dates with rich sweetness, soft juicy texture & premium export packing for wholesale, retail & gifting.",
+    "Buy Mr. Dates Medjool (Large) from Mr. Dates – trusted Dates Supplier. Large Medjool dates with rich sweetness, soft juicy texture & premium export packing for wholesale, retail & gifting.",
 
   excerpt:
-    "Mr. Dates Medjoul (Large) are high-quality Medjool Dates from a trusted Dates Supplier. Soft, sweet, and ideal for retail or wholesale supply. Perfect for gifting and everyday consumption. Packed to preserve flavor, freshness, and texture.",
+    "Mr. Dates Medjool (Large) are high-quality Medjool Dates from a trusted Dates Supplier. Soft, sweet, and ideal for retail or wholesale supply. Perfect for gifting and everyday consumption. Packed to preserve flavor, freshness, and texture.",
 
   variety: "Medjool Dates",
 
@@ -3580,77 +2325,19 @@ export const categories = [
     {
       type: "ul",
       items: [
-        "Mr. Dates Medjoul (Large) are premium, large-sized Medjoul dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
+        "Mr. Dates Medjool (Large) are premium, large-sized Medjool dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
         "Sourced from carefully selected farms known for producing high-grade Medjool Dates, ensuring natural sweetness, soft texture, and premium quality",
-        "These large Medjoul dates are valued for their soft, tender texture, naturally rich sweetness, and visually appealing jumbo size, making them ideal for snacking, gifting, and culinary use",
+        "These large Medjool dates are valued for their soft, tender texture, naturally rich sweetness, and visually appealing jumbo size, making them ideal for snacking, gifting, and culinary use",
         "Comparable in quality to other luxury varieties such as Ajwa Dates, Mabroom Dates, and Sukkari Dates",
         "Suitable for retail, wholesale, gifting, bulk supply, and export markets",
         "Processed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, superior taste, and nutritional integrity",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+  
+    
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Mr. Dates Medjoul (Large), premium-grade dates supplied by a professional Dates Supplier",
-        "Variety: Medjoul Dates, known for large size, soft texture, and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in premium quality",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with consistent size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Medjoul Dates, Sukkari Dates, and Mabroom Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Ideal for direct consumption, gifting, or culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, juicy, and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Maintains freshness and softness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -3659,8 +2346,8 @@ export const categories = [
     {
       type: "ul",
       items: [
-        "100% natural, preservative-free premium large Medjoul Dates",
-        "Soft, tender, and naturally sweet Medjoul Dates supplied by a trusted Dates Supplier",
+        "100% natural, preservative-free premium large Medjool Dates",
+        "Soft, tender, and naturally sweet Medjool Dates supplied by a trusted Dates Supplier",
         "Comparable quality to Ajwa Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
         "Suitable for retail, wholesale, gifting, and industrial applications",
         "Available in bulk and custom packaging for all market needs",
@@ -3703,7 +2390,7 @@ export const categories = [
   ],
 
   specs: [
-    { label: "Product Name", value: "Mr. Dates Medjoul (Large)" },
+    { label: "Product Name", value: "Mr. Dates Medjool (Large)" },
     { label: "Variety", value: "Medjool Dates" },
     { label: "Size Grade", value: "Large" },
     { label: "Taste Profile", value: "Rich & Naturally Sweet" },
@@ -3718,7 +2405,7 @@ export const categories = [
 
   image: {
     src: "/products/self4.webp",
-    alt: "Mr. Dates Medjoul (Large)",
+    alt: "Mr. Dates Medjool (Large)",
   },
 },
 
@@ -3776,67 +2463,10 @@ export const categories = [
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Anjeer (Dry Figs), premium-quality dry fruits supplied by a reliable Dates Supplier",
-        "Variety: Premium-grade Anjeer, handpicked for size, softness, and natural sweetness",
-        "Related Varieties: Complements premium dates like Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-        "Category: Natural dry fruits suitable for retail, wholesale, and export markets",
-        "Quality Grade: Export-quality, uniform size, color, and moisture content",
-        "Processing Method: Hand-selected, hygienically cleaned, sun-dried, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a rich, earthy flavor and mild nutty undertones",
-        "Soft, chewy, and naturally preserved without artificial preservatives or additives",
-        "Suitable for direct consumption, desserts, baking, and culinary recipes",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and chewy texture with premium mouthfeel",
-        "Ideal for snacking, adding to cereals, granola, and bakery products",
-        "Moisture retained naturally to prevent dryness while extending shelf life",
-        "Comparable to premium quality Wet Dates in softness",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packaging options offered for retail branding and private-label requirements",
-        "Food-grade, export-standard packaging materials used to preserve freshness and quality",
-        "Can be supplied in mixed packs with dates or individually as premium dry fruit packs",
-      ],
-    },
 
     {
       type: "h2",
@@ -3927,245 +2557,438 @@ export const categories = [
     products: [
 
 
+{
+  id: "arabian-delight-dates",
+  name: "Arabian Delight Dates",
+  metaTitle: "Arabian Delight Dates Supplier | Naturally Sweet Premium Dates",
+  metaDescription:
+    "Arabian Delight Dates are premium assorted mixed dates by Mr. Dates. Naturally sweet, soft & moist texture—ideal for gifting, retail, hotels, restaurants, and bulk export supply.",
+  excerpt: "Arabian Delight Dates – Premium Mixed Dates",
+
+  variety: "Other Dates",
+
+  // packaging:[
+  //   { type:"box", weight:"3 kg" },
+  //   { type:"box", weight:"1 kg" },
+  //   { type:"box", weight:"5 kg" },
+  // ],
+
+  description: [
+    {
+      type: "h2",
+      text: "Arabian Delight Dates – Product Overview",
+    },
+    {
+      type: "p",
+      text: "Arabian Delight Dates are premium-quality assorted dates supplied by Mr. Dates, a trusted global Dates Supplier known for delivering fresh, high-quality date varieties.",
+    },
+    {
+      type: "p",
+      text: "This carefully curated selection is inspired by traditional Arabian date culture, offering rich flavor, premium texture, and visual appeal.",
+    },
+    {
+      type: "p",
+      text: "It features a delightful mix of premium-grade dates comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, and Kimia Dates.",
+    },
+    {
+      type: "p",
+      text: "Known for their naturally sweet taste, soft texture, and gourmet presentation, these dates are ideal for gifting and premium consumption.",
+    },
+    {
+      type: "p",
+      text: "Perfect for festive hampers, corporate gifts, luxury retail, hotels, restaurants, and export markets.",
+    },
+    {
+      type: "p",
+      text: "Hygienically processed, graded, and packed by a professional Dates Supplier to ensure freshness, quality, and premium presentation.",
+    },
 
     {
-        id: "arabian-delight-dates",
-        name: "Arabian Delight Dates",
-        metaTitle: "Arabian Delight Dates Supplier | Naturally Sweet Premium Dates",
-        metaDescription:
-          "High-quality Hana Gold Kalute Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
-          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+      type: "h2",
+      text: "Health Benefits",
+    },
+    {
+      type: "ul",
+      items: [
+        "Provides instant natural energy from glucose and fructose",
+        "Rich in dietary fiber supporting digestion and gut health",
+        "Contains essential minerals such as potassium, magnesium, iron, and calcium",
+        "Supports heart health, stamina, immunity, and overall wellness",
+        "A healthy natural alternative to processed sweets and snacks",
+        "Ideal for fasting, daily nutrition, healthy snacking, and festive consumption",
+        "Suitable for Seedless Dates options for baking, desserts, and smoothies",
+      ],
+    },
 
-variety:"Other Dates",
+    {
+      type: "h2",
+      text: "Why Choose Mr. Dates as a Dates Supplier?",
+    },
+    {
+      type: "ul",
+      items: [
+        "Trusted and globally recognized Dates Supplier with extensive industry experience",
+        "Wide product range including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Zahidi Dates, and Arabian Delight Dates",
+        "Direct sourcing from premium farms ensures freshness, authenticity, and traceability",
+        "Strict quality control from harvest to packaging",
+        "Competitive wholesale pricing and reliable bulk supply capabilities",
+        "Strong logistics network ensuring timely domestic and international delivery",
+        "Custom packaging, private labeling, gifting, and corporate branding solutions available",
+        "Customer-focused service with long-term business partnership approach",
+      ],
+    },
+  ],
 
+  specs: [
+    { label: "Product Name", value: "Arabian Delight Dates" },
+    { label: "Variety", value: "Premium Mixed Dates" },
+    { label: "Taste Profile", value: "Rich & Naturally Sweet" },
+    { label: "Texture", value: "Soft & Moist" },
+    { label: "Color", value: "Golden Brown to Dark Brown" },
+    { label: "Seed Type", value: "Seeded" },
+    { label: "Packaging", value: "Bulk & Custom Packing Available" },
+    { label: "Quality Grade", value: "Premium / Export Quality" },
+    { label: "Usage", value: "Snacking, Gifting, Retail" },
+    { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
+  ],
 
-
-// packaging:[
-//   { type:"box", weight:"3 kg" },
-//   // { type:"box", weight:"1kg" },
-//   // { type:"box", weight:"5kg" },
-// ],
-
-
-        description: [
-          {
-            type: "h2",
-            text: "Sukkari Dates – Naturally Sweet & Soft",
-          },
-          {
-            type: "p",
-            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
-          },
-          {
-            type: "h2",
-            text: "Key Features – Sukkari Dates",
-          },
-          {
-            type: "ul",
-            items: [
-              "Naturally sweet flavor without added sugar",
-              "Soft texture with an appealing golden appearance",
-              "Carefully selected for uniform size and quality",
-              "Hygienically processed to maintain freshness",
-              "Ideal for retail shelves, gifting, and bulk orders",
-              "Trusted by wholesalers and distributors",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Variety", value: "Sukkari Dates" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Tender" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-        ],
-
-        image: {
-          src: "/products/arabiandelight.webp",
-          alt: "Fit Naaz Dates",
-        },
-      },
+  image: {
+    src: "/products/arabiandelight.webp",
+    alt: "Arabian Delight Dates",
+  },
+},
 
 
 
 
-          {
-        id: "arabian-dates",
-        name: "Arabian Dates",
-        metaTitle: "Arabian Dates Supplier | Naturally Sweet Premium Dates",
-        metaDescription:
-          "High-quality Hana Gold Kalute Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
-          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+{
+  id: "arabian-dates",
+  name: "Arabian Dates",
+  metaTitle: "Arabian Dates Supplier | Naturally Sweet Premium Dates",
+  metaDescription:
+    "Arabian Dates are premium-quality, naturally sweet dates supplied by Mr. Dates. Soft & moist texture—ideal for retail, gifting, hotels, restaurants, bulk supply, and export markets.",
+  excerpt: "Arabian Dates – Naturally Sweet & Premium",
 
-variety:"Other Dates",
+  variety: "Other Dates",
 
+  // packaging:[
+  //   { type:"box", weight:"3 kg" },
+  //   { type:"box", weight:"1 kg" },
+  //   { type:"box", weight:"5 kg" },
+  // ],
 
+  description: [
+    {
+      type: "h2",
+      text: "Arabian Dates – Product Overview",
+    },
+    {
+      type: "p",
+      text: "Arabian Dates are premium-quality dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets.",
+    },
+    {
+      type: "p",
+      text: "Carefully sourced from select farms in the Arabian region, ensuring naturally sweet flavor, soft texture, and superior quality.",
+    },
+    {
+      type: "p",
+      text: "Renowned for their rich taste, smooth flesh, and melt-in-the-mouth texture, making them ideal for snacking, gifting, and culinary use.",
+    },
+    {
+      type: "p",
+      text: "Comparable in quality to luxury date varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Zahidi Dates.",
+    },
+    {
+      type: "p",
+      text: "Suitable for retail, wholesale, bulk supply, gifting, hotels, restaurants, and export markets.",
+    },
+    {
+      type: "p",
+      text: "Hygienically processed, graded, and packed by a professional Dates Supplier to ensure freshness, quality, and nutritional value.",
+    },
 
-// packaging:[
-//   { type:"box", weight:"3 kg" },
-//   // { type:"box", weight:"1kg" },
-//   // { type:"box", weight:"5kg" },
-// ],
-
-
-        description: [
-          {
-            type: "h2",
-            text: "Sukkari Dates – Naturally Sweet & Soft",
-          },
-          {
-            type: "p",
-            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
-          },
-          {
-            type: "h2",
-            text: "Key Features – Sukkari Dates",
-          },
-          {
-            type: "ul",
-            items: [
-              "Naturally sweet flavor without added sugar",
-              "Soft texture with an appealing golden appearance",
-              "Carefully selected for uniform size and quality",
-              "Hygienically processed to maintain freshness",
-              "Ideal for retail shelves, gifting, and bulk orders",
-              "Trusted by wholesalers and distributors",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Variety", value: "Sukkari Dates" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Tender" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-        ],
-
-        image: {
-          src: "/products/arabiandates.webp",
-          alt: "Fit Naaz Dates",
-        },
-      },
-
-
-   {
-        id: "fit-naaz-dates",
-        name: "Fit Naaz Dates",
-        metaTitle: "Fit Naaz Dates Supplier | Naturally Sweet Premium Dates",
-        metaDescription:
-          "High-quality Hana Gold Kalute Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
-          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
-
-variety:"Other Dates",
+    {
+      type: "h2",
+      text: "Key Features – Arabian Dates",
+    },
+    {
+      type: "ul",
+      items: [
+        "100% natural, preservative-free premium Arabian Dates",
+        "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
+        "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, Zahidi Dates, and Kimia Dates",
+        "Suitable for retail, wholesale, gifting, hotels, and export",
+        "Available in bulk, tray packs, and custom packaging options",
+        "Maintains premium freshness, texture, and sweetness with proper storage",
+      ],
+    },
 
 
 
-// packaging:[
-//   { type:"box", weight:"3 kg" },
-//   // { type:"box", weight:"1kg" },
-//   // { type:"box", weight:"5kg" },
-// ],
+    
+    {
+      type: "h2",
+      text: "Health Benefits",
+    },
+    {
+      type: "ul",
+      items: [
+        "Provides instant natural energy from glucose and fructose",
+        "Rich in dietary fiber supporting digestion and gut health",
+        "Contains essential minerals such as potassium, magnesium, iron, and calcium",
+        "Supports heart health, stamina, immunity, and overall wellness",
+        "Ideal for fasting, daily nutrition, healthy snacking, and culinary use",
+        "Can be processed into Seedless Dates for smoothies, desserts, and baking applications",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Mr. Dates as a Dates Supplier?",
+    },
+    {
+      type: "ul",
+      items: [
+        "Trusted and globally recognized Dates Supplier with extensive experience",
+        "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Zahidi Dates, Arabian Delight Dates, and Arabian Dates",
+        "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+        "Strict quality control from harvest to packaging",
+        "Competitive wholesale pricing and reliable bulk supply capabilities",
+        "Strong logistics network ensuring timely domestic and international delivery",
+        "Custom packaging, private labeling, and gifting solutions available",
+        "Customer-focused service with long-term business partnership approach",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product Name", value: "Arabian Dates" },
+    { label: "Variety", value: "Premium Arabian Dates" },
+    { label: "Taste Profile", value: "Naturally Sweet" },
+    { label: "Texture", value: "Soft & Moist" },
+    { label: "Color", value: "Golden Brown to Dark Brown" },
+    { label: "Seed Type", value: "Seeded" },
+    { label: "Packaging", value: "Bulk & Custom Packing Available" },
+    { label: "Quality Grade", value: "Premium / Export Quality" },
+    { label: "Usage", value: "Snacking, Retail, Gifting" },
+    { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
+  ],
+
+  image: {
+    src: "/products/arabiandates.webp",
+    alt: "Arabian Dates",
+  },
+},
 
 
-        description: [
-          {
-            type: "h2",
-            text: "Sukkari Dates – Naturally Sweet & Soft",
-          },
-          {
-            type: "p",
-            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
-          },
-          {
-            type: "h2",
-            text: "Key Features – Sukkari Dates",
-          },
-          {
-            type: "ul",
-            items: [
-              "Naturally sweet flavor without added sugar",
-              "Soft texture with an appealing golden appearance",
-              "Carefully selected for uniform size and quality",
-              "Hygienically processed to maintain freshness",
-              "Ideal for retail shelves, gifting, and bulk orders",
-              "Trusted by wholesalers and distributors",
-            ],
-          },
-        ],
 
-        specs: [
-          { label: "Variety", value: "Sukkari Dates" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Tender" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-        ],
+{
+  id: "fit-naaz-dates",
+  name: "Fit Naaz Dates",
+  metaTitle: "Fit Naaz Dates Supplier | Naturally Sweet Premium Dates",
+  metaDescription:
+    "Fit Naaz Dates are premium-quality, naturally sweet dates supplied by Mr. Dates. Soft & chewy texture—ideal for healthy snacking, retail, wholesale, gifting, hotels, and export supply.",
+  excerpt: "Fit Naaz Dates – Premium Healthy Snacking Dates",
 
-        image: {
-          src: "/products/fitt2.webp",
-          alt: "Fit Naaz Dates",
-        },
-      },
+  variety: "Other Dates",
+
+  // packaging:[
+  //   { type:"box", weight:"3 kg" },
+  //   { type:"box", weight:"1 kg" },
+  //   { type:"box", weight:"5 kg" },
+  // ],
+
+  description: [
+    {
+      type: "h2",
+      text: "Fit Naaz Dates – Product Overview",
+    },
+    {
+      type: "p",
+      text: "Fit Naaz Dates are premium-quality dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets.",
+    },
+    {
+      type: "p",
+      text: "Carefully sourced from select farms to ensure superior taste, natural sweetness, and soft texture.",
+    },
+    {
+      type: "p",
+      text: "Known for their rich flavor, tender flesh, and smooth bite, making them ideal for healthy snacking, gifting, and culinary use.",
+    },
+    {
+      type: "p",
+      text: "Comparable in quality to luxury date varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates.",
+    },
+    {
+      type: "p",
+      text: "Suitable for retail, wholesale, bulk supply, gifting, corporate packages, hotels, restaurants, and export markets.",
+    },
+    {
+      type: "p",
+      text: "Processed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity.",
+    },
+
+
+
+
+ 
+
+
+    {
+      type: "h2",
+      text: "Key Features – Fit Naaz Dates",
+    },
+    {
+      type: "ul",
+      items: [
+        "100% natural, preservative-free premium Fit Naaz Dates",
+        "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
+        "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
+        "Suitable for retail, wholesale, gifting, hotels, and export",
+        "Available in bulk, tray packs, and custom packaging options",
+        "Maintains premium freshness, texture, and sweetness with proper storage",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Health Benefits",
+    },
+    {
+      type: "ul",
+      items: [
+        "Provides instant natural energy from glucose and fructose",
+        "Rich in dietary fiber supporting digestion and gut health",
+        "Contains essential minerals such as potassium, magnesium, iron, and calcium",
+        "Supports heart health, stamina, immunity, and overall wellness",
+        "Ideal for fasting, daily nutrition, healthy snacking, and fitness diets",
+        "Can be processed into Seedless Dates for smoothies, baking, and confectionery products",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Mr. Dates as a Dates Supplier?",
+    },
+    {
+      type: "ul",
+      items: [
+        "Trusted and globally recognized Dates Supplier with years of experience",
+        "Wide product range including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Fit Dates, and Fit Naaz Dates",
+        "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+        "Strict quality control from harvest to packaging",
+        "Competitive wholesale pricing and reliable bulk supply capabilities",
+        "Strong logistics network ensuring timely domestic and international delivery",
+        "Custom packaging, private labeling, and gifting solutions available",
+        "Customer-focused service with long-term business partnership approach",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product Name", value: "Fit Naaz Dates" },
+    { label: "Variety", value: "Premium Dates" },
+    { label: "Taste Profile", value: "Mildly Sweet & Natural" },
+    { label: "Texture", value: "Soft & Chewy" },
+    { label: "Color", value: "Light to Medium Brown" },
+    { label: "Seed Type", value: "Seeded" },
+    { label: "Packaging", value: "Bulk & Custom Packing Available" },
+    { label: "Quality Grade", value: "Export Quality" },
+    { label: "Usage", value: "Healthy Snacking, Retail, Wholesale" },
+    { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
+  ],
+
+  image: {
+    src: "/products/fitt2.webp",
+    alt: "Fit Naaz Dates",
+  },
+},
+
 
 
       // 12
 
-         {
-        id: "fard-loose-dates",
-        name: "Fard Loose Dates",
-        metaTitle: "Fard Loose Dates Supplier | Naturally Sweet Premium Dates",
-        metaDescription:
-          "High-quality Hana Gold Kalute Dates with golden color and soft bite. Ideal for bulk supply, retail distribution, and premium date assortments.",
-          excerpt:"Sukkari Dates – Naturally Sweet & Soft",
+     {
+  id: "fard-loose-dates",
+  name: "Fard Loose Dates",
+  metaTitle: "Fard Loose Dates Supplier | Premium Bulk Dates",
+  metaDescription:
+    "Fard Loose Dates are premium-quality bulk dates supplied by Mr. Dates. Mild sweet caramel-like taste, semi-dry & firm texture—ideal for wholesalers, retail packing, daily consumption, and export supply.",
+  excerpt: "Fard Loose Dates – Premium Bulk Supply",
 
-variety:"Other Dates",
+  variety: "Other Dates",
 
+  // packaging:[
+  //   { type:"bag", weight:"5 kg" },
+  //   { type:"bag", weight:"10 kg" },
+  //   { type:"box", weight:"3 kg" },
+  // ],
 
+  description: [
+    {
+      type: "h2",
+      text: "Fard Loose Dates – Product Overview",
+    },
+    {
+      type: "p",
+      text: "Fard Loose Dates are premium-quality dates supplied by Mr. Dates, a trusted global Dates Supplier delivering fresh, natural, and high-quality dates.",
+    },
+    {
+      type: "p",
+      text: "Sourced from select farms, these Fard Dates are known for their soft texture, natural sweetness, and premium consistency.",
+    },
+    {
+      type: "p",
+      text: "Offered in loose form for bulk buyers, wholesalers, retailers, and culinary use.",
+    },
+    {
+      type: "p",
+      text: "Comparable in quality to luxury date varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates.",
+    },
+    {
+      type: "p",
+      text: "Ideal for retail packaging, hospitality, gifting, and export markets.",
+    },
+    {
+      type: "p",
+      text: "Hygienically processed, sorted, and packed by a professional Dates Supplier, ensuring freshness and high quality.",
+    },
 
-// packaging:[
-//   { type:"box", weight:"3 kg" },
-//   // { type:"box", weight:"1kg" },
-//   // { type:"box", weight:"5kg" },
-// ],
+    {
+      type: "h2",
+      text: "Key Features – Fard Loose Dates",
+    },
+    {
+      type: "ul",
+      items: [
+        "Premium quality Fard Dates supplied in loose / bulk format",
+        "Mild sweet taste with a caramel-like flavor profile",
+        "Semi-dry and firm texture with excellent shelf stability",
+        "Ideal for wholesalers, retailers, and repacking businesses",
+        "Carefully sorted and hygienically processed for consistent quality",
+        "Suitable for daily consumption, hospitality, and export supply",
+      ],
+    },
+  ],
 
+  specs: [
+    { label: "Product Name", value: "Fard Loose Dates" },
+    { label: "Variety", value: "Fard Dates" },
+    { label: "Taste Profile", value: "Mild Sweet & Caramel-like" },
+    { label: "Texture", value: "Semi-Dry & Firm" },
+    { label: "Color", value: "Dark Brown" },
+    { label: "Seed Type", value: "Seeded" },
+    { label: "Packaging", value: "Loose / Bulk" },
+    { label: "Quality Grade", value: "Premium / Export Quality" },
+    { label: "Usage", value: "Retail, Wholesale, Daily Consumption" },
+  ],
 
-        description: [
-          {
-            type: "h2",
-            text: "Sukkari Dates – Naturally Sweet & Soft",
-          },
-          {
-            type: "p",
-            text: "Sukkari Dates are known for their light golden color, naturally sweet taste, and soft, melt-in-mouth texture. These dates are widely preferred for their pleasant flavor and are suitable for a variety of uses, from daily consumption to premium gifting and wholesale supply.",
-          },
-          {
-            type: "h2",
-            text: "Key Features – Sukkari Dates",
-          },
-          {
-            type: "ul",
-            items: [
-              "Naturally sweet flavor without added sugar",
-              "Soft texture with an appealing golden appearance",
-              "Carefully selected for uniform size and quality",
-              "Hygienically processed to maintain freshness",
-              "Ideal for retail shelves, gifting, and bulk orders",
-              "Trusted by wholesalers and distributors",
-            ],
-          },
-        ],
+  image: {
+    src: "/products/fardloose.webp",
+    alt: "Fard Loose Dates",
+  },
+},
 
-        specs: [
-          { label: "Variety", value: "Sukkari Dates" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Tender" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-        ],
-
-        image: {
-          src: "/products/fardloose.webp",
-          alt: "Fit Naaz Dates",
-        },
-      },
 
 
 
@@ -4206,68 +3029,12 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Aalu Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Aalu Dates, prized for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and consumer appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Aalu Dates, Medjool Dates, and Sukkari Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for snacking, gifting, and culinary applications",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to high-quality Wet Dates",
-        "Maintains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -4374,68 +3141,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+  
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Sukkari Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Sukkari Dates, prized for their soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, and Kalmi Dates in quality and market appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Sukkari Dates, Medjool Dates, and Kalmi Dates",
-        "Free from artificial additives or preservatives, ensuring authentic taste",
-        "Ideal for snacking, gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to high-quality Wet Dates",
-        "Retains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -4543,68 +3250,9 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Sagai Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Sagai Dates, valued for soft, tender texture and naturally sweet taste",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and market appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Sagai Dates, Medjool Dates, and Sukkari Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Ideal for direct consumption, gifting, and culinary applications",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to premium Wet Dates",
-        "Retains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -4713,68 +3361,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+  
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Shanshaha Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Shanshaha Dates, known for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and market appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with consistent size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Shanshaha Dates, Medjool Dates, and Sukkari Dates",
-        "Free from artificial additives or preservatives, ensuring authentic natural taste",
-        "Perfect for direct consumption, gifting, and culinary use",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to high-quality Wet Dates",
-        "Maintains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options available for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve quality and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -4884,68 +3472,7 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Razan Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Razan Dates, valued for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and consumer preference",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with consistent size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor derived from high natural sugar content",
-        "Smooth, rich, and balanced sweetness preferred by consumers of Razan Dates, Medjool Dates, and Sukkari Dates",
-        "Free from artificial additives or preservatives, retaining authentic natural flavor",
-        "Perfect for snacking, gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to premium Wet Dates",
-        "Maintains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade and export-standard packaging materials used to preserve freshness and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
+ 
 
     {
       type: "h2",
@@ -5054,68 +3581,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Rabbi Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Rabbi Dates, known for soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality and consumer preference",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with consistent size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor with smooth, rich notes derived from natural sugars",
-        "Free from artificial additives or preservatives, ensuring authentic taste",
-        "Balanced sweetness preferred by consumers of Rabbi Dates, Medjool Dates, and Sukkari Dates",
-        "Perfect for direct consumption, gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist and comparable to Wet Dates",
-        "Maintains freshness and softness when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing solutions offered for retail branding and private-label requirements",
-        "Food-grade, export-standard packaging materials used to preserve quality and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -5223,68 +3690,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Lajawab Buman Dates, premium-grade dates supplied by an experienced Dates Supplier",
-        "Variety: Buman Dates, known for their soft, tender texture and naturally sweet taste",
-        "Related Varieties: Comparable to Sukkari Dates, Kalmi Dates, Ajwa Dates, and Medjool Dates in quality and consumer preference",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality with uniform size, color, and moisture content",
-        "Processing Method: Hygienically cleaned, hand-sorted, and quality-checked to maintain premium standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor with rich, smooth notes derived from high natural sugar content",
-        "Balanced sweetness ideal for consumers who enjoy Buman Dates, Sukkari Dates, and Medjool Dates",
-        "Free from artificial additives or preservatives, ensuring authentic taste",
-        "Perfect for direct consumption, gifting, or culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture with premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups",
-        "Naturally moist, comparable to high-quality Wet Dates",
-        "Retains freshness, softness, and natural moisture when stored under recommended conditions",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export buyers",
-        "Custom packing options available for retail branding and private labels",
-        "Food-grade and export-standard packaging materials used to preserve quality and hygiene",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -5393,68 +3800,9 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Hana Gold Kalute Dates, premium-grade dates supplied by a professional Dates Supplier",
-        "Variety: Sukkari Dates, valued for their soft, tender texture and naturally sweet flavor",
-        "Related Varieties: Comparable to Kalmi Dates, Ajwa Dates, and Medjool Dates in quality and market appeal",
-        "Category: Natural premium dates suitable for retail, wholesale, and export",
-        "Quality Grade: Export-quality dates with uniform size, color, and moisture balance",
-        "Processing Method: Hand-sorted, hygienically cleaned, and quality-inspected to maintain premium standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet flavor with smooth, rich notes derived from high natural sugar content",
-        "Free from artificial sweeteners or preservatives, ensuring authentic taste",
-        "Balanced sweetness preferred by consumers who enjoy Sukkari Dates, Medjool Dates, and Mabroom Dates",
-        "Ideal for direct consumption, festive gifting, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft and tender texture providing a premium mouthfeel",
-        "Easy to chew and digest, suitable for all age groups including children and elderly",
-        "Naturally moist and comparable to Wet Dates",
-        "Maintains freshness, softness, and natural moisture when stored properly",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Custom packing options offered for retail branding and private-label requirements",
-        "Food-grade, export-standard packaging materials used to preserve quality",
-        "Can be supplied in processing-ready formats, including Seedless Dates, for bakery and industrial use",
-      ],
-    },
+ 
+ 
 
     {
       type: "h2",
@@ -5565,71 +3913,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Hadiya Tray Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Soft dates selected for tray packaging",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates in quality",
-        "Category: Premium natural dates suitable for retail, wholesale, gifting, and export",
-        "Quality Grade: Export-quality with uniform size, soft texture, and naturally sweet flavor",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and tray-packed for premium presentation",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with rich, smooth, and balanced flavor",
-        "Soft and tender texture, ideal for snacking and premium consumption",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Perfect for gifting, retail display, corporate hampers, and culinary use",
-        "Comparable taste experience to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Easy to chew and digest, suitable for children, adults, and the elderly",
-        "Retains freshness and softness when stored under recommended conditions",
-        "Tray packaging helps preserve moisture and prevents crushing or damage during transit",
-        "Comparable in quality to high-end Wet Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Convenient tray packaging for retail, gifting, or corporate presentation",
-        "Bulk trays available for wholesalers, distributors, and exporters",
-        "Food-grade, hygienic, and export-standard materials used to preserve freshness",
-        "Can be supplied in Seedless Dates format for bakery, confectionery, or industrial applications",
-        "Custom labeling and private-label options available for corporate and retail clients",
-      ],
-    },
+ 
+  
 
     {
       type: "h2",
@@ -5740,69 +4025,9 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Fit Dates, premium-grade dates supplied by a reliable Dates Supplier",
-        "Variety: Soft and naturally sweet dates selected for health-conscious consumers",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-        "Category: Premium natural dates suitable for retail, wholesale, gifting, and export",
-        "Quality Grade: Export-quality with uniform size, soft texture, and naturally sweet flavor",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked for consistent standards",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a mild, rich, and balanced flavor",
-        "Soft, tender, and naturally moist, perfect for direct consumption",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Ideal for healthy snacking, breakfast, smoothies, desserts, and gifting",
-        "Comparable in flavor and sweetness to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Easy to chew and digest, suitable for children, adults, and elderly consumers",
-        "Retains freshness, softness, and premium quality under recommended storage conditions",
-        "Comparable in moisture and quality to high-end Wet Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Retail-ready packs and custom packaging options offered for gifting, corporate, and private-label branding",
-        "Food-grade, hygienic, and export-standard materials used to preserve freshness",
-        "Can be supplied in Seedless Dates format for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -5919,69 +4144,7 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Fit Naaz Dates, premium-grade dates supplied by a trusted Dates Supplier",
-        "Variety: Soft and naturally sweet dates selected for premium quality",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-        "Category: Premium natural dates suitable for retail, wholesale, gifting, and export",
-        "Quality Grade: Export-quality with uniform size, soft texture, and naturally sweet flavor",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked for consistent standards",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with mild, rich, and smooth flavor",
-        "Soft, tender, and naturally moist, perfect for direct consumption",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Ideal for healthy snacking, breakfast, desserts, smoothies, and gifting",
-        "Comparable in sweetness and flavor to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Easy to chew and digest, suitable for children, adults, and elderly consumers",
-        "Retains freshness, softness, and premium quality under recommended storage conditions",
-        "Comparable in moisture and quality to high-end Wet Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and export markets",
-        "Retail-ready packs and custom packaging options offered for gifting, corporate, and private-label branding",
-        "Food-grade, hygienic, and export-standard materials used to preserve freshness",
-        "Can be supplied in Seedless Dates format for bakery, confectionery, and industrial applications",
-      ],
-    },
 
     {
       type: "h2",
@@ -6091,70 +4254,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Aman Seedless Dates, premium-grade seedless dates supplied by a reliable Dates Supplier",
-        "Variety: Soft and naturally sweet seedless dates",
-        "Related Varieties: Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, and Kimia Dates",
-        "Category: Premium natural seedless dates suitable for retail, wholesale, gifting, and export",
-        "Quality Grade: Export-quality with uniform size, soft texture, and naturally sweet flavor",
-        "Processing Method: Hand-picked, seed removed, hygienically cleaned, sorted, and quality-checked",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with mild, rich, and smooth flavor",
-        "Soft, tender, and naturally moist, perfect for direct consumption or culinary applications",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Ideal for healthy snacking, desserts, smoothies, baking, and gifting",
-        "Comparable in sweetness and flavor to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Easy to chew and digest, suitable for all age groups",
-        "Retains freshness, softness, and premium quality under recommended storage conditions",
-        "Comparable in moisture and quality to high-end Wet Dates",
-        "Convenient seedless option for family consumption, baking, and confectionery",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and exporters",
-        "Retail-ready packs and custom packaging options offered for gifting, corporate, and private-label branding",
-        "Food-grade, hygienic, and export-standard packaging materials used to preserve freshness",
-        "Can be supplied in tray packs, retail boxes, and custom private-label formats",
-      ],
-    },
 
     {
       type: "h2",
@@ -6258,67 +4359,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Aman Latta Dates",
-        "Variety: Latta Dates",
-        "Category: Premium Natural Dates",
-        "Quality Grade: Premium / Export Quality",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked",
-        "Suitable for retail, wholesale, gifting, and export supply",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a rich, smooth, balanced flavor",
-        "Soft and moist taste without artificial additives",
-        "Perfect for snacking, desserts, smoothies, and gifting",
-        "Comparable sweetness to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
 
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Soft, tender, and naturally moist texture",
-        "Easy to chew and digest for all age groups",
-        "Retains freshness and softness under recommended storage",
-        "Comparable softness to premium Wet Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and exporters",
-        "Custom packaging available for retail and private labeling",
-        "Food-grade and export-standard packing materials used",
-        "Can be supplied in Seedless Dates format on request",
-      ],
-    },
 
     {
       type: "h2",
@@ -6420,67 +4462,9 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Aman 24 Carat Zahidi Dates",
-        "Variety: Zahidi Dates",
-        "Category: Premium Natural Dates",
-        "Quality Grade: Premium / Export Quality",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked",
-        "Suitable for retail, wholesale, gifting, and export supply",
-      ],
-    },
+  
+ 
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with a mild, rich, nutty flavor",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Perfect for everyday consumption, premium retail, and gourmet recipes",
-        "Comparable taste experience to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Firm, slightly crunchy, yet tender flesh",
-        "Easy to chew and digest for all age groups",
-        "Retains freshness, firmness, and premium quality under recommended storage",
-        "Great for cooking, baking, and snacking",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Bulk packaging available for wholesalers, distributors, and exporters",
-        "Retail-ready packs and custom packaging options offered",
-        "Food-grade, hygienic, and export-standard packaging materials used",
-        "Seedless option available on request for bakery, confectionery, and industrial use",
-      ],
-    },
 
     {
       type: "h2",
@@ -6579,67 +4563,8 @@ variety:"Other Dates",
       ],
     },
 
-    {
-      type: "h2",
-      text: "Product Specifications",
-    },
-    {
-      type: "h3",
-      text: "Key Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Product Name: Al-Qaswa Fard Dates",
-        "Variety: Fard Dates",
-        "Category: Premium Natural Dates",
-        "Quality Grade: Premium / Export Quality",
-        "Processing Method: Hand-picked, hygienically cleaned, sorted, and quality-checked",
-        "Ideal for retail, wholesale, and bulk supply",
-      ],
-    },
+ 
 
-    {
-      type: "h3",
-      text: "Taste Profile",
-    },
-    {
-      type: "ul",
-      items: [
-        "Naturally sweet with rich, smooth, and mildly nutty flavor",
-        "Free from artificial additives, preservatives, or sugar enhancements",
-        "Ideal for daily snacking, premium retail, gifting, and gourmet recipes",
-        "Comparable taste experience to Medjool Dates, Sukkari Dates, and Ajwa Dates",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Texture",
-    },
-    {
-      type: "ul",
-      items: [
-        "Firm and chewy texture with satisfying bite",
-        "Easy to chew and digest for all age groups",
-        "Retains freshness and premium quality under recommended storage",
-        "Suitable for baking, desserts, and culinary applications",
-      ],
-    },
-
-    {
-      type: "h3",
-      text: "Packaging",
-    },
-    {
-      type: "ul",
-      items: [
-        "Loose / bulk / box packing available",
-        "Custom packaging options for gifting and private labeling",
-        "Food-grade and export-standard packaging used to preserve freshness",
-        "Seedless option available on request for bakery and industrial use",
-      ],
-    },
 
     {
       type: "h2",

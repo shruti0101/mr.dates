@@ -15,12 +15,27 @@ export default function ProductPage({ params }) {
   //   const [submitted, setSubmitted] = useState(false);
   // const [successMessage, setSuccessMessage] = useState("");
   // const [loading, setLoading] = useState(false);
+const [selectedPack, setSelectedPack] = useState(null);
+
 
   if (!product) {
     return (
       <h2 className="text-center text-red-500 mt-10">Product not found</h2>
     );
   }
+
+
+
+  const handleWhatsApp = () => {
+  const phoneNumber = "+917065650411";
+  const message = `Hello, I want to enquire about ${product.name}.
+Packaging: ${selectedPack?.type || "Not Selected"} 
+Weight: ${selectedPack?.weight || "-"}`;
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
 
   return (
     <>
@@ -83,15 +98,17 @@ export default function ProductPage({ params }) {
                   {/* Options */}
                   <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-md:grid-cols-1">
                     {product.packaging.map((pack, index) => (
-                      <button
-                        key={index}
-                        className={`rounded-xl p-5 text-left transition
-            ${
-              index === 1
-                ? "border-2 border-[#8b2d36] bg-[#f6efe5]"
-                : "border border-[#e2d6c6] bg-white hover:border-[#8b2d36]"
-            }`}
-                      >
+               <button
+  key={index}
+  onClick={() => setSelectedPack(pack)}
+  className={`rounded-xl p-5 text-left transition
+    ${
+      selectedPack?.weight === pack.weight
+        ? "border-2 border-[#8b2d36] bg-[#f6efe5]"
+        : "border border-[#e2d6c6] bg-white hover:border-[#8b2d36]"
+    }`}
+>
+
                         <span className="block text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
                           {pack.type}
                         </span>
@@ -131,10 +148,14 @@ export default function ProductPage({ params }) {
                   <span className="text-xl">→</span>
                 </button>
 
-                <button className="w-full cursor-pointer  bg-[#1c7e26] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 transition max-md:text-base max-md:tracking-[0.15em]">
-                  WHATSAPP US
-                  <span className="text-xl">→</span>
-                </button>
+              <button
+  onClick={handleWhatsApp}
+  className="w-full cursor-pointer bg-[#1c7e26] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 transition"
+>
+  WHATSAPP US
+  <span className="text-xl">→</span>
+</button>
+
               </div>
             </div>
 

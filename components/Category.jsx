@@ -35,7 +35,7 @@ const Category = () => {
     { title: "Ajwa Dates", image: "/products/ajwa3.webp",link:"/categories/ajwa-dates" },
  
     { title: "Barari Dates", image: "/products/brarichocolate.webp" , link:"/categories/barari-dates" },
-    { title: " Kimia Dates", image: "/products/kimia1.webp",link:"/categories/kimia-dates" },
+    { title: " Kimia Dates", image: "/products/kimia5.webp",link:"/categories/kimia-dates" },
     { title: "Kalmi Dates", image: "/products/kalmi3.webp",link: "/categories/kalmi-gold-dates" },
     // { title: "sukkari Dates", image: "/category/2.png" },
   ];
@@ -148,13 +148,13 @@ const Category = () => {
               <div className="absolute inset-0 rounded-2xl ring-1 ring-black/5 pointer-events-none" />
 
               {/* Image */}
-              <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5 border-[5px] border-white max-w-[230px]">
+              <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5   max-w-[230px]">
                 <Image
                   src={item.image}
                   alt={item.title}
                   width={600}
                   height={600}
-                  className="object-cover bg-white"
+                  className="object-cover "
                 />
               </div>
 

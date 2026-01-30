@@ -5067,7 +5067,7 @@ export const categories = [
   ],
 
   "image": {
-    "src": "/products/irani.webp",
+    "src": "/products/iran.webp",
     "alt": "Premium Irani Dates"
   }
 },

@@ -11,7 +11,7 @@ import "swiper/css";
 const categories = [
   // Dates (rich, luxurious tones)
   { title: "Mejdool Dates", image: "/slider/mejdooldates.png", bg: "#3B1F1A" }, // dark cocoa
-  { title: "Kalmi Dates", image: "/slider/sukkaridates.png", bg: "#6B3E2E" },     // roasted brown
+  { title: "Kalmi Dates", image: "/slider/kalmi.webp", bg: "#6B3E2E" },     // roasted brown
   { title: "Ajwa Dates", image: "/slider/ajwadates.png", bg: "#1F1A16" },        // deep black-brown
   { title: "Kimia Dates", image: "/slider/rabbidates.png", bg: "#8C5A2E" },    // golden caramel
   { title: "Fard Dates", image: "/slider/farddates.png", bg: "#4A2E1F" },        // date seed brown

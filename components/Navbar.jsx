@@ -20,30 +20,29 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-const pathname = usePathname();
+  const pathname = usePathname();
 
-const isSingleProduct =
-  pathname.startsWith("/products/") && pathname !== "/products";
+  const isSingleProduct =
+    pathname.startsWith("/products/") && pathname !== "/products";
 
-const navTextClass = isSingleProduct ? "text-black" : "text-white";
+  const navTextClass = isSingleProduct ? "text-black" : "text-white";
 
   return (
     <header className="fixed top-0 left-0 z-50 w-full">
- <motion.div
-  initial={{ y: -30, opacity: 0 }}
-  animate={{ y: 0, opacity: 1 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
-  className={`
+      <motion.div
+        initial={{ y: -30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className={`
     transition-colors duration-500
-    ${
-      isSingleProduct
-        ? "bg-[#FDFBF7] text-black shadow-lg "
-        : scrolled
-        ? "bg-black/40 backdrop-blur-md shadow-lg"
-        : "bg-transparent"
-    }
+    ${isSingleProduct
+            ? "bg-[#FDFBF7] text-black shadow-lg "
+            : scrolled
+              ? "bg-black/40 backdrop-blur-md shadow-lg"
+              : "bg-transparent"
+          }
   `}
->
+      >
 
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-2">
 
@@ -51,37 +50,37 @@ const navTextClass = isSingleProduct ? "text-black" : "text-white";
           {/* LOGO */}
 
           {
-isSingleProduct ? (
+            isSingleProduct ? (
               <Link href="/">
                 <Image
                   src="/logo-black.png"
                   alt="Brand Logo"
                   width={100}
                   height={40}
-                  className="object-contain" 
+                  className="object-contain"
                 />
               </Link>
-            ) : (   
-          
-          <Link href="/">
-            <Image
-              src="/logooo.png"
-              alt="Brand Logo"
-              width={120}
-              height={40}
-              className="object-contain"
-            />
-          </Link>
+            ) : (
+
+              <Link href="/">
+                <Image
+                  src="/logooo.png"
+                  alt="Brand Logo"
+                  width={120}
+                  height={40}
+                  className="object-contain"
+                />
+              </Link>
             )
           }
-            
+
 
           {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
 
 
- {["Home" ].map((item) => (
+            {["Home"].map((item) => (
               <Link
                 key={item}
                 href="/"
@@ -124,6 +123,7 @@ isSingleProduct ? (
                     exit={{ opacity: 0, y: 14 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="absolute left-1/2 top-full mt-8 w-[980px]
+                    overflow-scroll h-[600px]
                       -translate-x-1/2 rounded-3xl bg-white p-10
                       shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
@@ -155,7 +155,7 @@ isSingleProduct ? (
               </AnimatePresence>
             </div>
 
-            {["Blogs",  "Contact"].map((item) => (
+            {["Blogs", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
@@ -202,7 +202,7 @@ isSingleProduct ? (
               </div>
 
               <div className="flex flex-col px-6 pb-6 gap-5 text-white font-bold tracking-widest uppercase">
-                {[ "About", "Products", "Blogs", "Bulk Order", "Contact"].map(
+                {["About", "Products", "Blogs", "Bulk Order", "Contact"].map(
                   (item) => (
                     <Link
                       key={item}

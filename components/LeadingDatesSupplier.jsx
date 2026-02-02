@@ -6,7 +6,7 @@ export default function LeadingDatesSupplier() {
   return (
     <motion.section
       style={{ backgroundImage: "url(/bglead.png)" }}
-      className="bg-cover bg-center py-20"
+      className="bg-cover bg-center lg:py-20 py-10"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
@@ -45,7 +45,7 @@ export default function LeadingDatesSupplier() {
               nutritional value. Our range includes Medjoul Dates, Ajwa Dates,
               Kalmi Dates, Safawi Dates, Tunisian Dates, Wet Dates, and more—
               available for <strong>daily consumption, gifting, and wholesale
-              supply.</strong>
+                supply.</strong>
             </p>
 
             <p className="text-black text-[21px] leading-7">

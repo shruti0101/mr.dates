@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, MapPin,Mail, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin, Mail, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -49,10 +49,10 @@ export default function Footer() {
           </div>
 
 
-         
 
 
-          
+
+
           {/* QUICK LINKS */}
           <div>
             <h3 className="font-serif font-semibold text-xl mb-4">
@@ -83,96 +83,96 @@ export default function Footer() {
 
 
 
- {/* PRODUCTS */}
+          {/* PRODUCTS */}
           <div>
             <h3 className="font-serif font-semibold text-xl mb-4">
               Our Products
             </h3>
-        <ul className="space-y-3 text-sm md:text-base tracking-wider">
-  {[
-    { name: "Kalmi Dates", link: "/categories/kalmi-dates" },
-    { name: "Ajwa Dates", link: "/categories/ajwa-dates" },
-    { name: "Barari Dates", link: "/categories/barari-dates" },
-    { name: "Dry Fruits", link: "/categories/dry-fruits" },
-    { name: "Kimia Dates", link: "/categories/kimia-dates" },
-    { name: "Mr. Dates Products", link: "/categories/mr-dates-products" },
-    { name: "Other Products", link: "/categories/other-products" },
-  ].map((item) => (
-    <li key={item.name}>
-      <Link
-        href={item.link}
-        className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-      >
-        {item.name}
-      </Link>
-    </li>
-  ))}
-</ul>
+            <ul className="space-y-3 text-sm md:text-base tracking-wider">
+              {[
+                { name: "Kalmi Dates", link: "/categories/kalmi-dates" },
+                { name: "Ajwa Dates", link: "/categories/ajwa-dates" },
+                { name: "Barari Dates", link: "/categories/barari-dates" },
+                { name: "Dry Fruits", link: "/categories/dry-fruits" },
+                { name: "Kimia Dates", link: "/categories/kimia-dates" },
+                { name: "Mr. Dates Products", link: "/categories/mr-dates-products" },
+                { name: "Other Products", link: "/categories/other-products" },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.link}
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
 
 
 
           {/* CONTACT */}
-       <div>
-  <h3 className="font-serif font-semibold text-xl mb-4">
-    Contact Us
-  </h3>
+          <div>
+            <h3 className="font-serif font-semibold text-xl mb-4">
+              Contact Us
+            </h3>
 
-  <div className="space-y-4 text-sm">
-    {/* ADDRESS */}
-    <div className="flex gap-3 items-start">
-      <MapPin className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
-      <p className="leading-relaxed">
-        2nd, 328, Bhai Parmanand Colony,
-        <br />
-        Dr. Mukherjee Nagar, New Delhi – 110009,
-        <br />
-        Delhi, India
-      </p>
-    </div>
+            <div className="space-y-4 text-sm">
+              {/* ADDRESS */}
+              <div className="flex gap-3 items-start">
+                <MapPin className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+                <p className="leading-relaxed">
+                  C-62, New Sabzi Mandi, Azadpur
+                  <br />
+                  New Delhi – 110033,
+                  <br />
+                  Delhi, India
+                </p>
+              </div>
 
-    {/* PHONE */}
-    <div className="flex gap-3 items-center">
-      <Phone className="w-5 h-5 text-amber-400 shrink-0" />
-      <a
-        href="tel:+917065650411"
-        className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-      >
-        +91 7065 650411
-      </a>
-    </div>
+              {/* PHONE */}
+              <div className="flex gap-3 items-center">
+                <Phone className="w-5 h-5 text-amber-400 shrink-0" />
+                <a
+                  href="tel:+917065650411"
+                  className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                >
+                  +91 7065 650411
+                </a>
+              </div>
 
-    {/* EMAILS */}
-    <div className="flex gap-3 items-start">
-      <Mail className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
-      <div className="flex flex-col gap-1">
-        <a
-          href="mailto:sales@mrdates.in"
-          className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-        >
-          sales@mrdates.in
-        </a>
-        <a
-          href="mailto:customercare@mrdates.in"
-          className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
-        >
-          customercare@mrdates.in
-        </a>
-      </div>
-    </div>
-  </div>
+              {/* EMAILS */}
+              <div className="flex gap-3 items-start">
+                <Mail className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+                <div className="flex flex-col gap-1">
+                  <a
+                    href="mailto:sales@mrdates.in"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    sales@mrdates.in
+                  </a>
+                  <a
+                    href="mailto:customercare@mrdates.in"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    customercare@mrdates.in
+                  </a>
+                </div>
+              </div>
+            </div>
 
-  {/* SOCIAL */}
-  <div className="flex gap-4 mt-6">
-    <a href="#" aria-label="Instagram">
-      <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-    </a>
-    <a href="#" aria-label="Facebook">
-      <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-    </a>
-  </div>
-</div>
+            {/* SOCIAL */}
+            <div className="flex gap-4 mt-6">
+              <a href="#" aria-label="Instagram">
+                <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* COPYRIGHT */}
@@ -180,7 +180,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p>© 2025 Mr. Dates. All Rights Reserved.</p>
             <p>
-Website Designed By Promozione Branding Pvt. Ltd. {"  "}
+              Website Designed By Promozione Branding Pvt. Ltd. {"  "}
               <a
                 href="https://promozionebranding.com/"
                 className="underline underline-offset-4 text-amber-500"

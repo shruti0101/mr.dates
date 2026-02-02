@@ -14,7 +14,7 @@ const Cta = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="relative py-20 bg-[#36040e] text-white overflow-hidden"
+        className="relative md:py-20 pt-0 pb-10 bg-[#36040e] text-white overflow-hidden"
       >
         {/* FLOATING DATE IMAGE */}
         <motion.div
@@ -80,8 +80,8 @@ const Cta = () => {
               whileTap={{ scale: 0.96 }}
               className="
                 cursor-pointer
-                group relative inline-flex items-center gap-3
-                px-7 py-3
+                group relative inline-flex items-center gap-2 justify-center
+                px-5 py-3
                 rounded-full
                 bg-gradient-to-b from-[#8B5536] to-[#75442e]
                 text-white text-md font-medium tracking-wide

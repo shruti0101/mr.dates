@@ -16,12 +16,20 @@ const categories = [
   { title: "Kimia Dates", image: "/slider/rabbidates.png", bg: "#8C5A2E" },    // golden caramel
   { title: "Fard Dates", image: "/slider/farddates.png", bg: "#4A2E1F" },        // date seed brown
   { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F" },   // dark chocolate
-
+  { title: "Zahidi Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Mabrroom Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Medjool Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Rabbi Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Sukkari Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Tunisian Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Wet Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Seedlees Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Dry Apricot", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
   // Dry Fruits (warm nut tones)
-  { title: "Cashew", image: "/slider/cashew.png", bg: "#C9A26A" },               // cashew cream
-  { title: "Walnut", image: "/slider/walnut.webp", bg: "#5A3A2E" },              // walnut shell
-  { title: "Almond", image: "/slider/almond.webp", bg: "#D1B07C" },              // almond beige
-  { title: "Raisin", image: "/slider/raisin.png", bg: "#6E3B3B" },               // raisin wine
+  { title: "Cashew Nuts", image: "/slider/cashew.png", bg: "#C9A26A" },               // cashew cream
+  // { title: "Walnut", image: "/slider/walnut.webp", bg: "#5A3A2E" },              // walnut shell
+  { title: "California Almond", image: "/slider/almond.webp", bg: "#D1B07C" },              // almond beige
+  { title: "Mix Trail", image: "/slider/raisin.png", bg: "#6E3B3B" },               // raisin wine
 ];
 
 export default function CategorySlider() {
@@ -31,45 +39,45 @@ export default function CategorySlider() {
 
     <>
 
-    
-    <section className="py-18 bg-white overflow-hidden">
+
+      <section className="md:py-18 py-10 bg-white overflow-hidden">
 
 
-    <div className="mb-12 text-center">
-  <h2 className="text-2xl md:text-[66px] uppercase font-extrabold text-black">
-    Timeless Taste of Authentic Dates 🌿
-  </h2>
- 
-</div>
+        <div className="mb-12 text-center">
+          <h2 className="text-2xl md:text-[66px] uppercase font-extrabold text-black">
+            Timeless Taste of Authentic Dates 🌿
+          </h2>
 
-      <div className="max-w-7xl mx-auto px-6">
-        <Swiper
-          modules={[Autoplay]}
-          loop
-          speed={6000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-          }}
-          slidesPerView={5}
-          spaceBetween={40}
-          grabCursor
-          onSlideChange={(s) => setActive(s.realIndex)}
-          breakpoints={{
-            0: { slidesPerView: 1.4 },
-            640: { slidesPerView: 2.5 },
-            1024: { slidesPerView: 5 },
-          }}
-          className="md:!overflow-visible"
-        >
-          {categories.map((item, index) => (
-            <SwiperSlide key={index} className="[perspective:1600px]">
-              <Card3D item={item} isActive={index === active} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    </section>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-6">
+          <Swiper
+            modules={[Autoplay]}
+            loop
+            speed={6000}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+            }}
+            slidesPerView={5}
+            spaceBetween={40}
+            grabCursor
+            onSlideChange={(s) => setActive(s.realIndex)}
+            breakpoints={{
+              0: { slidesPerView: 1.4 },
+              640: { slidesPerView: 2.5 },
+              1024: { slidesPerView: 5 },
+            }}
+            className="md: !overflow-visible"
+          >
+            {categories.map((item, index) => (
+              <SwiperSlide key={index} className="[perspective:1600px]">
+                <Card3D item={item} isActive={index === active} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </section>
     </>
   );
 }
@@ -134,7 +142,7 @@ function Card3D({ item, isActive }) {
         />
       </motion.div>
 
-     
+
       <div className="absolute bottom-0 left-0 right-0 p-6 translate-z-[120px] z-20">
         <motion.h3
           animate={{ letterSpacing: isActive ? "0.08em" : "0.02em" }}

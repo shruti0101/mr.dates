@@ -15,7 +15,7 @@ export default function ProductPage({ params }) {
   //   const [submitted, setSubmitted] = useState(false);
   // const [successMessage, setSuccessMessage] = useState("");
   // const [loading, setLoading] = useState(false);
-const [selectedPack, setSelectedPack] = useState(null);
+  const [selectedPack, setSelectedPack] = useState(null);
 
 
   if (!product) {
@@ -27,14 +27,14 @@ const [selectedPack, setSelectedPack] = useState(null);
 
 
   const handleWhatsApp = () => {
-  const phoneNumber = "+917065650411";
-  const message = `Hello, I want to enquire about ${product.name}.
+    const phoneNumber = "+917065650411";
+    const message = `Hello, I want to enquire about ${product.name}.
 Packaging: ${selectedPack?.type || "Not Selected"} 
 Weight: ${selectedPack?.weight || "-"}`;
 
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-  window.open(url, "_blank");
-};
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
 
 
   return (
@@ -48,11 +48,9 @@ Weight: ${selectedPack?.weight || "-"}`;
       </Head>
 
       {/* MAIN */}
-
       <section className="bg-[#FDFBF7]  mt-2">
-        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start max-md:grid-cols-1 max-md:px-4 max-md:gap-8">
+        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start max-md:grid-cols-1 max-md:px-4 max-md:gap-0">
           {/* ================= LEFT IMAGE ================= */}
-
           <div className="md:sticky top-0 mt-11 overflow-hidden max-md:mt-6">
             <Image
               src={product.image.src}
@@ -64,10 +62,10 @@ Weight: ${selectedPack?.weight || "-"}`;
             />
           </div>
 
-{/* right content */}
+          {/* right content */}
           <div className="mt-17 max-md:mt-0">
             {/* Title */}
-            <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b] max-md:text-[44px] max-md:mt-4">
+            <h1 className="mt-8 text-[85px] leading-[1.05]  text-[#6b1f2b] max-md:text-[44px] max-md:mt-0">
               {product.name}
             </h1>
 
@@ -85,7 +83,7 @@ Weight: ${selectedPack?.weight || "-"}`;
             <div className="mt-6 w-full h-px bg-[#e6e1da]" />
 
             {/* ================= SELECT PACKAGING ================= */}
-            <div className="mt-8 max-w-xl">
+            <div className="md:mt-8 mt-4 max-w-xl">
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-sm tracking-[0.25em] uppercase text-black max-md:text-xs">
@@ -96,24 +94,22 @@ Weight: ${selectedPack?.weight || "-"}`;
               {Array.isArray(product.packaging) && product.packaging.length > 0 && (
                 <>
                   {/* Options */}
-                  <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-md:grid-cols-1">
+                  <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 max-md:grid-cols-2">
                     {product.packaging.map((pack, index) => (
-               <button
-  key={index}
-  onClick={() => setSelectedPack(pack)}
-  className={`rounded-xl p-5 text-left transition
-    ${
-      selectedPack?.weight === pack.weight
-        ? "border-2 border-[#8b2d36] bg-[#f6efe5]"
-        : "border border-[#e2d6c6] bg-white hover:border-[#8b2d36]"
-    }`}
->
+                      <button
+                        key={index}
+                        onClick={() => setSelectedPack(pack)}
+                        className={`rounded-xl p-5 text-left transition
+                          ${selectedPack?.weight === pack.weight
+                            ? "border-2 border-[#8b2d36] bg-[#f6efe5]"
+                            : "border border-[#e2d6c6] bg-white hover:border-[#8b2d36]"
+                          }`}>
 
                         <span className="block text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
                           {pack.type}
                         </span>
 
-                        <span className="block mt-3 text-2xl font-serif text-[#6b1f2b]">
+                        <span className="block mt-3 text-2xl font-serif text-[#6b1f2b] text-center">
                           {pack.weight}
                         </span>
 
@@ -148,19 +144,19 @@ Weight: ${selectedPack?.weight || "-"}`;
                   <span className="text-xl">→</span>
                 </button>
 
-              <button
-  onClick={handleWhatsApp}
-  className="w-full cursor-pointer bg-[#1c7e26] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 transition"
->
-  WHATSAPP US
-  <span className="text-xl">→</span>
-</button>
+                <button
+                  onClick={handleWhatsApp}
+                  className="w-full cursor-pointer bg-[#1c7e26] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 transition"
+                >
+                  WHATSAPP US
+                  <span className="text-xl">→</span>
+                </button>
 
               </div>
             </div>
 
             {/* ================= PRODUCT HIGHLIGHTS ================= */}
-            <div className="mt-10 pt-10 border-t border-[#e6e1da] mb-7">
+            <div className="md:mt-10 mt-4 md:pt-10 pt-4 border-t border-[#e6e1da] mb-7">
               <div className="grid grid-cols-3 items-center text-center max-md:grid-cols-3 max-md:gap-2">
                 {/* Organic */}
                 <div className="flex flex-col items-center gap-4">
@@ -176,7 +172,7 @@ Weight: ${selectedPack?.weight || "-"}`;
                       <path d="M12 2C7 7 4 10 4 14a8 8 0 0 0 16 0c0-4-3-7-8-12Z" />
                     </svg>
                   </div>
-                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[10px]">
+                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[14px]">
                     ORGANIC
                   </span>
                 </div>
@@ -197,7 +193,7 @@ Weight: ${selectedPack?.weight || "-"}`;
                       <path d="M12 6.5l1 2 2 .3-1.5 1.5.4 2.2-1.9-1-1.9 1 .4-2.2L9 8.8l2-.3 1-2Z" />
                     </svg>
                   </div>
-                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[10px]">
+                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[14px]">
                     BEST QUALTIY
                   </span>
                 </div>
@@ -219,7 +215,7 @@ Weight: ${selectedPack?.weight || "-"}`;
                       <circle cx="18.5" cy="18.5" r="1.5" />
                     </svg>
                   </div>
-                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[10px]">
+                  <span className="text-xs tracking-[0.25em] text-[#6b170d] max-md:text-[14px]">
                     GLOBAL SHIP
                   </span>
                 </div>
@@ -230,10 +226,10 @@ Weight: ${selectedPack?.weight || "-"}`;
       </section>
 
       {/* ================= PRODUCT DETAILS ================= */}
-      <section className="bg-[#F5F2EC] py-20 max-md:py-14">
+      <section className="bg-[#F5F2EC] py-20 max-md:py-6">
         <div className="w-full mx-auto px-22 grid grid-cols-2 gap-20 max-md:grid-cols-1 max-md:px-4 max-md:gap-12">
           {/* ================= LEFT CONTENT ================= */}
-          <div>
+          <div className="order-2 md:order-1">
             <span className="block text-sm tracking-[0.25em] text-black uppercase mb-4 max-md:text-xs">
               Crafted Details 🌿
             </span>
@@ -243,7 +239,7 @@ Weight: ${selectedPack?.weight || "-"}`;
             </h2>
 
             {/* Meta Info */}
-            <div className="relative mt-10 grid grid-cols-2 gap-x-16 gap-y-12 max-md:grid-cols-1 max-md:gap-y-8">
+            <div className="relative md:mt-10 mt-2 grid grid-cols-2 gap-x-16 gap-y-12 max-md:grid-cols-1 max-md:gap-y-8">
               <div className="flex gap-4">
                 <div className="w-px bg-[#d2b48c]" />
                 <div>
@@ -313,7 +309,7 @@ Weight: ${selectedPack?.weight || "-"}`;
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className=" md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-200 max-md:p-6 max-md:static">
+          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-250 max-md:p-6 max-md:static">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg
@@ -344,11 +340,10 @@ Weight: ${selectedPack?.weight || "-"}`;
               {product.specs.map((spec, index) => (
                 <div
                   key={index}
-                  className={`flex justify-between max-md:flex-col max-md:gap-1 ${
-                    index !== product.specs.length - 1
-                      ? "border-b border-dotted pb-2"
-                      : ""
-                  }`}
+                  className={`flex justify-between max-md:flex-col max-md:gap-1 ${index !== product.specs.length - 1
+                    ? "border-b border-dotted pb-2"
+                    : ""
+                    }`}
                 >
                   <span className="text-black text-lg max-md:text-base">{spec.label}</span>
 
@@ -363,7 +358,6 @@ Weight: ${selectedPack?.weight || "-"}`;
       </section>
 
       {/* RELATED */}
-
       <section className="bg-[#FDFBF7]  py-20 max-md:py-14">
         <div className="max-w-7xl mx-auto px-6 max-md:px-4">
           {/* Section Header */}

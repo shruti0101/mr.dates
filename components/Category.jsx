@@ -32,11 +32,14 @@ const Category = () => {
   };
 
   const category = [
-    { title: "Ajwa Dates", image: "/products/ajwa3.webp",link:"/categories/ajwa-dates" },
- 
-    { title: "Barari Dates", image: "/products/brarichocolate.webp" , link:"/categories/barari-dates" },
-    { title: " Kimia Dates", image: "/products/kimia5.webp",link:"/categories/kimia-dates" },
-    { title: "Kalmi Dates", image: "/products/kalmi3.webp",link: "/categories/kalmi-gold-dates" },
+    { title: "Ajwa Dates", image: "/products/ajwa3.webp", link: "/categories/ajwa-dates" },
+    { title: "Barari Dates", image: "/products/brarichocolate.webp", link: "/categories/barari-dates" },
+    { title: " Kimia Dates", image: "/products/kimia5.webp", link: "/categories/kimia-dates" },
+    { title: "Kalmi Dates", image: "/products/kalmi3.webp", link: "/categories/kalmi-gold-dates" },
+    { title: "Medjool Dates", image: "/slider/zahididates.png", link: "/categories/medjool-dates" },
+    { title: "Zahidi Dates", image: "/slider/zahididates.png", link: "/categories/zahidi-dates" },
+    { title: "Fard Dates", image: "/slider/farddates.png", link: "/categories/fard-dates" },
+    { title: "Seedlees Dates", image: "/slider/zahididates.png", link: "/categories/seedless-dates" },
     // { title: "sukkari Dates", image: "/category/2.png" },
   ];
 
@@ -61,7 +64,7 @@ const Category = () => {
       className="relative py-20 overflow-hidden [perspective:1200px] bg-cover bg-center"
     >
 
-  <div className="absolute inset-0 bg-black/25 "></div>
+      <div className="absolute inset-0 bg-black/25 "></div>
 
       {/* Decorative Leaves */}
       <motion.div
@@ -117,7 +120,7 @@ const Category = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-2xl mx-auto text-white mb-10 text-sm sm:text-lg"
+          className=" mx-auto text-white mb-10 text-sm sm:text-2xl"
         >
           Discover our best sellers featuring <strong>premium dates, dry fruits,</strong>{" "}
           and <strong>healthy snacks</strong> crafted by a trusted{" "}
@@ -125,7 +128,7 @@ const Category = () => {
         </motion.p>
 
         {/* Cards */}
-        
+
         <motion.div
 
           variants={containerVariants}
@@ -135,42 +138,42 @@ const Category = () => {
           className="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 mt-20"
         >
           {category.map((item, index) => (
-            <Link key={index} href={item.link} className="block">
-            <motion.div
-            link={item.link}
-             
-              key={index}
-              variants={cardVariants}
-              whileHover={{ y: -10, rotateX: 4, rotateY: -4, scale: 1.02 }}
-              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-              className="relative bg-[#EFDECC] rounded-2xl px-6 pt-14 pb-5"
-            >
-              <div className="absolute inset-0 rounded-2xl ring-1 ring-black/5 pointer-events-none" />
+            <Link key={index} href={item?.link} className="block">
+              <motion.div
+                link={item.link}
 
-              {/* Image */}
-              <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5   max-w-[230px]">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  width={600}
-                  height={600}
-                  className="object-cover "
-                />
-              </div>
-
-              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
-                {item.title}
-              </h3>
-
-              <motion.button
-                whileHover={{ scale: 1.04 }}
-                whileTap={{ scale: 0.96 }}
-                transition={{ duration: 0.2 }}
-                className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-md font-medium py-2.5 rounded-full shadow-sm "
+                key={index}
+                variants={cardVariants}
+                whileHover={{ y: -10, rotateX: 4, rotateY: -4, scale: 1.02 }}
+                transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                className="relative bg-[#EFDECC] rounded-2xl px-6 pt-14 pb-5"
               >
-                Visit Category
-              </motion.button>
-            </motion.div>
+                <div className="absolute inset-0 rounded-2xl ring-1 ring-black/5 pointer-events-none" />
+
+                {/* Image */}
+                <div className="relative mx-auto -mt-[80px] sm:-mt-[100px] mb-5   max-w-[230px]">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    width={600}
+                    height={600}
+                    className="object-cover "
+                  />
+                </div>
+
+                <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
+                  {item.title}
+                </h3>
+
+                <motion.button
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.96 }}
+                  transition={{ duration: 0.2 }}
+                  className="w-full bg-[#62493e] hover:bg-[#584339] text-white text-md font-medium py-2.5 rounded-full shadow-sm "
+                >
+                  Visit Category
+                </motion.button>
+              </motion.div>
             </Link>
           ))}
         </motion.div>

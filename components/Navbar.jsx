@@ -127,7 +127,7 @@ export default function Navbar() {
                       -translate-x-1/2 rounded-3xl bg-white p-10
                       shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]"
                   >
-                    <div className="grid grid-cols-5 gap-6">
+                    <div className="grid grid-cols-6 gap-6">
                       {categories.map((cat) => (
                         <Link
                           key={cat.id}

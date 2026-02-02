@@ -472,111 +472,111 @@ export const categories = [
     products: [
       //  1
 
-      {
-        id: "barari-chocolate-dates",
-        name: "Barari Chocolate Dates",
-        metaTitle: "Barari Chocolate Dates  | Bulk & Export Supplier | Mr. Dates",
-        metaDescription:
-          "Buy Barari Chocolate Dates  from Mr. Dates – trusted Dates Supplier. Rich chocolate-like aroma, soft moist texture, export quality with bulk & custom packaging for retail, gifting & wholesale.",
+      // {
+      //   id: "barari-chocolate-dates",
+      //   name: "Barari Chocolate Dates",
+      //   metaTitle: "Barari Chocolate Dates  | Bulk & Export Supplier | Mr. Dates",
+      //   metaDescription:
+      //     "Buy Barari Chocolate Dates  from Mr. Dates – trusted Dates Supplier. Rich chocolate-like aroma, soft moist texture, export quality with bulk & custom packaging for retail, gifting & wholesale.",
 
-        excerpt:
-          "Barari Chocolate Dates are premium Barari Dates supplied by a trusted Dates Supplier. They have a rich, chocolate-like flavor and soft texture. Perfect for retail, gifting, and bulk supply. Carefully packed to maintain freshness and quality.",
+      //   excerpt:
+      //     "Barari Chocolate Dates are premium Barari Dates supplied by a trusted Dates Supplier. They have a rich, chocolate-like flavor and soft texture. Perfect for retail, gifting, and bulk supply. Carefully packed to maintain freshness and quality.",
 
-        variety: "Barari Dates",
+      //   variety: "Barari Dates",
 
-        packaging: [
-          { type: "box", weight: "5 kg" },
-          { type: "packaging size", weight: "250 16 Pcs" },
+      //   packaging: [
+      //     { type: "box", weight: "5 kg" },
+      //     { type: "packaging size", weight: "250 16 Pcs" },
 
-        ],
+      //   ],
 
-        description: [
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Barari Chocolate Dates are premium-quality dates supplied by Mr. Dates, a trusted global Dates Supplier with years of experience in delivering fresh and high-quality dates",
-              "Carefully sourced from premium farms known for producing Ajwa Dates with rich flavor and soft, moist texture",
-              "These dates are popular for their chocolate-like natural aroma and mildly sweet taste, offering a luxurious snacking experience",
-              "Comparable in quality and appeal to other premium varieties like Medjoul Dates, Mabroom Dates, and Sukkari Dates",
-              "Suitable for retail display, wholesale distribution, gifting, bulk supply, and international export markets",
-              "Processed and packed under strict hygiene standards by an experienced Dates Supplier to ensure freshness and consistent quality",
-            ],
-          },
+      //   description: [
+      //     {
+      //       type: "h2",
+      //       text: "Product Overview",
+      //     },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Barari Chocolate Dates are premium-quality dates supplied by Mr. Dates, a trusted global Dates Supplier with years of experience in delivering fresh and high-quality dates",
+      //         "Carefully sourced from premium farms known for producing Ajwa Dates with rich flavor and soft, moist texture",
+      //         "These dates are popular for their chocolate-like natural aroma and mildly sweet taste, offering a luxurious snacking experience",
+      //         "Comparable in quality and appeal to other premium varieties like Medjoul Dates, Mabroom Dates, and Sukkari Dates",
+      //         "Suitable for retail display, wholesale distribution, gifting, bulk supply, and international export markets",
+      //         "Processed and packed under strict hygiene standards by an experienced Dates Supplier to ensure freshness and consistent quality",
+      //       ],
+      //     },
 
 
 
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "100% natural and preservative-free premium dates",
-              "Soft, moist, and rich in flavor, comparable to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Supplied by a reliable and experienced Dates Supplier",
-              "Suitable for retail shelves, bulk trade, gifting, and industrial use",
-              "Long shelf life with proper storage in cool, dry conditions",
-              "Available in bulk and custom packaging options to suit all market needs",
-            ],
-          },
+      //     {
+      //       type: "h2",
+      //       text: "Key Features",
+      //     },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "100% natural and preservative-free premium dates",
+      //         "Soft, moist, and rich in flavor, comparable to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
+      //         "Supplied by a reliable and experienced Dates Supplier",
+      //         "Suitable for retail shelves, bulk trade, gifting, and industrial use",
+      //         "Long shelf life with proper storage in cool, dry conditions",
+      //         "Available in bulk and custom packaging options to suit all market needs",
+      //       ],
+      //     },
 
-          {
-            type: "h2",
-            text: "Health Benefits",
-          },
-          {
-            type: "ul",
-            items: [
-              "Provides instant natural energy from glucose and fructose",
-              "Rich in dietary fiber to support healthy digestion",
-              "Contains essential minerals like potassium, magnesium, and iron for overall wellness",
-              "Supports heart health, stamina, and immune function",
-              "Ideal for fasting, daily nutrition, snacking, and culinary applications",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial food production",
-            ],
-          },
+      //     {
+      //       type: "h2",
+      //       text: "Health Benefits",
+      //     },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Provides instant natural energy from glucose and fructose",
+      //         "Rich in dietary fiber to support healthy digestion",
+      //         "Contains essential minerals like potassium, magnesium, and iron for overall wellness",
+      //         "Supports heart health, stamina, and immune function",
+      //         "Ideal for fasting, daily nutrition, snacking, and culinary applications",
+      //         "Can be processed into Seedless Dates for bakery, confectionery, and industrial food production",
+      //       ],
+      //     },
 
-          {
-            type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
-          },
-          {
-            type: "ul",
-            items: [
-              "Established and globally trusted Dates Supplier delivering premium varieties worldwide",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
-              "Strict quality control at every stage, from sourcing to packaging",
-              "Competitive pricing and flexible bulk supply options for retailers and wholesalers",
-              "Reliable logistics network ensuring timely delivery for domestic and international clients",
-              "Customer-focused service building long-term business partnerships",
-            ],
-          },
-        ],
+      //     {
+      //       type: "h2",
+      //       text: "Why Choose Mr. Dates as a Dates Supplier?",
+      //     },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Established and globally trusted Dates Supplier delivering premium varieties worldwide",
+      //         "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+      //         "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
+      //         "Strict quality control at every stage, from sourcing to packaging",
+      //         "Competitive pricing and flexible bulk supply options for retailers and wholesalers",
+      //         "Reliable logistics network ensuring timely delivery for domestic and international clients",
+      //         "Customer-focused service building long-term business partnerships",
+      //       ],
+      //     },
+      //   ],
 
-        specs: [
-          { label: "Product Name", value: "Barari Chocolate Dates" },
-          { label: "Variety", value: "Ajwa Dates (Chocolate-Coated)" },
-          { label: "Taste Profile", value: "Rich & Mildly Sweet" },
-          { label: "Texture", value: "Soft & Moist" },
-          { label: "Color", value: "Dark Brown with Chocolate Coating" },
-          { label: "Seed Type", value: "Seeded / Seedless (On Request)" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-          { label: "Quality Grade", value: "Export Quality" },
-          { label: "Usage", value: "Premium Snacking, Gifting" },
-          { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
-        ],
+      //   specs: [
+      //     { label: "Product Name", value: "Barari Chocolate Dates" },
+      //     { label: "Variety", value: "Ajwa Dates (Chocolate-Coated)" },
+      //     { label: "Taste Profile", value: "Rich & Mildly Sweet" },
+      //     { label: "Texture", value: "Soft & Moist" },
+      //     { label: "Color", value: "Dark Brown with Chocolate Coating" },
+      //     { label: "Seed Type", value: "Seeded / Seedless (On Request)" },
+      //     { label: "Packaging", value: "Bulk & Custom Packing Available" },
+      //     { label: "Quality Grade", value: "Export Quality" },
+      //     { label: "Usage", value: "Premium Snacking, Gifting" },
+      //     { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
+      //   ],
 
-        image: {
-          src: "/products/brarichocolate.webp",
-          alt: "Premium Barari Chocolate Dates",
-        },
-      },
+      //   image: {
+      //     src: "/products/brarichocolate.webp",
+      //     alt: "Premium Barari Chocolate Dates",
+      //   },
+      // },
 
 
       //  2
@@ -1876,227 +1876,227 @@ export const categories = [
   },
 
   // cat 6
-  {
-    id: "dry-fruits",
-    name: "Dry Fruits",
-    metaTitle: "Dry Fruits Supplier in India | Premium Quality Dates",
-    metaDescription:
-      "Premium Dry Fruits sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
+  // {
+  //   id: "dry-fruits",
+  //   name: "Dry Fruits",
+  //   metaTitle: "Dry Fruits Supplier in India | Premium Quality Dates",
+  //   metaDescription:
+  //     "Premium Dry Fruits sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/products/anjeer.webp",
-    badge: "bestseller",
+  //   image: "/products/anjeer.webp",
+  //   badge: "bestseller",
 
-    products: [
-      // anjeer  
-      {
-        id: "anjeer",
-        name: "Anjeer (Dry Fruits)",
-        metaTitle: "Anjeer (Dry Figs) | Bulk & Export Supplier | Mr. Dates",
-        metaDescription:
-          "Buy premium Anjeer (Dry Figs) from Mr. Dates – trusted dry fruits supplier. Naturally sweet, soft & chewy figs with export quality packing for wholesale, retail, gifting & export.",
+  //   products: [
+  //     // anjeer  
+  //     {
+  //       id: "anjeer",
+  //       name: "Anjeer (Dry Fruits)",
+  //       metaTitle: "Anjeer (Dry Figs) | Bulk & Export Supplier | Mr. Dates",
+  //       metaDescription:
+  //         "Buy premium Anjeer (Dry Figs) from Mr. Dates – trusted dry fruits supplier. Naturally sweet, soft & chewy figs with export quality packing for wholesale, retail, gifting & export.",
 
-        excerpt:
-          "Anjeer, also known as dried figs, is a premium dry fruit supplied by Mr. Dates, a trusted Dates Supplier and dry fruits provider. Naturally sweet, soft, and nutrient-rich, perfect for snacking or culinary use. Ideal for retail, wholesale, and gifting. Carefully packed to maintain freshness, flavor, and quality.",
+  //       excerpt:
+  //         "Anjeer, also known as dried figs, is a premium dry fruit supplied by Mr. Dates, a trusted Dates Supplier and dry fruits provider. Naturally sweet, soft, and nutrient-rich, perfect for snacking or culinary use. Ideal for retail, wholesale, and gifting. Carefully packed to maintain freshness, flavor, and quality.",
 
-        variety: "Dry Fruits",
+  //       variety: "Dry Fruits",
 
-        packaging: [
-          { type: "box", weight: "10 kg" },
-          { type: "box", weight: "5 kg" },
-          { type: "box", weight: "1 kg" },
-        ],
+  //       packaging: [
+  //         { type: "box", weight: "10 kg" },
+  //         { type: "box", weight: "5 kg" },
+  //         { type: "box", weight: "1 kg" },
+  //       ],
 
-        description: [
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Anjeer (Dry Figs) are premium-quality dry fruits supplied by Mr. Dates, a trusted Dates Supplier known for providing high-quality dates and complementary dry fruits to domestic and international markets",
-              "Carefully sourced from selected farms producing top-grade Anjeer, ensuring natural sweetness, chewy texture, and premium quality",
-              "Popular as a nutritious snack, ingredient for desserts, baking, and culinary use",
-              "Complements the premium date varieties offered by Mr. Dates, including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
-              "Ideal for retail, wholesale, gifting, bulk supply, and export markets",
-              "Processed and packed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, nutritional value, and superior taste",
-            ],
-          },
-
-
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Anjeer (Dry Figs) are premium-quality dry fruits supplied by Mr. Dates, a trusted Dates Supplier known for providing high-quality dates and complementary dry fruits to domestic and international markets",
+  //             "Carefully sourced from selected farms producing top-grade Anjeer, ensuring natural sweetness, chewy texture, and premium quality",
+  //             "Popular as a nutritious snack, ingredient for desserts, baking, and culinary use",
+  //             "Complements the premium date varieties offered by Mr. Dates, including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+  //             "Ideal for retail, wholesale, gifting, bulk supply, and export markets",
+  //             "Processed and packed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, nutritional value, and superior taste",
+  //           ],
+  //         },
 
 
 
 
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "100% natural, preservative-free premium Anjeer (Dry Figs)",
-              "Soft, chewy, and naturally sweet, suitable for snacking and culinary use",
-              "Complements premium date varieties like Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
-              "Suitable for retail, wholesale, gifting, and industrial applications",
-              "Available in bulk and custom packaging options",
-              "Long shelf life when stored in cool, dry conditions",
-            ],
-          },
-
-          {
-            type: "h2",
-            text: "Health Benefits",
-          },
-          {
-            type: "ul",
-            items: [
-              "Rich source of dietary fiber aiding digestion and gut health",
-              "Contains essential minerals like calcium, potassium, and iron",
-              "Supports heart health, energy levels, and overall wellness",
-              "Naturally sweet, making it a healthy alternative to processed snacks",
-              "Ideal for fasting, daily nutrition, healthy snacking, and culinary applications",
-            ],
-          },
-
-          {
-            type: "h2",
-            text: "Why Choose Mr. Dates as a Supplier?",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted and globally recognized Dates Supplier with years of expertise in dates and complementary dry fruits",
-              "Wide product range including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Anjeer (Dry Fruits)",
-              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
-              "Strict quality control from sourcing to packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network ensuring timely domestic and international delivery",
-              "Customer-focused service building long-term partnerships",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Product Name", value: "Anjeer (Dry Figs)" },
-          { label: "Category", value: "Dry Fruits" },
-          { label: "Taste Profile", value: "Naturally Sweet" },
-          { label: "Texture", value: "Soft & Chewy" },
-          { label: "Color", value: "Light Brown to Golden" },
-          { label: "Seed Type", value: "Naturally Seeded" },
-          { label: "Packaging", value: "Bulk & Custom Packing Available" },
-          { label: "Quality Grade", value: "Premium / Export Quality" },
-          { label: "Usage", value: "Snacking, Baking, Desserts, Retail" },
-          { label: "Supplier", value: "Mr. Dates – Dry Fruits Supplier" },
-        ],
-
-        image: {
-          src: "/products/anjeer.webp",
-          alt: "Premium Anjeer (Dry Figs)",
-        },
-      },
 
 
-      // mirnut
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "100% natural, preservative-free premium Anjeer (Dry Figs)",
+  //             "Soft, chewy, and naturally sweet, suitable for snacking and culinary use",
+  //             "Complements premium date varieties like Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+  //             "Suitable for retail, wholesale, gifting, and industrial applications",
+  //             "Available in bulk and custom packaging options",
+  //             "Long shelf life when stored in cool, dry conditions",
+  //           ],
+  //         },
 
-      {
-        id: "mirnut-dried-figs",
-        name: "Mirnut Dried Figs",
-        metaTitle: "Mirnut Dried Figs Supplier | Premium Anjeer in Bulk",
-        metaDescription: "Buy Mirnut Dried Figs (Anjeer) from Mr. Dates – premium-quality dried figs with natural sweetness and soft, chewy texture. Ideal for retail, wholesale, gifting, and culinary use.",
+  //         {
+  //           type: "h2",
+  //           text: "Health Benefits",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Rich source of dietary fiber aiding digestion and gut health",
+  //             "Contains essential minerals like calcium, potassium, and iron",
+  //             "Supports heart health, energy levels, and overall wellness",
+  //             "Naturally sweet, making it a healthy alternative to processed snacks",
+  //             "Ideal for fasting, daily nutrition, healthy snacking, and culinary applications",
+  //           ],
+  //         },
 
-        excerpt: "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier. Naturally sweet, soft, and chewy, perfect for snacking, desserts, baking, and retail or wholesale supply.",
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Mr. Dates as a Supplier?",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted and globally recognized Dates Supplier with years of expertise in dates and complementary dry fruits",
+  //             "Wide product range including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Anjeer (Dry Fruits)",
+  //             "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
+  //             "Strict quality control from sourcing to packaging",
+  //             "Competitive pricing for bulk and wholesale buyers",
+  //             "Reliable logistics network ensuring timely domestic and international delivery",
+  //             "Customer-focused service building long-term partnerships",
+  //           ],
+  //         },
+  //       ],
 
-        variety: "Dry Fruits",
+  //       specs: [
+  //         { label: "Product Name", value: "Anjeer (Dry Figs)" },
+  //         { label: "Category", value: "Dry Fruits" },
+  //         { label: "Taste Profile", value: "Naturally Sweet" },
+  //         { label: "Texture", value: "Soft & Chewy" },
+  //         { label: "Color", value: "Light Brown to Golden" },
+  //         { label: "Seed Type", value: "Naturally Seeded" },
+  //         { label: "Packaging", value: "Bulk & Custom Packing Available" },
+  //         { label: "Quality Grade", value: "Premium / Export Quality" },
+  //         { label: "Usage", value: "Snacking, Baking, Desserts, Retail" },
+  //         { label: "Supplier", value: "Mr. Dates – Dry Fruits Supplier" },
+  //       ],
 
-        description: [
-          {
-            "type": "h2",
-            "text": "Product Overview"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier also offering a wide range of premium dates.",
-              "Sourced from select orchards, ensuring natural sweetness, chewy texture, and superior freshness.",
-              "Known for their rich, fruity flavor and soft, tender flesh, making them ideal for snacking, desserts, and culinary use.",
-              "Complementary to luxury date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates for a complete premium dried fruit selection.",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets.",
-              "Hygienically processed, sorted, and packed by a professional Dates Supplier, ensuring premium quality and nutritional integrity."
-            ]
-          },
+  //       image: {
+  //         src: "/products/anjeer.webp",
+  //         alt: "Premium Anjeer (Dry Figs)",
+  //       },
+  //     },
 
-          {
-            "type": "h2",
-            "text": "Key Features"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "100% natural, preservative-free premium Mirnut Dried Figs.",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier.",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates.",
-              "Suitable for retail, wholesale, gifting, hotels, and export.",
-              "Available in bulk, tray packs, and custom packaging options.",
-              "Long shelf life with proper storage while retaining natural flavor and texture."
-            ]
-          },
 
-          {
-            "type": "h2",
-            "text": "Health Benefits"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "Provides instant natural energy from natural sugars.",
-              "High in dietary fiber, supporting digestive health and gut wellness.",
-              "Contains essential minerals like potassium, magnesium, and calcium.",
-              "Supports heart health, stamina, immunity, and overall wellness.",
-              "Ideal for healthy snacking, fasting, daily nutrition, and culinary use.",
-              "Can be paired with Seedless Dates for smoothie bowls, desserts, and baked goods."
-            ]
-          },
+  //     // mirnut
 
-          {
-            "type": "h2",
-            "text": "Why Choose Mr. Dates as a Dates Supplier?"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits.",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs.",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability.",
-              "Strict quality control from harvest to packaging.",
-              "Competitive wholesale pricing and reliable bulk supply capabilities.",
-              "Strong logistics network ensuring timely domestic and international delivery.",
-              "Custom packaging, private labeling, and gifting solutions available.",
-              "Customer-focused service with a long-term partnership approach."
-            ]
-          }
-        ],
+  //     {
+  //       id: "mirnut-dried-figs",
+  //       name: "Mirnut Dried Figs",
+  //       metaTitle: "Mirnut Dried Figs Supplier | Premium Anjeer in Bulk",
+  //       metaDescription: "Buy Mirnut Dried Figs (Anjeer) from Mr. Dates – premium-quality dried figs with natural sweetness and soft, chewy texture. Ideal for retail, wholesale, gifting, and culinary use.",
 
-        specs: [
-          { "label": "Product Name", "value": "Mirnut Dried Figs (Anjeer)" },
-          { "label": "Category", "value": "Dry Fruits" },
-          { "label": "Taste Profile", "value": "Naturally Sweet & Nutty" },
-          { "label": "Texture", "value": "Soft & Chewy" },
-          { "label": "Color", "value": "Light Brown to Golden" },
-          { "label": "Seed Type", "value": "Naturally Seeded" },
-          { "label": "Packaging", "value": "Bulk & Custom Packing Available" },
-          { "label": "Quality Grade", "value": "Premium / Export Quality" },
-          { "label": "Usage", "value": "Snacking, Baking, Desserts, Retail" }
-        ],
+  //       excerpt: "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier. Naturally sweet, soft, and chewy, perfect for snacking, desserts, baking, and retail or wholesale supply.",
 
-        image: {
-          "src": "/products/mirnut.webp",
-          "alt": "Mirnut Dried Figs"
-        }
-      },
+  //       variety: "Dry Fruits",
 
-    ],
-  },
+  //       description: [
+  //         {
+  //           "type": "h2",
+  //           "text": "Product Overview"
+  //         },
+  //         {
+  //           "type": "ul",
+  //           "items": [
+  //             "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier also offering a wide range of premium dates.",
+  //             "Sourced from select orchards, ensuring natural sweetness, chewy texture, and superior freshness.",
+  //             "Known for their rich, fruity flavor and soft, tender flesh, making them ideal for snacking, desserts, and culinary use.",
+  //             "Complementary to luxury date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates for a complete premium dried fruit selection.",
+  //             "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets.",
+  //             "Hygienically processed, sorted, and packed by a professional Dates Supplier, ensuring premium quality and nutritional integrity."
+  //           ]
+  //         },
+
+  //         {
+  //           "type": "h2",
+  //           "text": "Key Features"
+  //         },
+  //         {
+  //           "type": "ul",
+  //           "items": [
+  //             "100% natural, preservative-free premium Mirnut Dried Figs.",
+  //             "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier.",
+  //             "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates.",
+  //             "Suitable for retail, wholesale, gifting, hotels, and export.",
+  //             "Available in bulk, tray packs, and custom packaging options.",
+  //             "Long shelf life with proper storage while retaining natural flavor and texture."
+  //           ]
+  //         },
+
+  //         {
+  //           "type": "h2",
+  //           "text": "Health Benefits"
+  //         },
+  //         {
+  //           "type": "ul",
+  //           "items": [
+  //             "Provides instant natural energy from natural sugars.",
+  //             "High in dietary fiber, supporting digestive health and gut wellness.",
+  //             "Contains essential minerals like potassium, magnesium, and calcium.",
+  //             "Supports heart health, stamina, immunity, and overall wellness.",
+  //             "Ideal for healthy snacking, fasting, daily nutrition, and culinary use.",
+  //             "Can be paired with Seedless Dates for smoothie bowls, desserts, and baked goods."
+  //           ]
+  //         },
+
+  //         {
+  //           "type": "h2",
+  //           "text": "Why Choose Mr. Dates as a Dates Supplier?"
+  //         },
+  //         {
+  //           "type": "ul",
+  //           "items": [
+  //             "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits.",
+  //             "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs.",
+  //             "Direct sourcing from premium farms ensures authenticity, freshness, and traceability.",
+  //             "Strict quality control from harvest to packaging.",
+  //             "Competitive wholesale pricing and reliable bulk supply capabilities.",
+  //             "Strong logistics network ensuring timely domestic and international delivery.",
+  //             "Custom packaging, private labeling, and gifting solutions available.",
+  //             "Customer-focused service with a long-term partnership approach."
+  //           ]
+  //         }
+  //       ],
+
+  //       specs: [
+  //         { "label": "Product Name", "value": "Mirnut Dried Figs (Anjeer)" },
+  //         { "label": "Category", "value": "Dry Fruits" },
+  //         { "label": "Taste Profile", "value": "Naturally Sweet & Nutty" },
+  //         { "label": "Texture", "value": "Soft & Chewy" },
+  //         { "label": "Color", "value": "Light Brown to Golden" },
+  //         { "label": "Seed Type", "value": "Naturally Seeded" },
+  //         { "label": "Packaging", "value": "Bulk & Custom Packing Available" },
+  //         { "label": "Quality Grade", "value": "Premium / Export Quality" },
+  //         { "label": "Usage", "value": "Snacking, Baking, Desserts, Retail" }
+  //       ],
+
+  //       image: {
+  //         "src": "/products/mirnut.webp",
+  //         "alt": "Mirnut Dried Figs"
+  //       }
+  //     },
+
+  //   ],
+  // },
 
   //Dried apricote
   {
@@ -2631,6 +2631,213 @@ export const categories = [
         image: {
           src: "/products/dryfigsJumbo.webp",
           alt: "afgan-figs"
+        }
+      },
+
+      {
+        id: "anjeer",
+        name: "Anjeer (Dry Fruits)",
+        metaTitle: "Anjeer (Dry Figs) | Bulk & Export Supplier | Mr. Dates",
+        metaDescription:
+          "Buy premium Anjeer (Dry Figs) from Mr. Dates – trusted dry fruits supplier. Naturally sweet, soft & chewy figs with export quality packing for wholesale, retail, gifting & export.",
+
+        excerpt:
+          "Anjeer, also known as dried figs, is a premium dry fruit supplied by Mr. Dates, a trusted Dates Supplier and dry fruits provider. Naturally sweet, soft, and nutrient-rich, perfect for snacking or culinary use. Ideal for retail, wholesale, and gifting. Carefully packed to maintain freshness, flavor, and quality.",
+
+        variety: "Dry Fruits",
+
+        packaging: [
+          { type: "box", weight: "10 kg" },
+          { type: "box", weight: "5 kg" },
+          { type: "box", weight: "1 kg" },
+        ],
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Anjeer (Dry Figs) are premium-quality dry fruits supplied by Mr. Dates, a trusted Dates Supplier known for providing high-quality dates and complementary dry fruits to domestic and international markets",
+              "Carefully sourced from selected farms producing top-grade Anjeer, ensuring natural sweetness, chewy texture, and premium quality",
+              "Popular as a nutritious snack, ingredient for desserts, baking, and culinary use",
+              "Complements the premium date varieties offered by Mr. Dates, including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+              "Ideal for retail, wholesale, gifting, bulk supply, and export markets",
+              "Processed and packed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, nutritional value, and superior taste",
+            ],
+          },
+
+
+
+
+
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "100% natural, preservative-free premium Anjeer (Dry Figs)",
+              "Soft, chewy, and naturally sweet, suitable for snacking and culinary use",
+              "Complements premium date varieties like Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+              "Suitable for retail, wholesale, gifting, and industrial applications",
+              "Available in bulk and custom packaging options",
+              "Long shelf life when stored in cool, dry conditions",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Health Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Rich source of dietary fiber aiding digestion and gut health",
+              "Contains essential minerals like calcium, potassium, and iron",
+              "Supports heart health, energy levels, and overall wellness",
+              "Naturally sweet, making it a healthy alternative to processed snacks",
+              "Ideal for fasting, daily nutrition, healthy snacking, and culinary applications",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Mr. Dates as a Supplier?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted and globally recognized Dates Supplier with years of expertise in dates and complementary dry fruits",
+              "Wide product range including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Anjeer (Dry Fruits)",
+              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
+              "Strict quality control from sourcing to packaging",
+              "Competitive pricing for bulk and wholesale buyers",
+              "Reliable logistics network ensuring timely domestic and international delivery",
+              "Customer-focused service building long-term partnerships",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Product Name", value: "Anjeer (Dry Figs)" },
+          { label: "Category", value: "Dry Fruits" },
+          { label: "Taste Profile", value: "Naturally Sweet" },
+          { label: "Texture", value: "Soft & Chewy" },
+          { label: "Color", value: "Light Brown to Golden" },
+          { label: "Seed Type", value: "Naturally Seeded" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+          { label: "Quality Grade", value: "Premium / Export Quality" },
+          { label: "Usage", value: "Snacking, Baking, Desserts, Retail" },
+          { label: "Supplier", value: "Mr. Dates – Dry Fruits Supplier" },
+        ],
+
+        image: {
+          src: "/products/anjeer.webp",
+          alt: "Premium Anjeer (Dry Figs)",
+        },
+      },
+
+
+      // mirnut
+
+      {
+        id: "mirnut-dried-figs",
+        name: "Mirnut Dried Figs",
+        metaTitle: "Mirnut Dried Figs Supplier | Premium Anjeer in Bulk",
+        metaDescription: "Buy Mirnut Dried Figs (Anjeer) from Mr. Dates – premium-quality dried figs with natural sweetness and soft, chewy texture. Ideal for retail, wholesale, gifting, and culinary use.",
+
+        excerpt: "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier. Naturally sweet, soft, and chewy, perfect for snacking, desserts, baking, and retail or wholesale supply.",
+
+        variety: "Dry Fruits",
+
+        description: [
+          {
+            "type": "h2",
+            "text": "Product Overview"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Mirnut Dried Figs are premium-quality dried figs supplied by Mr. Dates, a globally trusted Dates Supplier also offering a wide range of premium dates.",
+              "Sourced from select orchards, ensuring natural sweetness, chewy texture, and superior freshness.",
+              "Known for their rich, fruity flavor and soft, tender flesh, making them ideal for snacking, desserts, and culinary use.",
+              "Complementary to luxury date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates for a complete premium dried fruit selection.",
+              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets.",
+              "Hygienically processed, sorted, and packed by a professional Dates Supplier, ensuring premium quality and nutritional integrity."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "100% natural, preservative-free premium Mirnut Dried Figs.",
+              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier.",
+              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates.",
+              "Suitable for retail, wholesale, gifting, hotels, and export.",
+              "Available in bulk, tray packs, and custom packaging options.",
+              "Long shelf life with proper storage while retaining natural flavor and texture."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Health Benefits"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Provides instant natural energy from natural sugars.",
+              "High in dietary fiber, supporting digestive health and gut wellness.",
+              "Contains essential minerals like potassium, magnesium, and calcium.",
+              "Supports heart health, stamina, immunity, and overall wellness.",
+              "Ideal for healthy snacking, fasting, daily nutrition, and culinary use.",
+              "Can be paired with Seedless Dates for smoothie bowls, desserts, and baked goods."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Why Choose Mr. Dates as a Dates Supplier?"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits.",
+              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs.",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability.",
+              "Strict quality control from harvest to packaging.",
+              "Competitive wholesale pricing and reliable bulk supply capabilities.",
+              "Strong logistics network ensuring timely domestic and international delivery.",
+              "Custom packaging, private labeling, and gifting solutions available.",
+              "Customer-focused service with a long-term partnership approach."
+            ]
+          }
+        ],
+
+        specs: [
+          { "label": "Product Name", "value": "Mirnut Dried Figs (Anjeer)" },
+          { "label": "Category", "value": "Dry Fruits" },
+          { "label": "Taste Profile", "value": "Naturally Sweet & Nutty" },
+          { "label": "Texture", "value": "Soft & Chewy" },
+          { "label": "Color", "value": "Light Brown to Golden" },
+          { "label": "Seed Type", "value": "Naturally Seeded" },
+          { "label": "Packaging", "value": "Bulk & Custom Packing Available" },
+          { "label": "Quality Grade", "value": "Premium / Export Quality" },
+          { "label": "Usage", "value": "Snacking, Baking, Desserts, Retail" }
+        ],
+
+        image: {
+          "src": "/products/mirnut.webp",
+          "alt": "Mirnut Dried Figs"
         }
       },
     ],
@@ -6571,7 +6778,7 @@ export const categories = [
     ],
   },
 
-   //Rabbi dates
+  //Rabbi dates
   {
     id: "rabbi-dates",
     name: "Rabbi Dates",
@@ -7292,7 +7499,7 @@ export const categories = [
     ],
   },
 
-   //Seedless dates
+  //Seedless dates
   {
     id: "seedless-dates",
     name: "Seedless Dates",
@@ -7714,7 +7921,7 @@ export const categories = [
     ],
   },
 
-   //Sukkari dates
+  //Sukkari dates
   {
     id: "sukkari-dates",
     name: "Sukkari Dates",
@@ -8668,7 +8875,7 @@ export const categories = [
     ],
   },
 
-   //wet dates
+  //wet dates
   {
     id: "wet-dates",
     name: "Wet Dates",
@@ -9604,7 +9811,7 @@ export const categories = [
     ],
   },
 
-// cat 7
+  // cat 7
   {
     id: "other-products",
     name: "Other Products",

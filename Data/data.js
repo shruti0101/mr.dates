@@ -368,23 +368,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Ajwa Dates are premium, high-quality dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh and natural dates to domestic and international markets",
-              "Sourced directly from the holy city of Medina, where Ajwa Dates are cultivated under traditional methods ensuring superior quality, soft texture, and rich sweetness",
-              "Valued for their unique taste, dark color, and spiritual significance, making them ideal for gifting, snacking, and religious occasions",
-              "Comparable in quality to luxury date varieties such as Medjoul Dates, Mabroom Dates, and Sukkari Dates",
-              "Suitable for retail, wholesale, bulk supply, gifting, and export markets",
-              "Processed under strict hygiene standards by a professional Dates Supplier, preserving freshness, flavor, and nutritional value",
+              "Premium Ajwa Dates supplied by Mr. Dates, a globally trusted Dates Supplier, known for quality and authenticity",
+              "Sourced from select farms in Medina to ensure natural sweetness, soft texture, and premium quality",
+              "Packed in hygienic cartons to preserve freshness, taste, and nutritional value",
+              "Ideal for gifting, retail, wholesale, hotels, restaurants, and export markets",
+              "Comparable in luxury and quality to Medjool Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
+              "Carefully processed to maintain the natural integrity and flavor of the dates",
             ],
           },
-
-
-
-
-
-
-
-
-
           {
             type: "h2",
             text: "Key Features",
@@ -396,11 +387,10 @@ export const categories = [
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Comparable quality to Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
               "Suitable for retail, wholesale, gifting, and industrial applications",
-              "Available in bulk and custom packaging for all market needs",
-              "Long shelf life when stored in cool, dry conditions",
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and aroma",
+              "Premium packaging ensures freshness and hygiene for all consumers",
             ],
           },
-
           {
             type: "h2",
             text: "Health Benefits",
@@ -416,7 +406,6 @@ export const categories = [
               "Can be processed into Seedless Dates for industrial, bakery, and confectionery applications",
             ],
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?",
@@ -470,115 +459,6 @@ export const categories = [
     badge: "bestseller",
 
     products: [
-      //  1
-
-      // {
-      //   id: "barari-chocolate-dates",
-      //   name: "Barari Chocolate Dates",
-      //   metaTitle: "Barari Chocolate Dates  | Bulk & Export Supplier | Mr. Dates",
-      //   metaDescription:
-      //     "Buy Barari Chocolate Dates  from Mr. Dates – trusted Dates Supplier. Rich chocolate-like aroma, soft moist texture, export quality with bulk & custom packaging for retail, gifting & wholesale.",
-
-      //   excerpt:
-      //     "Barari Chocolate Dates are premium Barari Dates supplied by a trusted Dates Supplier. They have a rich, chocolate-like flavor and soft texture. Perfect for retail, gifting, and bulk supply. Carefully packed to maintain freshness and quality.",
-
-      //   variety: "Barari Dates",
-
-      //   packaging: [
-      //     { type: "box", weight: "5 kg" },
-      //     { type: "packaging size", weight: "250 16 Pcs" },
-
-      //   ],
-
-      //   description: [
-      //     {
-      //       type: "h2",
-      //       text: "Product Overview",
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Barari Chocolate Dates are premium-quality dates supplied by Mr. Dates, a trusted global Dates Supplier with years of experience in delivering fresh and high-quality dates",
-      //         "Carefully sourced from premium farms known for producing Ajwa Dates with rich flavor and soft, moist texture",
-      //         "These dates are popular for their chocolate-like natural aroma and mildly sweet taste, offering a luxurious snacking experience",
-      //         "Comparable in quality and appeal to other premium varieties like Medjoul Dates, Mabroom Dates, and Sukkari Dates",
-      //         "Suitable for retail display, wholesale distribution, gifting, bulk supply, and international export markets",
-      //         "Processed and packed under strict hygiene standards by an experienced Dates Supplier to ensure freshness and consistent quality",
-      //       ],
-      //     },
-
-
-
-      //     {
-      //       type: "h2",
-      //       text: "Key Features",
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "100% natural and preservative-free premium dates",
-      //         "Soft, moist, and rich in flavor, comparable to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-      //         "Supplied by a reliable and experienced Dates Supplier",
-      //         "Suitable for retail shelves, bulk trade, gifting, and industrial use",
-      //         "Long shelf life with proper storage in cool, dry conditions",
-      //         "Available in bulk and custom packaging options to suit all market needs",
-      //       ],
-      //     },
-
-      //     {
-      //       type: "h2",
-      //       text: "Health Benefits",
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Provides instant natural energy from glucose and fructose",
-      //         "Rich in dietary fiber to support healthy digestion",
-      //         "Contains essential minerals like potassium, magnesium, and iron for overall wellness",
-      //         "Supports heart health, stamina, and immune function",
-      //         "Ideal for fasting, daily nutrition, snacking, and culinary applications",
-      //         "Can be processed into Seedless Dates for bakery, confectionery, and industrial food production",
-      //       ],
-      //     },
-
-      //     {
-      //       type: "h2",
-      //       text: "Why Choose Mr. Dates as a Dates Supplier?",
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Established and globally trusted Dates Supplier delivering premium varieties worldwide",
-      //         "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
-      //         "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
-      //         "Strict quality control at every stage, from sourcing to packaging",
-      //         "Competitive pricing and flexible bulk supply options for retailers and wholesalers",
-      //         "Reliable logistics network ensuring timely delivery for domestic and international clients",
-      //         "Customer-focused service building long-term business partnerships",
-      //       ],
-      //     },
-      //   ],
-
-      //   specs: [
-      //     { label: "Product Name", value: "Barari Chocolate Dates" },
-      //     { label: "Variety", value: "Ajwa Dates (Chocolate-Coated)" },
-      //     { label: "Taste Profile", value: "Rich & Mildly Sweet" },
-      //     { label: "Texture", value: "Soft & Moist" },
-      //     { label: "Color", value: "Dark Brown with Chocolate Coating" },
-      //     { label: "Seed Type", value: "Seeded / Seedless (On Request)" },
-      //     { label: "Packaging", value: "Bulk & Custom Packing Available" },
-      //     { label: "Quality Grade", value: "Export Quality" },
-      //     { label: "Usage", value: "Premium Snacking, Gifting" },
-      //     { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
-      //   ],
-
-      //   image: {
-      //     src: "/products/brarichocolate.webp",
-      //     alt: "Premium Barari Chocolate Dates",
-      //   },
-      // },
-
-
       //  2
       {
         id: "barari-guchhi-dates",
@@ -1048,15 +928,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Independent California Almonds packed in a 25kg sack, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits wholesaler",
+              "Sourced from quality almond producers, offering consistent size and natural flavor",
+              "Whole almonds suitable for bulk buyers, processors, wholesalers, and food manufacturers",
+              "Known for their rich nutritional profile and versatility across culinary applications",
+              "Hygienically packed to maintain freshness during storage and transportation",
+              "Complements a wide dry fruit range including Dates, Cashews, Raisins, Anjeer (Dried Figs), and Pistachios"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1064,15 +943,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium whole California Almonds",
+              "Bulk 25kg pack ideal for wholesale and processing",
+              "Nutrient-rich dry fruit with wide usage",
+              "No added preservatives",
+              "Suitable for bakeries, sweet manufacturers, hotels, and retailers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1080,33 +957,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Supports heart health and overall wellness",
+              "Provides sustained energy",
+              "Contributes to healthy skin and metabolism",
+              "Helps maintain balanced nutrition",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits wholesaler",
+              "Wide product portfolio including Dates, Almonds, Cashews, Raisins, Anjeer (Figs), Pistachios, and Mixed Dry Fruits",
+              "Reliable sourcing and consistent quality",
+              "Competitive pricing for bulk buyers",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Independent Almonds" },
@@ -1149,15 +1023,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Independent California Almonds packed in a convenient 250g pouch, offered by Mr. Dates, a trusted Dates Supplier and dry fruits retailer",
+              "Carefully selected whole almonds with consistent size, taste, and crunch",
+              "Ideal for daily consumption, healthy snacking, gifting, and retail sales",
+              "Known for their rich nutritional profile and natural nutty flavor",
+              "Hygienically packed to preserve freshness and quality",
+              "Complements a premium dry fruit range including Dates, Cashews, Raisins, Anjeer (Dried Figs), and Pistachios"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1165,15 +1038,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium whole California Almonds",
+              "Convenient 250g retail pouch",
+              "Nutrient-rich and naturally wholesome",
+              "No added preservatives",
+              "Ideal for home, office, and travel snacking"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1181,33 +1052,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Supports heart health and overall wellness",
+              "Provides sustained energy",
+              "Helps maintain healthy skin and metabolism",
+              "Contributes to balanced daily nutrition",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits specialist",
+              "Wide product range including Dates, Almonds, Cashews, Raisins, Anjeer (Figs), Pistachios, and Mixed Dry Fruits",
+              "Strict quality control and hygienic packing",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Independent Almonds Pouch" },
@@ -1250,15 +1118,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Nonpareil Almonds packed in a convenient 250g retail pouch, offered by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "Sourced from high-quality almonds known for their smooth skin, uniform shape, and superior taste",
+              "Considered one of the finest almond varieties worldwide",
+              "Ideal for daily snacking, gifting, office use, and retail sales",
+              "Hygienically packed to preserve freshness, crunch, and nutritional value",
+              "Complements a premium dry fruit range including Dates, Cashews, Raisins, Anjeer (Dried Figs), and Pistachios"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1266,15 +1133,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Nonpareil Almonds known for superior quality",
+              "Convenient 250g retail pouch",
+              "Naturally nutrient-rich dry fruit",
+              "No artificial additives",
+              "Ideal for home, office, and gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1282,33 +1147,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in Vitamin E supporting skin and antioxidant health",
+              "Supports heart health and overall wellness",
+              "Provides sustained natural energy",
+              "Helps maintain healthy metabolism",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Almonds, Cashews, Raisins, Anjeer (Figs), Pistachios, and Mixed Dry Fruits",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Nonpareil Almonds Pouch" },
@@ -1365,15 +1227,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Cashew Nuts W240 packed in a convenient 250g tin, offered by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "Carefully selected whole cashews with uniform size, creamy taste, and superior crunch",
+              "W240 grade cashews are known for their balanced size and premium quality",
+              "Ideal for daily snacking, gifting, retail shelves, and festive use",
+              "Hygienically processed and packed to maintain freshness and nutritional value",
+              "Complements a premium dry fruit range including Dates, Almonds, Pistachios, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1381,15 +1242,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium W240 grade cashew nuts",
+              "Low broken percentage for superior quality",
+              "Hygienic 250g tin packaging",
+              "Naturally nutrient-rich dry fruit",
+              "Suitable for home, office, and gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1397,33 +1256,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in healthy fats supporting heart health",
+              "Good source of protein and essential minerals",
+              "Supports energy and overall wellness",
+              "Gluten-free and cholesterol-free snack option",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Cashew Nuts, Almonds, Pistachios, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Cashew Nuts W240" },
@@ -1457,7 +1313,7 @@ export const categories = [
 
         packaging: [
           { type: "box", weight: "5 kg" },
-          { type: "packaging size", weight: "250 Gm" },
+          { type: "packaging size", weight: "1 kg" },
 
         ],
 
@@ -1469,15 +1325,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Cashew Nuts W240 packed in a 1kg pouch, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "Carefully selected whole cashews with uniform size, creamy taste, and superior crunch",
+              "W240 grade cashews are known for their balanced size and high quality",
+              "Ideal for bulk home use, retail sale, hotels, bakeries, and catering businesses",
+              "Hygienically processed and packed to preserve freshness and nutritional value",
+              "Complements a premium dry fruit range including Dates, Almonds, Pistachios, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1485,15 +1340,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium W240 grade cashew nuts",
+              "Low broken percentage ensuring superior quality",
+              "Convenient 1kg pouch packaging",
+              "Naturally nutrient-rich dry fruit",
+              "Suitable for home, horeca, and retail use"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1501,30 +1354,26 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in healthy fats supporting heart health",
+              "Good source of protein and essential minerals",
+              "Supports energy and overall wellness",
+              "Gluten-free and cholesterol-free snack option",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Cashew Nuts, Almonds, Pistachios, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
         ],
@@ -1573,15 +1422,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Cashew Nuts W320 packed in a convenient 250g pouch, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "Carefully selected whole cashews with uniform size, smooth texture, and rich creamy taste",
+              "W320 grade cashews are among the most popular grades due to their excellent balance of size and value",
+              "Ideal for daily snacking, retail shelves, gifting, and home consumption",
+              "Hygienically processed and packed to preserve freshness and nutritional value",
+              "Complements a premium dry fruit range including Dates, Almonds, Pistachios, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1589,15 +1437,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium W320 grade cashew nuts",
+              "Low broken percentage ensuring superior quality",
+              "Convenient 250g retail pouch",
+              "Naturally nutrient-rich dry fruit",
+              "Ideal for home, office, and gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1605,33 +1451,29 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in healthy fats supporting heart health",
+              "Good source of protein and essential minerals",
+              "Supports energy and overall wellness",
+              "Gluten-free and cholesterol-free snack option"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Cashew Nuts, Almonds, Pistachios, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Cashew Nuts W320" },
@@ -1677,15 +1519,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Cashew Nuts W320 packed in a convenient 500g pouch, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "Carefully selected whole cashews with uniform size, smooth texture, and rich creamy taste",
+              "W320 grade cashews are among the most popular grades due to their excellent balance of size, quality, and value",
+              "Ideal for home consumption, gifting, retail sales, and festive use",
+              "Hygienically processed and packed to preserve freshness and nutritional value",
+              "Complements a premium dry fruit range including Dates, Almonds, Pistachios, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -1693,15 +1534,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium W320 grade cashew nuts",
+              "Low broken percentage ensuring superior quality",
+              "Convenient 500g retail pouch",
+              "Naturally nutrient-rich dry fruit",
+              "Suitable for home, office, and gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -1709,33 +1548,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in healthy fats supporting heart health",
+              "Good source of protein and essential minerals",
+              "Supports energy and overall wellness",
+              "Gluten-free and cholesterol-free snack option",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Cashew Nuts, Almonds, Pistachios, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Cashew Nuts W320 (1kg)" },
@@ -1767,110 +1603,114 @@ export const categories = [
     metaDescription:
       "Premium Chocolate Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/products/barariChocolate.webp",
+    image: "/products/brarichocolate.webp",
     badge: "bestseller",
 
     products: [
       {
         id: "barari-chocolate-dates",
         name: "Barari Chocolate Dates",
-        metaTitle: "Chocolate Dates Supplier | Premium Dried Fruits & Dates",
-        metaDescription: "Buy Chocolate Dates from Mr. Dates – premium-quality dried fruits with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
+        metaTitle: "Barari Chocolate Dates  | Bulk & Export Supplier | Mr. Dates",
+        metaDescription:
+          "Buy Barari Chocolate Dates  from Mr. Dates – trusted Dates Supplier. Rich chocolate-like aroma, soft moist texture, export quality with bulk & custom packaging for retail, gifting & wholesale.",
 
-        excerpt: "Chocolate Dates are premium-quality dried fruits supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
+        excerpt:
+          "Barari Chocolate Dates are premium Barari Dates supplied by a trusted Dates Supplier. They have a rich, chocolate-like flavor and soft texture. Perfect for retail, gifting, and bulk supply. Carefully packed to maintain freshness and quality.",
 
         variety: "Chocolate Dates",
 
         packaging: [
-          { type: "box", weight: "10 kg" },
-          { type: "packaging size", weight: "500 Gm" },
+          { type: "box", weight: "5 kg" },
+          { type: "packaging size", weight: "250 16 Pcs" },
 
         ],
 
         description: [
           {
             type: "h2",
-            text: "Product Overview"
+            text: "Product Overview",
           },
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
-            ]
+              "Barari Chocolate Dates are premium-quality dates supplied by Mr. Dates, a trusted global Dates Supplier with years of experience in delivering fresh and high-quality dates",
+              "Carefully sourced from premium farms known for producing Ajwa Dates with rich flavor and soft, moist texture",
+              "These dates are popular for their chocolate-like natural aroma and mildly sweet taste, offering a luxurious snacking experience",
+              "Comparable in quality and appeal to other premium varieties like Medjoul Dates, Mabroom Dates, and Sukkari Dates",
+              "Suitable for retail display, wholesale distribution, gifting, bulk supply, and international export markets",
+              "Processed and packed under strict hygiene standards by an experienced Dates Supplier to ensure freshness and consistent quality",
+            ],
+          },
+
+
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "100% natural and preservative-free premium dates",
+              "Soft, moist, and rich in flavor, comparable to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
+              "Supplied by a reliable and experienced Dates Supplier",
+              "Suitable for retail shelves, bulk trade, gifting, and industrial use",
+              "Long shelf life with proper storage in cool, dry conditions",
+              "Available in bulk and custom packaging options to suit all market needs",
+            ],
           },
 
           {
             type: "h2",
-            text: "Key Features"
+            text: "Health Benefits",
           },
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
-            ]
+              "Provides instant natural energy from glucose and fructose",
+              "Rich in dietary fiber to support healthy digestion",
+              "Contains essential minerals like potassium, magnesium, and iron for overall wellness",
+              "Supports heart health, stamina, and immune function",
+              "Ideal for fasting, daily nutrition, snacking, and culinary applications",
+              "Can be processed into Seedless Dates for bakery, confectionery, and industrial food production",
+            ],
           },
 
           {
             type: "h2",
-            text: "Health Benefits"
+            text: "Why Choose Mr. Dates as a Dates Supplier?",
           },
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
-            ]
+              "Established and globally trusted Dates Supplier delivering premium varieties worldwide",
+              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, and Seedless Dates",
+              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
+              "Strict quality control at every stage, from sourcing to packaging",
+              "Competitive pricing and flexible bulk supply options for retailers and wholesalers",
+              "Reliable logistics network ensuring timely delivery for domestic and international clients",
+              "Customer-focused service building long-term business partnerships",
+            ],
           },
-
-          {
-            type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
-            ]
-          }
         ],
 
         specs: [
           { label: "Product Name", value: "Barari Chocolate Dates" },
-          { label: "Category", value: "Chocolate Dates" },
-          { label: "Taste Profile", value: "Naturally Milky & Chocolate" },
-          { label: "Brand", value: "Barari" },
-          { label: "Color", value: "Brown" },
-          // { label: "Seed Type", value: "Seeded" },
-          { label: "Packaging", value: "Bulk / Box Packing" },
-          { label: "Quality Grade", value: "Premium / Export Quality" },
-          { label: "Usage", value: "Snacking, Retail, Wholesale, Gifting" }
+          { label: "Variety", value: "Chocolate Dates" },
+          { label: "Taste Profile", value: "Rich & Mildly Sweet" },
+          { label: "Texture", value: "Soft & Moist" },
+          { label: "Color", value: "Dark Brown with Chocolate Coating" },
+          { label: "Seed Type", value: "Seeded / Seedless (On Request)" },
+          { label: "Packaging", value: "Bulk & Custom Packing Available" },
+          { label: "Quality Grade", value: "Export Quality" },
+          { label: "Usage", value: "Premium Snacking, Gifting" },
+          { label: "Supplier", value: "Mr. Dates – Dates Supplier" },
         ],
 
         image: {
-          src: "/products/barariChocolate.webp",
-          alt: "Barari Chocolate Dates"
-        }
+          src: "/products/brarichocolate.webp",
+          alt: "Premium Barari Chocolate Dates",
+        },
       },
     ],
   },
@@ -2122,7 +1962,7 @@ export const categories = [
 
         packaging: [
           { type: "box", weight: "7.2 kg" },
-          // { type: "packaging size", weight: "500 Gm" },
+          { type: "packaging size", weight: "200 Gm" },
 
         ],
 
@@ -2134,15 +1974,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Turkel Dried Apricots packed in a convenient 200g plastic box, offered by Mr. Dates, a trusted Dates Supplier and dry fruits distributor",
+              "Carefully selected apricots that are naturally dried to retain flavor, texture, and nutrients",
+              "Known for their vibrant color, mildly sweet taste, and soft chewy texture",
+              "Ideal for daily snacking, gifting, travel packs, and retail shelves",
+              "Hygienically processed and packed to preserve freshness and quality",
+              "Complements a wide dry fruit range alongside Dates, Anjeer (Dried Figs), Raisins, Almonds, and Cashews",
+              "Suitable for health-conscious consumers and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2150,15 +1990,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium quality Turkel Dried Apricots",
+              "Naturally dried to preserve nutrients",
+              "Ready-to-eat healthy snack",
+              "No artificial flavoring or unnecessary additives",
+              "Perfect complement to Dates, Anjeer, and other dry fruits"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -2166,33 +2004,29 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in dietary fiber supporting digestion",
+              "Source of natural energy",
+              "Supports eye and skin health",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Dried Apricots, Anjeer (Figs), Raisins, Almonds, Cashews, and Mixed Dry Fruits",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Turkel Dried Apricot" },
@@ -2236,15 +2070,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Turkel Dried Apricots packed in a 200g cardboard-style retail pack, offered by Mr. Dates, a trusted Dates Supplier and dry fruits distributor",
+              "Carefully selected apricots that are naturally dried to retain flavor, texture, and nutritional value",
+              "Known for their bright color, mildly sweet taste, and soft chewy texture",
+              "Ideal for retail shelves, gifting, travel packs, and everyday snacking",
+              "Hygienically processed and packed to preserve freshness and quality",
+              "Complements a wide dry fruit range alongside Dates, Anjeer (Dried Figs), Raisins, Almonds, and Cashews"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2252,15 +2085,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium quality Turkel Dried Apricots",
+              "Naturally dried to preserve nutrients and flavor",
+              "Ready-to-eat healthy snack",
+              "No unnecessary additives",
+              "Perfect complement to Dates and other dry fruits"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -2268,33 +2099,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in dietary fiber supporting digestion",
+              "Natural source of energy",
+              "Supports eye and skin health",
+              "Healthy alternative to processed snacks",
+              "Suitable for daily consumption"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product range including Dates, Dried Apricots, Anjeer (Figs), Raisins, Almonds, Cashews, and Mixed Dry Fruits",
+              "Strict quality control and hygienic packing",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Turkel Dried Apricot Cardboard" },
@@ -2352,15 +2180,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Afghan Figs (Anjeer) packed in a 10kg carton, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits wholesaler",
+              "Sourced from Afghanistan, known for producing naturally sweet and nutrient-rich figs",
+              "Carefully dried to retain flavor, texture, and nutritional value",
+              "Ideal for wholesalers, retailers, sweet manufacturers, and export buyers",
+              "Hygienically packed to ensure freshness, long shelf life, and safe storage",
+              "Complements a premium dry fruit range including Dates, Almonds, Raisins, Apricots, and Cashews"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2368,15 +2195,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium quality Afghan dried figs (Anjeer)",
+              "Bulk 10kg carton for wholesale and processing",
+              "Naturally sweet and nutrient-rich",
+              "No added preservatives",
+              "Ideal for retail repacking and food manufacturing"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -2384,33 +2209,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Rich in dietary fiber supporting digestion",
+              "Natural source of energy",
+              "Supports gut health and metabolism",
+              "Contains essential minerals and antioxidants",
+              "Healthy alternative to refined sweets"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits wholesaler",
+              "Wide product portfolio including Dates, Afghan Figs (Anjeer), Almonds, Apricots, Raisins, Cashews, and Mixed Dry Fruits",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing for bulk buyers",
+              "Reliable sourcing and efficient logistics",
+              "Long-term partnership and customer-focused service"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Afgan Figs" },
@@ -2441,10 +2263,66 @@ export const categories = [
         variety: "Dry Figs",
 
         packaging: [
-          { type: "box", weight: "10 kg" },
-          // { type: "packaging size", weight: "500 Gm" },
-
-        ],
+          {
+            type: "h2",
+            text: "Product Overview"
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium Afghan Dry Figs (Anjeer) packed in large-size 250g vacuum-sealed pouches, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits distributor",
+              "Carefully sourced from Afghanistan, known for high-quality, naturally sweet dried figs",
+              "Vacuum packing preserves freshness, flavor, texture, and nutritional value",
+              "Ideal for retail shelves, gifting, health-conscious consumers, and daily use",
+              "Large fig size with attractive appearance and consistent quality",
+              "Complements a premium dry fruit range including Dates, Almonds, Apricots, Raisins, and Cashews"
+            ]
+          },
+          {
+            type: "h2",
+            text: "Key Features"
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium Afghan large-size dried figs (Anjeer)",
+              "Vacuum-sealed for longer freshness",
+              "Convenient 250g retail pack",
+              "Naturally nutrient-rich",
+              "Ideal for home use, gifting, and retail sales"
+            ]
+          },
+          {
+            type: "h2",
+            text: "Health Benefits"
+          },
+          {
+            type: "ul",
+            items: [
+              "High in dietary fiber supporting digestion",
+              "Natural source of energy",
+              "Supports gut health and metabolism",
+              "Contains essential minerals and antioxidants",
+              "Healthy alternative to refined sweets"
+            ]
+          },
+          {
+            type: "h2",
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted Dates Supplier and dry fruits specialist",
+              "Wide product portfolio including Dates, Afghan Figs (Anjeer), Almonds, Apricots, Raisins, Cashews, and Mixed Dry Fruits",
+              "Hygienic processing and quality packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Long-term partnerships and customer-focused service"
+            ]
+          }
+        ]
+        ,
 
         description: [
           {
@@ -2544,7 +2422,7 @@ export const categories = [
 
         packaging: [
           { type: "box", weight: "10 kg" },
-          // { type: "packaging size", weight: "500 Gm" },
+          { type: "packaging size", weight: "250 Gm" },
 
         ],
 
@@ -2556,15 +2434,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Afghan Dry Figs (Anjeer) packed in large-size 500g vacuum-sealed pouches, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits distributor",
+              "Carefully sourced from Afghanistan, known for high-quality, naturally sweet dried figs",
+              "Vacuum packing preserves freshness, flavor, texture, and nutritional value",
+              "Ideal for retail shelves, gifting, health-conscious consumers, and family use",
+              "Large fig size with attractive appearance and consistent quality",
+              "Complements a premium dry fruit range including Dates, Almonds, Apricots, Raisins, and Cashews"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2572,15 +2449,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Afghan large-size dried figs (Anjeer)",
+              "Vacuum-sealed for longer freshness",
+              "Convenient 500g retail pack",
+              "Naturally nutrient-rich",
+              "Ideal for home use, gifting, and retail sales"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -2588,33 +2463,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "High in dietary fiber supporting digestion",
+              "Natural source of energy",
+              "Supports gut health and metabolism",
+              "Contains essential minerals and antioxidants",
+              "Healthy alternative to refined sweets"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits specialist",
+              "Wide product portfolio including Dates, Afghan Figs (Anjeer), Almonds, Apricots, Raisins, Cashews, and Mixed Dry Fruits",
+              "Hygienic processing and quality packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Long-term partnerships and customer-focused service"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Afgan Figs Pouch Jumbo" },
@@ -2741,10 +2613,7 @@ export const categories = [
           alt: "Premium Anjeer (Dry Figs)",
         },
       },
-
-
       // mirnut
-
       {
         id: "mirnut-dried-figs",
         name: "Mirnut Dried Figs",
@@ -2860,14 +2729,10 @@ export const categories = [
         name: "Fard Dates",
         metaTitle: "Fard Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Fard Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Fard Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Fard Dates",
-
         packaging: [
           { type: "box", weight: "10 kg" },
-
         ],
 
         description: [
@@ -2878,15 +2743,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Fard Dates (1kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Premium Fard Dates (1kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Ideal for retail, gifting, wholesale, hotels, restaurants, and export",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Carefully processed and packaged to preserve freshness, flavor, and nutritional value",
+              "FSSAI certified, ensuring premium quality and food safety"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2894,15 +2758,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
+              "100% natural, preservative-free premium Fard Dates",
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
+              "FSSAI certified for quality and food safety assurance",
               "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life while maintaining flavor and texture",
+              "Bulk and retail packaging available to suit all buyer needs",
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -2915,10 +2779,9 @@ export const categories = [
               "Contains essential minerals such as potassium, magnesium, and calcium",
               "Supports heart health, stamina, immunity, and overall wellness",
               "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Seedless options available for smoothies, desserts, and baking"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -2960,11 +2823,8 @@ export const categories = [
         name: "Fard Dates (Date crown)",
         metaTitle: "Fard Dates (Date crown) Supplier | Premium Fard & Dates",
         metaDescription: "Buy Fard Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Fard Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Fard Dates",
-
         packaging: [
           { type: "box", weight: "5kg" },
 
@@ -2978,15 +2838,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
+              "Premium Fard Dates (Date Crown 250gm) supplied by Mr. Dates, a trusted global Dates Supplier delivering authentic, high-quality dates",
               "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Ideal for retail, gifting, hotels, restaurants, and wholesale buyers",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed to preserve freshness, taste, and nutritional value",
+              "Perfect for gifting, retail display, and festive consumption"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -2994,15 +2853,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
+              "100% natural, preservative-free premium Fard Dates (Date Crown 250gm)",
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
               "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life of up to 12 months  while maintaining flavor and texture"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -3018,7 +2876,6 @@ export const categories = [
               "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -3060,9 +2917,7 @@ export const categories = [
         name: "Emirates Fard Dates",
         metaTitle: "Emirates Fard Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Fard Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Fard Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Fard Dates",
 
         packaging: [
@@ -3078,12 +2933,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
+              "Premium Fard Dates (7kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
               "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export",
               "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Hygienically packed in cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for bulk consumption, gifting, and premium culinary use"
             ]
           },
 
@@ -3094,12 +2949,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
+              "100% natural, preservative-free premium Fard Dates",
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life of up to 12 months while maintaining flavor and texture",
+              "Bulk packaging ideal for high-volume consumption or commercial use",
             ]
           },
 
@@ -3160,11 +3015,8 @@ export const categories = [
         name: "Fard Dates Jar (Barari)",
         metaTitle: "Emirates Fard Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Fard Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Fard Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Fard Dates",
-
         packaging: [
           { type: "box", weight: "6kg" },
 
@@ -3178,12 +3030,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
+              "Premium Fard Dates Jar (Barari, 6kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
               "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Ideal for retail, gifting, wholesale, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in jars and cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for bulk consumption, gifting, and premium culinary use"
             ]
           },
 
@@ -3194,12 +3046,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
+              "100% natural, preservative-free premium Fard Dates Jar Barari",
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life of up to 12  while maintaining flavor and texture",
+              "Bulk packaging for high-volume consumption or commercial use",
             ]
           },
 
@@ -3258,13 +3110,10 @@ export const categories = [
       {
         id: "red-fard-dates",
         name: "Red Fard Dates",
-        metaTitle: "Emirates Fard Dates Supplier | Premium Fard & Dates",
+        metaTitle: "Red Fard Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Fard Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Fard Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Fard Dates",
-
         packaging: [
           { type: "box", weight: "500g" },
           { type: "box", weight: "250g " },
@@ -3278,12 +3127,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Red Fard Dates 250g supplied by Mr. Dates, a trusted global Dates Supplier delivering high-quality, authentic dates",
+              "Sourced from select farms to ensure natural sweetness, soft texture, and superior quality",
+              "Ideal for retail, gifting, hotels, restaurants, and bulk buyers",
+              "Comparable in quality to luxury date varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed to preserve freshness, taste, and nutritional value",
+              "Perfect for snacking, culinary use, festive consumption, and gift assortments"
             ]
           },
 
@@ -3294,12 +3143,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
+              "100% natural, preservative-free premium Red Fard Dates",
               "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "A Grade quality for retail, gifting, and wholesale",
+              "Suitable for retail, bulk supply, gifting, hotels, and export",
+              "Long shelf life of up to 12 while maintaining flavor and texture",
+              "Multiple packaging sizes available for flexibility in retail and bulk distribution"
             ]
           },
 
@@ -3826,71 +3676,66 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
           {
             type: "ul",
             items: [
-              "Royal Palm Kalmi Dates are premium-quality dates supplied by Mr. Dates, a trusted and experienced Dates Supplier serving domestic and international markets",
-              "Sourced from carefully selected farms known for producing high-grade Kalmi Dates and naturally sweet Sukkari Dates",
-              "These dates are recognized for their soft texture, rich natural sweetness, and attractive appearance",
-              "Comparable in quality and consumer preference to popular varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail shelves, wholesale distribution, bulk supply, gifting, and export markets",
-              "Processed, graded, and packed under strict hygiene and food safety standards by a professional Dates Supplier",
-            ],
+              "Premium Loose Kalmi Dates (5kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure natural sweetness, soft texture, and premium-quality fruit",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for snacking, culinary use, and premium gift assortments"
+            ]
           },
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural and preservative-free dates",
-              "Premium Kalmi Dates with Sukkari Dates sweetness profile",
-              "Supplied by a trusted global Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Available in soft, moist, and wet-style textures similar to Wet Dates",
-              "Suitable for retail, wholesale, gifting, and food processing industries",
-              "Long shelf life with proper storage",
-            ],
+              "100% natural, preservative-free premium Loose Kalmi Dates (5kg)",
+              "Soft, tender, and naturally sweet with authentic seed intact",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Fard Dates, and Kimia Dates",
+              "Suitable for retail, wholesale, gifting, hotels, and export",
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides natural and instant energy from glucose and fructose",
+              "Provides instant natural energy from glucose and fructose",
               "High in dietary fiber supporting digestion and gut health",
-              "Rich in essential minerals such as potassium, iron, and magnesium",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, and healthy snacking",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial use",
-            ],
+              "Rich in essential minerals such as potassium, magnesium, iron, and calcium",
+              "Supports heart health, stamina, immunity, and overall wellness",
+              "Ideal for fasting, daily nutrition, healthy snacking, gifting, and culinary use",
+              "Can be paired with Seedless Dates or other varieties for smoothies, desserts, and baking"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Established and globally trusted Dates Supplier",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Kalmi Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness and traceability",
-              "Strict quality control from farm selection to final packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network with timely delivery",
-              "Customer-focused service and long-term partnership commitment",
-            ],
-          },
+              "Trusted and globally recognized Dates Supplier with extensive experience in high-quality dates",
+              "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+              "Strict quality control from harvest to packaging",
+              "Competitive wholesale pricing and reliable bulk supply capabilities",
+              "Strong logistics network ensuring timely domestic and international delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Customer-focused service with a long-term partnership approach"
+            ]
+          }
         ],
 
         specs: [
@@ -3931,71 +3776,66 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
           {
             type: "ul",
             items: [
-              "Royal Palm Kalmi Dates are premium-quality dates supplied by Mr. Dates, a trusted and experienced Dates Supplier serving domestic and international markets",
-              "Sourced from carefully selected farms known for producing high-grade Kalmi Dates and naturally sweet Sukkari Dates",
-              "These dates are recognized for their soft texture, rich natural sweetness, and attractive appearance",
-              "Comparable in quality and consumer preference to popular varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail shelves, wholesale distribution, bulk supply, gifting, and export markets",
-              "Processed, graded, and packed under strict hygiene and food safety standards by a professional Dates Supplier",
-            ],
+              "Premium King Kalmi Dates (5kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure natural sweetness, soft texture, and premium quality",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for snacking, culinary use, and premium gift assortments"
+            ]
           },
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural and preservative-free dates",
-              "Premium Kalmi Dates with Sukkari Dates sweetness profile",
-              "Supplied by a trusted global Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Available in soft, moist, and wet-style textures similar to Wet Dates",
-              "Suitable for retail, wholesale, gifting, and food processing industries",
-              "Long shelf life with proper storage",
-            ],
+              "100% natural, preservative-free premium King Kalmi Dates (5kg)",
+              "Soft, tender, and naturally sweet with authentic seed intact",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Fard Dates, and Kimia Dates",
+              "Suitable for retail, wholesale, gifting, hotels, and export",
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides natural and instant energy from glucose and fructose",
+              "Provides instant natural energy from glucose and fructose",
               "High in dietary fiber supporting digestion and gut health",
-              "Rich in essential minerals such as potassium, iron, and magnesium",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, and healthy snacking",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial use",
-            ],
+              "Rich in essential minerals such as potassium, magnesium, iron, and calcium",
+              "Supports heart health, stamina, immunity, and overall wellness",
+              "Ideal for fasting, daily nutrition, healthy snacking, gifting, and culinary use",
+              "Can be paired with Seedless Dates or other varieties for smoothies, desserts, and baking"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Established and globally trusted Dates Supplier",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Kalmi Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness and traceability",
-              "Strict quality control from farm selection to final packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network with timely delivery",
-              "Customer-focused service and long-term partnership commitment",
-            ],
-          },
+              "Trusted and globally recognized Dates Supplier with extensive experience in high-quality dates",
+              "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+              "Strict quality control from harvest to packaging",
+              "Competitive wholesale pricing and reliable bulk supply capabilities",
+              "Strong logistics network ensuring timely domestic and international delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Customer-focused service with a long-term partnership approach"
+            ]
+          }
         ],
 
         specs: [
@@ -4036,71 +3876,66 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
           {
             type: "ul",
             items: [
-              "Royal Palm Kalmi Dates are premium-quality dates supplied by Mr. Dates, a trusted and experienced Dates Supplier serving domestic and international markets",
-              "Sourced from carefully selected farms known for producing high-grade Kalmi Dates and naturally sweet Sukkari Dates",
-              "These dates are recognized for their soft texture, rich natural sweetness, and attractive appearance",
-              "Comparable in quality and consumer preference to popular varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail shelves, wholesale distribution, bulk supply, gifting, and export markets",
-              "Processed, graded, and packed under strict hygiene and food safety standards by a professional Dates Supplier",
-            ],
+              "Premium Kalmi Date Round (500g) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure natural sweetness, soft texture, and premium-quality fruit",
+              "Ideal for retail, gifting, hotels, restaurants, and individual consumption",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for snacking, culinary use, and gourmet gift assortments"
+            ]
           },
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural and preservative-free dates",
-              "Premium Kalmi Dates with Sukkari Dates sweetness profile",
-              "Supplied by a trusted global Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Available in soft, moist, and wet-style textures similar to Wet Dates",
-              "Suitable for retail, wholesale, gifting, and food processing industries",
-              "Long shelf life with proper storage",
-            ],
+              "100% natural, preservative-free premium Kalmi Date Round (500g)",
+              "Soft, tender, and naturally sweet with authentic seed intact",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Fard Dates, and Kimia Dates",
+              "Suitable for retail, wholesale, gifting, hotels, and individual use",
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides natural and instant energy from glucose and fructose",
+              "Provides instant natural energy from glucose and fructose",
               "High in dietary fiber supporting digestion and gut health",
-              "Rich in essential minerals such as potassium, iron, and magnesium",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, and healthy snacking",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial use",
-            ],
+              "Rich in essential minerals including magnesium (5mg) and sodium (3mg) per serving",
+              "Supports heart health, stamina, immunity, and overall wellness",
+              "Ideal for fasting, daily nutrition, healthy snacking, gifting, and culinary use",
+              "Can be paired with Seedless Dates or other varieties for smoothies, desserts, and baking"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Established and globally trusted Dates Supplier",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Kalmi Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness and traceability",
-              "Strict quality control from farm selection to final packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network with timely delivery",
-              "Customer-focused service and long-term partnership commitment",
-            ],
-          },
+              "Trusted and globally recognized Dates Supplier with extensive experience in high-quality dates",
+              "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+              "Strict quality control from harvest to packaging",
+              "Competitive wholesale pricing and reliable bulk supply capabilities",
+              "Strong logistics network ensuring timely domestic and international delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Customer-focused service with a long-term partnership approach"
+            ]
+          }
         ],
 
         specs: [
@@ -4142,71 +3977,68 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
           {
             type: "ul",
             items: [
-              "Royal Palm Kalmi Dates are premium-quality dates supplied by Mr. Dates, a trusted and experienced Dates Supplier serving domestic and international markets",
-              "Sourced from carefully selected farms known for producing high-grade Kalmi Dates and naturally sweet Sukkari Dates",
-              "These dates are recognized for their soft texture, rich natural sweetness, and attractive appearance",
-              "Comparable in quality and consumer preference to popular varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail shelves, wholesale distribution, bulk supply, gifting, and export markets",
-              "Processed, graded, and packed under strict hygiene and food safety standards by a professional Dates Supplier",
-            ],
+              "Premium Brown Kalmi Bucket Dates (5kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure natural sweetness, firm yet tender texture, and high-quality fruit",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for snacking, culinary use, and premium gift assortments"
+            ]
           },
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural and preservative-free dates",
-              "Premium Kalmi Dates with Sukkari Dates sweetness profile",
-              "Supplied by a trusted global Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Available in soft, moist, and wet-style textures similar to Wet Dates",
-              "Suitable for retail, wholesale, gifting, and food processing industries",
-              "Long shelf life with proper storage",
-            ],
+              "100% natural, preservative-free premium Brown Kalmi Bucket Dates (5kg)",
+              "Soft, tender, and naturally sweet with authentic seed intact",
+              "Packed with essential minerals such as potassium, magnesium, copper, manganese, and iron, supporting overall health",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Fard Dates, and Kimia Dates",
+              "Suitable for retail, wholesale, gifting, hotels, and export",
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides natural and instant energy from glucose and fructose",
+              "Provides instant natural energy from glucose and fructose",
               "High in dietary fiber supporting digestion and gut health",
-              "Rich in essential minerals such as potassium, iron, and magnesium",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, and healthy snacking",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial use",
-            ],
+              "Rich in essential minerals including potassium, magnesium, copper, manganese, and iron",
+              "Supports heart health, stamina, immunity, and overall wellness",
+              "Ideal for fasting, daily nutrition, healthy snacking, gifting, and culinary use",
+              "Seedless options available for smoothies, desserts, and baking"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Established and globally trusted Dates Supplier",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Kalmi Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness and traceability",
-              "Strict quality control from farm selection to final packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network with timely delivery",
-              "Customer-focused service and long-term partnership commitment",
-            ],
-          },
+              "Trusted and globally recognized Dates Supplier with extensive experience in high-quality dates",
+              "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+              "Strict quality control from harvest to packaging",
+              "Competitive wholesale pricing and reliable bulk supply capabilities",
+              "Strong logistics network ensuring timely domestic and international delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Customer-focused service with a long-term partnership approach"
+            ]
+          }
+
         ],
 
         specs: [
@@ -4233,12 +4065,12 @@ export const categories = [
       {
         id: "al-fruit-kalmi-dates",
         name: "Al-Fruit Kalmi Dates",
-        metaTitle: "King Kalmi Dates (Loose) | Bulk & Export Supplier | Mr. Dates",
+        metaTitle: "Fruit Kalmi Dates (Loose) | Bulk & Export Supplier | Mr. Dates",
         metaDescription:
-          "Buy King Kalmi Dates in loose form from Mr. Dates – trusted Dates Supplier. Soft, naturally sweet, export-quality dates with bulk & custom packaging for wholesale, retail & export.",
+          "Buy Fruit Kalmi Dates in loose form from Mr. Dates – trusted Dates Supplier. Soft, naturally sweet, export-quality dates with bulk & custom packaging for wholesale, retail & export.",
 
         excerpt:
-          "Royal Palm Kalmi Dates are premium Kalmi Dates supplied by a trusted Dates Supplier. Soft, sweet, and tender, ideal for daily consumption or gifting. Suitable for retail, wholesale, and export. Carefully sourced and packed to maintain freshness.",
+          "Fruit Kalmi Dates are premium Kalmi Dates supplied by a trusted Dates Supplier. Soft, sweet, and tender, ideal for daily consumption or gifting. Suitable for retail, wholesale, and export. Carefully sourced and packed to maintain freshness.",
 
         variety: "Kalmi Dates",
 
@@ -4249,71 +4081,66 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
           {
             type: "ul",
             items: [
-              "Royal Palm Kalmi Dates are premium-quality dates supplied by Mr. Dates, a trusted and experienced Dates Supplier serving domestic and international markets",
-              "Sourced from carefully selected farms known for producing high-grade Kalmi Dates and naturally sweet Sukkari Dates",
-              "These dates are recognized for their soft texture, rich natural sweetness, and attractive appearance",
-              "Comparable in quality and consumer preference to popular varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail shelves, wholesale distribution, bulk supply, gifting, and export markets",
-              "Processed, graded, and packed under strict hygiene and food safety standards by a professional Dates Supplier",
-            ],
+              "Premium Al-Fruit Kalmi Dates (5kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure natural sweetness, soft texture, and high-quality fruit",
+              "Ideal for retail, gifting, wholesale, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for culinary use, snacking, and premium gift assortments"
+            ]
           },
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural and preservative-free dates",
-              "Premium Kalmi Dates with Sukkari Dates sweetness profile",
-              "Supplied by a trusted global Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Available in soft, moist, and wet-style textures similar to Wet Dates",
-              "Suitable for retail, wholesale, gifting, and food processing industries",
-              "Long shelf life with proper storage",
-            ],
+              "100% natural, preservative-free premium Al-Fruit Kalmi Dates (5kg)",
+              "Soft, tender, and naturally sweet with authentic seed intact",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Fard Dates, and Kimia Dates",
+              "Suitable for retail, wholesale, gifting, hotels, and export",
+              "Long shelf life of up to 15 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides natural and instant energy from glucose and fructose",
+              "Provides instant natural energy from glucose and fructose",
               "High in dietary fiber supporting digestion and gut health",
-              "Rich in essential minerals such as potassium, iron, and magnesium",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, and healthy snacking",
-              "Can be processed into Seedless Dates for bakery, confectionery, and industrial use",
-            ],
+              "Rich in essential minerals including magnesium (50mg) and sodium (17mg) per serving",
+              "Supports heart health, stamina, immunity, and overall wellness",
+              "Ideal for fasting, daily nutrition, healthy snacking, gifting, and culinary use",
+              "Can be paired with Seedless Dates or other varieties for smoothies, desserts, and baking"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Established and globally trusted Dates Supplier",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Kalmi Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
-              "Direct sourcing from premium farms ensures freshness and traceability",
-              "Strict quality control from farm selection to final packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network with timely delivery",
-              "Customer-focused service and long-term partnership commitment",
-            ],
-          },
+              "Trusted and globally recognized Dates Supplier with extensive experience in high-quality dates",
+              "Wide product portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
+              "Strict quality control from harvest to packaging",
+              "Competitive wholesale pricing and reliable bulk supply capabilities",
+              "Strong logistics network ensuring timely domestic and international delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Customer-focused service with a long-term partnership approach"
+            ]
+          }
         ],
 
         specs: [
@@ -5148,73 +4975,67 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
-
           {
             type: "ul",
             items: [
-              "Kimia Gold Dry Dates are premium-quality dry dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
-              "Sourced from carefully selected farms producing top-grade Kimia Dates, ensuring natural sweetness, firm texture, and premium quality",
-              "Known for their golden-brown color, firm yet tender flesh, and naturally rich flavor, making them ideal for snacking, gifting, and culinary use",
-              "Comparable in quality to other luxury date varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail, wholesale, bulk supply, gifting, and export markets",
-              "Processed and packed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, superior taste, and nutritional integrity",
-            ],
+              "Premium Kimia Gold Dates (500g) offered by Mr. Dates, a trusted and experienced Dates Supplier",
+              "Sourced from select regions known for producing authentic, soft, and naturally rich Kimia dates",
+              "Ideal for retail customers, gifting purposes, hotels, restaurants, and daily consumption",
+              "Known for their deep color, soft texture, and naturally sweet taste",
+              "Comparable in quality to premium varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed to preserve freshness, nutrition, and authentic flavor"
+            ]
           },
-
-
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Kimia Gold Dry Dates",
-              "Firm yet tender and naturally sweet, supplied by a trusted Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, and industrial applications",
-              "Available in bulk and custom packaging for all market needs",
-              "Long shelf life when stored in cool, dry conditions",
-            ],
+              "100% natural Kimia Gold Dates, preservative-free",
+              "Premium quality with consistent size, color, and taste",
+              "Rich in essential minerals and nutrients",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "FSSAI certified for safety and quality assurance",
+              "Ideal for retail sales, gifting, and everyday consumption"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from glucose and fructose",
-              "Rich in dietary fiber supporting digestion and gut health",
-              "Contains essential minerals like potassium, magnesium, and iron",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, healthy snacking, and culinary use",
-              "Can be processed into Seedless Dates for industrial, bakery, and confectionery applications",
-            ],
+              "Provides quick and natural energy",
+              "High dietary fiber supports digestion and gut health",
+              "Contains magnesium (20 mg) for muscle and nerve function",
+              "Contains sodium (20 mg) to help maintain electrolyte balance",
+              "Supports heart health, immunity, and overall wellness",
+              "Suitable for fasting, healthy snacking, and balanced diets"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with years of experience",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Kimia Gold Dry Dates",
-              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
-              "Strict quality control from farm to packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network ensuring timely domestic and international delivery",
-              "Customer-focused service building long-term business partnerships",
-            ],
-          },
+              "Reliable and established Dates Supplier with a diverse product range",
+              "Extensive portfolio including Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, and more",
+              "Direct sourcing ensures authenticity, freshness, and traceability",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for retail, wholesale, and bulk buyers",
+              "Efficient logistics and timely delivery",
+              "Custom packaging, private labeling, and gifting solutions available",
+              "Strong commitment to quality, consistency, and customer satisfaction"
+            ]
+          }
+
         ],
 
         specs: [
@@ -5262,73 +5083,68 @@ export const categories = [
         description: [
           {
             type: "h2",
-            text: "Product Overview",
+            text: "Product Overview"
           },
-
           {
             type: "ul",
             items: [
-              "Kimia Gold Dry Dates are premium-quality dry dates supplied by Mr. Dates, a globally trusted Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
-              "Sourced from carefully selected farms producing top-grade Kimia Dates, ensuring natural sweetness, firm texture, and premium quality",
-              "Known for their golden-brown color, firm yet tender flesh, and naturally rich flavor, making them ideal for snacking, gifting, and culinary use",
-              "Comparable in quality to other luxury date varieties such as Ajwa Dates, Medjoul Dates, and Mabroom Dates",
-              "Suitable for retail, wholesale, bulk supply, gifting, and export markets",
-              "Processed and packed under strict hygiene standards by a professional Dates Supplier, ensuring freshness, superior taste, and nutritional integrity",
-            ],
+              "Premium Loose Kimia Dates (5kg) supplied by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully sourced from authentic growing regions known for high-quality Kimia dates",
+              "Loose packing allows easy sorting, portioning, and bulk usage",
+              "Ideal for wholesalers, retailers, hotels, caterers, restaurants, and export buyers",
+              "Known for their naturally rich sweetness, dark black color, and soft texture",
+              "Comparable in taste and quality to premium Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Suitable for daily consumption, festive use, and commercial food preparation"
+            ]
           },
-
-
-
-
-
           {
             type: "h2",
-            text: "Key Features",
+            text: "Key Features"
           },
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Kimia Gold Dry Dates",
-              "Firm yet tender and naturally sweet, supplied by a trusted Dates Supplier",
-              "Comparable quality to Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, and industrial applications",
-              "Available in bulk and custom packaging for all market needs",
-              "Long shelf life when stored in cool, dry conditions",
-            ],
+              "Authentic Loose Kimia Dates with natural sweetness",
+              "Uniform color and consistent quality",
+              "Free from artificial additives and preservatives",
+              "Matches quality standards of Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Excellent choice for commercial and retail buyers"
+            ]
           },
-
           {
             type: "h2",
-            text: "Health Benefits",
+            text: "Health Benefits"
           },
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from glucose and fructose",
-              "Rich in dietary fiber supporting digestion and gut health",
-              "Contains essential minerals like potassium, magnesium, and iron",
-              "Supports heart health, stamina, and overall wellness",
-              "Ideal for fasting, daily nutrition, healthy snacking, and culinary use",
-              "Can be processed into Seedless Dates for industrial, bakery, and confectionery applications",
-            ],
+              "Provides instant natural energy",
+              "Rich in dietary fiber to support digestion",
+              "Contains essential minerals for daily nutrition",
+              "Supports heart health and overall wellness",
+              "Ideal for fasting, healthy snacking, and balanced diets",
+              "Suitable alternative to refined sugar snacks"
+            ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?",
+            text: "Why Choose Mr. Dates as a Dates Supplier?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with years of experience",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Kimia Gold Dry Dates",
-              "Direct sourcing from premium farms ensures freshness, traceability, and consistent quality",
-              "Strict quality control from farm to packaging",
-              "Competitive pricing for bulk and wholesale buyers",
-              "Reliable logistics network ensuring timely domestic and international delivery",
-              "Customer-focused service building long-term business partnerships",
-            ],
-          },
+              "Reliable Dates Supplier with years of industry experience",
+              "Wide range including Kimia Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures freshness and authenticity",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk, wholesale, and retail orders",
+              "Efficient logistics and timely delivery",
+              "Custom packaging and private labeling options available",
+              "Strong focus on customer satisfaction and long-term partnerships"
+            ]
+          }
+
         ],
 
         specs: [
@@ -5389,15 +5205,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Date Crown Mabroom Dates offered by Mr. Dates, a trusted global Dates Supplier",
+              "Sourced from select farms renowned for producing authentic Mabroom dates with premium quality",
+              "Known for their elongated shape, firm bite, and naturally balanced sweetness",
+              "Popular choice among customers who prefer less sugary yet flavorful dates",
+              "Ideal for daily consumption, gifting, retail shelves, hotels, and export markets",
+              "Matches premium standards seen in Ajwa Dates, Medjool Dates, and select Kimia Dates",
+              "Carefully packed to retain freshness, texture, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5405,15 +5221,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Date Crown Mabroom Dates",
+              "Naturally low moisture with firm texture",
+              "Premium appearance with uniform size and color",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, and Fard Dates",
+              "No added sugar or preservatives",
+              "Suitable for bulk buyers, retailers, and gifting purposes"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5421,15 +5236,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy without excessive sweetness",
+              "Rich in dietary fiber to support digestion",
+              "Helps maintain balanced blood sugar levels when consumed moderately",
+              "Supports heart health and metabolism",
+              "Ideal for fasting, healthy snacking, and active lifestyles"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5437,16 +5250,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted and experienced Dates Supplier serving retail and wholesale markets",
+              "Wide portfolio including Mabroom Dates, Ajwa Dates, Medjool Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality checks and hygienic packaging standards",
+              "Competitive pricing for bulk and retail buyers",
+              "Reliable logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong commitment to quality, freshness, and customer satisfaction"
             ]
           }
+
         ],
 
         specs: [
@@ -5491,15 +5305,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Al Shaffa Mabroom Dates offered by Mr. Dates, a trusted and reliable Dates Supplier",
+              "Carefully sourced from renowned Mabroom date farms ensuring authenticity and superior quality",
+              "Known for their elongated shape, firm texture, and naturally mild sweetness",
+              "Ideal for customers who prefer less sugary dates with a rich, traditional flavor",
+              "Perfect for daily consumption, gifting, retail shelves, hotels, and export markets",
+              "Comparable in quality to premium Ajwa Dates, Medjool Dates, and selected Kimia Dates",
+              "Hygienically packed to maintain freshness, flavor, and nutritional integrity"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5507,15 +5321,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Al Shaffa Mabroom Dates from trusted origins",
+              "A Grade quality with uniform size and color",
+              "Naturally low moisture and firm texture",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for both personal use and commercial buyers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5523,15 +5336,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural, sustained energy",
+              "High dietary fiber supports digestion",
+              "Contains magnesium (2 mg) for muscle and nerve support",
+              "Low sodium (1 mg) supports heart-friendly diets",
+              "Helps maintain balanced blood sugar levels when consumed moderately",
+              "Suitable for fasting, healthy snacking, and balanced nutrition plans"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5539,16 +5351,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier with extensive product expertise",
+              "Wide selection including Mabroom Dates, Ajwa Dates, Medjool Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for retail, wholesale, and bulk buyers",
+              "Reliable logistics and timely delivery",
+              "Custom packaging, private labeling, and gifting options available",
+              "Commitment to customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -5609,15 +5422,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Medjool Dates (Medium size) offered by Mr. Dates, a trusted global Dates Supplier",
+              "Sourced from carefully selected farms known for producing high-quality Medjool dates",
+              "Medium-sized dates with rich flavor, attractive appearance, and consistent quality",
+              "Popular choice for customers seeking naturally sweet, soft, and fleshy dates",
+              "Suitable for daily consumption, gifting, retail shelves, hotels, restaurants, and export markets",
+              "Comparable in quality to premium Ajwa Dates, Mabroom Dates, Kimia Dates, and Sukkari Dates",
+              "Hygienically packed to preserve freshness, nutrition, and natural taste"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5625,15 +5438,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Medjool Dates (Medium size) with consistent grading",
+              "Naturally large flesh with rich sweetness",
+              "Free from artificial additives and preservatives",
+              "Comparable quality to Ajwa Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for retail, gifting, and commercial use"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5641,15 +5453,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides instant and sustained natural energy",
+              "Rich in dietary fiber for digestive health",
+              "Supports heart health and metabolism",
+              "Contains essential minerals for overall wellness",
+              "Healthy alternative to refined sugar snacks",
+              "Ideal for fasting, active lifestyles, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5657,16 +5468,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Experienced and reliable Dates Supplier serving retail and wholesale markets",
+              "Extensive range including Medjool Dates, Ajwa Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging practices",
+              "Competitive pricing for bulk and wholesale buyers",
+              "Timely delivery and efficient logistics",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong focus on customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -5711,15 +5523,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Medjool Dates (Jumbo size) offered by Mr. Dates, a trusted and established Dates Supplier",
+              "Sourced from select farms known for producing extra-large, fleshy Medjool dates",
+              "Jumbo size ensures superior visual appeal, rich taste, and premium eating experience",
+              "Ideal for customers seeking high-end dates for gifting, retail, hotels, and export markets",
+              "Naturally sweet, soft, and nutrient-rich with excellent shelf stability",
+              "Comparable in quality to premium Ajwa Dates, Mabroom Dates, Kimia Dates, and Sukkari Dates",
+              "Hygienically packed to preserve freshness, size, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5727,15 +5539,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Jumbo Medjool Dates with superior size and appearance",
+              "A Grade quality with uniform shape and color",
+              "Naturally high flesh-to-seed ratio",
+              "Comparable quality to Ajwa Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life of up to 15 months",
+              "Ideal for premium retail and bulk buyers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5743,15 +5554,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Helps increase potassium intake, supporting nervous system and muscle function",
+              "Provides instant and sustained natural energy",
+              "High dietary fiber supports digestion",
+              "Supports heart health and electrolyte balance",
+              "Healthy alternative to processed sweets",
+              "Suitable for fasting, fitness-focused diets, and active lifestyles"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5759,16 +5569,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide assortment including Medjool Dates, Ajwa Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity, freshness, and consistent quality",
+              "Strict quality checks and hygienic packaging standards",
+              "Competitive pricing for bulk and premium buyers",
+              "Efficient logistics and timely delivery",
+              "Custom packaging, private labeling, and gifting options available",
+              "Commitment to customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -5813,15 +5624,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Madjool Dates (5kg) offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully sourced from reputed farms known for producing authentic Madjool dates",
+              "Known for their large size, rich sweetness, and naturally soft flesh",
+              "Ideal for bulk buyers, retailers, hotels, restaurants, and export markets",
+              "Suitable for daily consumption, festive occasions, and premium gifting",
+              "Comparable in quality to Medjool Dates, Ajwa Dates, Mabroom Dates, and Kimia Dates",
+              "Hygienically packed to preserve freshness, flavor, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5829,15 +5640,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Madjool Dates with consistent size and quality",
+              "Naturally high flesh-to-seed ratio",
+              "Free from artificial additives and preservatives",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for retail, wholesale, and gifting purposes"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5845,15 +5655,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and sustained natural energy",
+              "High dietary fiber supports digestion",
+              "Supports heart health and metabolism",
+              "Rich in essential minerals for daily nutrition",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting, active lifestyles, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5861,16 +5670,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Reliable and experienced Dates Supplier serving domestic and export markets",
+              "Extensive product range including Madjool Dates, Medjool Dates, Ajwa Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale buyers",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong commitment to quality, freshness, and customer satisfaction"
             ]
           }
+
         ],
 
         specs: [
@@ -5914,15 +5724,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Barari Medjool Dates (500g) offered by Mr. Dates, a trusted and established Dates Supplier",
+              "Carefully sourced from select farms known for producing high-quality Medjool dates",
+              "Known for their rich sweetness, soft flesh, and premium appearance",
+              "Ideal for daily consumption, retail shelves, gifting, and healthy snacking",
+              "Packed in convenient 500g size for freshness and easy storage",
+              "Comparable in quality to Ajwa Dates, Mabroom Dates, Kimia Dates, and Sukkari Dates",
+              "Hygienically packed to retain natural taste, texture, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -5930,15 +5740,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Barari Medjool Dates with premium grading",
+              "A Grade quality ensures consistent size and appearance",
+              "Naturally high flesh-to-seed ratio",
+              "Comparable quality to Ajwa Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, and Fard Dates",
+              "Extended shelf life of up to 15 months",
+              "Ideal for retail customers and premium gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -5946,15 +5755,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Helps increase potassium intake, supporting nervous system function",
+              "Provides instant and sustained natural energy",
+              "High dietary fiber supports digestion",
+              "Supports heart health and electrolyte balance",
+              "Healthy alternative to processed sweets",
+              "Suitable for fasting, fitness-focused diets, and active lifestyles"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -5962,16 +5770,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted and experienced Dates Supplier for premium and bulk dates",
+              "Wide product range including Medjool Dates, Ajwa Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and freshness",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for retail and wholesale buyers",
+              "Reliable logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong commitment to quality, consistency, and customer satisfaction"
             ]
           }
+
         ],
 
         specs: [
@@ -6494,15 +6303,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Mix Trail packed in a convenient 500g pouch, offered by Mr. Dates, a trusted Dates Supplier and dry fruits specialist",
+              "A balanced blend of selected nuts and dry fruits for everyday snacking",
+              "Carefully curated to deliver taste, nutrition, and energy in every bite",
+              "Ideal for home consumption, office snacks, travel, and fitness lifestyles",
+              "Hygienically packed to maintain freshness and long shelf life",
+              "Complements a wide dry fruit range including Dates, Almonds, Cashews, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -6510,15 +6318,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Nutritious mixed trail blend",
+              "Convenient 500g pouch packaging",
+              "Naturally energy-rich snack",
+              "No artificial flavors",
+              "Ideal for daily snacking and travel"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -6526,30 +6332,26 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and sustained energy",
+              "Supports an active and healthy lifestyle",
+              "Rich in essential nutrients and natural fiber",
+              "Helps curb hunger between meals",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits distributor",
+              "Wide product portfolio including Dates, Nuts, Mixed Dry Fruits, Cashews, Almonds, Raisins, and Afghan Figs (Anjeer)",
+              "Hygienic processing and quality packaging",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
         ],
@@ -6596,15 +6398,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Mix Trail packed in a bulk 10kg carton, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits wholesaler",
+              "A carefully curated mix of nuts and dry fruits offering balanced taste and nutrition",
+              "Ideal for wholesalers, retailers, hotels, caterers, gyms, and food service businesses",
+              "Consistent quality blend suitable for repacking and bulk consumption",
+              "Hygienically packed to ensure freshness and long shelf life",
+              "Complements a wide dry fruit range including Dates, Almonds, Cashews, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -6612,15 +6413,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Bulk Mix Trail for wholesale and food service",
+              "Nutritious and energy-rich blend",
+              "Hygienic 10kg carton packaging",
+              "Ideal for retail repacking and institutional use",
+              "Long shelf life for easy storage"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -6628,33 +6427,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and sustained energy",
+              "Supports active and healthy lifestyles",
+              "Rich in essential nutrients and natural fiber",
+              "Helps curb hunger between meals",
+              "Healthy alternative to processed snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits wholesaler",
+              "Wide product portfolio including Dates, Mixed Trail, Nuts, Cashews, Almonds, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Long-term partnerships and customer-focused service"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Mix Trail (10kg)" },
@@ -6698,15 +6494,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Breakfast Mix Trail packed in a bulk 12kg pouch, supplied by Mr. Dates, a trusted Dates Supplier and dry fruits wholesaler",
+              "Specially curated mix of nuts and dry fruits designed for a healthy and energizing start to the day",
+              "A Grade quality blend with consistent taste, texture, and nutrition",
+              "Ideal for wholesalers, retailers, hotels, hostels, cafeterias, and food service businesses",
+              "Hygienically packed to retain freshness and nutritional value",
+              "Complements a wide breakfast and dry fruit range including Dates, Almonds, Cashews, Raisins, and Figs (Anjeer)"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -6714,15 +6509,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "A Grade Breakfast Mix Trail",
+              "Bulk 12kg pack for wholesale and institutional use",
+              "Nutritious and energy-rich blend",
+              "Hygienic pouch packaging",
+              "Ideal for breakfast and daily consumption"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -6730,33 +6523,30 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides sustained morning energy",
+              "Supports metabolism and active lifestyles",
+              "Rich in natural fiber, protein, and essential nutrients",
+              "Helps keep you full for longer",
+              "Healthy alternative to processed breakfast snacks"
             ]
           },
-
           {
             type: "h2",
-            text: "Why Choose Mr. Dates as a Dates Supplier?"
+            text: "Why Choose Mr. Dates as a Dates Supplier & Dry Fruits Partner?"
           },
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted Dates Supplier and dry fruits wholesaler",
+              "Wide product portfolio including Dates, Breakfast Mix Trail, Nuts, Cashews, Almonds, Raisins, and Afghan Figs (Anjeer)",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing for bulk buyers",
+              "Reliable sourcing and timely delivery",
+              "Long-term partnerships and customer-focused service"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Breakfast Mix Trail" },
@@ -6814,15 +6604,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Liberty Rabbi Dates (5kg) offered by Mr. Dates, a trusted and experienced Dates Supplier",
+              "Carefully sourced from quality-focused farms known for authentic Rabbi date cultivation",
+              "Known for their medium-to-large size, balanced sweetness, and appealing brown color",
+              "Ideal for bulk buyers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive use, and commercial food applications",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates",
+              "Hygienically packed to retain freshness, taste, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -6830,15 +6620,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Liberty Rabbi Dates with consistent grading",
+              "A Grade quality ensures uniform size and appearance",
+              "Naturally balanced sweetness and texture",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for commercial buyers and everyday consumption"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -6846,15 +6635,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy for daily activities",
+              "High dietary fiber supports digestion and gut health",
+              "Contains essential minerals for overall wellness",
+              "Supports heart health when consumed as part of a balanced diet",
+              "Healthy alternative to processed sugary snacks",
+              "Suitable for fasting and active lifestyles"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -6862,16 +6650,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted Dates Supplier serving retail, wholesale, and export markets",
+              "Wide portfolio including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale orders",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Commitment to long-term partnerships and customer satisfaction"
             ]
           }
+
         ],
 
         specs: [
@@ -6915,15 +6704,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Rabbi Dates (5kg) offered by Mr. Dates, a trusted and reliable Dates Supplier",
+              "Sourced from carefully selected farms known for producing authentic and high-quality Rabbi dates",
+              "Known for their deep black color, balanced sweetness, and appealing natural appearance",
+              "Ideal for bulk buyers, wholesalers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive use, and commercial food preparation",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates",
+              "Hygienically packed to preserve freshness, flavor, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -6931,15 +6720,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Rabbi Dates with consistent grading",
+              "Naturally rich color and uniform appearance",
+              "Balanced sweetness suitable for everyday consumption",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for retail, wholesale, and commercial buyers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -6947,15 +6735,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy for daily activities",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals that support overall wellness",
+              "Supports heart health when consumed in moderation",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -6963,16 +6750,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted and experienced Dates Supplier for retail and bulk orders",
+              "Wide range including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and freshness",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for wholesale and bulk buyers",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong focus on customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -6991,107 +6779,6 @@ export const categories = [
           alt: "Sedaghat Rabbi Dates"
         }
       },
-
-      // {
-      //   id: "kudu-rabbi-dates",
-      //   name: "Kudu Rabbi Dates",
-      //   metaTitle: "Kudu Rabbi Dates Supplier | Premium Rabbi Dates & Dates",
-      //   metaDescription: "Buy Kudu Rabbi Dates from Mr. Dates – premium-quality Rabbi Dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
-      //   excerpt: "Kudu Rabbi Dates are premium-quality Rabbi Dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
-      //   variety: "Rabbi Dates",
-
-      //   packaging: [
-      //     { type: "box", weight: "6Kg" },
-      //     // { type: "packaging size", weight: "500 Gm" },
-
-      //   ],
-
-      //   description: [
-      //     {
-      //       type: "h2",
-      //       text: "Product Overview"
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-      //         "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-      //         "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-      //         "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-      //         "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-      //         "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
-      //       ]
-      //     },
-
-      //     {
-      //       type: "h2",
-      //       text: "Key Features"
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "100% natural, preservative-free premium Black Fruits",
-      //         "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-      //         "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-      //         "Suitable for retail, wholesale, gifting, hotels, and export",
-      //         "Available in bulk, tray packs, and custom packaging options",
-      //         "Long shelf life while maintaining flavor and texture"
-      //       ]
-      //     },
-
-      //     {
-      //       type: "h2",
-      //       text: "Health Benefits"
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Provides instant natural energy from natural sugars",
-      //         "High in dietary fiber, supporting digestive health and gut wellness",
-      //         "Contains essential minerals such as potassium, magnesium, and calcium",
-      //         "Supports heart health, stamina, immunity, and overall wellness",
-      //         "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-      //         "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
-      //       ]
-      //     },
-
-      //     {
-      //       type: "h2",
-      //       text: "Why Choose Mr. Dates as a Dates Supplier?"
-      //     },
-      //     {
-      //       type: "ul",
-      //       items: [
-      //         "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-      //         "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-      //         "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-      //         "Strict quality control from harvest to packaging",
-      //         "Competitive wholesale pricing and reliable bulk supply capabilities",
-      //         "Strong logistics network ensuring timely domestic and international delivery",
-      //         "Custom packaging, private labeling, and gifting solutions available",
-      //         "Customer-focused service with long-term partnership approach"
-      //       ]
-      //     }
-      //   ],
-
-      //   specs: [
-      //     { label: "Product Name", value: "Kudu Rabbi Dates" },
-      //     { label: "Category", value: "Rabbi Dates" },
-      //     { label: "Taste Profile", value: "Naturally Sweet & Rich" },
-      //     { label: "Texture", value: "Soft & Chewy" },
-      //     { label: "Color", value: "Black" },
-      //     { label: "Seed Type", value: "Seeded" },
-      //     { label: "Packaging", value: "Bucket Packing" },
-      //     { label: "Quality Grade", value: "Premium / Export Quality" },
-      //   ],
-
-      //   image: {
-      //     src: "/products/kuduRabbi.webp",
-      //     alt: "Kudu Rabbi Dates"
-      //   }
-      // },
 
       {
         id: "kudu-rabbi-dates-bucket",
@@ -7117,15 +6804,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Rabbi Dates (Bucket – 6kg) offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully sourced from authentic farms known for producing high-quality Rabbi dates",
+              "Packed in a convenient bucket-style format ideal for bulk handling and storage",
+              "Known for their deep black color, balanced sweetness, and consistent quality",
+              "Suitable for wholesalers, retailers, hotels, caterers, and export markets",
+              "Ideal for daily consumption, festive use, and commercial food applications",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7133,15 +6820,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Rabbi Dates in bucket packaging",
+              "Consistent size, color, and quality",
+              "Naturally balanced sweetness and rich appearance",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk buyers",
+              "Ideal for wholesale, retail, and commercial customers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7149,15 +6835,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural and sustained energy",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals for daily wellness",
+              "Supports heart health when consumed moderately",
+              "Healthy alternative to processed sugary snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7165,16 +6850,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted Dates Supplier serving retail, wholesale, and export markets",
+              "Extensive range including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and freshness",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale orders",
+              "Reliable logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Commitment to customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -7218,15 +6904,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Rabbi Dates (GGT – 5kg) offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully sourced from authentic farms known for producing high-quality Rabbi dates",
+              "GGT pack variant ensures consistent grading, freshness, and easy bulk handling",
+              "Known for their deep black color, balanced sweetness, and uniform appearance",
+              "Ideal for wholesalers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive use, and commercial food applications",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7234,15 +6920,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Rabbi Dates (GGT Pack) with consistent grading",
+              "Naturally rich color and uniform size",
+              "Balanced sweetness ideal for everyday consumption",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk buyers",
+              "Ideal for retail, wholesale, and commercial customers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7250,15 +6935,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy for daily activities",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals supporting overall wellness",
+              "Supports heart health when consumed in moderation",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7266,16 +6950,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide portfolio including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale orders",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong commitment to quality, freshness, and customer satisfaction"
             ]
           }
+
+
         ],
 
         specs: [
@@ -7319,15 +7005,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Rabbi Dates (Kudu – 5kg) offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully sourced from reputed farms producing authentic and high-quality Rabbi dates",
+              "Kudu pack variant ensures uniform grading, freshness, and reliable bulk handling",
+              "Known for their deep black color, balanced sweetness, and attractive appearance",
+              "Ideal for wholesalers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive use, and commercial food preparation",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7335,15 +7021,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Rabbi Dates (Kudu Pack) with consistent grading",
+              "Uniform size, color, and balanced sweetness",
+              "Naturally rich appearance and long shelf life",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Ideal for bulk buyers and commercial customers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7351,15 +7035,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural and sustained energy",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals supporting overall wellness",
+              "Supports heart health when consumed in moderation",
+              "Healthy alternative to processed sugary snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7367,16 +7050,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted Dates Supplier serving retail, wholesale, and export markets",
+              "Wide selection including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale orders",
+              "Reliable logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Commitment to customer satisfaction and long-term partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -7420,15 +7104,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Rabbi Dates (5kg) offered by Mr. Dates, a trusted and reliable Dates Supplier",
+              "Sourced from carefully selected farms known for producing authentic and high-quality Rabbi dates",
+              "Known for their deep black color, balanced sweetness, and appealing natural appearance",
+              "Ideal for bulk buyers, wholesalers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive use, and commercial food preparation",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates",
+              "Hygienically packed to preserve freshness, flavor, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7436,15 +7120,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Rabbi Dates with consistent grading",
+              "Naturally rich color and uniform appearance",
+              "Balanced sweetness suitable for everyday consumption",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk storage",
+              "Ideal for retail, wholesale, and commercial buyers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7452,15 +7135,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy for daily activities",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals that support overall wellness",
+              "Supports heart health when consumed in moderation",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7468,14 +7150,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted and experienced Dates Supplier for retail and bulk orders",
+              "Wide range including Rabbi Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and freshness",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for wholesale and bulk buyers",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Strong focus on customer satisfaction and long-term partnerships"
             ]
           }
         ],
@@ -7523,7 +7205,7 @@ export const categories = [
 
         packaging: [
           { type: "box", weight: "6 kg" },
-          // { type: "packaging size", weight: "500 Gm" },
+          { type: "packaging size", weight: "500 Gm" },
 
         ],
 
@@ -7535,15 +7217,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Seedless Dates packed in a convenient 500g plastic box, offered by Mr. Dates, a trusted Dates Supplier",
+              "Carefully processed to remove seeds while maintaining natural sweetness and texture",
+              "Known for their deep black color, smooth finish, and easy-to-eat format",
+              "Ideal for children, office snacks, travel, and quick consumption",
+              "Hygienically packed to preserve freshness, taste, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for daily snacking, gifting, and light culinary use"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7551,15 +7233,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "100% Seedless Dates for convenience",
+              "Naturally sweet and nutrient-rich",
+              "Hygienically packed in a ready-to-eat format",
+              "Ideal for kids, seniors, and on-the-go consumption",
+              "Comparable to Ajwa Dates, Medjool Dates, Kalmi Dates, Fard Dates, Sukkari Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7567,15 +7247,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to daily wellness",
+              "Healthy alternative to processed snacks and sweets",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7583,14 +7261,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Reliable and professional Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product range including Seedless Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Kalmi Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from trusted farms and processors",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible order quantities",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
         ],
@@ -7637,15 +7314,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Gulf Seedless Dates packed in a 7kg carton, supplied by Mr. Dates, a reliable and professional Dates Supplier",
+              "Carefully selected and processed dates offering convenience, uniformity, and consistent quality",
+              "Known for their deep black color, smooth appearance, and naturally sweet taste",
+              "Ideal for wholesalers, retailers, food service providers, and export markets",
+              "Hygienically processed and packed to preserve freshness, flavor, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for bulk consumption, repacking, and value-added food preparations"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7653,15 +7330,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Gulf Seedless Dates with consistent grading",
+              "Naturally sweet and nutrient-rich",
+              "Convenient bulk pack for wholesale and retail repacking",
+              "Long shelf life suitable for storage and export",
+              "Comparable to Ajwa Dates, Medjool Dates, Kalmi Dates, Fard Dates, Sukkari Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7669,15 +7344,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to overall wellness",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting, catering, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7685,17 +7358,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product portfolio including Seedless Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Kalmi Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and processors",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing with flexible bulk order options",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Gulf Seedless Dates" },
@@ -7739,15 +7412,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Seedless Dates (Amin brand) packed in a 10kg carton, supplied by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully selected and processed dates ensuring convenience, uniform size, and consistent quality",
+              "Known for their deep black color, smooth appearance, and naturally sweet taste",
+              "Ideal for wholesalers, retailers, caterers, bakeries, and export buyers",
+              "Hygienically processed and packed to preserve freshness, flavor, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for bulk consumption, retail repacking, and food service application"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7755,15 +7428,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Amin Seedless Dates with consistent grading",
+              "Convenient bulk pack for wholesale and retail repacking",
+              "Naturally sweet and nutrient-rich",
+              "Long shelf life suitable for storage and export",
+              "Comparable to Ajwa Dates, Medjool Dates, Kalmi Dates, Fard Dates, Sukkari Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7771,15 +7442,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to overall wellness",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting, catering, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7787,17 +7456,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product portfolio including Seedless Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Kalmi Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and processors",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible bulk order quantities",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Amin Seedless Dates" },
@@ -7841,15 +7510,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Emperor Seedless Dates packed in a 10kg carton, offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Carefully selected and fully seedless dates ensuring convenience, uniformity, and consistent quality",
+              "Known for their deep black color, smooth texture, and naturally sweet flavor",
+              "Ideal for wholesalers, retailers, caterers, bakeries, and export buyers",
+              "Hygienically processed and packed to preserve freshness, taste, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for bulk consumption, retail repacking, and food service applications"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7857,15 +7526,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Emperor Seedless Dates with consistent grading",
+              "Fully seedless for maximum convenience",
+              "Naturally sweet and nutrient-rich",
+              "Long shelf life suitable for storage and export",
+              "Comparable to Ajwa Dates, Medjool Dates, Kalmi Dates, Fard Dates, Sukkari Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7873,15 +7540,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to overall wellness",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting, catering, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -7889,17 +7554,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product portfolio including Seedless Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Kalmi Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and processors",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing with flexible bulk order options",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Emperor Seedless Dates" },
@@ -7957,15 +7622,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Sukhri Dates (12kg) offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Sourced from select farms known for producing authentic Sukhri dates with consistent quality",
+              "Popular for their naturally sweet flavor, rich aroma, and traditional appeal",
+              "Ideal for bulk buyers, wholesalers, retailers, hotels, caterers, and export markets",
+              "Suitable for daily consumption, festive occasions, and commercial food applications",
+              "Comparable in quality to well-known varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Kimia Dates",
+              "Hygienically packed to preserve freshness, texture, and nutritional value"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -7973,15 +7638,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Sukhri Dates with consistent grading",
+              "Naturally rich color and uniform appearance",
+              "Balanced sweetness and traditional taste",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Long shelf life suitable for bulk buyers",
+              "Ideal for commercial and retail customers"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -7989,15 +7653,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural and sustained energy",
+              "High dietary fiber supports digestion",
+              "Contains essential minerals for overall wellness",
+              "Supports heart health when consumed moderately",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8005,14 +7668,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
+              "Trusted Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product range including Sukhri Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing ensures authenticity and consistent quality",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk and wholesale orders",
+              "Efficient logistics and timely delivery",
               "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Commitment to customer satisfaction and long-term partnerships"
             ]
           }
         ],
@@ -8059,15 +7722,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Sukkari Dates Box packed in sturdy cardboard packaging, supplied by Mr. Dates, a reliable Dates Supplier",
+              "Carefully selected Khudri Dates variety known for their natural sweetness and traditional appeal",
+              "Popular choice for household consumption, gifting, retail sale, and bulk distribution",
+              "Hygienically packed to retain freshness, flavor, and nutritional quality",
+              "Comparable in taste and quality to popular varieties like Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for daily snacking, festive occasions, and religious use"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8075,15 +7737,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Khudri Dates with natural color and uniform quality",
+              "With seed for enhanced flavor and shelf stability",
+              "Naturally sweet and nutritious",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Fard Dates, and Kalmi Dates",
+              "Ideal for retail sale, wholesale supply, and export"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8091,15 +7751,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Natural source of energy and dietary fiber",
+              "Supports digestion and overall gut health",
+              "Contains essential minerals that contribute to daily nutrition",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8107,16 +7765,16 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and established Dates Supplier",
+              "Wide range including Sukkari Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Kalmi Dates, Fard Dates, Wet Dates, Seedless Dates, and Tunisian Dates",
+              "Direct sourcing from reliable farms and processors",
+              "Strict quality control and hygienic packaging",
+              "Competitive pricing and bulk order availability",
+              "Reliable logistics and on-time delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -8161,15 +7819,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Sukhri Dates packed in a convenient 500g jar, supplied by Mr. Dates, a trusted Dates Supplier",
+              "Carefully sourced from quality farms known for authentic Sukhri date cultivation",
+              "Popular for their traditional taste, natural sweetness, and attractive brown color",
+              "Ideal for household consumption, gifting, office use, and retail sales",
+              "Hygienically packed to preserve freshness, flavor, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
+              "Suitable for daily snacking, fasting, and healthy diets"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8177,15 +7835,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Sukhri Dates with consistent quality",
+              "With seed for enhanced natural flavor",
+              "Hygienically packed in a reusable jar",
+              "Naturally sweet and nutritious",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Suitable for retail, gifting, and everyday use"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8193,15 +7850,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Natural source of quick and sustained energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential minerals contributing to daily nutrition",
+              "Supports heart and digestive health when consumed regularly",
+              "Healthy alternative to refined sugar snacks"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8209,16 +7864,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Established and reliable Dates Supplier with wide market presence",
+              "Extensive product range including Sukhri Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Tunisian Dates",
+              "Strict quality control and hygienic handling",
+              "Competitive pricing for retail and bulk buyers",
+              "Reliable logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
+
         ],
 
         specs: [
@@ -8263,15 +7917,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Sukhri Dates packed in a 12kg carton, offered by Mr. Dates, a dependable Dates Supplier",
+              "Carefully sourced from reputed date farms to ensure authentic taste, color, and consistency",
+              "Known for their rich flavor, dark appearance, and traditional appeal in bulk date markets",
+              "Ideal for wholesalers, retailers, hotels, caterers, sweet manufacturers, and export buyers",
+              "Hygienically processed and packed to retain freshness and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
+              "Suitable for daily consumption, festive use, and large-scale food service requirements"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8279,15 +7933,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Sukhri Dates with uniform size and color",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally sweet and nutrient-rich",
+              "Comparable to premium varieties such as Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Tunisian Dates",
+              "Long shelf life suitable for wholesale and export markets"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8295,15 +7947,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy and sustained nourishment",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential minerals that promote overall wellness",
+              "Helps maintain energy levels during fasting",
+              "Healthy alternative to refined sugar products"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8311,16 +7961,16 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier in retail, wholesale, and export markets",
+              "Wide product range including Sukhri Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing from verified farms ensuring authenticity",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible bulk order options",
+              "Reliable logistics and on-time delivery",
+              "Customer-centric approach with long-term supply support"
             ]
           }
+
         ],
 
         specs: [
@@ -8379,15 +8029,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Sukhri Dates packed in a 12kg carton, offered by Mr. Dates, a dependable Dates Supplier",
+              "Carefully sourced from reputed date farms to ensure authentic taste, color, and consistency",
+              "Known for their rich flavor, dark appearance, and traditional appeal in bulk date markets",
+              "Ideal for wholesalers, retailers, hotels, caterers, sweet manufacturers, and export buyers",
+              "Hygienically processed and packed to retain freshness and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
+              "Suitable for daily consumption, festive use, and large-scale food service requirements"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8395,15 +8045,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Sukhri Dates with uniform size and color",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally sweet and nutrient-rich",
+              "Comparable to premium varieties such as Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Tunisian Dates",
+              "Long shelf life suitable for wholesale and export markets"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8411,15 +8059,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy and sustained nourishment",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential minerals that promote overall wellness",
+              "Helps maintain energy levels during fasting",
+              "Healthy alternative to refined sugar products"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8427,14 +8073,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier in retail, wholesale, and export markets",
+              "Wide product range including Sukhri Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing from verified farms ensuring authenticity",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible bulk order options",
+              "Reliable logistics and on-time delivery",
+              "Customer-centric approach with long-term supply support"
             ]
           }
         ],
@@ -8481,15 +8126,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Tunisian Dates (Al-Fares brand) packed in a 6kg carton, supplied by Mr. Dates, a reliable and experienced Dates Supplier",
+              "Sourced from selected North African date farms known for producing rich, flavorful dates",
+              "Recognized for their deep black color, natural sweetness, and authentic traditional taste",
+              "Suitable for wholesalers, retailers, hotels, caterers, and export markets",
+              "Hygienically processed and packed to retain freshness, flavor, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Ideal for daily consumption, festive use, and large-scale food service needs"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8497,15 +8142,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Tunisian Dates (Al-Fares) with uniform size and color",
+              "With seed for enhanced natural taste and longer shelf life",
+              "Naturally sweet and nutrient-rich",
+              "Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Sukkari Dates",
+              "Ideal for wholesale supply, retail repacking, and export"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8513,15 +8156,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy and sustained nourishment",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential minerals contributing to overall wellness",
+              "Suitable for fasting and balanced dietary plans",
+              "Healthy alternative to refined sugar-based snacks"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8529,14 +8170,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and established Dates Supplier for retail, wholesale, and export markets",
+              "Wide product portfolio including Tunisian Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and brand partners",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible bulk order options",
+              "Efficient logistics and on-time delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
         ],
@@ -8583,15 +8223,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium quality Tunisian Dates offered in a convenient 1kg retail pack by Mr. Dates, a trusted Dates Supplier",
+              "Sourced from selected North African farms known for producing rich, naturally sweet dates",
+              "Appreciated for their deep black color, traditional taste, and consistent quality",
+              "Ideal for household consumption, gifting, retail shelves, and small-scale distribution",
+              "Hygienically processed and packed to preserve freshness and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, and Wet Dates",
+              "Suitable for daily snacking, fasting, and healthy dietary routines"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8599,15 +8239,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Tunisian Dates with consistent grading",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally sweet and nutrient-rich",
+              "Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Kalmi Dates, and Fard Dates",
+              "Suitable for retail sale and repacking"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8615,15 +8253,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Natural source of quick and sustained energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential minerals contributing to daily nutrition",
+              "Helps maintain energy levels during fasting",
+              "Healthy alternative to refined sugar snacks"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8631,14 +8267,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Established and reliable Dates Supplier serving retail, wholesale, and export markets",
+              "Extensive product range including Tunisian Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing from trusted farms and processors",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing and flexible order quantities",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term partnerships"
             ]
           }
         ],
@@ -8791,15 +8426,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Barari Tunisian Dates packed in a 5kg carton, offered by Mr. Dates, a trusted and professional Dates Supplier",
+              "Sourced from selected North African farms known for producing high-quality Tunisian dates",
+              "A Grade quality ensuring superior taste, appearance, and consistency",
+              "Naturally sweet dates with a rich brown color and traditional flavor profile",
+              "Ideal for wholesale buyers, retailers, hotels, caterers, and export markets",
+              "Hygienically processed and packed to preserve freshness, nutrition, and long shelf life",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, and Seedless Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8807,15 +8442,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Barari Tunisian Dates with consistent grading",
+              "A Grade quality with uniform size and appearance",
+              "Naturally sweet and nutrient-rich",
+              "Long shelf life of up to 18 months",
+              "Comparable to Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Sukkari Dates",
+              "Ideal for wholesale, retail repacking, and export"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8823,15 +8457,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy and sustained nourishment",
+              "Supports digestion due to natural fiber content",
+              "Contains essential minerals contributing to overall wellness",
+              "Healthy alternative to refined sugar snacks",
+              "Suitable for fasting and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8839,17 +8471,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Established and reliable Dates Supplier for retail, wholesale, and export markets",
+              "Extensive product portfolio including Tunisian Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, and Fard Dates",
+              "Direct sourcing from trusted farms and brands",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing and flexible bulk order options",
+              "Efficient logistics and on-time delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Barari Tunisian Dates" },
@@ -8911,15 +8543,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Wet Dates (Royal Crown Bumaan) packed in a 10kg carton, offered by Mr. Dates, a dependable Dates Supplier",
+              "Carefully sourced from trusted farms known for high-quality wet and semi-ripe dates",
+              "Valued for their juicy texture, natural sweetness, and fresh brown appearance",
+              "Ideal for wholesalers, retailers, hotels, caterers, and export buyers",
+              "Hygienically processed and packed to maintain moisture, freshness, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, and Seedless Dates",
+              "Perfect for daily consumption, traditional dishes, and food service use"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -8927,15 +8559,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Royal Crown Bumaan Wet Dates with consistent quality",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally juicy and nutrient-rich",
+              "Long shelf life suitable for bulk buyers",
+              "Comparable to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Sukkari Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -8943,15 +8573,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to daily wellness",
+              "Helps maintain hydration due to natural moisture content",
+              "Healthy alternative to processed sweets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -8959,17 +8587,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Extensive product range including Wet Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Seedless Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and brands",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk orders",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Royal Crown Bumaan Wet Dates" },
@@ -9012,15 +8640,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Irani Wet Dates packed in an 11kg carton, supplied by Mr. Dates, a reliable and experienced Dates Supplier",
+              "Sourced from selected Iranian farms renowned for producing high-quality wet and semi-ripe dates",
+              "Known for their juicy texture, natural sweetness, and fresh brown color",
+              "Ideal for wholesalers, retailers, hotels, caterers, and export markets",
+              "Hygienically processed and packed to retain moisture, freshness, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Kimia Dates, and Seedless Dates",
+              "Suitable for daily consumption, traditional recipes, and bulk food service needs"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9028,15 +8656,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Irani Wet Dates with consistent quality",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally juicy and nutrient-rich",
+              "Long shelf life suitable for bulk buyers",
+              "Comparable to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Sukkari Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9044,15 +8670,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to daily wellness",
+              "Helps maintain hydration due to natural moisture content",
+              "Healthy alternative to processed sweets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9060,14 +8684,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and professional Dates Supplier serving retail, wholesale, and export markets",
+              "Extensive product range including Irani Dates, Wet Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Seedless Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and producers",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing and flexible bulk order quantities",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
         ],
@@ -9100,7 +8723,7 @@ export const categories = [
         variety: "Wet Dates",
 
         packaging: [
-          // { type: "box", weight: "10 kg" },
+          { type: "box", weight: "8 kg" },
           { type: "packaging size", weight: "500 Gm" },
 
         ],
@@ -9113,15 +8736,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Date Crown Bumaan packed in an 8kg carton (16 individual 500g packs), offered by Mr. Dates, a trusted Dates Supplier",
+              "Carefully selected dates packed in convenient retail-sized portions for freshness and easy distribution",
+              "Known for their natural sweetness, attractive brown color, and consistent quality",
+              "Ideal for retail stores, wholesalers, gifting, supermarkets, and export markets",
+              "Hygienically processed and packed to preserve taste, texture, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
+              "Suitable for daily consumption, festive gifting, and food service use"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9129,15 +8752,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Convenient multi-pack format with 16 × 500g units",
+              "Naturally sweet and nutrient-rich dates",
+              "Hygienically packed with long shelf life",
+              "Ideal for retail, wholesale, and export distribution",
+              "Comparable to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9145,15 +8766,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Natural source of quick and sustained energy",
+              "Supports digestion due to natural dietary fiber",
+              "Contains essential nutrients contributing to daily wellness",
+              "Healthy alternative to processed sweets",
+              "Suitable for fasting, office snacks, and family consumption"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9161,17 +8780,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Reliable and experienced Dates Supplier for retail, wholesale, and export markets",
+              "Wide product portfolio including Bumaan Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Seedless Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from trusted farms and branded suppliers",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing with flexible bulk order options",
+              "Efficient logistics and timely delivery",
+              "Customer-focused approach and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Date Crown Bumaan Wet Dates" },
@@ -9201,7 +8820,7 @@ export const categories = [
         variety: "Wet Dates",
 
         packaging: [
-          // { type: "box", weight: "10 kg" },
+          { type: "box", weight: "10 kg" },
           { type: "packaging size", weight: "500 Gm" },
 
         ],
@@ -9214,15 +8833,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Al-Fruit Hadiya Dates packed in a 10kg carton containing 20 convenient 500g packs, offered by Mr. Dates, a trusted Dates Supplier",
+              "Carefully sourced and graded to ensure consistent quality, taste, and appearance",
+              "A Grade dates known for their natural sweetness and attractive brown color",
+              "Ideal for gifting, retail sales, supermarkets, wholesalers, and export markets",
+              "Hygienically processed and packed to preserve freshness, nutrition, and long shelf life",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Wet Dates, and Seedless Dates",
+              "Suitable for daily consumption, festive occasions, and food service use"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9230,15 +8849,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium Al-Fruit Hadiya Dates with consistent A Grade quality",
+              "Convenient multi-pack format for retail and wholesale use",
+              "Naturally sweet and nutrient-rich",
+              "Long shelf life of up to 18 months",
+              "Comparable to Ajwa Dates, Medjool Dates, Kimia Dates, Kalmi Dates, Fard Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9246,15 +8863,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides natural energy for daily activities",
+              "Supports digestion due to natural fiber content",
+              "Contains essential minerals contributing to overall wellness",
+              "Healthy alternative to processed sweets",
+              "Suitable for fasting, gifting, and balanced diets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9262,17 +8877,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Established and reliable Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product portfolio including Hadiya Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Wet Dates, Seedless Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from trusted farms and branded partners",
+              "Strict quality control and hygienic packing standards",
+              "Competitive pricing with flexible bulk order options",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Al-fruit Hadiya Wet Dates" },
@@ -9317,15 +8932,15 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Wet Dates Katta (Galaxy Wet Dates) packed in a 10kg carton, supplied by Mr. Dates, a reliable and professional Dates Supplier",
+              "Carefully sourced from trusted farms known for producing high-quality wet and semi-ripe dates",
+              "Valued for their juicy texture, natural sweetness, and fresh brown appearance",
+              "Ideal for wholesalers, retailers, hotels, caterers, and export buyers",
+              "Hygienically processed and packed to retain moisture, freshness, and nutritional value",
+              "Comparable in quality to popular varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kimia Dates, and Seedless Dates",
+              "Suitable for daily consumption, traditional dishes, and bulk food service requirements"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9333,15 +8948,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Authentic Galaxy Wet Dates with consistent quality",
+              "With seed for enhanced natural flavor and shelf stability",
+              "Naturally juicy and nutrient-rich",
+              "Long shelf life suitable for bulk buyers",
+              "Comparable to Ajwa Dates, Medjool Dates, Kalmi Dates, Fard Dates, Sukkari Dates, and Tunisian Dates"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9349,15 +8962,13 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
-              "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Provides quick and natural energy",
+              "Rich in dietary fiber supporting digestion",
+              "Contains essential nutrients contributing to daily wellness",
+              "Helps maintain hydration due to natural moisture content",
+              "Healthy alternative to processed sweets"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9365,17 +8976,17 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Trusted and globally recognized Dates Supplier with extensive experience in dates and premium dried fruits",
-              "Wide product portfolio including Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Wet Dates, Seedless Dates, Kimia Dates, Fard Dates, Barari Dates, Arabian Dates, Arabian Delight Dates, Irani Dates, Alyasir Dates, Sed Premium Safawi Dates, Mirnut Dried Figs, Lajawab Buman, Premium Tunisia Branched Dates, Black Fruits",
-              "Direct sourcing from premium farms ensures authenticity, freshness, and traceability",
-              "Strict quality control from harvest to packaging",
-              "Competitive wholesale pricing and reliable bulk supply capabilities",
-              "Strong logistics network ensuring timely domestic and international delivery",
-              "Custom packaging, private labeling, and gifting solutions available",
-              "Customer-focused service with long-term partnership approach"
+              "Trusted and experienced Dates Supplier serving retail, wholesale, and export markets",
+              "Wide product range including Wet Dates, Ajwa Dates, Medjool Dates, Mabroom Dates, Kimia Dates, Sukkari Dates, Kalmi Dates, Seedless Dates, Tunisian Dates, and Fard Dates",
+              "Direct sourcing from reliable farms and brands",
+              "Strict quality control and hygienic packaging standards",
+              "Competitive pricing for bulk orders",
+              "Efficient logistics and timely delivery",
+              "Customer-focused service and long-term supply partnerships"
             ]
           }
-        ],
+        ]
+        ,
 
         specs: [
           { label: "Product Name", value: "Galaxy Wet Dates" },
@@ -9403,7 +9014,6 @@ export const categories = [
     metaTitle: "Zahidi Dates Supplier in India | Premium Quality Dates",
     metaDescription:
       "Premium Zahidi Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
-
     image: "/products/brownLoose.webp",
     badge: "bestseller",
 
@@ -9413,11 +9023,8 @@ export const categories = [
         name: "Brown Loose",
         metaTitle: "Brown Loose Supplier | Premium Fard & Dates",
         metaDescription: "Buy Brown Loose from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Brown Loose are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Zahidi Dates",
-
         packaging: [
           { type: "box", weight: "10kg" },
 
@@ -9431,12 +9038,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
+              "Premium Brown Loose Zahidi Dates (10kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
               "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
               "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for culinary use, bulk consumption, and large-scale gifting"
             ]
           },
 
@@ -9447,12 +9054,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
+              "100% natural, preservative-free premium Brown Loose Zahidi Dates",
+              "Firm, tender, and naturally sweet with authentic seed intact",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
               "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life of up to 12 months while maintaining flavor and texture"
             ]
           },
 
@@ -9513,11 +9120,8 @@ export const categories = [
         name: "Gulf Zahidi Dates",
         metaTitle: "Gulf Zahidi Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Gulf Zahidi Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Gulf Zahidi Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Zahidi Dates",
-
         packaging: [
           { type: "box", weight: "250g" },
           { type: "box", weight: "500g " },
@@ -9531,12 +9135,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
+              "Premium Gulf Zahidi Dates (500g) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Sourced from select Gulf farms to ensure natural sweetness, firm texture, and premium quality",
+              "Ideal for retail, gifting, hotels, restaurants, and individual consumption",
               "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Hygienically packed in pouches to preserve freshness, flavor, and nutritional value",
+              "Perfect for snacking, desserts, and culinary use"
             ]
           },
 
@@ -9547,12 +9151,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
+              "100% natural, preservative-free premium Gulf Zahidi Dates",
+              "Firm, tender, and naturally sweet with authentic seed intact",
               "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Convenient 500g pouch packaging for easy storage and consumption",
+              "Maintains premium quality, flavor, and texture under recommended storage conditions"
             ]
           },
 
@@ -9613,11 +9217,8 @@ export const categories = [
         name: "Zahidi Taj Mahal Dates",
         metaTitle: "Taj Mahal Zahidi Dates Supplier | Premium Fard & Dates",
         metaDescription: "Buy Taj Mahal Zahidi Dates from Mr. Dates – premium-quality dates with natural sweetness and soft texture. Ideal for snacking, retail, wholesale, gifting, and culinary use",
-
         excerpt: "Gulf Zahidi Dates are premium-quality dates supplied by Mr. Dates. Naturally sweet, soft, and tender, perfect for snacking, gifting, and culinary purposes",
-
         variety: "Zahidi Dates",
-
         packaging: [
           { type: "box", weight: "10kg" },
           // { type: "box", weight: "500g " },
@@ -9631,15 +9232,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Zahidi Dates (Taj Mahal 10kg) supplied by Mr. Dates, a globally trusted and recognized Dates Supplier",
+              "Carefully sourced from select farms to ensure naturally sweet taste, firm texture, and high-quality dates",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury date varieties such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for bulk consumption, premium culinary use, and large-scale gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9647,15 +9247,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
-              "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Premium-grade Zahidi Dates (Taj Mahal quality)",
+              "Naturally sweet with a firm, chewy texture",
+              "Supplied by Mr. Dates, a professional and reliable Dates Supplier",
+              "Suitable for retail, wholesale, hotels, restaurants, gifting, and export",
+              "Packed under strict hygiene and quality standards",
+              "Long shelf life while maintaining taste and texture"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9663,15 +9262,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Provides instant natural energy from natural sugars",
-              "High in dietary fiber, supporting digestive health and gut wellness",
-              "Contains essential minerals such as potassium, magnesium, and calcium",
+              "Provides instant natural energy from glucose and fructose",
+              "High in dietary fiber supporting digestion and gut health",
+              "Rich in essential minerals such as potassium, magnesium, iron, and calcium",
               "Supports heart health, stamina, immunity, and overall wellness",
-              "Ideal for healthy snacking, daily nutrition, fasting, and culinary use",
-              "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
+              "Ideal for fasting, daily nutrition, healthy snacking, and gifting",
+              "Seedless options available for smoothies, desserts, and baking applications"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9731,15 +9329,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Black Fruits are premium-quality dried fruits supplied by Mr. Dates, a globally trusted Dates Supplier offering high-quality dates and complementary dried fruits",
-              "Carefully sourced from select farms to ensure natural richness, chewy texture, and superior quality",
-              "Known for their dark, glossy appearance, soft flesh, and naturally sweet taste, making them ideal for snacking, gifting, and culinary use",
-              "Perfect companion to premium date varieties such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, and Kalmi Dates",
-              "Suitable for retail, wholesale, gifting, hotels, restaurants, and export markets",
-              "Processed under strict hygiene and quality standards by a professional Dates Supplier, ensuring freshness, premium taste, and nutritional integrity"
+              "Premium Zahidi Dates (10kg) supplied by Mr. Dates, a trusted and globally recognized Dates Supplier",
+              "Sourced from select farms to ensure naturally sweet taste, firm texture, and high-quality dates",
+              "Ideal for retail, wholesale, gifting, hotels, restaurants, and export markets",
+              "Comparable in quality to luxury dates such as Ajwa Dates, Medjool Dates, Mabroom Dates, and Sukkari Dates",
+              "Hygienically packed in bulk cartons to preserve freshness, flavor, and nutritional value",
+              "Perfect for bulk consumption, culinary use, and large-scale gifting"
             ]
           },
-
           {
             type: "h2",
             text: "Key Features"
@@ -9747,15 +9344,14 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "100% natural, preservative-free premium Black Fruits",
-              "Soft, tender, and naturally sweet, supplied by a trusted Dates Supplier",
-              "Complements high-end dates such as Ajwa Dates, Medjoul Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
+              "100% natural, preservative-free premium Zahidi Dates (10kg)",
+              "Firm, tender, and naturally sweet with authentic seed intact",
+              "Comparable quality to Ajwa Dates, Medjool Dates, Mabroom Dates, Sukkari Dates, Kalmi Dates, Fard Dates, and Kimia Dates",
               "Suitable for retail, wholesale, gifting, hotels, and export",
-              "Available in bulk, tray packs, and custom packaging options",
-              "Long shelf life while maintaining flavor and texture"
+              "Long shelf life of up to 12 months while maintaining flavor, texture, and freshness",
+              "Bulk packaging ideal for high-volume consumption or commercial use"
             ]
           },
-
           {
             type: "h2",
             text: "Health Benefits"
@@ -9771,7 +9367,6 @@ export const categories = [
               "Can be paired with Seedless Dates for smoothies, desserts, and baked goods"
             ]
           },
-
           {
             type: "h2",
             text: "Why Choose Mr. Dates as a Dates Supplier?"
@@ -9823,8 +9418,6 @@ export const categories = [
     badge: "bestseller",
 
     products: [
-
-
       {
         id: "arabian-delight-dates",
         name: "Arabian Delight Dates",
@@ -9924,9 +9517,6 @@ export const categories = [
           alt: "Arabian Delight Dates",
         },
       },
-
-
-
 
       {
         id: "arabian-dates",
@@ -10045,8 +9635,6 @@ export const categories = [
           alt: "Arabian Dates",
         },
       },
-
-
 
       {
         id: "fit-naaz-dates",
@@ -10170,10 +9758,7 @@ export const categories = [
         },
       },
 
-
-
       // 12
-
       {
         id: "fard-loose-dates",
         name: "Fard Loose Dates",
@@ -10255,11 +9840,7 @@ export const categories = [
         },
       },
 
-
-
-
       // aalu
-
       {
         id: "aalu-dates",
         name: "Aalu Dates",
@@ -10369,7 +9950,6 @@ export const categories = [
         },
       },
 
-
       //  sukkari
       {
         id: "sukkari-dates",
@@ -10477,9 +10057,7 @@ export const categories = [
         },
       },
 
-
       // sagai
-
       {
         id: "sagai-dates",
         name: "Sagai Dates",
@@ -10586,10 +10164,7 @@ export const categories = [
         },
       },
 
-
-
       // shanshaha
-
       {
         id: "shanshaha-dates",
         name: "Shanshaha Dates",
@@ -10696,11 +10271,7 @@ export const categories = [
         },
       },
 
-
-
       // 5
-
-
       {
         id: "razan-dates",
         name: "Razan Dates",
@@ -10805,10 +10376,7 @@ export const categories = [
         },
       },
 
-
       // 6
-
-
       {
         id: "rabbi-dates",
         name: "Rabbi Dates",
@@ -10914,9 +10482,7 @@ export const categories = [
         },
       },
 
-
       // 7
-
       {
         id: "lajawab-buman",
         name: "Lajawab Buman Dates",
@@ -11024,10 +10590,7 @@ export const categories = [
         },
       },
 
-
-
       // 8
-
       {
         id: "hana-gold-kalute-dates",
         name: "Hana Gold Kalute Dates",
@@ -11134,12 +10697,7 @@ export const categories = [
         },
       },
 
-
       // 9
-
-
-
-
       {
         id: "hadiya-tray-dates",
         name: "Hadiya Tray Dates",
@@ -11247,10 +10805,7 @@ export const categories = [
         },
       },
 
-
       // 10
-
-
       {
         id: "fit-dates",
         name: "Fit Dates",
@@ -11359,17 +10914,7 @@ export const categories = [
         },
       },
 
-
-
-
-
-
-
       // amanseedless
-
-
-
-
       {
         id: "fit-naaz-dates",
         name: "Fit Naaz Dates",
@@ -11476,10 +11021,7 @@ export const categories = [
         },
       },
 
-
-
       // 12
-
       {
         id: "aman-seedless-dates",
         name: "Aman Seedless Dates",
@@ -11594,8 +11136,6 @@ export const categories = [
         },
       },
 
-
-
       // amanlatta
       {
         id: "aman-latta-dates",
@@ -11701,10 +11241,7 @@ export const categories = [
         },
       },
 
-
-
       // 24 carat
-
       {
         id: "aman-24-carat-zahidi-date",
         name: "Aman 24 Carat Zahidi Dates",
@@ -11810,7 +11347,6 @@ export const categories = [
           alt: "Aman 24 Carat Zahidi Dates",
         },
       },
-
 
       // al qaswa
       {
@@ -11918,7 +11454,6 @@ export const categories = [
         },
       },
 
-
       // irani
       {
         id: "irani-dates",
@@ -12022,9 +11557,7 @@ export const categories = [
         }
       },
 
-
       // alyasir
-
       {
         id: "alyasir-dates",
         name: "Alyasir Dates",
@@ -12121,9 +11654,7 @@ export const categories = [
         }
       },
 
-
       // sed
-
       {
         id: "sed-premium-safawi-dates",
         name: "Sed Premium Safawi Dates",
@@ -12218,15 +11749,9 @@ export const categories = [
           "src": "/products/sed.webp",
           "alt": "Sed Premium Safawi Dates"
         }
-      }
-      ,
-
-
-
-
+      },
 
       // lajawab
-
       {
         id: "lajawab-buman-10kg",
         name: "Lajawab Buman 10KG",
@@ -12323,10 +11848,7 @@ export const categories = [
         }
       },
 
-
-
       // tunisia
-
       {
         id: "premium-tunisia-branched-dates",
         name: "Premium Tunisia Branched Dates",
@@ -12423,11 +11945,7 @@ export const categories = [
         }
       },
 
-
-
-
       // black fruit
-
       {
         id: "black-fruits",
         name: "Black Fruits",

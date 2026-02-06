@@ -108,10 +108,7 @@ function Card3D({ item, isActive }) {
         backgroundColor: item.bg,
         transformStyle: "preserve-3d",
       }}
-      animate={{
-        scale: isActive ? 1.05 : 0.96,
-        y: isActive ? -12 : 0,
-      }}
+    
       transition={{ type: "spring", stiffness: 160, damping: 18 }}
       className="
         relative h-[220px] rounded-[36px]
@@ -130,7 +127,7 @@ function Card3D({ item, isActive }) {
           pointer-events-none
           z-10
         "
-        animate={{ y: isActive ? -22 : -8 }}
+       
         transition={{ type: "spring", stiffness: 180 }}
       >
         <Image
@@ -145,7 +142,7 @@ function Card3D({ item, isActive }) {
 
       <div className="absolute bottom-0 left-0 right-0 p-6 translate-z-[120px] z-20">
         <motion.h3
-          animate={{ letterSpacing: isActive ? "0.08em" : "0.02em" }}
+        
           className="text-white text-xl font-semibold text-center"
         >
           {item.title}

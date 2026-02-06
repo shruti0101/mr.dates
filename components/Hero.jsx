@@ -63,10 +63,12 @@ export default function HeroDatesExact() {
 
   const bgImages = [
     "/check10.png",
-    "/check11.png",
+   
     "/check12.png",
     "/check13.png",
     "/check12.png",
+    "/anjeer.png"
+    
   ];
 
   /* ✅ GSAP THUMBS */

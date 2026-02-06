@@ -10,7 +10,7 @@ export default function Footer() {
       {/* BACKGROUND IMAGE */}
       <div
         className="absolute inset-0 -z-20 bg-cover bg-center"
-        style={{ backgroundImage: "url('/footerbg.jpg')" }}
+        style={{ backgroundImage: "url('/check4.jpg')" }}
         aria-hidden="true"
       />
 
@@ -19,7 +19,7 @@ export default function Footer() {
         className="absolute inset-0 -z-10"
         style={{
           background:
-            "linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.5) 100%)",
+            "linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.5) 30%)",
         }}
         aria-hidden="true"
       />

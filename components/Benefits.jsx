@@ -49,7 +49,7 @@ const container = {
 
 export default function UseCaseSection() {
   return (
-    <section className="bg-[#faf7f2] py-16">
+    <section className="hidden md:block bg-[#faf7f2] py-16">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Section Heading */}

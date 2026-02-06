@@ -2,13 +2,7 @@
 
 
 
-body {
- 
-  overflow-x: hidden; /* hide horizontal only */
-  overflow-y: auto;   /* allow vertical scroll */
-}
-
-
+/*
 
 
 

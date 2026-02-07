@@ -156,7 +156,7 @@ export default function CategoryPage({ category }) {
                 className="flex items-center gap-2 rounded-full border border-[#3b2a10] px-6 py-3 text-sm tracking-widest uppercase text-[#3b2a10] "
               >
                 <Menu size={16} />
-                Categories
+              Explore Our Categories
               </button>
             </div>
 

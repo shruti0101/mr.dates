@@ -39,7 +39,7 @@ const Category = () => {
     { title: "Medjool Dates", image: "/products/mediumMedjool.webp", link: "/categories/medjool-dates" },
     { title: "Mebroom Dates", image: "/products/dateCrownMabroom.webp", link: "/categories/zahidi-dates" },
     { title: "California Almonds", image: "/products/independentAlmondsPouch.webp", link: "/categories/fard-dates" },
-    { title: "Afgan Figs", image: "/products/afgan-figs.webp", link: "/categories/seedless-dates" },
+    { title: "Dry Figs", image: "/products/afgan-figs.webp", link: "/categories/seedless-dates" },
     // { title: "sukkari Dates", image: "/category/2.png" },
   ];
 

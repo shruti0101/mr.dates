@@ -11,17 +11,17 @@ const Stickyfooter = () => {
       <div className="flex justify-around items-center py-2">
 
         <Link href="/" className="flex flex-col items-center text-xs">
-          <Home size={25} />
+          <Home size={26} />
           <span>Home</span>
         </Link>
 
         <Link href="/products" className="flex flex-col items-center text-xs">
-          <ShoppingBag size={25} />
+          <ShoppingBag size={26} />
           <span>Products</span>
         </Link>
 
         <Link href="/contact" className="flex flex-col items-center text-xs">
-          <Phone size={25} />
+          <Phone className="text-red-600" size={26} />
           <span>Contact Us</span>
         </Link>
 
@@ -31,7 +31,7 @@ const Stickyfooter = () => {
           rel="noopener noreferrer"
           className="flex flex-col items-center text-xs"
         >
-          <FaWhatsapp className="text-green-600" size={26} />
+          <FaWhatsapp className="text-green-600 animate-pulse" size={27} />
           <span>WhatsApp Us</span>
         </a>
 

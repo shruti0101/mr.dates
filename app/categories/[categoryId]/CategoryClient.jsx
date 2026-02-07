@@ -46,7 +46,7 @@ export default function CategoryPage({ category }) {
 
 
       {/* ================= CONTENT ================= */}
-      <section className="bg-[#faf7ef] py-24">
+      <section className="bg-[#faf7ef] py-24 pb-40">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-20">
           {isSidebarOpen && (
             <div className="fixed inset-0 z-50 lg:hidden">
@@ -153,7 +153,7 @@ export default function CategoryPage({ category }) {
             <div className="mb-10 flex lg:hidden">
               <button
                 onClick={() => setIsSidebarOpen(true)}
-                className="flex items-center gap-2 rounded-full border border-[#3b2a10] px-6 py-3 text-sm tracking-widest uppercase text-[#3b2a10]"
+                className="flex items-center gap-2 rounded-full border border-[#3b2a10] px-6 py-3 text-sm tracking-widest uppercase text-[#3b2a10] "
               >
                 <Menu size={16} />
                 Categories

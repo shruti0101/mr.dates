@@ -46,7 +46,7 @@ export default function CategoryPage({ category }) {
 
 
       {/* ================= CONTENT ================= */}
-      <section className="bg-[#faf7ef] py-24 pb-40">
+      <section className="bg-[#faf7ef] py-24 ">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-20">
           {isSidebarOpen && (
             <div className="fixed inset-0 z-50 lg:hidden">
@@ -57,7 +57,7 @@ export default function CategoryPage({ category }) {
               />
 
               {/* Drawer */}
-              <div className="absolute left-0 top-0 h-full w-[280px] h-100vh overflow-scroll bg-[#faf7ef] p-6 shadow-xl">
+              <div className="absolute left-0 top-0 h-full w-[280px] h-110vh overflow-scroll bg-[#faf7ef] p-6 shadow-xl">
                 <div className="mb-10 flex items-center justify-between">
                   <h3 className="font-serif text-3xl tracking-wide text-[#3b2a10]">
                     Our Category
@@ -160,13 +160,13 @@ export default function CategoryPage({ category }) {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pb-30">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mb-30">
 
               {category.products.map((product) => (
                 <Link
                   key={product.id}
                   href={`/products/${product.id}`}
-                  className="group block"
+                  className="group block mb-30"
                 >
                   {/* IMAGE */}
                   <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b]">

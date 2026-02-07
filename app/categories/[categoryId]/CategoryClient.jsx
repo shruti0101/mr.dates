@@ -160,7 +160,7 @@ export default function CategoryPage({ category }) {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pb-30">
 
               {category.products.map((product) => (
                 <Link

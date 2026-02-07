@@ -103,7 +103,7 @@ export default function BestsellerSection() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="mx-auto lg:mx-0 inline-flex bg-white text-black px-8 py-3 rounded-full font-semibold shadow-lg"
+                  className="mx-auto lg:mx-0 inline-flex bg-white text-black px-8 py-3 rounded-full text-md md:text-xl font-bold shadow-lg"
                 >
                   Explore More
                 </motion.button>

@@ -267,7 +267,7 @@ export default function HeroDatesExact() {
     px-7 py-3
     rounded-full
       bg-white
-    text-black text-sm font-medium tracking-wide
+    text-black text-sm md:text-xl font-medium tracking-wide
    
    
     overflow-hidden
@@ -311,14 +311,14 @@ export default function HeroDatesExact() {
                     </span>
 
                     {/* Text */}
-                    <span className="relative z-10 font-poppins">
+                    <span className="relative z-10 font-poppins font-bold">
                       Explore More
                     </span>
                   </button>
 
                   <motion.span
                     whileHover={{ x: 6 }}
-                    className="flex items-center gap-2 text-sm font-semibold text-white hover:text-white transition cursor-pointer"
+                    className="flex items-center gap-2 text-sm md:text-lg font-semibold text-white hover:text-white transition cursor-pointer"
                   >
                     View Details →
                   </motion.span>

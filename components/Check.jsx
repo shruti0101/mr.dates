@@ -62,7 +62,7 @@ export default function Check() {
 
   return (
     <section ref={sectionRef} className="block lg:hidden xl:block relative bg-[#F0E5C6]">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 ">
         {/* ✅ sticky pin */}
         <div className="lg:sticky lg:top-0 lg:h-screen flex items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 w-full py-16">
@@ -80,7 +80,7 @@ export default function Check() {
               </p>
             </div>
 
-            <div className="relative h-[360px] sm:h-[440px] md:h-[560px] w-full">
+            <div className="relative  h-[360px] sm:h-[440px] md:h-[560px] w-full">
               <img
                 ref={imgBack}
                 src="/dateside.png"

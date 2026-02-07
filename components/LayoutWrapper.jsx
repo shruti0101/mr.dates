@@ -4,6 +4,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LenisProvider from "@/app/providers/LenisProvider";
+import Stickyfooter from "./Stickyfooter";
 
 export default function LayoutWrapper({ children }) {
 //   const pathname = usePathname();
@@ -17,6 +18,7 @@ export default function LayoutWrapper({ children }) {
     <LenisProvider>
       <Navbar />
       {children}
+      <Stickyfooter></Stickyfooter>
       <Footer />
     </LenisProvider>
     </>

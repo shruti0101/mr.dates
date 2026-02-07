@@ -140,7 +140,7 @@ export default function AboutStoreSection() {
                 className="
                   cursor-pointer group relative inline-flex items-center gap-3
                   px-7 py-3 rounded-full bg-[#7A4A2E]
-                  text-white text-md font-medium overflow-hidden
+                  text-white text-md md:text-xl font-bold overflow-hidden
                   transition-colors duration-300 hover:bg-[#6A3F25]
                 "
               >

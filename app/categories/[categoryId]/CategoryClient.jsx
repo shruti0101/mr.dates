@@ -23,7 +23,7 @@ export default function CategoryPage({ category }) {
       {/* ================= HERO ================= */}
       <section
         style={{ backgroundImage: "url('/bg3.png')" }}
-        className="relative h-[80vh] bg-cover bg-center"
+        className="relative bg-cover bg-center h-[60vh] md:h-[90vh]"
       >
         <div className="absolute inset-0 bg-black/35" />
 
@@ -95,47 +95,57 @@ export default function CategoryPage({ category }) {
             </div>
           )}
 
-          {/* ========= SIDEBAR ========= */}
-          <aside className="hidden lg:block">
-            <div className="sticky top-28 space-y-8">
+         {/* aside*/}
+<aside className="hidden lg:block">
+  <div className="
+    sticky top-10
+    h-[calc(100vh-5rem)]
+    overflow-y-auto
+    overscroll-contain
+    space-y-8
+    pr-2
+  ">
 
-              <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
-                Our Category
-              </h3>
+    <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
+      Our Category
+    </h3>
 
-              <ul className="space-y-2">
-                {categories.map((cat) => {
-                  const isActive = cat.id === category.id;
+    <ul className="space-y-2">
+      {categories.map((cat) => {
+        const isActive = cat.id === category.id;
 
-                  return (
-                    <li key={cat.id}>
-                      <Link
-                        href={`/categories/${cat.id}`}
-                        className={`group flex items-center justify-between
-                        rounded-xl px-4 py-3 transition-all
-                        ${isActive
-                            ? "bg-[#3b2a10] text-white shadow"
-                            : "text-[#5a4320] hover:bg-[#efe3c8]"
-                          }`}
-                      >
-                        <span className="font-medium text-2xl tracking-wide">
-                          {cat.name}
-                        </span>
+        return (
+          <li key={cat.id}>
+            <Link
+              href={`/categories/${cat.id}`}
+              className={`group flex items-center justify-between
+              rounded-xl px-4 py-3 transition-all
+              ${isActive
+                ? "bg-[#3b2a10] text-white shadow"
+                : "text-[#5a4320] hover:bg-[#efe3c8]"
+              }`}
+            >
+              <span className="font-medium text-2xl tracking-wide">
+                {cat.name}
+              </span>
 
-                        <ArrowUpRight
-                          size={16}
-                          className={`transition-all ${isActive
-                            ? "opacity-100"
-                            : "opacity-0 group-hover:opacity-100"
-                            }`}
-                        />
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          </aside>
+              <ArrowUpRight
+                size={16}
+                className={`transition-all ${
+                  isActive
+                    ? "opacity-100"
+                    : "opacity-0 group-hover:opacity-100"
+                }`}
+              />
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+
+  </div>
+</aside>
+
 
           {/* ========= PRODUCTS ========= */}
           <div>

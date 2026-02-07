@@ -208,7 +208,7 @@ const Category = () => {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="mt-12"
         >
-          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-white text-black text-lg font-medium overflow-hidden cursor-pointer">
+          <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-white text-black text-lg md:text-xl font-bold overflow-hidden cursor-pointer">
             <span className="relative z-10 flex h-7 w-7">
               <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
             </span>

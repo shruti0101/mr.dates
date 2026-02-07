@@ -84,7 +84,7 @@ const Cta = () => {
                 px-5 py-3
                 rounded-full
                 bg-gradient-to-b from-[#8B5536] to-[#75442e]
-                text-white text-md font-medium tracking-wide
+                text-white text-md md:text-xl font-bold tracking-wide
                 overflow-hidden
                 transition-colors duration-300
                 hover:bg-[#9c735a]
@@ -126,7 +126,7 @@ const Cta = () => {
               }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.96 }}
-              className="px-10 py-4 rounded-full border border-white text-white font-medium transition hover:border-white hover:bg-white/10"
+              className="px-10 py-4 rounded-full border border-white text-md md:text-xl text-white font-bold transition hover:border-white hover:bg-white/10"
             >
               Bulk & Wholesale Enquiry
             </motion.button>

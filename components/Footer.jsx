@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="relative text-white pt-10 pb-16 overflow-hidden">
       {/* BACKGROUND IMAGE */}
       <div
-        className="absolute inset-0 -z-20 bg-cover bg-center"
+        className="absolute inset-0 -z-20 bg-cover  bg-center"
         style={{ backgroundImage: "url('/check4.jpg')" }}
         aria-hidden="true"
       />
@@ -127,8 +127,7 @@ export default function Footer() {
                   C-62, New Sabzi Mandi, Azadpur
                   <br />
                   New Delhi – 110033,
-                  <br />
-                  Delhi, India
+              
                 </p>
               </div>
 
@@ -136,10 +135,10 @@ export default function Footer() {
               <div className="flex gap-3 items-center">
                 <Phone className="w-5 h-5 text-amber-400 shrink-0" />
                 <a
-                  href="tel:+917065650411"
+                  href="tel:+919773999082"
                   className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
                 >
-                  +91 7065 650411
+                  +91 9773999082
                 </a>
               </div>
 

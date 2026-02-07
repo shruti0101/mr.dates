@@ -304,6 +304,7 @@ const page = () => {
                     "Rich source of energy, fiber, and essential minerals",
                     "Carefully sourced from trusted farms for premium quality",
                     "Perfect for daily snacking, gifting, and bulk supply",
+                    "Hygienically packed to ensure freshness & extended shelf life"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <CheckCheck size={16} />
@@ -337,25 +338,31 @@ const page = () => {
                 height={1000}
                 src="/slider/1.png"
                 alt="Handpicked dates"
-                className="w-full h-[380px] rounded-2xl object-cover shadow-lg"
+                className="max-w-full h-auto rounded-2xl object-cover shadow-lg"
               />
               <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
                 Handpicked Quality
               </button>
             </div>
 
-            <div className="bg-[#8E1013] text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+            <div className="bg-[#8E1013]  text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">
                   The Authentic Taste of Premium Dates
                 </h3>
-                <div className="h-px w-full bg-white/40 mb-4" />
+                <div className="h-px w-full bg-white/40 mb-4 " />
                 <ul className="space-y-6 text-lg">
                   {[
                     "Soft texture and rich natural sweetness in every bite",
                     "Ideal for health-conscious consumers and fitness diets",
                     "Trusted by retailers, wholesalers, and corporate buyers",
                     "Hygienically packed to preserve freshness and quality",
+                    "Long shelf life with consistent taste and premium quality",
+                    "Perfect for bulk supply, gifting, and everyday consumption"
+
+
+              
+
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <CheckCheck size={16} />

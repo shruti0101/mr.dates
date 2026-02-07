@@ -27,7 +27,7 @@ export default function ProductPage({ params }) {
 
 
   const handleWhatsApp = () => {
-    const phoneNumber = "+917065650411";
+    const phoneNumber = "+919773999082";
     const message = `Hello, I want to enquire about ${product.name}.
 Packaging: ${selectedPack?.type || "Not Selected"} 
 Weight: ${selectedPack?.weight || "-"}`;
@@ -48,7 +48,7 @@ Weight: ${selectedPack?.weight || "-"}`;
       </Head>
 
       {/* MAIN */}
-      <section className="bg-[#FDFBF7]  mt-2">
+      <section className="bg-[#FDFBF7]  mt-3">
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start max-md:grid-cols-1 max-md:px-4 max-md:gap-0">
           {/* ================= LEFT IMAGE ================= */}
           <div className="md:sticky top-0 mt-11 overflow-hidden max-md:mt-6">
@@ -139,10 +139,10 @@ Weight: ${selectedPack?.weight || "-"}`;
 
               <div className="flex flex-row gap-4 max-md:flex-col">
                 {/* CTA Button */}
-                <button className="w-full cursor-pointer bg-[#8b2d36] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 hover:bg-[#7a1f2b] transition max-md:text-base max-md:tracking-[0.15em]">
+                <a href="tel:+919773999082" className="w-full cursor-pointer bg-[#8b2d36] text-white py-3 rounded-xl text-lg tracking-[0.25em] flex items-center justify-center gap-4 hover:bg-[#7a1f2b] transition max-md:text-base max-md:tracking-[0.15em]">
                   REQUEST QUOTE
                   <span className="text-xl">→</span>
-                </button>
+                </a>
 
                 <button
                   onClick={handleWhatsApp}
@@ -309,7 +309,7 @@ Weight: ${selectedPack?.weight || "-"}`;
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-250 max-md:p-6 max-md:static">
+          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-200 max-md:p-6 max-md:static">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg

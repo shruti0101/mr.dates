@@ -16,15 +16,15 @@ const categories = [
   { title: "Kimia Dates", image: "/slider/rabbidates.png", bg: "#8C5A2E" },    // golden caramel
   { title: "Fard Dates", image: "/slider/farddates.png", bg: "#4A2E1F" },        // date seed brown
   { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Zahidi Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Mabrroom Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Medjool Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Rabbi Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Sukkari Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Tunisian Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Wet Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Seedlees Dates", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Dry Apricot", image: "/slider/zahididates.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Zahidi Dates", image: "/slider/zahidi.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Mabroom Dates", image: "/slider/mabroom.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Medjool Dates", image: "/slider/mejdool.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Rabbi Dates", image: "/slider/zahidi.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Sukkari Dates", image: "/slider/sukkari.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Tunisian Dates", image: "/slider/tunisian.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Wet Dates", image: "/slider/mabroom.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Seedlees Dates", image: "/slider/seedles.png", bg: "#2A140F" },   // dark chocolate
+  { title: "Dry Apricot", image: "/slider/dry.png", bg: "#1C1814" },   // dark chocolate
   // Dry Fruits (warm nut tones)
   { title: "Cashew Nuts", image: "/slider/cashew.png", bg: "#C9A26A" },               // cashew cream
   // { title: "Walnut", image: "/slider/walnut.webp", bg: "#5A3A2E" },              // walnut shell
@@ -84,7 +84,7 @@ export default function CategorySlider() {
 
 
 
-function Card3D({ item, isActive }) {
+function Card3D({ item }) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 

@@ -187,7 +187,7 @@ export default function AboutSection() {
                 <img src="/date.png" alt="Date fruit" className="h-10 w-10 object-contain" />
               </span>
 
-              <Link href="/products" className="relative z-10 text-md">Shop Now</Link>
+              <Link href="/products" className="relative z-10 text-md md:text-xl font-bold">Shop Now</Link>
             </button>
           </div>
 

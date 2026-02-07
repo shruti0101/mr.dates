@@ -89,7 +89,7 @@ const Page = () => {
                     title={product.name}
                     width={250}
                     height={250}
-                    className="object-contain "
+                    className="object-cover "
                   />
                 </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Home, Info, ShoppingBag, Phone } from "lucide-react";
+import { Home, Whatsapp, ShoppingBag, Phone } from "lucide-react";
 
 const Stickyfooter = () => {
   return (
@@ -20,11 +20,7 @@ const Stickyfooter = () => {
           <span>Home</span>
         </Link>
 
-        {/* ABOUT */}
-        <Link href="/about" className="flex flex-col items-center text-xs">
-          <Info size={25} />
-          <span>About</span>
-        </Link>
+   
 
         {/* PRODUCTS */}
         <Link
@@ -35,11 +31,18 @@ const Stickyfooter = () => {
           <span>Products</span>
         </Link>
 
+
         {/* CONTACT US */}
         <Link href="/contact" className="flex flex-col items-center text-xs">
-          <Phone size={25} />
+          <Phone className="text-red-600" size={25} />
           <span>Contact Us</span>
         </Link>
+
+             {/* whatsapp */}
+        <a href="tel: +919773999082" className="flex flex-col items-center text-xs">
+          <Whatsapp className="text-green-600" size={25} />
+          <span>Whatsapp Us</span>
+        </a>
 
       </div>
     </div>

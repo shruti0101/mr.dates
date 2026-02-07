@@ -143,7 +143,7 @@ export default function AboutSection() {
               <Image src="/date.png" width={45} height={45} alt="Dates icon" />
             </div>
 
-            <h2 className="mb-6 font-bold text-white text-2xl sm:text-3xl leading-16 md:text-5xl">
+            <h2 className="mb-6 font-bold text-white text-2xl sm:text-3xl md:leading-16 md:text-5xl">
               Experience The Finest: Sweet, Healthy, And Nutrient-Rich
             </h2>
 <p className="mb-5 max-w-3xl text-lg sm:text-xl md:text-2xl tracking-wide text-white">

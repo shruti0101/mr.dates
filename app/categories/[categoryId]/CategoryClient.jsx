@@ -46,7 +46,7 @@ export default function CategoryPage({ category }) {
 
 
       {/* ================= CONTENT ================= */}
-      <section className="bg-[#faf7ef] py-24 ">
+      <section className="bg-[#faf7ef] py-24 pb-30">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-20">
           {isSidebarOpen && (
             <div className="fixed inset-0 z-50 lg:hidden">
@@ -67,7 +67,7 @@ export default function CategoryPage({ category }) {
                   </button>
                 </div>
 
-                <ul className="space-y-2">
+                <ul className="space-y-2 pb-30">
                   {categories.map((cat) => {
                     const isActive = cat.id === category.id;
 
@@ -160,13 +160,13 @@ export default function CategoryPage({ category }) {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mb-30">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 ">
 
               {category.products.map((product) => (
                 <Link
                   key={product.id}
                   href={`/products/${product.id}`}
-                  className="group block mb-30"
+                  className="group block "
                 >
                   {/* IMAGE */}
                   <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b]">

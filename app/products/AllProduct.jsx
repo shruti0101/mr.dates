@@ -87,14 +87,14 @@ const Page = () => {
                     src={product.image.src || "/placeholder.webp"}
                     alt={product.image.alt || product.name}
                     title={product.name}
-                    width={250}
+                    width={200}
                     height={250}
                     className="object-cover "
                   />
                 </div>
 
                 {/* Content */}
-                <div className="p-7 mt-2 text-center">
+                <div className="p-7 mt-8 text-center">
                   <h2 className="text-base md:text-lg font-semibold text-gray-900 leading-snug">
                     {product.name}
                   </h2>

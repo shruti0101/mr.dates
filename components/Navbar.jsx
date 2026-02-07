@@ -122,8 +122,8 @@ export default function Navbar() {
                   <Image
                     src={cat.image}
                     alt={cat.name}
-                    width={600}
-                    height={600}
+                    width={800}
+                    height={700}
                     className="object-cover p-6 transition-transform duration-500 group-hover:scale-125"
                   />
                 </div>
@@ -184,16 +184,16 @@ export default function Navbar() {
             className="
               md:hidden 
               fixed inset-0 
-              bg-black/95 backdrop-blur-lg
+              bg-white 
               flex flex-col
               z-[999]
             "
           >
             {/* HEADER ROW */}
             <div className="flex justify-between items-center px-6 py-4 shrink-0">
-              <span className="text-white font-bold">Menu</span>
+              <span className="text-black font-bold">Menu</span>
               <button onClick={() => setMobileOpen(false)}>
-                <X size={26}  className="text-white" />
+                <X size={26}  className="text-black" />
               </button>
             </div>
 
@@ -206,7 +206,7 @@ export default function Navbar() {
               "
               onWheel={(e) => e.stopPropagation()}
             >
-              <h3 className="text-lg font-bold mb-4 tracking-widest uppercase">
+              <h3 className="text-lg font-bold text-black mb-4 tracking-widest uppercase">
                 Categories
               </h3>
 
@@ -216,16 +216,16 @@ export default function Navbar() {
                     key={cat.id}
                     href={`/categories/${cat.id}`}
                     onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 border border-white/20 rounded-lg p-2"
+                    className="flex items-center gap-3 border border-yellow-500/20 rounded-lg p-2"
                   >
                     <Image
                       src={cat.image}
                       alt={cat.name}
-                      width={50}
+                      width={60}
                       height={50}
                       className="object-cover rounded-md"
                     />
-                    <span className="text-sm font-medium">{cat.name}</span>
+                    <span className="text-base   text-black font-medium">{cat.name}</span>
                   </Link>
                 ))}
               </div>

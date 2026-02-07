@@ -16,7 +16,7 @@ const Countup = () => {
         >
           {/* Item 1 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
-            <Image alt="logistics" width={100} height={100} src="/countup/delivery.gif" />
+            <Image unoptimized alt="logistics" width={100} height={100} src="/countup/delivery.gif" />
             <p className="text-xl font-medium leading-snug">
               Reliable Supply<br />& Logistics
             </p>
@@ -25,7 +25,7 @@ const Countup = () => {
 
           {/* Item 2 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
-            <Image alt="partnerships" width={100} height={100} src="/countup/pay.gif" />
+            <Image unoptimized alt="partnerships" width={100} height={100} src="/countup/pay.gif" />
             <p className="text-xl font-medium">
               Trusted Trade<br />Partnerships
             </p>
@@ -34,7 +34,7 @@ const Countup = () => {
 
           {/* Item 3 */}
           <div className="flex flex-col items-center text-center gap-4 relative">
-            <Image alt="quality" width={100} height={100} src="/countup/quality.gif" />
+            <Image unoptimized alt="quality" width={100} height={100} src="/countup/quality.gif" />
             <p className="text-xl font-medium">
               Quality-Checked<br />& Hygienic Processing
             </p>
@@ -43,7 +43,7 @@ const Countup = () => {
 
           {/* Item 4 */}
           <div className="flex flex-col items-center text-center gap-4">
-            <Image alt="experience" width={100} height={100} src="/countup/reward.gif" />
+            <Image unoptimized alt="experience" width={100} height={100} src="/countup/reward.gif" />
             <p className="text-xl font-medium">
               Years of Industry<br />Experience
             </p>

@@ -55,8 +55,8 @@ Weight: ${selectedPack?.weight || "-"}`;
             <Image
               src={product.image.src}
               alt={product.image.alt || product.name}
-              width={500}
-              height={300}
+              width={450}
+              height={200}
               className="  object-cover max-md:w-full max-md:h-auto"
               priority
             />

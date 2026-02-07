@@ -18,12 +18,7 @@ const products = [
     thumb: "/img1.png",
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
-  {
-    title: "anjeer ",
-    main: "/products/anjeer.webp",
-    thumb: "/img2.png",
-    desc: "As a trusted dry fruits supplier, we offer premium Anjeer (Dry Figs) with natural sweetness and a soft, chewy bite. Perfect for healthy snacking, gifting, and culinary use—packed hygienically to maintain freshness and quality.",
-  },
+
   {
     title: "fard Dates",
     main: "/heroimg2.png",
@@ -43,12 +38,12 @@ const products = [
     desc: "As a premium dates supplier, we offer Medjool Dates known for their large size, soft juicy texture, and naturally rich sweetness. A perfect choice for gifting, retail packs, and bulk supply with premium quality assurance.",
   },
 
-  // {
-  //   title: "Arabian Dates",
-  //   main: "/heroimg.png",
-  //   thumb: "/img5.png",
-  //   desc: "As a trusted dates supplier, we offer authentic Arabian Dates with rich natural sweetness and a soft, satisfying texture. Ideal for daily consumption, gifting, and bulk supply—carefully packed to preserve taste and freshness.",
-  // },
+    {
+    title: "anjeer ",
+    main: "/products/anjeer.webp",
+    thumb: "/img2.png",
+    desc: "As a trusted dry fruits supplier, we offer premium Anjeer (Dry Figs) with natural sweetness and a soft, chewy bite. Perfect for healthy snacking, gifting, and culinary use—packed hygienically to maintain freshness and quality.",
+  },
 ];
 
 
@@ -67,11 +62,12 @@ export default function HeroDatesExact() {
     "/check12.png",
     "/check13.png",
     "/check12.png",
-    "/anjeer.png"
+      "/anjeer.png",
+  
     
   ];
 
-  /* ✅ GSAP THUMBS */
+  /* gsap thumb */
   useEffect(() => {
     const ctx = gsap.context(() => {
       const spacing = 0.2;
@@ -219,7 +215,7 @@ export default function HeroDatesExact() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -10 }}
                     transition={{ duration: 0.9 }}
-                    className="inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-sm font-semibold tracking-wide text-black"
+                    className="hidden md:inline-block mb-4 rounded-full  px-4 bg-[#EFDECC] py-1 text-sm font-semibold tracking-wide text-black"
                   >
                     Premium Farm Select
                   </motion.span>

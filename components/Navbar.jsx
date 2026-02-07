@@ -200,8 +200,8 @@ export default function Navbar() {
             {/* SCROLLABLE CONTENT */}
             <div
               className="
-                px-6 pb-6 text-white 
-                flex-1 max-h-[calc(100vh-64px)]
+                px-6 pb-26 text-white 
+                flex-1 max-h-[calc(110vh-64px)]
                 overflow-y-auto overscroll-contain
               "
               onWheel={(e) => e.stopPropagation()}

@@ -5,7 +5,7 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import { categories } from "@/Data/data";
 import Slider from "@/components/Slider";
 import { useState } from "react";
-
+import CategoryCitySection from "@/components/CategoryCitySection";
 
 export default function CategoryPage({ category }) {
   if (!category) {
@@ -41,9 +41,7 @@ export default function CategoryPage({ category }) {
         </div>
       </section>
 
-
       <Slider></Slider>
-
 
       {/* ================= CONTENT ================= */}
       <section className="bg-[#faf7ef] py-24 pb-30">
@@ -95,9 +93,9 @@ export default function CategoryPage({ category }) {
             </div>
           )}
 
-         {/* aside*/}
-<aside className="hidden lg:block">
-  <div className="
+          {/* aside*/}
+          <aside className="hidden lg:block">
+            <div className="
     sticky top-10
     h-[calc(100vh-5rem)]
     overflow-y-auto
@@ -106,46 +104,44 @@ export default function CategoryPage({ category }) {
     pr-2
   ">
 
-    <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
-      Our Category
-    </h3>
+              <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
+                Our Category
+              </h3>
 
-    <ul className="space-y-2">
-      {categories.map((cat) => {
-        const isActive = cat.id === category.id;
+              <ul className="space-y-2">
+                {categories.map((cat) => {
+                  const isActive = cat.id === category.id;
 
-        return (
-          <li key={cat.id}>
-            <Link
-              href={`/categories/${cat.id}`}
-              className={`group flex items-center justify-between
+                  return (
+                    <li key={cat.id}>
+                      <Link
+                        href={`/categories/${cat.id}`}
+                        className={`group flex items-center justify-between
               rounded-xl px-4 py-3 transition-all
               ${isActive
-                ? "bg-[#3b2a10] text-white shadow"
-                : "text-[#5a4320] hover:bg-[#efe3c8]"
-              }`}
-            >
-              <span className="font-medium text-2xl tracking-wide">
-                {cat.name}
-              </span>
+                            ? "bg-[#3b2a10] text-white shadow"
+                            : "text-[#5a4320] hover:bg-[#efe3c8]"
+                          }`}
+                      >
+                        <span className="font-medium text-2xl tracking-wide">
+                          {cat.name}
+                        </span>
 
-              <ArrowUpRight
-                size={16}
-                className={`transition-all ${
-                  isActive
-                    ? "opacity-100"
-                    : "opacity-0 group-hover:opacity-100"
-                }`}
-              />
-            </Link>
-          </li>
-        );
-      })}
-    </ul>
+                        <ArrowUpRight
+                          size={16}
+                          className={`transition-all ${isActive
+                            ? "opacity-100"
+                            : "opacity-0 group-hover:opacity-100"
+                            }`}
+                        />
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
 
-  </div>
-</aside>
-
+            </div>
+          </aside>
 
           {/* ========= PRODUCTS ========= */}
           <div>
@@ -156,7 +152,7 @@ export default function CategoryPage({ category }) {
                 className="flex items-center gap-2 rounded-full border border-[#3b2a10] px-6 py-3 text-sm tracking-widest uppercase text-[#3b2a10] "
               >
                 <Menu size={16} />
-              Explore Our Categories
+                Explore Our Categories
               </button>
             </div>
 
@@ -207,6 +203,9 @@ export default function CategoryPage({ category }) {
               ))}
 
             </div>
+
+            {(category.name == "Dry Figs" || category.name == "Kalmi Dates" || category.name == "Kimia Dates" || category.name == "Fresh Dates" || category.name == "Packaged Dates") &&
+              <CategoryCitySection categoryName={category.name} />}
           </div>
         </div>
       </section>

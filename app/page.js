@@ -14,36 +14,37 @@ import FaqDatesSupplier from "@/components/Faq";
 import Cta from "@/components/Cta";
 
 import Parallex from "@/components/Parallex";
+import CitySection from "@/components/CitySection";
 // import DatesPopupForm from "@/components/Popup";
 
 export default function Home() {
   return (
-  <>
-{/* <DatesPopupForm></DatesPopupForm> */}
+    <>
+      {/* <DatesPopupForm></DatesPopupForm> */}
 
-  <HeroDatesExact></HeroDatesExact>
-   <Slider></Slider>
-  <AboutSection></AboutSection>
-  <Check></Check>
-    <Category></Category>
-  
-
+      <HeroDatesExact></HeroDatesExact>
+      <Slider></Slider>
+      <AboutSection></AboutSection>
+      <Check></Check>
+      <Category></Category>
 
 
-  <Countup></Countup>
- 
-  <Whychoose></Whychoose>
-    
-    <LeadingDatesSupplier></LeadingDatesSupplier>
-     <Parallex></Parallex>
-  <Banner></Banner>
 
 
-  <Testimonial></Testimonial>
-   <Cta></Cta>
-  <Benefit></Benefit>
-  <FaqDatesSupplier></FaqDatesSupplier>
+      <Countup></Countup>
 
-  </>
+      <Whychoose></Whychoose>
+
+      <LeadingDatesSupplier></LeadingDatesSupplier>
+      <Parallex></Parallex>
+      <Banner></Banner>
+
+
+      <Testimonial></Testimonial>
+      <Cta></Cta>
+      <Benefit></Benefit>
+      <FaqDatesSupplier></FaqDatesSupplier>
+      <CitySection />
+    </>
   );
 }

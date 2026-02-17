@@ -9440,7 +9440,7 @@ export const categories = [
     metaDescription:
       "Premium Packaged Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/img1.png",
+    image: "/products/barariTunisian.webp",
     badge: "bestseller",
 
     products: [
@@ -14918,9 +14918,9 @@ export const categories = [
   {
     id: "other-products",
     name: "Other Products",
-    metaTitle: "Kalmi Dates Supplier in India | Premium Quality Dates",
+    metaTitle: "Dates Supplier in India | Premium Quality Dates",
     metaDescription:
-      "Premium Kalmi Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
+      "Premium Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
     image: "/products/arabiandelight.webp",
     badge: "bestseller",

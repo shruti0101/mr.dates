@@ -6,7 +6,7 @@ const CitySection = () => {
     return (
         <>
             <section className="py-5 bg-[#faf7f2] px-4 md:px-20">
-                <h2 className="my-2 text-2xl md:text-5xl font-bold text-black">Our Supply Network</h2>
+                <h2 className="my-2 text-xl md:text-5xl font-bold text-black">Our Supply Network</h2>
                 <div className="flex gap-2 px-3 flex-wrap overflow-hidden ">
                     {cites.map(({ href, label }, idx) => (
                         <Link

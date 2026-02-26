@@ -14,7 +14,7 @@ const categories = [
   { title: "Ajwa Dates", image: "/slider/ajwadates.webp", bg: "#1F1A16", link: "/categories/ajwa-dates" },
   { title: "Kimia Dates", image: "/slider/rabbidates.webp", bg: "#8C5A2E", link: "/categories/kimia-dates" },
   { title: "Fard Dates", image: "/slider/farddates.webp", bg: "#4A2E1F", link: "/categories/fard-dates" },
-  { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F", link: "/categories/chocolate-dates" },
+  { title: "Chocolate Dates", image: "/slider/chocodate.webp", bg: "#2A140F", link: "/categories/chocolate-dates" },
   { title: "Zahidi Dates", image: "/slider/zahidi.webp", bg: "#2A140F", link: "/categories/zahidi-dates" },
   { title: "Mabroom Dates", image: "/slider/mabroom.webp", bg: "#2A140F", link: "/categories/mabroom-dates" },
   { title: "Medjool Dates", image: "/slider/mejdool.webp", bg: "#2A140F", link: "/categories/medjool-dates" },

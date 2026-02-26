@@ -4,38 +4,38 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 export default function BestsellerSection() {
-  const flowers = [
-    {
-      name: "CHOCOLATE DATES",
-      image: "/banner/2.webp",
-      desc:
-        "Chocolate Dates are a delightful blend of premium dates coated with rich chocolate, offering a smooth texture and indulgent flavor. Perfect for gifting, snacking, and sweet cravings with a touch of elegance.",
-    },
-    {
-      name: "SEEDLESS DATES",
-      image: "/banner/1.webp",
-      desc:
-        "Seedless Dates are naturally sweet and tender, offering a smooth bite without the pit. Ideal for easy snacking, baking, and premium retail or bulk supply.",
-    },
-    {
-      name: "KIMIA DATES",
-      image: "/banner/31.webp",
-      desc:
-        "Kimia Dates are known for their soft, moist texture and rich sweetness. These glossy dark dates are a favorite for snacking, desserts, and high-end retail packaging.",
-    },
-    {
-      name: "ZUBI DATES",
-      image: "/banner/41.webp",
-      desc:
-        "Zubi Dates are premium-quality Zubi Dates supplied by Mr. Dates, a trusted global Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
-    },
-    // {
-    //   name: "ARABIAN DATES",
-    //   image: "/banner/1.webp",
-    //   desc:
-    //     "Arabian Dates represent a curated selection of the finest varieties from the Middle East, known for their rich taste, natural energy, and superior quality — perfect for everyday use and special occasions.",
-    // },
-  ];
+
+
+const flowers = [
+  {
+    name: "CHOCOLATE DATES",
+    image: "/banner/2.webp",
+    link: "/categories/chocolate-dates",
+    desc:
+      "Chocolate Dates are premium quality Arabian dates coated with rich, smooth chocolate for an indulgent taste experience. Perfect for gifting, festive hampers, snacking, and luxury retail packaging.",
+  },
+  {
+    name: "SEEDLESS DATES",
+    image: "/banner/1.webp",
+    link: "/categories/seedless-dates",
+    desc:
+      "Seedless Dates offer natural sweetness with a soft texture and no pits, making them ideal for daily snacking, baking, smoothies, and bulk supply for food service or retail markets.",
+  },
+  {
+    name: "KIMIA DATES",
+    image: "/banner/31.webp",
+    link: "/categories/kimia-dates",
+    desc:
+      "Kimia Dates are soft, moist, and naturally sweet premium Iranian dates known for their glossy dark appearance and caramel-like flavor, perfect for desserts, gifting, and healthy snacking.",
+  },
+  {
+    name: "AJWA DATES",
+    image: "/banner/41.webp",
+    link: "/categories/ajwa-dates",
+    desc:
+      "Ajwa Dates are premium Saudi Arabian dates known for their soft texture, rich taste, and high nutritional value. Widely consumed for health benefits, they are ideal for daily use, gifting, and religious occasions.",
+  }
+];
 
   const [index, setIndex] = useState(0);
   const timerRef = useRef(null);
@@ -98,7 +98,7 @@ export default function BestsellerSection() {
                 {current?.desc}
               </p>
 
-              <Link href="/products">
+           <Link href={current?.link}>
 
                 <motion.button
                   whileHover={{ scale: 1.05 }}

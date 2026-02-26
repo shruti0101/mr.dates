@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 /* Images */
@@ -33,14 +33,9 @@ export default function Hero() {
     <>
       {/* DESKTOP */}
       <section className="relative   bg-[#EFDECC] w-full h-[150px] sm:h-[40vh] md:h-[50vh] xl:h-[80vh] overflow-hidden">
-        <AnimatePresence mode="sync">
-          <motion.div
-            key={index}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-            className="absolute inset-0 "
+      
+          <Link href="/contact"
+          
           >
              <Image
             src={desktopImages[index % desktopImages.length]}
@@ -51,8 +46,8 @@ export default function Hero() {
             className="max-w-full h-auto object-cover object-center "
    
           />
-          </motion.div>
-        </AnimatePresence>
+          </Link>
+  
       </section>
 
       {/* MOBILE */}

@@ -7,25 +7,25 @@ const items = [
   {
     title: "Fitness",
     desc: "Power your workouts with energy-rich dates that support stamina, muscle recovery, and long-lasting endurance.",
-    icon: "/slider/benefit1.avif",
+    icon: "/slider/benefit1.webp",
     bg: "bg-[#DCEAD8]",
   },
   {
     title: "Maternity",
     desc: "Support expecting mothers with iron-rich, naturally nourishing dates that promote strength and overall wellness.",
-    icon: "/slider/benefit2.avif",
+    icon: "/slider/benefit2.webp",
     bg: "bg-[#EAE4D4]",
   },
   {
     title: "Kids",
     desc: "A delicious and healthy alternative to sugary snacks, packed with natural energy for growing minds and bodies.",
-    icon: "/slider/benefit3.avif",
+    icon: "/slider/benefit3.webp",
     bg: "bg-[#DDEAE6]",
   },
   {
     title: "Elder Care",
     desc: "Soft, easy-to-digest dates that help maintain daily nutrition, vitality, and digestive comfort.",
-    icon: "/slider/benefit4.avif",
+    icon: "/slider/benefit4.webp",
     bg: "bg-[#E9DADA]",
   },
 ];

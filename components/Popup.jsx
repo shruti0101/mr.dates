@@ -22,6 +22,7 @@ const [submitted, setSubmitted] = useState(false);
 
       name: formData.get("contactPerson"),
       email: formData.get("email"),
+      company: formData.get("Company"),
       phone: formData.get("phone"),
       product: "Premium Dates Enquiry",
       place: `${formData.get("city")}, ${formData.get("state")}`,
@@ -127,6 +128,14 @@ finally {
                     name="email"
                     required
                     placeholder="Email Address*"
+                    className="input"
+                  />
+
+                    <input
+                    type="text"
+                    name="Company"
+                    required
+                    placeholder="enter name*"
                     className="input"
                   />
 

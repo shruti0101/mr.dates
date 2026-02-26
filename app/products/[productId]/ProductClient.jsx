@@ -48,7 +48,7 @@ Weight: ${selectedPack?.weight || "-"}`;
       </Head>
 
       {/* MAIN */}
-      <section className="bg-[#FDFBF7]  mt-3">
+      <section className="bg-[#FDFBF7] my-15 md:mt-5">
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 gap-10 items-start max-md:grid-cols-1 max-md:px-4 max-md:gap-0">
           {/* ================= LEFT IMAGE ================= */}
           <div className="md:sticky top-0 mt-11 overflow-hidden max-md:mt-6">
@@ -309,7 +309,7 @@ Weight: ${selectedPack?.weight || "-"}`;
           </div>
 
           {/* ================= RIGHT CARD ================= */}
-          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-200 max-md:p-6 max-md:static">
+          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-270 max-md:p-6 max-md:static">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg

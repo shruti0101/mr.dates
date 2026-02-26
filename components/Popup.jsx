@@ -135,7 +135,7 @@ finally {
                     type="text"
                     name="Company"
                     required
-                    placeholder="enter name*"
+                    placeholder="Company Name*"
                     className="input"
                   />
 
@@ -154,6 +154,13 @@ finally {
                       <option>Uttar Pradesh</option>
                       <option>Maharashtra</option>
                       <option>Gujarat</option>
+                      <option>Rajasthan</option>
+                      <option>Punjab</option>
+                      <option>Haryana</option>
+                      <option>Tamil Nadu</option>
+                      <option>Karnataka</option>
+
+
                       <option>Other</option>
                     </select>
 

@@ -8,11 +8,11 @@ import Link from "next/link";
 import "swiper/css";
 
 const images = [
-  "/banner/1.png",
-  "/banner/2.png",
-  "/banner/31.png",
-  "/banner/41.png",
-  "/banner/5.png",
+  "/banner/1.webp",
+  "/banner/2.webp",
+  "/banner/31.webp",
+  "/banner/41.webp",
+  "/banner/5.webp",
 ];
 
 /* Animations */
@@ -156,7 +156,7 @@ export default function AboutStoreSection() {
 
                 {/* Date Image */}
                 <span className="relative z-10 flex h-7 w-7 items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
-                  <img src="/date.png" alt="Date fruit" className="h-9 w-9 object-contain" />
+                  <img src="/date_1.webp" alt="Date fruit" className="h-9 w-9 object-contain" />
                 </span>
 
                 <Link href="/about" className="relative z-10 font-poppins">

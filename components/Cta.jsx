@@ -4,8 +4,13 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
+import DatesPopupForm from "./Popup";
 
 const Cta = () => {
+
+const [formOpen, setFormOpen] = useState(false);
+
   return (
     <div>
       {/* ================= PREMIUM CTA ================= */}
@@ -23,7 +28,7 @@ const Cta = () => {
           className="flex justify-center"
         >
           <Image
-            src="/cta.png"
+            src="/cta.webp"
             alt="Date fruit"
             width={200}
             height={200}
@@ -107,7 +112,7 @@ const Cta = () => {
               {/* Date Icon */}
               <span className="relative z-10 flex h-7 w-7 items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
                 <img
-                  src="/date.png"
+                  src="/date_1.webp"
                   alt="Date fruit"
                   className="h-10 w-10 object-contain"
                 />
@@ -119,7 +124,7 @@ const Cta = () => {
             </motion.button>
 
             {/* BUTTON 2 */}
-            <motion.button
+            <motion.button onClick={() => setFormOpen(true)}
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 show: { opacity: 1, y: 0 },
@@ -133,6 +138,12 @@ const Cta = () => {
           </motion.div>
         </div>
       </motion.section>
+
+
+      {/* ENQUIRY FORM POPUP */}
+      {formOpen && (
+        <DatesPopupForm  onClose={() => setFormOpen(false)} isOpen={formOpen} />
+      )}
     </div>
   );
 };

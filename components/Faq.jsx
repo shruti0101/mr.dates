@@ -71,7 +71,7 @@ export default function FaqDatesSupplier() {
 
   return (
     <section
-      style={{ backgroundImage: "url(/faq.jpg)" }}
+      style={{ backgroundImage: "url(/faq.webp)" }}
       className="relative bg-cover bg-center bg-fixed py-16"
     >
       {/* Overlay */}

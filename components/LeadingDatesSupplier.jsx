@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function LeadingDatesSupplier() {
   return (
     <motion.section
-      style={{ backgroundImage: "url(/bglead.png)" }}
+      style={{ backgroundImage: "url(/bglead.webp)" }}
       className="bg-cover bg-center lg:py-20 py-10"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

@@ -36,7 +36,7 @@ const Page = () => {
         className="relative h-[45vh] md:h-[80vh] flex items-center justify-center text-center"
         style={{
           backgroundImage:
-            "url('/bg3.png')",
+            "url('/bg3.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

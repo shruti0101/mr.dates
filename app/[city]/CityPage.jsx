@@ -6,6 +6,11 @@ import { Building2, Rocket, Briefcase, Factory, Cpu, Store, Hotel, Gift, Home, L
 import CitySection from "@/components/CitySection";
 import Link from "next/link";
 import gsap from "gsap";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import { motion } from "framer-motion";
+
+import "swiper/css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,36 +47,47 @@ export default function CityPage() {
         );
     }, []);
 
+
+
+
+    const images = [
+  "/banner/1.webp",
+  "/banner/2.webp",
+  "/banner/31.webp",
+  "/banner/41.webp",
+  "/banner/5.webp",
+];
+
     const data = [
         {
             title: "One-Stop Dates Supply Solution",
             desc: "We offer a wide variety of dates including Medjool, Ajwa, Safawi, Kimia, Mabroom, Zahidi, and Deglet Noor for retail, wholesale, horeca, and institutional needs.",
             icon: Warehouse,
-            img: "/slider/ajwadates.png",
+            img: "/slider/ajwadates.webp",
         },
         {
             title: "Premium Quality & Freshness",
             desc: "Sourced from trusted growers and processed hygienically to retain natural taste, nutrients, and freshness.",
             icon: Leaf,
-            img: "/slider/chocodate.png",
+            img: "/slider/chocodate.webp",
         },
         {
             title: "Bulk & Retail Supply",
             desc: "Bulk quantities, wholesale packs, and consumer-friendly retail packaging for all business needs.",
             icon: Truck,
-            img: "/slider/farddates.png",
+            img: "/slider/farddates.webp",
         },
         {
             title: "Competitive Pricing",
             desc: "Transparent and competitive pricing ensuring value for money without compromising quality.",
             icon: Tags,
-            img: "/slider/tunisian.png",
+            img: "/slider/tunisian.webp",
         },
         {
             title: "Trusted by Customers & Businesses",
             desc: `Preferred by retailers, dry fruit traders, sweet shops, hotels, and households across ${cityName}.`,
             icon: Handshake,
-            img: "/slider/mejdooldates.png",
+            img: "/slider/mejdooldates.webp",
         },
     ];
 
@@ -79,7 +95,7 @@ export default function CityPage() {
         {/* Hero */}
         <section
             style={{
-                backgroundImage: "url('/bg3.png')",
+                backgroundImage: "url('/bg3.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -94,10 +110,10 @@ export default function CityPage() {
         </section>
 
         {/* main */}
-        <section className="mx-auto lg:px-15 px-5 py-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <section className="max-w-7xl mx-auto   py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
                 <div>
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-4">
                         Premium <span className="text-amber-400">Dates Supplier</span> in {cityName}
                     </h1>
 
@@ -114,14 +130,33 @@ export default function CityPage() {
                     </p>
                 </div>
 
-                <div className="w-full h-full">
-                    <img
-                        src="/check/1.png"
-                        alt="Office Workstation"
-                        className="w-full h-[28rem] object-cover rounded-lg shadow-lg"
-                        style={{ objectPosition: "50% 84%" }}
-                    />
-                </div>
+                 <motion.div
+           
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="relative overflow-hidden"
+          >
+            <Swiper
+              modules={[Autoplay]}
+              autoplay={{ delay: 4000, disableOnInteraction: false }}
+              loop
+              className="h-full w-full"
+            >
+              {images.map((img, i) => (
+                <SwiperSlide key={i}>
+                  <Image
+                    src={img}
+                    alt="Mr. Dates Premium Store"
+                    width={500}
+                    height={200}
+                    className="object-contain"
+                    priority={i === 0}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </motion.div>
             </div>
         </section>
 
@@ -352,7 +387,7 @@ export default function CityPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="w-full">
                     <img
-                        src="/bg2.png"
+                        src="/bg2.webp"
                         alt="Key Features"
                         className="w-full h-[28rem] object-cover transition-transform duration-700 group-hover:scale-105"
                         style={{ objectPosition: "50% 70%" }}
@@ -600,28 +635,51 @@ export default function CityPage() {
             </div>
         </section>
 
-        {/* about */}
-        <section section className="mx-auto lg:px-15 px-5 py-8" >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div className="w-full">
-                    <img
-                        src="/aboutpage/1.png"
-                        alt="Best"
-                        className="w-full h-full object-cover rounded-2xl shadow-xl"
-                    />
-                </div>
+     {/* about */}
+<section className="mx-auto lg:px-15 px-5 py-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+    <div className="w-full">
+      <img
+        src="/aboutpage/1.webp"
+        alt="Premium Dates Supplier in Delhi NCR"
+        className="w-full h-full object-cover rounded-2xl shadow-xl"
+      />
+    </div>
 
-                <div>
-                    <h2 className="text-3xl md:text-5xl font-bold mb-5">
-                        Looking for a Reliable Dates Supplier in Delhi?
-                    </h2>
+    <div>
+      <h2 className="text-3xl md:text-5xl font-bold mb-5">
+        Looking for a Reliable Dates Supplier in Delhi NCR?
+      </h2>
 
-                    <p className="text-black mb-4 leading-relaxed text-2xl">
-                        Contact Mr. Dates today for pricing, samples, bulk orders, or customized packaging solutions. We help you choose the right dates variety and quantity based on your business or personal needs—perfectly suited for Delhi NCR markets.
-                    </p>
-                </div>
-            </div>
-        </section>
+      <p className="text-black mb-4 leading-relaxed">
+        Get in touch with <strong>Mr. Dates</strong> today for the finest quality dates at competitive wholesale prices. Whether you need premium varieties for retail, bulk supplies for distribution, gifting solutions for festive seasons, or customized packaging for your brand, we’ve got you covered.
+      </p>
+
+      <p className="text-black mb-3 leading-relaxed font-semibold">
+        We offer:
+      </p>
+
+      <ul className="list-disc pl-5 space-y-2 text-black mb-4 leading-relaxed">
+        <li>A wide range of premium date varieties</li>
+        <li>Bulk and wholesale pricing options</li>
+        <li>Custom packaging and private labeling solutions</li>
+        <li>Samples for quality assurance</li>
+        <li>Timely delivery across Delhi NCR</li>
+        <li>Personalized assistance to help you select the right variety and quantity</li>
+      </ul>
+
+      <p className="text-black leading-relaxed">
+        At Mr. Dates, we understand the unique demands of Delhi NCR markets and ensure consistent quality, freshness, and reliability with every order.
+      </p>
+
+      <p className="text-black mt-3 leading-relaxed font-medium">
+        Contact Mr. Dates today for pricing details, samples, bulk orders, or tailored packaging solutions — and experience dependable service you can trust.
+      </p>
+    </div>
+
+  </div>
+</section>
 
         <CitySection></CitySection>
     </>)

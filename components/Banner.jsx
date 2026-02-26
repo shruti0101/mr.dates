@@ -6,9 +6,9 @@ import Image from "next/image";
 
 /* Images */
 const desktopImages = [
-  "/banner/slider1.png",
-  // "/banner/slider2.png",
-  // "/banner/slider3.png",
+  "/banner/slider1.webp",
+  // "/banner/slider2.webp",
+  // "/banner/slider3.webp",
 ];
 
 // const mobileImages = [

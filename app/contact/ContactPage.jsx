@@ -11,7 +11,7 @@ const ContactPage = () => {
       {/* ================= HERO ================= */}
       <section
         className="relative h-[50vh] md:h-[70vh] flex items-center justify-center text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg3.png')" }}
+        style={{ backgroundImage: "url('/bg3.webp')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
 
@@ -89,7 +89,7 @@ const ContactPage = () => {
             </div>
           </motion.div>
 
-<Image src="/leaf2.png" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
+<Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
 
 
 

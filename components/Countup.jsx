@@ -4,7 +4,7 @@ import Image from "next/image";
 const Countup = () => {
   return (
     <section
-      style={{ backgroundImage: "url(/check/bgcount.jpg)" }}
+      style={{ backgroundImage: "url(/check/bgcount.webp)" }}
       className="py-20 bg-contain  bg-center xl:bg-fixed  xl:bg-cover "
     >
       <div className="max-w-7xl mx-auto px-6">

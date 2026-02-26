@@ -7,31 +7,31 @@ export default function BestsellerSection() {
   const flowers = [
     {
       name: "CHOCOLATE DATES",
-      image: "/banner/2.png",
+      image: "/banner/2.webp",
       desc:
         "Chocolate Dates are a delightful blend of premium dates coated with rich chocolate, offering a smooth texture and indulgent flavor. Perfect for gifting, snacking, and sweet cravings with a touch of elegance.",
     },
     {
       name: "SEEDLESS DATES",
-      image: "/banner/1.png",
+      image: "/banner/1.webp",
       desc:
         "Seedless Dates are naturally sweet and tender, offering a smooth bite without the pit. Ideal for easy snacking, baking, and premium retail or bulk supply.",
     },
     {
       name: "KIMIA DATES",
-      image: "/banner/31.png",
+      image: "/banner/31.webp",
       desc:
         "Kimia Dates are known for their soft, moist texture and rich sweetness. These glossy dark dates are a favorite for snacking, desserts, and high-end retail packaging.",
     },
     {
       name: "ZUBI DATES",
-      image: "/banner/41.png",
+      image: "/banner/41.webp",
       desc:
         "Zubi Dates are premium-quality Zubi Dates supplied by Mr. Dates, a trusted global Dates Supplier delivering fresh, high-quality dates to domestic and international markets",
     },
     // {
     //   name: "ARABIAN DATES",
-    //   image: "/banner/1.png",
+    //   image: "/banner/1.webp",
     //   desc:
     //     "Arabian Dates represent a curated selection of the finest varieties from the Middle East, known for their rich taste, natural energy, and superior quality — perfect for everyday use and special occasions.",
     // },
@@ -71,7 +71,7 @@ export default function BestsellerSection() {
       {/* SLIDER */}
       <div
         className="relative w-full text-white"
-        style={{ backgroundImage: "url(/check12.png)" }}
+        style={{ backgroundImage: "url(/check12.webp)" }}
       >
         <div className="absolute inset-0 bg-black/60" />
 

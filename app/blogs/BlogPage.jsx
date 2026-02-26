@@ -21,7 +21,7 @@ const BlogPage = () => {
         initial="hidden"
         animate="show"
         className="relative bg-cover bg-center h-[50vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
-        style={{ backgroundImage: "url('/bg3.png')" }}
+        style={{ backgroundImage: "url('/bg3.webp')" }}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/45"></div>

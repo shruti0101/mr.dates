@@ -57,7 +57,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/">
             <Image
-              src={isSingleProduct ? "/logo-black.png" : "/logooo.png"}
+              src={isSingleProduct ? "/logo-black.webp" : "/logooo.webp"}
               alt="Brand Logo"
               width={isSingleProduct ? 100 : 120}
               height={40}
@@ -104,14 +104,14 @@ export default function Navbar() {
           transition={{ duration: 0.3, ease: "easeOut" }}
           onWheel={(e) => e.stopPropagation()}
           className="
-            absolute left-1/2 top-full mt-6 w-[980px]
+            absolute left-1/2 top-full mt-5 w-[1180px]
             max-h-[80vh] overflow-y-auto overflow-x-hidden
             z-50
-            -translate-x-1/2 rounded-3xl bg-white p-10
+            -translate-x-1/2 rounded-3xl bg-white p-20
             shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]
           "
         >
-          <div className="grid grid-cols-6 gap-6">
+          <div className="grid grid-cols-6 gap-10">
             {categories.map((cat) => (
               <Link
                 key={cat.id}
@@ -122,9 +122,9 @@ export default function Navbar() {
                   <Image
                     src={cat.image}
                     alt={cat.name}
-                    width={800}
-                    height={700}
-                    className="object-cover p-6 transition-transform duration-500 group-hover:scale-125"
+                    width={1000}
+                    height={1000}
+                    className="object-fill p-2 transition-transform duration-500 group-hover:scale-125"
                   />
                 </div>
                 <h4 className="mt-4 tracking-[1.2] text-xl text-center font-bold text-black">
@@ -159,7 +159,7 @@ export default function Navbar() {
             href="/contact"
             className="hidden md:inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
           >
-            <img src="/date.png" alt="" className="h-8 w-8" />
+            <img src="/date_1.webp" alt="" className="h-8 w-8" />
             Get a Quote
           </Link>
 

@@ -61,32 +61,32 @@ gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 const products = [
   {
     title: "Healthy Dates",
-    main: "/testimg.png",
-    thumb: "/img1.png",
+    main: "/testimg.webp",
+    thumb: "/img1.webp",
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
   {
     title: " Kalmi Dates",
-    main: "/testimg2.png",
-    thumb: "/img2.png",
+    main: "/testimg2.webp",
+    thumb: "/img2.webp",
     desc: "As a leading Kalmi dates supplier, we offer rich-tasting Kalmi Dates, handpicked at peak ripeness. Nothing added, nothing artificial—just pure flavor, authentic texture, and uncompromised quality.",
   },
   {
     title: "Ajwa Dates",
-    main: "/testimg3.png",
-    thumb: "/img6.png",
+    main: "/testimg3.webp",
+    thumb: "/img6.webp",
     desc: "Carefully sourced Ajwa dates known for their deep natural sweetness and traditional value. Revered for wellness benefits, these dates offer a refined taste ",
   },
   {
     title: "Classic Dates",
-    main: "/img4.png",
-    thumb: "/img4.png",
+    main: "/img4.webp",
+    thumb: "/img4.webp",
     desc: "As a trusted dates supplier, we bring you these Classic Dates, perfect for daily consumption. They deliver balanced sweetness and a satisfying chew, naturally fresh and versatile—ideal for snacking or culinary use.",
   },
   {
     title: "Dry Fruits Mix",
-    main: "/img5.png",
-    thumb: "/img5.png",
+    main: "/img5.webp",
+    thumb: "/img5.webp",
     desc: "As a trusted dates supplier, we also bring you a premium Dry Fruits Mix —a thoughtfully curated blend of wholesome dry fruits. Packed with nutrients to support immunity and overall wellness, perfect for mindful snacking.",
   },
 ];
@@ -104,11 +104,11 @@ export default function HeroDatesExact() {
 
 
   const bgImages = [
-  "/check10.png",
-  "/check11.png",
-  "/check12.png",
-  "/check13.png",
-   "/check12.png",
+  "/check10.webp",
+  "/check11.webp",
+  "/check12.webp",
+  "/check13.webp",
+   "/check12.webp",
 
 ];
 
@@ -396,7 +396,7 @@ export default function HeroDatesExact() {
                 width={650}
                 height={760}
                 className="absolute  z-30 right-20 -top-20 animate-pulse"
-                src="/leaf2.png"
+                src="/leaf2.webp"
                 alt=""
               />
 
@@ -431,7 +431,7 @@ export default function HeroDatesExact() {
 
               <div>
                 <Image
-                  src="/dateside.png"
+                  src="/dateside.webp"
                   alt="dates"
                   width={150}
                   height={160}
@@ -464,7 +464,7 @@ export default function HeroDatesExact() {
       </section>
 
       {/* <section > 
-    <div style={{backgroundImage:"url(/slider/1.png)"}} className='bg-center h-[300px] bg-cover bg-fixed'></div>
+    <div style={{backgroundImage:"url(/slider/1.webp)"}} className='bg-center h-[300px] bg-cover bg-fixed'></div>
 </section> */}
     </>
   );

@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "@studio-freight/lenis";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 // ✅ Register only once, in correct order
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
@@ -15,33 +16,33 @@ const products = [
   {
     title: "kimia Dates",
     main: "/products/kimia6.webp",
-    thumb: "/img1.png",
+    thumb: "/img1.webp",
     desc: "As a reliable Healthy dates supplier, we offer naturally sweet, soft-textured Healthy Dates, carefully selected for everyday nourishment. A clean source of energy, rich in fiber and essential nutrients—perfect for a healthy, balanced lifestyle.",
   },
 
   {
     title: "fard Dates",
-    main: "/heroimg2.png",
-    thumb: "/img6.png",
+    main: "/heroimg2.webp",
+    thumb: "/img6.webp",
     desc: "As a reliable dates supplier, we bring you premium Fard Dates known for their firm, chewy texture and naturally sweet taste. Ideal for daily snacking, bulk supply, and retail—hygienically packed for long-lasting freshness.",
   },
   {
     title: "barari Dates",
-    main: "/testimg3.png",
-    thumb: "/img4.png",
+    main: "/testimg3.webp",
+    thumb: "/img4.webp",
     desc: "As a trusted dates supplier, we bring you these Classic Dates, perfect for daily consumption. They deliver balanced sweetness and a satisfying chew, naturally fresh and versatile—ideal for snacking or culinary use.",
   },
   {
     title: "Mejdool Dates",
     main: "/products/self3.webp",
-    thumb: "/img5.png",
+    thumb: "/img5.webp",
     desc: "As a premium dates supplier, we offer Medjool Dates known for their large size, soft juicy texture, and naturally rich sweetness. A perfect choice for gifting, retail packs, and bulk supply with premium quality assurance.",
   },
 
     {
     title: "anjeer ",
     main: "/products/anjeer.webp",
-    thumb: "/img2.png",
+    thumb: "/img2.webp",
     desc: "As a trusted dry fruits supplier, we offer premium Anjeer (Dry Figs) with natural sweetness and a soft, chewy bite. Perfect for healthy snacking, gifting, and culinary use—packed hygienically to maintain freshness and quality.",
   },
 ];
@@ -57,12 +58,12 @@ export default function HeroDatesExact() {
   const [visibleIndex, setVisibleIndex] = useState(0);
 
   const bgImages = [
-    "/check10.png",
+    "/check10.webp",
    
-    "/check12.png",
-    "/check13.png",
-    "/check12.png",
-      "/anjeer.png",
+    "/check12.webp",
+    "/check13.webp",
+    "/check12.webp",
+      "/anjeer.webp",
   
     
   ];
@@ -263,7 +264,7 @@ export default function HeroDatesExact() {
     px-7 py-3
     rounded-full
       bg-white
-    text-black text-sm md:text-xl font-medium tracking-wide
+    text-black hover:text-white text-sm md:text-xl font-medium tracking-wide
    
    
     overflow-hidden
@@ -300,24 +301,27 @@ export default function HeroDatesExact() {
     "
                     >
                       <img
-                        src="/date.png"
+                        src="/date_1.webp"
                         alt="Date fruit"
                         className="h-10 w-10 object-contain"
                       />
                     </span>
 
                     {/* Text */}
-                    <span className="relative z-10 font-poppins font-bold">
+                    <Link href="/products" className="relative z-10 font-poppins font-bold">
                       Explore More
-                    </span>
+                    </Link>
                   </button>
 
-                  <motion.span
-                    whileHover={{ x: 6 }}
-                    className="flex items-center gap-2 text-sm md:text-lg font-semibold text-white hover:text-white transition cursor-pointer"
+                   <Link 
+                  href="/about"
+                 
+                    className="flex tracking-wider items-center gap-2 text-sm md:text-lg font-semibold text-white hover:text-white transition cursor-pointer"
                   >
-                    View Details →
-                  </motion.span>
+                    Know More →
+                  </Link>
+
+                 
                 </div>
 
                 <motion.div
@@ -341,7 +345,7 @@ export default function HeroDatesExact() {
                 width={650}
                 height={760}
                 className="absolute  z-30 right-20 -top-20 animate-pulse"
-                src="/leaf2.png"
+                src="/leaf2.webp"
                 alt=""
               />
 
@@ -376,7 +380,7 @@ export default function HeroDatesExact() {
 
               <div>
                 <Image
-                  src="/dateside.png"
+                  src="/dateside.webp"
                   alt="dates"
                   width={150}
                   height={160}
@@ -409,7 +413,7 @@ export default function HeroDatesExact() {
       </section>
 
       {/* <section > 
-    <div style={{backgroundImage:"url(/slider/1.png)"}} className='bg-center h-[300px] bg-cover bg-fixed'></div>
+    <div style={{backgroundImage:"url(/slider/1.webp)"}} className='bg-center h-[300px] bg-cover bg-fixed'></div>
 </section> */}
     </>
   );

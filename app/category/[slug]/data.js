@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export const categoryCityContent = {
     "dry-figs-supplier-in": {
-        mainImg: "/anjeer.png",
+        mainImg: "/anjeer.webp",
         h2: (city) => `Premium Dry Figs Supplier in ${city}`,
         intro: (city) => (
             <>
@@ -215,7 +215,7 @@ export const categoryCityContent = {
     },
 
     "kalmi-dates-supplier-in": {
-        mainImg: "/bg3.png",
+        mainImg: "/bg3.webp",
         h2: (city) => `Premium Kalmi Dates Supplier in ${city}`,
         intro: (city) => (
             <>
@@ -415,7 +415,7 @@ export const categoryCityContent = {
     },
 
     "kimia-dates-supplier-in": {
-        mainImg: "/bg3.png",
+        mainImg: "/bg3.webp",
         h2: (city) => `Premium Kimia Dates Supplier in ${city}`,
         intro: (city) => (
             <>
@@ -615,7 +615,7 @@ export const categoryCityContent = {
     },
 
     "fresh-dates-supplier-in": {
-        mainImg: "/bg3.png",
+        mainImg: "/bg3.webp",
         h2: (city) => `Premium Fresh Dates Supplier in ${city}`,
         intro: (city) => (
             <>
@@ -631,7 +631,7 @@ export const categoryCityContent = {
         ),
         intro2: (city) => `We specialize in naturally fresh, soft, and juicy dates known for their rich flavor, natural sweetness, and high nutritional value. Our fresh dates are carefully harvested, sorted, and hygienically packed to maintain optimal moisture, freshness, and shelf life.`,
         intro3: (city) => `From seasonal retail demand to bulk supply for traders and festive markets, Mr. Dates ensures consistent quality and timely delivery, making us a preferred fresh dates supplier in ${city}.`,
-        introImg: "/check2.jpeg",
+        introImg: "/check2.webp",
 
         whyChooseHeading: (city) => `Why Choose Mr. Dates for Fresh Dates in ${city}?`,
         whyChoose: (city) => [
@@ -710,7 +710,7 @@ export const categoryCityContent = {
 
         KeyFeatures: {
             title: `Key Features of Our Fresh Dates`,
-            img: `/faq.jpg`,
+            img: `/faq.webp`,
 
             list: [
                 "Premium-grade, handpicked Fresh dates",
@@ -811,11 +811,11 @@ export const categoryCityContent = {
             description: `We provide premium-quality fresh dates suitable for retail, wholesale, hospitality, and household consumption across ${city} markets.`
         }),
 
-        aboutImg: "/check/bgcount.jpg",
+        aboutImg: "/check/bgcount.webp",
     },
 
     "packaged-dates-supplier-in": {
-        mainImg: "/bg3.png",
+        mainImg: "/bg3.webp",
         h2: (city) => `Premium Packaged Dates Supplier in ${city}`,
         intro: (city) => (
             <>

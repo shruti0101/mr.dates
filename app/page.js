@@ -15,12 +15,12 @@ import Cta from "@/components/Cta";
 
 import Parallex from "@/components/Parallex";
 import CitySection from "@/components/CitySection";
-// import DatesPopupForm from "@/components/Popup";
+import DatesPopupForm from "@/components/Popup";
 
 export default function Home() {
   return (
     <>
-      {/* <DatesPopupForm></DatesPopupForm> */}
+      <DatesPopupForm></DatesPopupForm>
 
       <HeroDatesExact></HeroDatesExact>
       <Slider></Slider>

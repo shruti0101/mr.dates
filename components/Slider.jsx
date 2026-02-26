@@ -5,31 +5,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";
-
+import Link from "next/link";
 import "swiper/css";
 
 const categories = [
-  // Dates (rich, luxurious tones)
-  { title: "Mejdool Dates", image: "/slider/mejdooldates.png", bg: "#3B1F1A" }, // dark cocoa
-  { title: "Kalmi Dates", image: "/slider/kalmi.webp", bg: "#6B3E2E" },     // roasted brown
-  { title: "Ajwa Dates", image: "/slider/ajwadates.png", bg: "#1F1A16" },        // deep black-brown
-  { title: "Kimia Dates", image: "/slider/rabbidates.png", bg: "#8C5A2E" },    // golden caramel
-  { title: "Fard Dates", image: "/slider/farddates.png", bg: "#4A2E1F" },        // date seed brown
-  { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Zahidi Dates", image: "/slider/zahidi.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Mabroom Dates", image: "/slider/mabroom.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Medjool Dates", image: "/slider/mejdool.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Rabbi Dates", image: "/slider/zahidi.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Sukkari Dates", image: "/slider/sukkari.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Tunisian Dates", image: "/slider/tunisian.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Wet Dates", image: "/slider/mabroom.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Seedlees Dates", image: "/slider/seedles.png", bg: "#2A140F" },   // dark chocolate
-  { title: "Dry Apricot", image: "/slider/dry.png", bg: "#1C1814" },   // dark chocolate
-  // Dry Fruits (warm nut tones)
-  { title: "Cashew Nuts", image: "/slider/cashew.png", bg: "#C9A26A" },               // cashew cream
-  // { title: "Walnut", image: "/slider/walnut.webp", bg: "#5A3A2E" },              // walnut shell
-  { title: "California Almond", image: "/slider/almond.webp", bg: "#D1B07C" },              // almond beige
-  { title: "Mix Trail", image: "/slider/raisin.png", bg: "#6E3B3B" },               // raisin wine
+  { title: "Mejdool Dates", image: "/slider/mejdooldates.webp", bg: "#3B1F1A", link: "//categories/medjool-dates" },
+  { title: "Kalmi Dates", image: "/slider/kalmi.webp", bg: "#6B3E2E", link: "/categories/kalmi-dates" },
+  { title: "Ajwa Dates", image: "/slider/ajwadates.webp", bg: "#1F1A16", link: "/categories/ajwa-dates" },
+  { title: "Kimia Dates", image: "/slider/rabbidates.webp", bg: "#8C5A2E", link: "/categories/kimia-dates" },
+  { title: "Fard Dates", image: "/slider/farddates.webp", bg: "#4A2E1F", link: "/categories/fard-dates" },
+  { title: "Chocolate Dates", image: "/slider/chocodate.png", bg: "#2A140F", link: "/categories/chocolate-dates" },
+  { title: "Zahidi Dates", image: "/slider/zahidi.webp", bg: "#2A140F", link: "/categories/zahidi-dates" },
+  { title: "Mabroom Dates", image: "/slider/mabroom.webp", bg: "#2A140F", link: "/categories/mabroom-dates" },
+  { title: "Medjool Dates", image: "/slider/mejdool.webp", bg: "#2A140F", link: "/categories/medjool-dates" },
+  { title: "Rabbi Dates", image: "/slider/rabbidates.webp", bg: "#2A140F", link: "/categories/rabbi-dates" },
+  { title: "Sukkari Dates", image: "/slider/sukkari.webp", bg: "#2A140F", link: "/categories/sukkari-dates" },
+  { title: "Tunisian Dates", image: "/slider/tunisian.webp", bg: "#2A140F", link: "/categories/tunisian-dates" },
+
+  { title: "Seedless Dates", image: "/slider/seedles.webp", bg: "#2A140F", link: "/categories/seedless-dates" },
+  { title: "Dry Apricot", image: "/slider/dry.webp", bg: "#1C1814", link: "/categories/dry-apricot" },
+  { title: "Cashew Nuts", image: "/slider/cashew.webp", bg: "#C9A26A", link: "/categories/cashew-nuts" },
+  { title: "California Almond", image: "/slider/almond.webp", bg: "#D1B07C", link: "/categories/california-almond" },
 ];
 
 export default function CategorySlider() {
@@ -70,11 +66,13 @@ export default function CategorySlider() {
             }}
             className="md: !overflow-visible"
           >
-            {categories.map((item, index) => (
-              <SwiperSlide key={index} className="[perspective:1600px]">
-                <Card3D item={item} isActive={index === active} />
-              </SwiperSlide>
-            ))}
+           {categories.map((item, index) => (
+  <SwiperSlide key={index} className="[perspective:1600px]">
+    <Link href={item.link} className="block">
+      <Card3D item={item} isActive={index === active} />
+    </Link>
+  </SwiperSlide>
+))}
           </Swiper>
         </div>
       </section>

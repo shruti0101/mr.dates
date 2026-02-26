@@ -83,13 +83,13 @@ export default function Check() {
             <div className="relative  h-[360px] sm:h-[440px] md:h-[560px] w-full">
               <img
                 ref={imgBack}
-                src="/dateside.png"
+                src="/dateside.webp"
                 className="absolute left-0 sm:left-10 w-full h-full object-contain"
                 alt="Background Dates"
               />
               <img
                 ref={imgMid}
-                src="/check/3.png"
+                src="/check/3.webp"
                 className="absolute w-full h-full rounded-3xl object-contain"
                 alt="Dates Packaging"
               />

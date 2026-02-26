@@ -75,7 +75,7 @@ export default function AboutSection() {
   return (
     <section
       ref={aboutRef}
-      style={{ backgroundImage: "url(/aboutbg.jpg)" }}
+      style={{ backgroundImage: "url(/aboutbg.webp)" }}
       className="
         relative bg-cover bg-center overflow-hidden
         py-16 
@@ -108,7 +108,7 @@ export default function AboutSection() {
               "
             >
               <Image
-                src="/banner/2.png"
+                src="/banner/2.webp"
                 alt="Premium Dates"
                 fill
                 className="max-w-full h-auto object-cover"
@@ -184,7 +184,7 @@ export default function AboutSection() {
               </span>
 
               <span className="relative z-10 flex h-7 w-7">
-                <img src="/date.png" alt="Date fruit" className="h-10 w-10 object-contain" />
+                <img src="/date_1.webp" alt="Date fruit" className="h-10 w-10 object-contain" />
               </span>
 
               <Link href="/products" className="relative z-10 text-md md:text-xl font-bold">Shop Now</Link>

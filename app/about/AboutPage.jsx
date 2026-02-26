@@ -69,15 +69,15 @@ const AboutPage = () => {
 
     const client = [
         {
-            image: "/client1.jpg"
+            image: "/client1.webp"
         },
 
         {
-            image: "/client2.jpg"
+            image: "/client2.webp"
         },
 
         {
-            image: "/client3.jpg"
+            image: "/client3.webp"
         },
     ]
 
@@ -89,7 +89,7 @@ const AboutPage = () => {
                 initial="hidden"
                 animate="show"
                 className="relative bg-cover bg-center h-[50vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
-                style={{ backgroundImage: "url('/bg3.png')" }}
+                style={{ backgroundImage: "url('/bg3.webp')" }}
             >
 
                 <div className="absolute inset-0 bg-black/40"></div>
@@ -178,7 +178,7 @@ const AboutPage = () => {
 
 
                         <Image
-                            src="/aboutpage/1.png"
+                            src="/aboutpage/1.webp"
                             alt="About Mr. Dates"
                             width={500}
                             height={500}
@@ -261,7 +261,7 @@ const AboutPage = () => {
                             <Image
                                 width={500}
                                 height={500}
-                                src="/aboutpage/1.png"
+                                src="/aboutpage/1.webp"
                                 alt="Premium dates"
                                 className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
                             />
@@ -299,7 +299,7 @@ const AboutPage = () => {
                             <Image
                                 width={500}
                                 height={500}
-                                src="/banner/2.png"
+                                src="/banner/2.webp"
                                 alt="Bulk dates supply"
                                 className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
                             />
@@ -315,7 +315,7 @@ const AboutPage = () => {
                             <Image
                                 width={1000}
                                 height={1000}
-                                src="/slider/1.png"
+                                src="/slider/1.webp"
                                 alt="Handpicked dates"
                                 className="max-w-full h-auto rounded-2xl object-cover shadow-lg"
                             />
@@ -359,7 +359,7 @@ const AboutPage = () => {
             {/* ================= MISSION / VISION ================= */}
             <section
 
-                style={{ backgroundImage: "url(/bg2.png)" }}
+                style={{ backgroundImage: "url(/bg2.webp)" }}
                 className="relative py-20 bg-cover bg-fixed bg-center"
             >
 

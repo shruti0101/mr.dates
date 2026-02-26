@@ -37,10 +37,10 @@ const Category = () => {
     { title: " Kimia Dates", image: "/products/kimia5.webp", link: "/categories/kimia-dates" },
     { title: "Kalmi Dates", image: "/products/kalmi3.webp", link: "/categories/kalmi-gold-dates" },
     { title: "Medjool Dates", image: "/products/mediumMedjool.webp", link: "/categories/medjool-dates" },
-    { title: "Mebroom Dates", image: "/products/dateCrownMabroom.webp", link: "/categories/zahidi-dates" },
-    { title: "California Almonds", image: "/products/independentAlmondsPouch.webp", link: "/categories/fard-dates" },
-    { title: "Dry Figs", image: "/products/afgan-figs.webp", link: "/categories/seedless-dates" },
-    // { title: "sukkari Dates", image: "/category/2.png" },
+    { title: "Mebroom Dates", image: "/products/dateCrownMabroom.webp", link: "/categories/mabroom-dates" },
+    { title: "California Almonds", image: "/products/independentAlmondsPouch.webp", link: "/categories/california-almonds" },
+    { title: "Dry Figs", image: "/products/afgan-figs.webp", link: "/categories/dry-figs" },
+    // { title: "sukkari Dates", image: "/category/2.webp" },
   ];
 
   const sectionRef = useRef(null);
@@ -60,7 +60,7 @@ const Category = () => {
   return (
     <section
       ref={sectionRef}
-      style={{ backgroundImage: "url(/texture.jpg)" }}
+      style={{ backgroundImage: "url(/texture.webp)" }}
       className="relative py-20 overflow-hidden [perspective:1200px] bg-cover bg-center"
     >
 
@@ -73,7 +73,7 @@ const Category = () => {
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       >
         <motion.img
-          src="/aboutimg.png"
+          src="/aboutimg.webp"
           alt="decorative leaf"
           style={{
             y: leafYLeft,
@@ -91,7 +91,7 @@ const Category = () => {
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       >
         <motion.img
-          src="/check/gg.png"
+          src="/check/gg.webp"
           alt="decorative leaf"
           style={{
             y: leafYRight,
@@ -210,7 +210,7 @@ const Category = () => {
         >
           <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-white text-black text-lg md:text-xl font-bold overflow-hidden cursor-pointer">
             <span className="relative z-10 flex h-7 w-7">
-              <img src="/date.png" alt="Date" className="h-9 w-9 object-contain" />
+              <img src="/date_1.webp" alt="Date" className="h-9 w-9 object-contain" />
             </span>
             <Link href="/products" className="relative z-10 ">
               Explore All Categories

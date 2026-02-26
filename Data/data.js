@@ -3436,7 +3436,7 @@ export const categories = [
     metaDescription:
       "Premium Fresh Dates sourced from trusted farms. Naturally sweet, soft-textured dates ideal for bulk supply, retail distribution, and institutional use.",
 
-    image: "/img1.png",
+    image: "/img1.webp",
     badge: "bestseller",
 
     products: [
@@ -5865,7 +5865,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.jpeg",
+          src: "/products/lajawab10kg.webp",
           alt: "Lajawab Buman 10KG"
         }
       },
@@ -11869,7 +11869,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.jpeg",
+          src: "/products/lajawab10kg.webp",
           alt: "Lajawab Buman 10KG"
         }
       },
@@ -17351,7 +17351,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.jpeg",
+          src: "/products/lajawab10kg.webp",
           alt: "Lajawab Buman 10KG"
         }
       },

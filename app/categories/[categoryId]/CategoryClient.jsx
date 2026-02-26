@@ -22,7 +22,7 @@ export default function CategoryPage({ category }) {
     <>
       {/* ================= HERO ================= */}
       <section
-        style={{ backgroundImage: "url('/bg3.png')" }}
+        style={{ backgroundImage: "url('/bg3.webp')" }}
         className="relative bg-cover bg-center h-[60vh] md:h-[90vh]"
       >
         <div className="absolute inset-0 bg-black/35" />

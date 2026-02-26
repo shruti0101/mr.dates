@@ -10,7 +10,7 @@ export default function Footer() {
       {/* BACKGROUND IMAGE */}
       <div
         className="absolute inset-0 -z-20 bg-cover  bg-center"
-        style={{ backgroundImage: "url('/check4.jpg')" }}
+        style={{ backgroundImage: "url('/check4.webp')" }}
         aria-hidden="true"
       />
 
@@ -33,7 +33,7 @@ export default function Footer() {
           {/* BRAND */}
           <div>
             <Image
-              src="/logooo.png"
+              src="/logooo.webp"
               width={150}
               height={50}
               alt="Mr. Dates"

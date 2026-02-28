@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { categories } from "@/Data/data";
 import Slider from "@/components/Slider";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import CategoryCitySection from "@/components/CategoryCitySection";
 
 export default function CategoryPage({ category }) {
@@ -17,9 +17,39 @@ export default function CategoryPage({ category }) {
   }
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  setLoading(true);
+
+  const timer = setTimeout(() => {
+    setLoading(false);
+  }, 600); 
+
+  return () => clearTimeout(timer);
+}, [category]);
+
+
+
+if (loading) {
+  return (
+    <div className="fixed inset-0 z-[999] flex items-center justify-center bg-white">
+      <div className="flex flex-col items-center gap-6">
+        <div className="w-12 h-12 border-4 border-[#6b1f2b] border-t-transparent rounded-full animate-spin"></div>
+        <p className="text-[#6b1f2b] tracking-widest uppercase text-sm">
+          Loading...
+        </p>
+      </div>
+    </div>
+  );
+}
+
 
   return (
     <>
+
+
+    
       {/* ================= HERO ================= */}
       <section
         style={{ backgroundImage: "url('/bg3.webp')" }}
@@ -185,7 +215,7 @@ export default function CategoryPage({ category }) {
                       alt={product.name}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
-                     
+                      priority={false}
                     />
                   </div>
 

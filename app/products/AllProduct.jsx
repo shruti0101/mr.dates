@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { categories } from "@/Data/data";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,6 +10,7 @@ import Slider from "@/components/Slider";
 const Page = () => {
   const itemsPerPage = 12;
   const [currentPage, setCurrentPage] = useState(1);
+  const [loading, setLoading] = useState(false);
 
   const allProducts = categories.flatMap((cat) =>
     cat.products.map((p) => ({ ...p, categoryId: cat.id }))
@@ -22,12 +23,17 @@ const Page = () => {
     startIndex + itemsPerPage
   );
 
-  const handlePageChange = (page) => {
-    if (page >= 1 && page <= totalPages) {
+ const handlePageChange = (page) => {
+  if (page >= 1 && page <= totalPages) {
+    setLoading(true);
+
+    setTimeout(() => {
       setCurrentPage(page);
+      setLoading(false);
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
+    }, 500); 
+  }
+};
 
   return (
     <div className="bg-[#F9FAFB]">
@@ -64,7 +70,11 @@ const Page = () => {
 
 <Slider></Slider>
 
-
+{loading && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/70 backdrop-blur-sm">
+    <div className="w-14 h-14 border-4 border-amber-500 border-t-transparent rounded-full animate-spin"></div>
+  </div>
+)}
 
       {/* ================= PRODUCTS ================= */}
       <section className="py-16">

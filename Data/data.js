@@ -5865,10 +5865,10 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.webp",
+          src: "/products/lajawab10kg.jpeg",
           alt: "Lajawab Buman 10KG"
         }
-      },
+      },  
 
       // tunisia
       {
@@ -11869,7 +11869,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.webp",
+          src: "/products/lajawab10kg.jpeg",
           alt: "Lajawab Buman 10KG"
         }
       },
@@ -17351,7 +17351,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/lajawab10kg.webp",
+          src: "/products/lajawab10kg.jpeg",
           alt: "Lajawab Buman 10KG"
         }
       },

@@ -69,11 +69,19 @@ const ContactPage = () => {
               </div>
 
               <div className="flex items-start gap-4">
+                <Phone className="text-[#6B091D]" />
+                <div>
+                  <p className="font-semibold text-xl">Phone</p>
+                  <p className="text-black text-xl">+91 7065650411</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
                 <Mail className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold text-xl">Email</p>
                   <p className="text-black text-xl">customercare@mrdates.in</p>
-                     <p className="text-black text-xl">sales@mrdates.in</p>
+                  <p className="text-black text-xl">sales@mrdates.in</p>
                 </div>
               </div>
 
@@ -82,14 +90,14 @@ const ContactPage = () => {
                 <div>
                   <p className="font-semibold text-xl">Location</p>
                   <p className="text-black text-xl">
-             C-62, Mandi, Block B, Azadpur, <br /> Delhi, 110033
+                    C-62, Mandi, Block B, Azadpur, <br /> Delhi, 110033
                   </p>
                 </div>
               </div>
             </div>
           </motion.div>
 
-<Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
+          <Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
 
 
 
@@ -143,16 +151,16 @@ const ContactPage = () => {
         </div>
 
 
-<div className="h-full w-full mt-8">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.0136353497383!2d77.1712696!3d28.714073999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01beb907eaf7%3A0x5089b5634f28242e!2sMr%20Dates!5e1!3m2!1sen!2sin!4v1770445719419!5m2!1sen!2sin"
-    className="w-full h-[80vh] border-0"
-    loading="lazy"
-    allowFullScreen
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Google Map - Mr Dates"
-  />
-</div>
+        <div className="h-full w-full mt-8">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.0136353497383!2d77.1712696!3d28.714073999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01beb907eaf7%3A0x5089b5634f28242e!2sMr%20Dates!5e1!3m2!1sen!2sin!4v1770445719419!5m2!1sen!2sin"
+            className="w-full h-[80vh] border-0"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Google Map - Mr Dates"
+          />
+        </div>
 
 
       </section>

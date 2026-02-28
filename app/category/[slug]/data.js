@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 
 export const categoryCityContent = {
-    "dry-figs-supplier-in": {
+    "dry-figs-supplier": {
         mainImg: "/anjeer.webp",
         h2: (city) => `Premium Dry Figs Supplier in ${city}`,
         intro: (city) => (
@@ -214,7 +214,7 @@ export const categoryCityContent = {
         aboutImg: "/products/afgan-figs.webp",
     },
 
-    "kalmi-dates-supplier-in": {
+    "kalmi-dates-supplier": {
         mainImg: "/bg3.webp",
         h2: (city) => `Premium Kalmi Dates Supplier in ${city}`,
         intro: (city) => (
@@ -414,7 +414,7 @@ export const categoryCityContent = {
         aboutImg: "/products/looseKalmi.webp",
     },
 
-    "kimia-dates-supplier-in": {
+    "kimia-dates-supplier": {
         mainImg: "/bg3.webp",
         h2: (city) => `Premium Kimia Dates Supplier in ${city}`,
         intro: (city) => (
@@ -614,7 +614,7 @@ export const categoryCityContent = {
         aboutImg: "/products/goldKimia.webp",
     },
 
-    "fresh-dates-supplier-in": {
+    "fresh-dates-supplier": {
         mainImg: "/bg3.webp",
         h2: (city) => `Premium Fresh Dates Supplier in ${city}`,
         intro: (city) => (
@@ -814,7 +814,7 @@ export const categoryCityContent = {
         aboutImg: "/check/bgcount.webp",
     },
 
-    "packaged-dates-supplier-in": {
+    "packaged-dates-supplier": {
         mainImg: "/bg3.webp",
         h2: (city) => `Premium Packaged Dates Supplier in ${city}`,
         intro: (city) => (

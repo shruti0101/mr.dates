@@ -25,7 +25,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
             <div className="absolute inset-0 bg-gray-900/60" />
 
             <h1 className="text-center font-serif leading-snug relative font-bold text-white text-2xl px-5 md:py-14 capitalize md:text-6xl">
-                {categoryName} {cityName}
+                {categoryName} in {cityName}
             </h1>
         </section>
 
@@ -152,8 +152,8 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
                     </h3>
 
                     <ul className="space-y-4 text-black text-lg">
-                        {content?.KeyFeatures?.list.map((i) => (
-                            <li className="flex items-start gap-3">
+                        {content?.KeyFeatures?.list.map((i, idx) => (
+                            <li className="flex items-start gap-3" key={idx}>
                                 <span className="w-2 h-2 bg-blue-600 rounded-full mt-2"></span>
                                 <span>{i}</span>
                             </li>
@@ -173,7 +173,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
                 {content?.industries.map((i, idx) => {
                     const Icon = i.icon;
                     return (
-                        <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                        <div key={idx} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
                             <div className="flex justify-center mb-4">
                                 <div className="w-14 h-14 flex items-center justify-center rounded-full bg-blue-100 group-hover:bg-blue-600 transition">
                                     <Icon className="w-7 h-7 text-blue-600 group-hover:text-white transition" />
@@ -251,7 +251,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
             <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="md:text-left text-center">
                     <Link href={"/"} className="text-2xl font-semibold">
-                        {categoryName} {cityName}
+                        {categoryName} in {cityName}
                     </Link>
                     <p className="md:text-5xl text-4xl font-semibold">
                         +91 9773999082
@@ -270,7 +270,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
         </section>
 
         {/* FAQ */}
-        <section section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100" >
+        <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100" >
             <div className="max-w-4xl mx-auto text-center mb-10">
                 <h2 className="text-3xl md:text-5xl font-extrabold">
                     {content?.faqs(cityName).title}
@@ -293,7 +293,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
         </section>
 
         {/* about */}
-        <section section className="mx-auto lg:px-15 px-5 py-8" >
+        <section className="mx-auto lg:px-15 px-5 py-8" >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="w-full h-96">
                     <img

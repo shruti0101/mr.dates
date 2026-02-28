@@ -34,18 +34,21 @@ const Page = async ({ params }) => {
         notFound();
     }
 
-    const parts = slug.split("-")
+    const parts = slug.split("-in-")
     const citySlug = parts.pop();
     const categorySlug = parts.join("-");
 
     const format = (text) =>
-        text.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
+        text
+            .split("-")
+            .filter(w => w.toLowerCase() !== "in")
+            .filter(w => w.toLowerCase() !== "supplier")
+            .map(w => w[0].toUpperCase() + w.slice(1))
+            .join(" ");
 
     const categoryName = format(categorySlug);
     const cityName = format(citySlug);
     const content = categoryCityContent[categorySlug];
-    console.log(content, categorySlug);
-
 
     return (
         <CategoryCityPage categoryName={categoryName} cityName={cityName} content={content} />

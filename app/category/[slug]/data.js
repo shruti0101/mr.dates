@@ -231,7 +231,7 @@ export const categoryCityContent = {
         ),
         intro2: (city) => `We specialize in high-grade Kalmi dates known for their medium size, soft texture, natural sweetness, and excellent nutritional value. Our Kalmi dates are carefully sorted, graded, and hygienically packed to ensure consistent quality, freshness, and long shelf life.`,
         intro3: (city) => `From daily retail demand to festive bulk supply, Mr. Dates delivers reliable service and premium products, making us a preferred Kalmi dates supplier in ${city}.`,
-        introImg: "/products/KingKalmi.webp",
+        introImg: "/products/al-fruit.webp",
 
         whyChooseHeading: (city) => `Why Choose Mr. Dates for Kalmi Dates in ${city}?`,
         whyChoose: (city) => [
@@ -611,7 +611,7 @@ export const categoryCityContent = {
             description: `We provide premium-quality Kimia dates perfectly suited for retail, wholesale, gifting, hospitality, and household needs across ${city} markets.`
         }),
 
-        aboutImg: "/products/goldKimia.webp",
+        aboutImg: "/products/kimia6.webp",
     },
 
     "fresh-dates-supplier": {

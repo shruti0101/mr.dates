@@ -279,7 +279,7 @@ export default function CategoryCityPage({ categoryName, cityName, content }) {
 
             <div className="max-w-4xl mx-auto space-y-4">
                 {content?.faqs(cityName).items.map((i, idx) => (
-                    <details className="group bg-gray-50 rounded-xl p-5 cursor-pointer">
+                    <details key={idx} className="group bg-gray-50 rounded-xl p-5 cursor-pointer">
                         <summary className="flex justify-between items-center font-semibold text-lg">
                             {i?.q}
                             <span className="transition-transform group-open:rotate-180">⌄</span>

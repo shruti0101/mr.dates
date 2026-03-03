@@ -9,7 +9,7 @@ import Link from "next/link";
 import "swiper/css";
 
 const categories = [
-  { title: "Mejdool Dates", image: "/slider/mejdooldates.webp", bg: "#3B1F1A", link: "//categories/medjool-dates" },
+  { title: "Mejdool Dates", image: "/slider/mejdooldates.webp", bg: "#3B1F1A", link: "/categories/medjool-dates" },
   { title: "Kalmi Dates", image: "/slider/kalmi.webp", bg: "#6B3E2E", link: "/categories/kalmi-dates" },
   { title: "Ajwa Dates", image: "/slider/ajwadates.webp", bg: "#1F1A16", link: "/categories/ajwa-dates" },
   { title: "Kimia Dates", image: "/slider/rabbidates.webp", bg: "#8C5A2E", link: "/categories/kimia-dates" },
@@ -36,10 +36,10 @@ export default function CategorySlider() {
     <>
 
 
-      <section className="md:py-18 py-10 bg-white overflow-hidden">
+      <section className="md:py-15 py-10 bg-white overflow-hidden">
 
 
-        <div className="mb-12 text-center">
+        <div className="mb-10 text-center">
           <h2 className="text-2xl md:text-[66px] uppercase font-extrabold text-black">
             Timeless Taste of Authentic Dates 🌿
           </h2>
@@ -66,13 +66,13 @@ export default function CategorySlider() {
             }}
             className="md: !overflow-visible"
           >
-           {categories.map((item, index) => (
-  <SwiperSlide key={index} className="[perspective:1600px]">
-    <Link href={item.link} className="block">
-      <Card3D item={item} isActive={index === active} />
-    </Link>
-  </SwiperSlide>
-))}
+            {categories.map((item, index) => (
+              <SwiperSlide key={index} className="[perspective:1600px]">
+                <Link href={item.link} className="block">
+                  <Card3D item={item} isActive={index === active} />
+                </Link>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </section>
@@ -106,7 +106,7 @@ function Card3D({ item }) {
         backgroundColor: item.bg,
         transformStyle: "preserve-3d",
       }}
-    
+
       transition={{ type: "spring", stiffness: 160, damping: 18 }}
       className="
         relative h-[220px] rounded-[36px]
@@ -125,7 +125,7 @@ function Card3D({ item }) {
           pointer-events-none
           z-10
         "
-       
+
         transition={{ type: "spring", stiffness: 180 }}
       >
         <Image
@@ -140,7 +140,7 @@ function Card3D({ item }) {
 
       <div className="absolute bottom-0 left-0 right-0 p-6 translate-z-[120px] z-20">
         <motion.h3
-        
+
           className="text-white text-xl font-semibold text-center"
         >
           {item.title}

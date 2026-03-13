@@ -12,6 +12,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import InquiryContactForm from '@/components/LandingPage/InquiryForm'
 
 export default function Inquiry() {
     const [formOpen, setFormOpen] = useState(false);
@@ -32,7 +33,7 @@ export default function Inquiry() {
                     <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
                         Premium Quality Dates Supplier in India
                     </h1>
-                    <ul className="flex items-center text-xl md:text-2xl text-white mb-6">
+                    <ul className="flex items-center text-2xl text-yellow-500 md:mb-6 mb-4 font-bold">
                         <li className="flex items-center">
                             <span className="mr-2">•</span>Fresh
                         </li>
@@ -43,7 +44,7 @@ export default function Inquiry() {
                             <span className="mr-2">•</span>Bulk & Retail Supply
                         </li>
                     </ul>
-                    <p className="text-lg sm:text-xl md:text-2xl mb-6">
+                    <p className="text-xl md:text-2xl mb-6">
                         We deliver farm-fresh Medjool & premium dates at competitive wholesale prices. Trusted by retailers, distributors & exporters across India.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
@@ -280,23 +281,22 @@ export default function Inquiry() {
 
         {/* contact us */}
         <section className="py-8 bg-gray-50">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-3 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-2 text-center">
                 Order Online or Contact Us
             </h2>
+            <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-4 text-center">
+                Looking for healthy dates for your store, restaurant or export business? Contact us today!
+            </p>
             <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
                 <div className="">
-                    <ContactForm />
+                    <InquiryContactForm />
                 </div>
 
-                {/* Right Side: Text */}
                 <div className="md:block hidden">
-                    <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-1">
-                        Looking for healthy dates for your store, restaurant or export business? Contact us today!
-                    </p>
                     <img
                         src="/check2.webp"
                         alt="MR Dates Premium Quality Dates & Dry Fruits"
-                        className="w-full h-96 rounded-lg shadow-lg object-cover"
+                        className="w-full h-104 rounded-lg shadow-lg object-cover"
                     />
                 </div>
             </div>

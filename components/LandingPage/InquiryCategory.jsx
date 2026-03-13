@@ -120,7 +120,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-                    className=" mx-auto text-white mb-10 text-base sm:text-2xl"
+                    className=" mx-auto text-white mb-10 text-lg md:text-2xl"
                 >
                     Discover our best sellers featuring <strong>premium dates, dry fruits,</strong>{" "}
                     and <strong>healthy snacks</strong> crafted by a trusted{" "}
@@ -206,7 +206,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                     className="mt-12"
                 >
-                    <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-white text-black text-lg md:text-xl font-bold overflow-hidden cursor-pointer">
+                    <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-amber-500 hover:bg-amber-600 text-white text-lg md:text-xl font-bold overflow-hidden cursor-pointer">
                         <span className="relative z-10 flex h-7 w-7">
                             <img src="/date_1.webp" alt="Date" className="h-9 w-9 object-contain" />
                         </span>

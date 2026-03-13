@@ -37,7 +37,7 @@ const ContactForm = () => {
           e.target.reset();      // reset after UI change
         }, 100);
         setTimeout(() => {
-          if (onClose) onClose();
+          // if (onClose) onClose();
           setSubmitted(false);
         }, 3000);
       }
@@ -50,21 +50,21 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md" onSubmit={handleSubmit}>
+    <form className="bg-transparent border text-white border-white rounded-lg shadow-lg p-6 w-full max-w-md" onSubmit={handleSubmit}>
       {submitted ? (
         <div className="text-center py-10">
           <h2 className="text-2xl font-bold text-green-600">
             🎉 Thank You!
           </h2>
-          <p className="text-gray-600 mt-2">
+          <p className="text-white mt-2">
             Your enquiry has been submitted successfully.
           </p>
-          <p className="text-gray-500 text-sm mt-1">
+          <p className="text-white text-sm mt-1">
             Our team will contact you shortly.
           </p>
         </div>)
         : (<>
-          <h2 className="text-2xl font-bold mb-4 text-gray-800 text-center">Get in Touch</h2>
+          <h2 className="text-3xl font-bold mb-4 text-white text-center">Get in Touch</h2>
 
           <div className="mb-4">
             <input
@@ -72,7 +72,7 @@ const ContactForm = () => {
               name="contactPerson"
               required
               placeholder="Your Name"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 rounded-lg border border-white text-white placeholder-white"
             />
           </div>
 
@@ -82,7 +82,7 @@ const ContactForm = () => {
               name="email"
               required
               placeholder="Your Email"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 border border-white rounded-lg text-white placeholder-white"
             />
           </div>
 
@@ -92,7 +92,7 @@ const ContactForm = () => {
               name="phone"
               required
               placeholder="Your Phone Number"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 border border-white rounded-lg text-white placeholder-white"
             />
           </div>
 
@@ -100,7 +100,7 @@ const ContactForm = () => {
             <textarea
               name="message"
               placeholder="Your Message"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 border border-white rounded-lg text-white placeholder-white"
               rows="3"
             ></textarea>
           </div>
@@ -108,7 +108,7 @@ const ContactForm = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-[#8b2d36] hover:bg-[#6b1f2b] text-white py-3 rounded-xl font-semibold transition disabled:opacity-50"
+            className="w-full bg-yellow-500 hover:bg-[#faab00] text-black text-xl py-3 rounded-xl font-semibold transition disabled:opacity-50"
           >
             {loading ? "Submitting..." : "Submit"}
           </button>

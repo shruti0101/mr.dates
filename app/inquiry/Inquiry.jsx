@@ -2,12 +2,16 @@
 import UseCaseSection from '@/components/Benefits'
 import Category from '@/components/Category'
 import ContactForm from '@/components/Form'
+import InquirySlider from '@/components/LandingPage/CategorySlider'
+import InquiryCategory from '@/components/LandingPage/InquiryCategory'
 import DatesPopupForm from '@/components/Popup'
 import CategorySlider from '@/components/Slider'
 import TestimonialsSlider from '@/components/Testimonial'
 import { Factory, Gift, Leaf, Store, Truck } from 'lucide-react'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 
 export default function Inquiry() {
     const [formOpen, setFormOpen] = useState(false);
@@ -23,8 +27,8 @@ export default function Inquiry() {
             }}
             className="relative z-10 pt-25 pb-10">
             <div className="absolute inset-0 bg-black/60"></div>
-            <div className="relative max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center gap-15">
-                <div className="text-white md:w-1/2">
+            <div className="relative md:px-12 mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+                <div className="text-white md:pl-8 p-0">
                     <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
                         Premium Quality Dates Supplier in India
                     </h1>
@@ -43,26 +47,26 @@ export default function Inquiry() {
                         We deliver farm-fresh Medjool & premium dates at competitive wholesale prices. Trusted by retailers, distributors & exporters across India.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button onClick={() => setFormOpen(true)} className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded transition duration-300">
-                            Get Bulk Quote
+                        <button onClick={() => setFormOpen(true)} className="text-xl bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded transition duration-300">
+                            Submit Bulk Inquiry
                         </button>
                         <a
                             href="tel:+919773999082"
-                            className="bg-transparent border-2 flex justify-center border-white hover:bg-white hover:text-black text-white font-semibold px-6 py-3 rounded transition duration-300"
+                            className="text-xl bg-transparent border-2 flex justify-center border-white hover:bg-white hover:text-black text-white font-semibold px-6 py-3 rounded transition duration-300"
                         >
                             Call Now for Best Price
                         </a>
                     </div>
                 </div>
 
-                <div className="md:w-1/2 md:block hidden">
+                <div className="md:flex justify-center hidden">
                     <ContactForm />
                 </div>
             </div>
         </section>
 
-        <CategorySlider />
-        <Category />
+        <InquirySlider setFormOpen={setFormOpen} />
+        <InquiryCategory setFormOpen={setFormOpen} />
 
         {/* About Section */}
         <section className="py-8 bg-gray-50">
@@ -76,7 +80,7 @@ export default function Inquiry() {
                         We specialize in delivering the finest Medjool & organic dates — sourced from the best farms, healthy, chemical-free, and fresh.
                         Whether you are a retailer, exporter, wholesaler, or health-conscious buyer, we deliver fresh, nutrient-rich dates at competitive prices.
                     </p>
-                    <a href="tel:+919773999082" className='p-4 bg-amber-500 hover:bg-amber-600 rounded-lg text-white text-lg'>
+                    <a href="tel:+919773999082" className='py-4 px-8 bg-amber-500 hover:bg-amber-600 rounded-lg text-white text-2xl'>
                         Contact us today!
                     </a>
                 </div>
@@ -92,12 +96,99 @@ export default function Inquiry() {
         </section>
 
         {/* why Us */}
-        <section className="mx-auto lg:px-15 px-5 py-12 bg-gray-100">
-            <h2 className="text-center text-3xl md:text-5xl font-bold mb-10">
+        <section className="mx-auto lg:px-15 px-5 py-10 bg-gray-100 overflow-hidden">
+            <h2 className="text-center text-3xl md:text-5xl font-bold mb-6">
                 Why Choose MR Dates?
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div className="mx-auto ">
+                <Swiper
+                    modules={[Autoplay]}
+                    loop
+                    speed={6000}
+                    autoplay={{
+                        delay: 0,
+                        disableOnInteraction: false,
+                    }}
+                    slidesPerView={5}
+                    spaceBetween={20}
+                    grabCursor
+                    // onSlideChange={(s) => setActive(s.realIndex)}
+                    breakpoints={{
+                        0: { slidesPerView: 1 },
+                        640: { slidesPerView: 2 },
+                        1024: { slidesPerView: 5 },
+                    }}
+                    className="md: !overflow-visible"
+                >
+                    <SwiperSlide className="[perspective:1600px]">
+                        <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-100 group-hover:bg-yellow-600 transition">
+                                    <Factory className="w-7 h-7 text-yellow-600 group-hover:text-white transition" />
+                                </div>
+                            </div>
+                            <h3 className="font-semibold text-2xl mb-2 text-black">Highest Quality Dates</h3>
+                            <p className="text-black text-lg leading-relaxed">
+                                Premium Medjool & organic dates, fresh from the farms.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="[perspective:1600px]">
+                        <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-green-100 group-hover:bg-green-600 transition">
+                                    <Store className="w-7 h-7 text-green-600 group-hover:text-white transition" />
+                                </div>
+                            </div>
+                            <h3 className="font-semibold text-2xl mb-2 text-black">Bulk & Wholesale Supply</h3>
+                            <p className="text-black text-lg leading-relaxed">
+                                High-quality dates for retailers, distributors, and exporters.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="[perspective:1600px]">
+                        <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-orange-100 group-hover:bg-orange-600 transition">
+                                    <Leaf className="w-7 h-7 text-orange-600 group-hover:text-white transition" />
+                                </div>
+                            </div>
+                            <h3 className="font-semibold text-2xl mb-2 text-black">Organic & Chemical-Free</h3>
+                            <p className="text-black text-lg leading-relaxed">
+                                Natural, healthy dates without any chemicals or preservatives.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="[perspective:1600px]">
+                        <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-purple-100 group-hover:bg-purple-600 transition">
+                                    <Gift className="w-7 h-7 text-purple-600 group-hover:text-white transition" />
+                                </div>
+                            </div>
+                            <h3 className="font-semibold text-2xl mb-2 text-black">Best Prices</h3>
+                            <p className="text-black text-lg leading-relaxed">
+                                Competitive and attractive pricing for retailers and exporters.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="[perspective:1600px]">
+                        <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-indigo-100 group-hover:bg-indigo-600 transition">
+                                    <Truck className="w-7 h-7 text-indigo-600 group-hover:text-white transition" />
+                                </div>
+                            </div>
+                            <h3 className="font-semibold text-2xl mb-2 text-black">Quick Delivery</h3>
+                            <p className="text-black text-lg leading-relaxed">
+                                Fast and reliable delivery across India, ensuring freshness.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 <div onClick={() => setFormOpen(true)} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
                     <div className="flex justify-center mb-4">
                         <div className="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-100 group-hover:bg-yellow-600 transition">
@@ -157,7 +248,7 @@ export default function Inquiry() {
                         Fast and reliable delivery across India, ensuring freshness.
                     </p>
                 </div>
-            </div>
+            </div> */}
         </section>
 
         {/* CTA */}
@@ -167,7 +258,7 @@ export default function Inquiry() {
                     <Link href={"/"} className="text-2xl font-semibold">
                         Dates Supplier in India
                     </Link>
-                    <p className="md:text-5xl text-4xl font-semibold">
+                    <p className="md:text-6xl text-5xl font-semibold">
                         +91 9773999082
                     </p>
                     <p className="text-lg text-white">
@@ -176,7 +267,7 @@ export default function Inquiry() {
                 </div>
 
                 <div>
-                    <a href="tel:+919773999082" className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                    <a href="tel:+919773999082" className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition text-xl">
                         Connect Now
                     </a>
                 </div>
@@ -189,16 +280,16 @@ export default function Inquiry() {
 
         {/* contact us */}
         <section className="py-8 bg-gray-50">
-            <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center gap-10">
-                <div className="md:w-1/2">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-3 text-center">
+                Order Online or Contact Us
+            </h2>
+            <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+                <div className="">
                     <ContactForm />
                 </div>
 
                 {/* Right Side: Text */}
-                <div className="md:w-1/2">
-                    <h2 className="text-3xl md:text-4xl font-bold text-black mb-3">
-                        Order Online or Contact Us
-                    </h2>
+                <div className="md:block hidden">
                     <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-1">
                         Looking for healthy dates for your store, restaurant or export business? Contact us today!
                     </p>

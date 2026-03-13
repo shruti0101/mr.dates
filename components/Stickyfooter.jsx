@@ -26,7 +26,7 @@ const Stickyfooter = () => {
         </Link>
 
         <a
-          href="https://wa.me/919773999082"
+          href="https://wa.me/917065650411"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center text-xs"

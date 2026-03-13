@@ -27,7 +27,7 @@ export default function ProductPage({ params }) {
 
 
   const handleWhatsApp = () => {
-    const phoneNumber = "+919773999082";
+    const phoneNumber = "+917065650411";
     const message = `Hello, I want to enquire about ${product.name}.
 Packaging: ${selectedPack?.type || "Not Selected"} 
 Weight: ${selectedPack?.weight || "-"}`;

@@ -64,7 +64,8 @@ const ContactPage = () => {
                 <Phone className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold text-xl">Phone</p>
-                  <p className="text-black text-xl">+91 9773999082</p>
+                  <p className="text-black text-xl">+91 7065650411</p>
+
                 </div>
               </div>
 
@@ -72,7 +73,7 @@ const ContactPage = () => {
                 <Phone className="text-[#6B091D]" />
                 <div>
                   <p className="font-semibold text-xl">Phone</p>
-                  <p className="text-black text-xl">+91 7065650411</p>
+                  <p className="text-black text-xl">+91 9773999082</p>
                 </div>
               </div>
 
@@ -90,14 +91,14 @@ const ContactPage = () => {
                 <div>
                   <p className="font-semibold text-xl">Location</p>
                   <p className="text-black text-xl">
-                    C-62, Mandi, Block B, Azadpur, <br /> Delhi, 110033
+                    C-62, Mandi, Block C, Azadpur, <br /> Delhi, 110033
                   </p>
                 </div>
               </div>
             </div>
           </motion.div>
 
-          <Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image>
+          {/* <Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image> */}
 
 
 

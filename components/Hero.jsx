@@ -39,7 +39,7 @@ const products = [
     desc: "As a premium dates supplier, we offer Medjool Dates known for their large size, soft juicy texture, and naturally rich sweetness. A perfect choice for gifting, retail packs, and bulk supply with premium quality assurance.",
   },
 
-    {
+  {
     title: "anjeer ",
     main: "/products/anjeer.webp",
     thumb: "/img2.webp",
@@ -59,13 +59,10 @@ export default function HeroDatesExact() {
 
   const bgImages = [
     "/check10.webp",
-   
     "/check12.webp",
     "/check13.webp",
     "/check12.webp",
-      "/anjeer.webp",
-  
-    
+    "/dryFigs.webp",
   ];
 
   /* gsap thumb */
@@ -193,11 +190,11 @@ export default function HeroDatesExact() {
 
   return (
     <>
-    <section
-      style={{ backgroundImage: `url(${bgImages[activeIndex]})` }}
-      className="h-[70vh] md:h-[110vh] relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
-    >
-      <div className="absolute inset-0 bg-black/50" />
+      <section
+        style={{ backgroundImage: `url(${bgImages[activeIndex]})` }}
+        className="h-[70vh] md:h-[110vh] relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
+      >
+        <div className="absolute inset-0 bg-black/50" />
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -313,15 +310,15 @@ export default function HeroDatesExact() {
                     </Link>
                   </button>
 
-                   <Link 
-                  href="/about"
-                 
+                  <Link
+                    href="/about"
+
                     className="flex tracking-wider items-center gap-2 text-sm md:text-lg font-semibold text-white hover:text-white transition cursor-pointer"
                   >
                     Know More →
                   </Link>
 
-                 
+
                 </div>
 
                 <motion.div

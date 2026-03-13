@@ -1,150 +1,1052 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>http://mrdates.in/</loc>
+  <loc>https://mrdates.in/</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/about</loc>
+  <loc>https://mrdates.in/about</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/products</loc>
+  <loc>https://mrdates.in/products</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/blogs</loc>
+  <loc>https://mrdates.in/blogs</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/contact</loc>
+  <loc>https://mrdates.in/contact</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/kalmi-dates</loc>
+  <loc>https://mrdates.in/categories/kalmi-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/ajwa-dates</loc>
+  <loc>https://mrdates.in/categories/ajwa-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/kimia-dates</loc>
+  <loc>https://mrdates.in/categories/kimia-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/fard-dates</loc>
+  <loc>https://mrdates.in/categories/fard-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/chocolate-dates</loc>
+  <loc>https://mrdates.in/categories/chocolate-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/zahidi-dates</loc>
+  <loc>https://mrdates.in/categories/zahidi-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/mabroom-dates</loc>
+  <loc>https://mrdates.in/categories/mabroom-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/medjool-dates</loc>
+  <loc>https://mrdates.in/categories/medjool-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/rabbi-dates</loc>
+  <loc>https://mrdates.in/categories/rabbi-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/sukkari-dates</loc>
+  <loc>https://mrdates.in/categories/sukkari-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/tunisian-dates</loc>
+  <loc>https://mrdates.in/categories/tunisian-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/seedless-dates</loc>
+  <loc>https://mrdates.in/categories/seedless-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/dry-apricot</loc>
+  <loc>https://mrdates.in/categories/dry-apricot</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/cashew-nuts</loc>
+  <loc>https://mrdates.in/categories/cashew-nuts</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/california-almond</loc>
+  <loc>https://mrdates.in/categories/california-almonds</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/barari-dates</loc>
+  <loc>https://mrdates.in/categories/barari-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/kalmi-gold-dates</loc>
+  <loc>https://mrdates.in/categories/kalmi-gold-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/california-almonds</loc>
+  <loc>https://mrdates.in/categories/dry-figs</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/categories/dry-figs</loc>
+  <loc>https://mrdates.in/dates-supplier-in-delhi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-delhi</loc>
+  <loc>https://mrdates.in/dates-supplier-in-bhiwadi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-bhiwadi</loc>
+  <loc>https://mrdates.in/dates-supplier-in-bihar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-bihar</loc>
+  <loc>https://mrdates.in/dates-supplier-in-chhattisgarh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-chhattisgarh</loc>
+  <loc>https://mrdates.in/dates-supplier-in-dehradun</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-dehradun</loc>
+  <loc>https://mrdates.in/dates-supplier-in-gandhi-nagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-gandhi-nagar</loc>
+  <loc>https://mrdates.in/dates-supplier-in-goa</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-goa</loc>
+  <loc>https://mrdates.in/dates-supplier-in-greater-noida</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-greater-noida</loc>
+  <loc>https://mrdates.in/dates-supplier-in-gujarat</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-gujarat</loc>
+  <loc>https://mrdates.in/dates-supplier-in-gwalior</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-gwalior</loc>
+  <loc>https://mrdates.in/dates-supplier-in-himachal-pradesh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-himachal-pradesh</loc>
+  <loc>https://mrdates.in/dates-supplier-in-jammu-kashmir</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-jammu-kashmir</loc>
+  <loc>https://mrdates.in/dates-supplier-in-jharkhand</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-jharkhand</loc>
+  <loc>https://mrdates.in/dates-supplier-in-karnataka</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-karnataka</loc>
+  <loc>https://mrdates.in/dates-supplier-in-kerala</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-kerala</loc>
+  <loc>https://mrdates.in/dates-supplier-in-kundli</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-kundli</loc>
+  <loc>https://mrdates.in/dates-supplier-in-leh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-leh</loc>
+  <loc>https://mrdates.in/dates-supplier-in-madhya-pradesh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-madhya-pradesh</loc>
+  <loc>https://mrdates.in/dates-supplier-in-manali</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-manali</loc>
+  <loc>https://mrdates.in/dates-supplier-in-manesar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-manesar</loc>
+  <loc>https://mrdates.in/dates-supplier-in-mathura</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-mathura</loc>
+  <loc>https://mrdates.in/dates-supplier-in-meerut</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-meerut</loc>
+  <loc>https://mrdates.in/dates-supplier-in-odisha</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-odisha</loc>
+  <loc>https://mrdates.in/dates-supplier-in-panipat</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-panipat</loc>
+  <loc>https://mrdates.in/dates-supplier-in-patna</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mrdates.in/dates-supplier-in-patna</loc>
+  <loc>https://mrdates.in/dates-supplier-in-rohtak</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-roorkee</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-shimla</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-sikkim</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-sonipat</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-srinagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-tamil-nadu</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-telangana</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-thiruvananthapuram</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-west-bengal</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-howrah</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hooghly</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-nadia</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-murshidabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhiwani</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-sirsa</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jind</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-yamuna-nagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-karnal</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kurukshetra</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ambala</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jhajjar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-rewari</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-panchkula</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-mohali</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kapurthala</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-patiala</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhatinda</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hoshiarpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-gurdaspur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-allahabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-moradabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bareilly</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hardoi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-varanasi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-aligarh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bulandshahar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-shahjahanpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-alwar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jhansi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ajmer</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kota</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bikaner</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jodhpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-muzaffarpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-puducherry-pondicherry</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-faizabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ayodhya</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-mumbai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bengaluru</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-chennai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kolkata</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-haryana</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-punjab</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-uttarakhand</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-maharashtra</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-pune</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-rajasthan</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-uttar-pradesh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hyderabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ahmedabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-surat</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vadodara</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-rajkot</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-coimbatore</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jaipur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ludhiana</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jamshedpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-nagpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-indore</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-faridabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ghaziabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-noida</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-gurgaon</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhilai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhopal</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-raipur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vizag-visakhapatnam</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhubaneswar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kanpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-lucknow</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-nashik</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-aurangabad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vapi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-daman</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bharuch</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jamnagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kolhapur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-belgaum-belagavi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hosur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-tiruchirappalli</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-madurai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-chandigarh</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-haridwar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-rudrapur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ranchi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-guwahati</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-mangalore</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-salem</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-thane</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kalyan-dombivli</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-pimpri-chinchwad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-agra</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vijayawada</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kochi</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-amritsar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jalandhar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-udaipur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-amravati</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bhavnagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-tiruppur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-guntur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-warangal</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hubli</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-dharwad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-mysuru</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-gorakhpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-agartala</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-shillong</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jabalpur</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-ujjain</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-sagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-durg</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-rourkela</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-erode</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-tirupati</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-nagercoil</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vellore</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-navi-mumbai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-vasai</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-virar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-siliguri</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-asansol</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-dhanbad</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-bokaro-steel-city</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kottayam</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-kollam</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-tirunelveli</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-dhule</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-hisar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-jalgaon</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/dates-supplier-in-karimnagar</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/categories/dry-fruits</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/categories/mr-dates-products</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/categories/other-products</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/royal-palm-ajwa-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/ajwa-premium-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/saudi-ajwa-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/ajwa-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/barari-guchhi-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/barari-mejdool-jumbo-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/barari-sukhari-dates</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/barari-dates-5kg</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/independent-california-almonds</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/independent-california-almonds-pouch</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/nonpareil-california-almonds-pouch</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/cashew-nuts-W240</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/cashew-nuts-W240-1kg</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/cashew-nuts-W320</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mrdates.in/products/cashew-nuts-W320-1kg</loc>
+  <lastmod>2026-03-12T06:04:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>

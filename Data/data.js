@@ -221,7 +221,7 @@ export const cites = [
 ];
 
 export const categories = [
- // mr.date cat
+  // mr.date cat
   {
     id: "mr-dates-products",
     name: "Mr. Dates Products",
@@ -3132,8 +3132,6 @@ export const categories = [
             ],
           },
 
-
-
           {
             type: "h2",
             text: "Key Features",
@@ -3200,6 +3198,424 @@ export const categories = [
         image: {
           src: "/products/brarichocolate.webp",
           alt: "Premium Barari Chocolate Dates",
+        },
+      },
+    ],
+  },
+
+  //coconut
+  {
+    id: "coconut",
+    name: "Coconut",
+    metaTitle: "Bulk Coconut Supplier in India | Fresh Farm Coconut",
+    metaDescription: "High-quality fresh coconuts sourced from reliable farms. Perfect for wholesalers, retailers, food industries, and institutional buyers looking for bulk coconut supply in India.",
+
+    image: "/products/cocnut.webp",
+    badge: "bestseller",
+
+    products: [
+      {
+        id: "coconut-80-dana",
+        name: "Coconut 80 Dana",
+        metaTitle: "Coconut 80 Dana Supplier in India | Bulk Coconut | Mr. Dates",
+        metaDescription: "Buy Coconut 80 Dana from Mr. Dates – trusted coconut supplier in India. Fresh A-grade coconuts from Pollachi, Tamil Nadu with bulk packaging, ideal for wholesale, retail, and processing industries.",
+
+        excerpt: "Coconut 80 Dana are premium A-grade coconuts sourced from Pollachi, Tamil Nadu. These medium-sized coconuts come partially de-husked for easy transport and storage. Ideal for cooking, coconut water, and processing industries.",
+
+        variety: "Semi Husked Coconut",
+
+        packaging: [
+          { type: "gunny bag", weight: "10 kg" },
+          { type: "bag", weight: "55–60 kg (80–85 pcs)" },
+        ],
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Coconut 80 Dana are fresh mature coconuts with partially removed outer husk for easier handling and transportation",
+              "Sourced from Pollachi, Tamil Nadu – one of India’s most renowned coconut growing regions",
+              "Each bag typically contains 80–85 medium sized coconuts weighing approximately 55–60 kg",
+              "The semi husked form keeps the shell protected while reducing bulk and improving storage efficiency",
+              "Suitable for wholesale distribution, coconut processing units, retail markets, and household consumption",
+              "Packed carefully in durable gunny bags to maintain freshness and protect the coconuts during transport",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Fresh A-grade coconuts sourced directly from trusted farms",
+              "Semi husked form with 30–50% husk remaining for protection",
+              "Medium sized coconuts with thick white coconut meat",
+              "Naturally sweet coconut water and rich coconut flavor",
+              "Organic quality with no chemical treatment",
+              "Available in bulk supply for wholesalers and retailers",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Health Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Rich source of healthy fats and natural energy",
+              "Provides dietary fiber for improved digestion",
+              "Contains essential minerals like iron and potassium",
+              "Natural electrolytes from coconut water support hydration",
+              "Supports heart health and overall wellness",
+              "Widely used in healthy diets, cooking, and natural beverages",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Uses & Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Used in cooking, baking, and traditional recipes",
+              "Extract fresh coconut water and coconut meat for beverages and desserts",
+              "Raw material for coconut oil, coconut milk, and desiccated coconut production",
+              "Suitable for retail markets, food processing industries, and restaurants",
+              "Commonly used for household consumption and commercial food preparation",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Product Name", value: "Semi Husked Coconut 80 Dana" },
+          { label: "Form", value: "Solid" },
+          { label: "Husk Type", value: "Semi Husked" },
+          { label: "Quality", value: "A Grade" },
+          { label: "Coconut Size", value: "Medium" },
+          { label: "Origin", value: "Pollachi, Tamil Nadu, India" },
+          { label: "Packaging Type", value: "Gunny Bag" },
+          { label: "Packaging Weight", value: "55–60 Kg per bag" },
+          { label: "Count", value: "80–85 Coconuts per Bag" },
+          { label: "Calories", value: "283 kcal" },
+          { label: "Total Fat", value: "27 g" },
+          { label: "Iron", value: "11%" },
+          { label: "Organic", value: "Yes" },
+        ],
+
+        image: {
+          src: "/products/coconut80.webp",
+          alt: "Coconut 80",
+        },
+      },
+      {
+        id: "coconut-100-dana",
+        name: "Coconut 100 Dana",
+        metaTitle: "Coconut 100 Dana Supplier in India | Bulk Coconut | Mr. Dates",
+        metaDescription: "Buy Coconut 100 Dana from Mr. Dates – trusted coconut supplier in India. Fresh A-grade coconuts from Pollachi, Tamil Nadu with bulk packaging, ideal for wholesale, retail, and processing industries.",
+
+        excerpt: "Coconut 100 Dana are premium A-grade coconuts sourced from Pollachi, Tamil Nadu. These medium-sized coconuts come partially de-husked for easy transport and storage. Ideal for cooking, coconut water, and processing industries.",
+
+        variety: "Semi Husked Coconut",
+
+        packaging: [
+          { type: "gunny bag", weight: "60 kg" },
+          { type: "bag", weight: "55–60 kg (100 pcs)" },
+        ],
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Coconut 100 Dana are fresh mature coconuts with partially removed outer husk for easier handling and transportation",
+              "Sourced from Pollachi, Tamil Nadu – one of India’s most renowned coconut growing regions",
+              "Each bag typically contains 80–85 medium sized coconuts weighing approximately 55–60 kg",
+              "The semi husked form keeps the shell protected while reducing bulk and improving storage efficiency",
+              "Suitable for wholesale distribution, coconut processing units, retail markets, and household consumption",
+              "Packed carefully in durable gunny bags to maintain freshness and protect the coconuts during transport",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Fresh A-grade coconuts sourced directly from trusted farms",
+              "Semi husked form with 30–50% husk remaining for protection",
+              "Medium sized coconuts with thick white coconut meat",
+              "Naturally sweet coconut water and rich coconut flavor",
+              "Organic quality with no chemical treatment",
+              "Available in bulk supply for wholesalers and retailers",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Health Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Rich source of healthy fats and natural energy",
+              "Provides dietary fiber for improved digestion",
+              "Contains essential minerals like iron and potassium",
+              "Natural electrolytes from coconut water support hydration",
+              "Supports heart health and overall wellness",
+              "Widely used in healthy diets, cooking, and natural beverages",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Uses & Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Used in cooking, baking, and traditional recipes",
+              "Extract fresh coconut water and coconut meat for beverages and desserts",
+              "Raw material for coconut oil, coconut milk, and desiccated coconut production",
+              "Suitable for retail markets, food processing industries, and restaurants",
+              "Commonly used for household consumption and commercial food preparation",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Product Name", value: "Semi Husked Coconut 100 Dana" },
+          { label: "Form", value: "Solid" },
+          { label: "Husk Type", value: "Semi Husked" },
+          { label: "Quality", value: "A Grade" },
+          { label: "Coconut Size", value: "Medium" },
+          { label: "Origin", value: "Pollachi, Tamil Nadu, India" },
+          { label: "Packaging Type", value: "Gunny Bag" },
+          { label: "Packaging Weight", value: "55–60 Kg per bag" },
+          { label: "Count", value: "80–85 Coconuts per Bag" },
+          { label: "Calories", value: "283 kcal" },
+          { label: "Total Fat", value: "27 g" },
+          { label: "Iron", value: "11%" },
+          { label: "Organic", value: "Yes" },
+        ],
+
+        image: {
+          src: "/products/cocnut.webp",
+          alt: "Coconut 100",
+        },
+      },
+      {
+        id: "coconut-120-dana",
+        name: "Coconut 120 Dana",
+        metaTitle: "Coconut 120 Dana Supplier in India | Bulk Coconut | Mr. Dates",
+        metaDescription: "Buy Coconut 120 Dana from Mr. Dates – trusted coconut supplier in India. Fresh A-grade coconuts from Pollachi, Tamil Nadu with bulk packaging, ideal for wholesale, retail, and processing industries.",
+
+        excerpt: "Coconut 120 Dana are premium A-grade coconuts sourced from Pollachi, Tamil Nadu. These medium-sized coconuts come partially de-husked for easy transport and storage. Ideal for cooking, coconut water, and processing industries.",
+
+        variety: "Semi Husked Coconut",
+
+        packaging: [
+          { type: "gunny bag", weight: "10 kg" },
+          { type: "bag", weight: "55–60 kg (120 pcs)" },
+        ],
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Coconut 120 Dana are fresh mature coconuts with partially removed outer husk for easier handling and transportation",
+              "Sourced from Pollachi, Tamil Nadu – one of India’s most renowned coconut growing regions",
+              "Each bag typically contains 80–85 medium sized coconuts weighing approximately 55–60 kg",
+              "The semi husked form keeps the shell protected while reducing bulk and improving storage efficiency",
+              "Suitable for wholesale distribution, coconut processing units, retail markets, and household consumption",
+              "Packed carefully in durable gunny bags to maintain freshness and protect the coconuts during transport",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Fresh A-grade coconuts sourced directly from trusted farms",
+              "Semi husked form with 30–50% husk remaining for protection",
+              "Medium sized coconuts with thick white coconut meat",
+              "Naturally sweet coconut water and rich coconut flavor",
+              "Organic quality with no chemical treatment",
+              "Available in bulk supply for wholesalers and retailers",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Health Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Rich source of healthy fats and natural energy",
+              "Provides dietary fiber for improved digestion",
+              "Contains essential minerals like iron and potassium",
+              "Natural electrolytes from coconut water support hydration",
+              "Supports heart health and overall wellness",
+              "Widely used in healthy diets, cooking, and natural beverages",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Uses & Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Used in cooking, baking, and traditional recipes",
+              "Extract fresh coconut water and coconut meat for beverages and desserts",
+              "Raw material for coconut oil, coconut milk, and desiccated coconut production",
+              "Suitable for retail markets, food processing industries, and restaurants",
+              "Commonly used for household consumption and commercial food preparation",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Product Name", value: "Semi Husked Coconut 120 Dana" },
+          { label: "Form", value: "Solid" },
+          { label: "Husk Type", value: "Semi Husked" },
+          { label: "Quality", value: "A Grade" },
+          { label: "Coconut Size", value: "Medium" },
+          { label: "Origin", value: "Pollachi, Tamil Nadu, India" },
+          { label: "Packaging Type", value: "Gunny Bag" },
+          { label: "Packaging Weight", value: "55–60 Kg per bag" },
+          { label: "Count", value: "80–85 Coconuts per Bag" },
+          { label: "Calories", value: "283 kcal" },
+          { label: "Total Fat", value: "27 g" },
+          { label: "Iron", value: "11%" },
+          { label: "Organic", value: "Yes" },
+        ],
+
+        image: {
+          src: "/products/coconut120.webp",
+          alt: "Coconut 120",
+        },
+      },
+      {
+        id: "coconut-150-dana",
+        name: "Coconut 150 Dana",
+        metaTitle: "Coconut 150 Dana Supplier in India | Bulk Coconut | Mr. Dates",
+        metaDescription: "Buy Coconut 150 Dana from Mr. Dates – trusted coconut supplier in India. Fresh A-grade coconuts from Pollachi, Tamil Nadu with bulk packaging, ideal for wholesale, retail, and processing industries.",
+
+        excerpt: "Coconut 150 Dana are premium A-grade coconuts sourced from Pollachi, Tamil Nadu. These medium-sized coconuts come partially de-husked for easy transport and storage. Ideal for cooking, coconut water, and processing industries.",
+
+        variety: "Semi Husked Coconut",
+
+        packaging: [
+          { type: "gunny bag", weight: "10 kg" },
+          { type: "bag", weight: "55–60 kg (80–85 pcs)" },
+        ],
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Coconut 150 Dana are fresh mature coconuts with partially removed outer husk for easier handling and transportation",
+              "Sourced from Pollachi, Tamil Nadu – one of India’s most renowned coconut growing regions",
+              "Each bag typically contains 80–85 medium sized coconuts weighing approximately 55–60 kg",
+              "The semi husked form keeps the shell protected while reducing bulk and improving storage efficiency",
+              "Suitable for wholesale distribution, coconut processing units, retail markets, and household consumption",
+              "Packed carefully in durable gunny bags to maintain freshness and protect the coconuts during transport",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Fresh A-grade coconuts sourced directly from trusted farms",
+              "Semi husked form with 30–50% husk remaining for protection",
+              "Medium sized coconuts with thick white coconut meat",
+              "Naturally sweet coconut water and rich coconut flavor",
+              "Organic quality with no chemical treatment",
+              "Available in bulk supply for wholesalers and retailers",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Health Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Rich source of healthy fats and natural energy",
+              "Provides dietary fiber for improved digestion",
+              "Contains essential minerals like iron and potassium",
+              "Natural electrolytes from coconut water support hydration",
+              "Supports heart health and overall wellness",
+              "Widely used in healthy diets, cooking, and natural beverages",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Uses & Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Used in cooking, baking, and traditional recipes",
+              "Extract fresh coconut water and coconut meat for beverages and desserts",
+              "Raw material for coconut oil, coconut milk, and desiccated coconut production",
+              "Suitable for retail markets, food processing industries, and restaurants",
+              "Commonly used for household consumption and commercial food preparation",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Product Name", value: "Semi Husked Coconut 150 Dana" },
+          { label: "Form", value: "Solid" },
+          { label: "Husk Type", value: "Semi Husked" },
+          { label: "Quality", value: "A Grade" },
+          { label: "Coconut Size", value: "Medium" },
+          { label: "Origin", value: "Pollachi, Tamil Nadu, India" },
+          { label: "Packaging Type", value: "Gunny Bag" },
+          { label: "Packaging Weight", value: "55–60 Kg per bag" },
+          { label: "Count", value: "80–85 Coconuts per Bag" },
+          { label: "Calories", value: "283 kcal" },
+          { label: "Total Fat", value: "27 g" },
+          { label: "Iron", value: "11%" },
+          { label: "Organic", value: "Yes" },
+        ],
+
+        image: {
+          src: "/products/coconut150.webp",
+          alt: "Coconut 150",
         },
       },
     ],
@@ -12068,7 +12484,7 @@ export const categories = [
         ],
 
         image: {
-         src: "/products/amanLata.webp",
+          src: "/products/amanLata.webp",
           alt: "Aman Latta Dates",
         },
       },
@@ -17550,7 +17966,7 @@ export const categories = [
         ],
 
         image: {
-         src: "/products/amanLata.webp",
+          src: "/products/amanLata.webp",
           alt: "Aman Latta Dates",
         },
       },

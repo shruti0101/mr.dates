@@ -57,13 +57,24 @@ export default function HeroDatesExact() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [visibleIndex, setVisibleIndex] = useState(0);
 
-  const bgImages = [
+  const bgImagesDesktop = [
     "/check10.webp",
     "/check12.webp",
     "/check13.webp",
     "/check12.webp",
-    "/dryFigs.webp",
+    "/dryfigBanner.webp",
   ];
+
+  const bgImagesMobile = [
+    "/KIMIADATES.webp",
+    "/FARDDATE.webp",
+    "/CHOCOLATEDATES.webp",
+    "/MEDJOUL.webp",
+    "/DRIEDFIGS.webp",
+  ];
+
+  const isMobile = window?.innerWidth < 768;
+  const bgImages = isMobile ? bgImagesMobile : bgImagesDesktop;
 
   /* gsap thumb */
   useEffect(() => {

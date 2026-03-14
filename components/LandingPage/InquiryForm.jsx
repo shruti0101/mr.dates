@@ -12,7 +12,7 @@ const InquiryContactForm = () => {
         const formData = new FormData(e.target);
         const data = {
             platform: "Premium Dates Inquiry Form",
-            platformEmail: "shrutiguptabhu@gmail.com",
+            platformEmail: "customercare@mrdates.in",
 
             name: formData.get("contactPerson"),
             email: formData.get("email"),

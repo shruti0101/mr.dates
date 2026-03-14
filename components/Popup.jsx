@@ -18,7 +18,7 @@ const [submitted, setSubmitted] = useState(false);
 
     const data = {
       platform: "Premium Dates Website Popup",
-      platformEmail: "shrutiguptabhu@gmail.com",
+      platformEmail: "customercare@mrdates.in",
 
       name: formData.get("contactPerson"),
       email: formData.get("email"),

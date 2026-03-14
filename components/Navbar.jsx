@@ -27,6 +27,10 @@ export default function Navbar() {
   }, [mobileOpen]);
 
   const pathname = usePathname();
+
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
+
   const isSingleProduct =
     pathname.startsWith("/products/") && pathname !== "/products";
 
@@ -44,10 +48,9 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={`
           transition-colors duration-500
-          ${
-            isSingleProduct
-              ? "bg-[#FDFBF7] text-black shadow-lg"
-              : scrolled
+          ${isSingleProduct
+            ? "bg-[#FDFBF7] text-black shadow-lg"
+            : scrolled
               ? "bg-black/40 backdrop-blur-md shadow-lg"
               : "bg-transparent"
           }
@@ -65,93 +68,93 @@ export default function Navbar() {
             />
           </Link>
 
-        {/* DESKTOP NAV */}
-<nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
+          {/* DESKTOP NAV */}
+          <nav className="hidden md:flex items-center gap-10 font-poppins font-medium">
 
-  <Link
-    href="/"
-    className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
-  >
-    Home
-  </Link>
+            <Link
+              href="/"
+              className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
+            >
+              Home
+            </Link>
 
-  <Link
-    href="/about"
-    className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
-  >
-    About
-  </Link>
+            <Link
+              href="/about"
+              className={`text-[18px] tracking-widest uppercase font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
+            >
+              About
+            </Link>
 
-  {/* ===== MEGA MENU (NOW IN THE MIDDLE) ===== */}
-  <div
-    onMouseEnter={() => setMegaOpen(true)}
-    onMouseLeave={() => setMegaOpen(false)}
-    className="relative"
-  >
-    <Link
-      href="/products"
-      className={`text-[18px] uppercase tracking-widest font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
-    >
-      Our Products
-    </Link>
+            {/* ===== MEGA MENU (NOW IN THE MIDDLE) ===== */}
+            <div
+              onMouseEnter={() => setMegaOpen(true)}
+              onMouseLeave={() => setMegaOpen(false)}
+              className="relative"
+            >
+              <Link
+                href="/products"
+                className={`text-[18px] uppercase tracking-widest font-bold ${navTextClass} hover:text-[#F8CC19] transition`}
+              >
+                Our Products
+              </Link>
 
-    <AnimatePresence>
-      {megaOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 14 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-          onWheel={(e) => e.stopPropagation()}
-          className="
+              <AnimatePresence>
+                {megaOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 14 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 14 }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}
+                    onWheel={(e) => e.stopPropagation()}
+                    className="
             absolute left-1/2 top-full mt-5 w-[1180px]
             max-h-[80vh] overflow-y-auto overflow-x-hidden
             z-50
             -translate-x-1/2 rounded-3xl bg-white p-20
             shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]
           "
-        >
-          <div className="grid grid-cols-6 gap-10">
-            {categories.map((cat) => (
-              <Link
-                key={cat.id}
-                href={`/categories/${cat.id}`}
-                className="group"
-              >
-                <div className="relative aspect-square rounded-2xl bg-gray-100">
-                  <Image
-                    src={cat.image}
-                    alt={cat.name}
-                    width={1000}
-                    height={1000}
-                    className="object-fill p-2 transition-transform duration-500 group-hover:scale-125"
-                  />
-                </div>
-                <h4 className="mt-4 tracking-[1.2] text-xl text-center font-bold text-black">
-                  {cat.name}
-                </h4>
-              </Link>
-            ))}
-          </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
-  </div>
+                  >
+                    <div className="grid grid-cols-6 gap-10">
+                      {categories.map((cat) => (
+                        <Link
+                          key={cat.id}
+                          href={`/categories/${cat.id}`}
+                          className="group"
+                        >
+                          <div className="relative aspect-square rounded-2xl bg-gray-100">
+                            <Image
+                              src={cat.image}
+                              alt={cat.name}
+                              width={1000}
+                              height={1000}
+                              className="object-fill p-2 transition-transform duration-500 group-hover:scale-125"
+                            />
+                          </div>
+                          <h4 className="mt-4 tracking-[1.2] text-xl text-center font-bold text-black">
+                            {cat.name}
+                          </h4>
+                        </Link>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
 
-  <Link
-    href="/blogs"
-    className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
-  >
-    Blogs
-  </Link>
+            <Link
+              href="/blogs"
+              className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
+            >
+              Blogs
+            </Link>
 
-  <Link
-    href="/contact"
-    className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
-  >
-    Contact
-  </Link>
-</nav>
+            <Link
+              href="/contact"
+              className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
+            >
+              Contact
+            </Link>
+          </nav>
 
 
           {/* CTA BUTTON */}
@@ -166,9 +169,9 @@ export default function Navbar() {
           {/* MOBILE MENU BUTTON */}
           <button
             onClick={() => setMobileOpen(true)}
-            className={`md:hidden ${mobicon }`}
+            className={`md:hidden ${mobicon}`}
           >
-            <Menu size={28}  />
+            <Menu size={28} />
           </button>
         </div>
       </motion.div>
@@ -193,7 +196,7 @@ export default function Navbar() {
             <div className="flex justify-between items-center px-6 py-4 shrink-0">
               <span className="text-black font-bold">Menu</span>
               <button onClick={() => setMobileOpen(false)}>
-                <X size={26}  className="text-black" />
+                <X size={26} className="text-black" />
               </button>
             </div>
 

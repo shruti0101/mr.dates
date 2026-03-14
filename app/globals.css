@@ -17,7 +17,23 @@
 
 
 
+.jodit-wysiwyg ul {
+  list-style: disc;
+  padding-left: 20px;
+}
 
+.jodit-wysiwyg ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.jodit-wysiwyg ul ul {
+  list-style: circle;
+}
+
+.jodit-wysiwyg ul ul ul {
+  list-style: square;
+}
 
 
 
@@ -25,10 +41,3 @@ body {
   font-family: var(--font-mona-sans), system-ui, sans-serif;
   overflow-x: hidden !important;
 }
-
-
-
-
-
-
-

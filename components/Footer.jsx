@@ -124,7 +124,7 @@ export default function Footer() {
               <div className="flex gap-3 items-start">
                 <MapPin className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
                 <p className="leading-relaxed">
-                  C-62, New Sabzi Mandi, Azadpur
+                  C-62, New Sabzi Mandi, Block C, Azadpur,
                   <br />
                   New Delhi – 110033,
 

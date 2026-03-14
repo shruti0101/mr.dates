@@ -871,7 +871,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/kimia7.webp",
+          src: "/products/mrDatesBottle.webp",
           alt: "Mr. Bottle Dates 250g Bottle Pack",
         },
       },
@@ -1490,7 +1490,6 @@ export const categories = [
       }
     ],
   },
-
 
   // ajwa cat
   {
@@ -6529,7 +6528,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/amanlatta.webp",
+          src: "/products/amanLata.webp",
           alt: "Aman Latta Dates",
         },
       },
@@ -8972,7 +8971,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/kimia6.webp",
+          src: "/products/mrdatesKimia.webp",
           alt: "Kimia Gold Delicious Dates",
         },
       },
@@ -12069,7 +12068,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/amanlatta.webp",
+         src: "/products/amanLata.webp",
           alt: "Aman Latta Dates",
         },
       },
@@ -17551,7 +17550,7 @@ export const categories = [
         ],
 
         image: {
-          src: "/products/amanlatta.webp",
+         src: "/products/amanLata.webp",
           alt: "Aman Latta Dates",
         },
       },

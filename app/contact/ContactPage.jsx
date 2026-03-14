@@ -91,7 +91,7 @@ const ContactPage = () => {
                 <div>
                   <p className="font-semibold text-xl">Location</p>
                   <p className="text-black text-xl">
-                    C-62, Mandi, Block C, Azadpur, <br /> Delhi, 110033
+                    C-62, New Sabzi Mandi, Block C, Azadpur, <br /> Delhi, 110033
                   </p>
                 </div>
               </div>

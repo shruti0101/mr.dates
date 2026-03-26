@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 export default function DatesPopupForm({ onClose, isOpen }) {
 
   const [loading, setLoading] = useState(false);
-const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   if (!isOpen) return null;
 
@@ -32,41 +32,41 @@ const [submitted, setSubmitted] = useState(false);
     if (!data.phone || data.phone.length < 10)
       return toast.error("Enter Valid Phone Number");
 
-  try {
-  setLoading(true);
+    try {
+      setLoading(true);
 
- const res = await axios.post(
-  "https://brandbnalo.com/api/form/add",
-  data,
-  {
-    validateStatus: (status) => status >= 200 && status < 500
-  }
-);
+      const res = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        data,
+        {
+          validateStatus: (status) => status >= 200 && status < 500
+        }
+      );
 
-  console.log("API RESPONSE :", res);
+      console.log("API RESPONSE :", res);
 
-  // ✅ SUCCESS FOR ANY 2xx RESPONSE
-  if (res.status >= 200 && res.status < 300) {
+      // ✅ SUCCESS FOR ANY 2xx RESPONSE
+      if (res.status >= 200 && res.status < 300) {
 
-    setSubmitted(true);
+        setSubmitted(true);
 
-    setTimeout(() => {
-      e.target.reset();      // reset after UI change
-    }, 100);
+        setTimeout(() => {
+          e.target.reset();      // reset after UI change
+        }, 100);
 
-    setTimeout(() => {
-      if (onClose) onClose();
-      setSubmitted(false);
-    }, 3000);
-  }
+        setTimeout(() => {
+          if (onClose) onClose();
+          setSubmitted(false);
+        }, 3000);
+      }
 
-} catch (err) {
-  console.log("ERROR:", err?.response || err.message);
-  toast.error("Something went wrong");
-}
-finally {
-  setLoading(false);
-}
+    } catch (err) {
+      console.log("ERROR:", err?.response || err.message);
+      toast.error("Something went wrong");
+    }
+    finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -131,7 +131,7 @@ finally {
                     className="input"
                   />
 
-                    <input
+                  <input
                     type="text"
                     name="Company"
                     required

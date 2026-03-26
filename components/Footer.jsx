@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, MapPin, Mail, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <footer className="relative text-white pt-10 pb-16 overflow-hidden">
       {/* BACKGROUND IMAGE */}
@@ -29,7 +30,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
           {/* BRAND */}
           <div>
             <Image
@@ -180,6 +181,47 @@ export default function Footer() {
               <a href="#" aria-label="Facebook">
                 <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
               </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-serif text-white font-semibold mb-3">
+              Trust Elite Certificate
+            </h3>
+            <p className="text-base text-white leading-relaxed mb-3">
+              We are proud to present the TrustElite Certificate of Excellence to Mr. Dates, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers            </p>
+
+            <div className="flex justify-center md:justify-end">
+              <img
+                src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759726401/trustseal_vltgii.webp"
+                alt="Trust Elite"
+                className="w-28 h-28 object-contain cursor-pointer hover:scale-105 transition"
+                onClick={() => setIsModalOpen(true)}
+              />
+
+              {isModalOpen && (
+                <div
+                  className="fixed inset-0 backdrop-blur-md bg-white/10 flex items-center mt-20 justify-center z-50"
+                  onClick={() => setIsModalOpen(false)}
+                >
+                  <div
+                    className="relative"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      className="absolute top-2 right-2 text-white text-2xl font-bold"
+                      onClick={() => setIsModalOpen(false)}
+                    >
+                      ✕
+                    </button>
+                    <img
+                      src="/trustElite.webp"
+                      alt="Trust Elite Full"
+                      className="w-[60vw] h-[75vh] rounded-lg shadow-lg"
+                    />
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

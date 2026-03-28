@@ -7,7 +7,7 @@ import InquiryCategory from '@/components/LandingPage/InquiryCategory'
 import DatesPopupForm from '@/components/Popup'
 import CategorySlider from '@/components/Slider'
 import TestimonialsSlider from '@/components/Testimonial'
-import { Factory, Gift, Leaf, Store, Truck } from 'lucide-react'
+import { Factory, Gift, Leaf, Store, Truck, Phone, MessageCircle, Users, Award, } from 'lucide-react'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -30,32 +30,42 @@ export default function Inquiry() {
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="relative md:px-12 mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-5">
                 <div className="text-white md:pl-8 p-0">
-                    <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
+                    <h1 className="font-serif font-bold text-[27px] sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
                         Premium Quality Dates Supplier in India
                     </h1>
-                    <ul className="flex items-center text-2xl text-yellow-500 md:mb-6 mb-4 font-bold">
+
+                     <ul className="flex items-center text-xl text-yellow-500 md:mb-6 mb-4 font-bold">
                         <li className="flex items-center">
-                            <span className="mr-2">•</span>Fresh
+                            <span className="mr-1.5"><Leaf size={17}/></span>Fresh
                         </li>
                         <li className="flex items-center mx-4">
-                            <span className="mr-2">•</span>Organic
+                            <span className="mr-1.5"><Gift size={17}/></span>Organic
                         </li>
                         <li className="flex items-center">
-                            <span className="mr-2">•</span>Bulk & Retail Supply
+                            <span className="mr-1.5"><Truck size={17}/></span>Bulk & Retail Supply
                         </li>
                     </ul>
-                    <p className="text-xl md:text-2xl mb-6">
-                        We deliver farm-fresh Medjool & premium dates at competitive wholesale prices. Trusted by retailers, distributors & exporters across India.
+
+                    <p className="text-xl md:text-2xl mb-4">
+                        We deliver farm-fresh Medjool & premium dates at competitive wholesale prices.
+                        Trusted by retailers, distributors & exporters across India.
                     </p>
+
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button onClick={() => setFormOpen(true)} className="text-xl bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded transition duration-300">
-                            Submit Bulk Inquiry
+                        {/* WhatsApp Button */}
+                        <button
+                            onClick={() => setFormOpen(true)}
+                            className="flex items-center justify-center gap-2 text-xl bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded transition duration-300"
+                        >
+                            <MessageCircle /> WhatsApp for Bulk Inquiry
                         </button>
+
+                        {/* Call Button */}
                         <a
                             href="tel:+919773999082"
-                            className="text-xl bg-transparent border-2 flex justify-center border-white hover:bg-white hover:text-black text-white font-semibold px-6 py-3 rounded transition duration-300"
+                            className="flex items-center justify-center gap-2 text-xl bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-semibold px-6 py-3 rounded transition duration-300"
                         >
-                            Call Now for Best Price
+                            <Phone /> Call for Best Price
                         </a>
                     </div>
                 </div>
@@ -68,6 +78,35 @@ export default function Inquiry() {
 
         <InquirySlider setFormOpen={setFormOpen} />
         <InquiryCategory setFormOpen={setFormOpen} />
+
+        {/* client testimonials */}
+        <div className="bg-amber-50 text-black py-14 px-4 border border-amber-200">
+            <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-amber-100 border border-amber-200 hover:shadow-lg hover:shadow-amber-200/50 transition duration-300">
+                    <Users className="mb-3 text-amber-600" size={30} />
+                    <h2 className="text-3xl font-bold">15k+</h2>
+                    <p className="text-gray-800  mt-1">Happy Customers</p>
+                </div>
+
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-amber-100 border border-amber-200 hover:shadow-lg hover:shadow-amber-200/50 transition duration-300">
+                    <Leaf className="mb-3 text-amber-600" size={30} />
+                    <h2 className="text-3xl font-bold">100%</h2>
+                    <p className="text-gray-800  mt-1">Natural Products</p>
+                </div>
+
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-amber-100 border border-amber-200 hover:shadow-lg hover:shadow-amber-200/50 transition duration-300">
+                    <Award className="mb-3 text-amber-600" size={30} />
+                    <h2 className="text-3xl font-bold">10+</h2>
+                    <p className="text-gray-800  mt-1">Years Experience</p>
+                </div>
+
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-amber-100 border border-amber-200 hover:shadow-lg hover:shadow-amber-200/50 transition duration-300">
+                    <Store className="mb-3 text-amber-600" size={30} />
+                    <h2 className="text-3xl font-bold">Trusted</h2>
+                    <p className="text-gray-800  mt-1">Retail & Wholesale</p>
+                </div>
+            </div>
+        </div>
 
         {/* About Section */}
         <section className="py-8 bg-gray-50">

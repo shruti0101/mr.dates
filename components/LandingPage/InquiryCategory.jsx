@@ -112,7 +112,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                     className="text-3xl sm:text-5xl font-bold text-white mb-3"
                 >
-                    Our Categories
+                   Our Premium Categories
                 </motion.h2>
 
                 <motion.p
@@ -122,9 +122,8 @@ const InquiryCategory = ({ setFormOpen }) => {
                     transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
                     className=" mx-auto text-white mb-10 text-lg md:text-2xl"
                 >
-                    Discover our best sellers featuring <strong>premium dates, dry fruits,</strong>{" "}
-                    and <strong>healthy snacks</strong> crafted by a trusted{" "}
-                    <strong>dates supplier.</strong>
+                    Discover India's widest range of <strong>premium dates, dry fruits,</strong>{" "}
+                    and <strong>healthy snacks</strong>  Sourced direct from farms – Bulk Supply available for Retailers, Distributors, and Exporters at unbeatable wholesale prices.
                 </motion.p>
 
                 {/* Cards */}
@@ -162,7 +161,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                                 {/* Floating image container */}
                                 <div className="
           relative mx-auto lg:mb-6 mb-4
-          lg:w-[170px] lg:h-[170px] w-[130px] h-[130px]
+          lg:w-[170px] lg:h-[170px] w-[110px] h-[110px]
           flex items-center justify-center
           bg-white/60 backdrop-blur-sm
           rounded-full shadow-inner
@@ -176,7 +175,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                                     />
                                 </div>
 
-                                <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mt-10">
+                                <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mt-5">
                                     {item.title}
                                 </h3>
 

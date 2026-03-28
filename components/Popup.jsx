@@ -17,15 +17,15 @@ export default function DatesPopupForm({ onClose, isOpen }) {
     const formData = new FormData(e.target);
 
     const data = {
-      platform: "Premium Dates Website Popup",
+      platform: "Premium Dates Inquiry Popup",
       platformEmail: "customercare@mrdates.in",
 
       name: formData.get("contactPerson"),
       email: formData.get("email"),
-      company: formData.get("Company"),
+      company: "Mr Dates",
       phone: formData.get("phone"),
       product: "Premium Dates Enquiry",
-      place: `${formData.get("city")}, ${formData.get("state")}`,
+      place: "Delhi",
       message: formData.get("message"),
     };
 
@@ -131,13 +131,13 @@ export default function DatesPopupForm({ onClose, isOpen }) {
                     className="input"
                   />
 
-                  <input
+                  {/* <input
                     type="text"
                     name="Company"
                     required
                     placeholder="Company Name*"
                     className="input"
-                  />
+                  /> */}
 
                   <input
                     type="tel"
@@ -147,7 +147,7 @@ export default function DatesPopupForm({ onClose, isOpen }) {
                     className="input"
                   />
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <select name="state" required className="input">
                       <option value="">Select State</option>
                       <option>Delhi</option>
@@ -171,7 +171,7 @@ export default function DatesPopupForm({ onClose, isOpen }) {
                       placeholder="City"
                       className="input"
                     />
-                  </div>
+                  </div> */}
 
                   <textarea
                     name="message"

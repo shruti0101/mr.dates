@@ -34,15 +34,15 @@ export default function Inquiry() {
                         Premium Quality Dates Supplier in India
                     </h1>
 
-                     <ul className="flex items-center text-xl text-yellow-500 md:mb-6 mb-4 font-bold">
+                    <ul className="flex items-center text-xl text-yellow-500 md:mb-6 mb-4 font-bold">
                         <li className="flex items-center">
-                            <span className="mr-1.5"><Leaf size={17}/></span>Fresh
+                            <span className="mr-1.5"><Leaf size={17} /></span>Fresh
                         </li>
                         <li className="flex items-center mx-4">
-                            <span className="mr-1.5"><Gift size={17}/></span>Organic
+                            <span className="mr-1.5"><Gift size={17} /></span>Organic
                         </li>
                         <li className="flex items-center">
-                            <span className="mr-1.5"><Truck size={17}/></span>Bulk & Retail Supply
+                            <span className="mr-1.5"><Truck size={17} /></span>Bulk & Retail Supply
                         </li>
                     </ul>
 
@@ -53,12 +53,13 @@ export default function Inquiry() {
 
                     <div className="flex flex-col sm:flex-row gap-4">
                         {/* WhatsApp Button */}
-                        <button
-                            onClick={() => setFormOpen(true)}
+                        <a
+                            href="https://wa.me/919773999082"
+                            // onClick={() => setFormOpen(true)}
                             className="flex items-center justify-center gap-2 text-xl bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded transition duration-300"
                         >
                             <MessageCircle /> WhatsApp for Bulk Inquiry
-                        </button>
+                        </a>
 
                         {/* Call Button */}
                         <a

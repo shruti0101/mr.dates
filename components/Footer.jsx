@@ -3,9 +3,14 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, MapPin, Mail, Facebook, Instagram } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const pathname = usePathname();
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
+
   return (
     <footer className="relative text-white pt-10 pb-16 overflow-hidden">
       {/* BACKGROUND IMAGE */}

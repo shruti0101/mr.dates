@@ -81,7 +81,7 @@ export default async function BlogPage({ params }) {
                     <div className="my-6 border-t border-gray-300" />
                     <div
                         className="
-    blog-content 
+    jodit-content
     prose max-w-none
     prose-h1:text-xl prose-h1:font-bold prose-h1:leading-snug
     prose-h2:text-lg prose-h2:font-semibold

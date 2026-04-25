@@ -71,6 +71,7 @@ export default function Footer() {
                 ["Blogs", "/blogs"],
                 ["Contact Us", "/contact"],
                 ["Products", "/products"],
+                ["Sitemap", "/sitemap"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <Link

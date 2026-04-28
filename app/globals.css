@@ -36,6 +36,30 @@
 }
 
 
+.jodit-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.jodit-content ul {
+  list-style-type: disc;
+  /* or circle, square */
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.jodit-content ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.jodit-content li {
+  margin: 5px 0;
+}
+
 
 body {
   font-family: var(--font-mona-sans), system-ui, sans-serif;

@@ -1,10 +1,59 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { toast } from "react-toastify";
+import axios from "axios";
 
 const ContactPage = () => {
+  const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = {
+      platform: "Premium Dates Website Contact Us",
+      platformEmail: "customercare@mrdates.in",
+      name: formData.get("contactPerson"),
+      email: formData.get("email"),
+      company: "",
+      phone: formData.get("phone"),
+      product: "Premium Dates Enquiry",
+      place: "Delhi",
+      message: formData.get("message"),
+    };
+
+    if (!data.phone || data.phone.length < 10)
+      return toast.error("Enter Valid Phone Number");
+
+    try {
+      setLoading(true);
+      const res = await axios.post("https://brandbnalo.com/api/form/add", data,
+        { validateStatus: (status) => status >= 200 && status < 500 }
+      );
+
+      if (res.status >= 200 && res.status < 300) {
+        setSubmitted(true);
+        setTimeout(() => {
+          e.target.reset();      // reset after UI change
+        }, 100);
+
+        setTimeout(() => {
+          setSubmitted(false);
+        }, 3000);
+      }
+
+    } catch (err) {
+      console.log("ERROR:", err?.response || err.message);
+      toast.error("Something went wrong");
+    }
+    finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="text-[#2B1B12]">
 
@@ -110,43 +159,66 @@ const ContactPage = () => {
             viewport={{ once: true }}
             className="bg-[#EFCDBA] rounded-[32px] p-10 shadow-[0_30px_90px_rgba(0,0,0,0.15)]"
           >
-            <h3 className="font-serif text-2xl font-semibold mb-6 text-[#111]">
-              Send Us a Message
-            </h3>
+            {submitted ? (
+              <div className="text-center py-10">
+                <h2 className="text-2xl font-bold text-green-600">
+                  🎉 Thank You!
+                </h2>
+                <p className="text-gray-600 mt-2">
+                  Your enquiry has been submitted successfully.
+                </p>
+                <p className="text-gray-500 text-sm mt-1">
+                  Our team will contact you shortly.
+                </p>
+              </div>
+            ) : (
+              <>
+                <h3 className="font-serif text-2xl font-semibold mb-6 text-[#111]">
+                  Send Us a Message
+                </h3>
 
-            <form className="space-y-6">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
-              />
+                <form className="space-y-6" onSubmit={handleSubmit}>
+                  <input
+                    type="text"
+                    name="contactPerson"
+                    required
+                    placeholder="Your Name"
+                    className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
+                  />
 
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
-              />
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Email Address"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
 
-              <input
-                type="tel"
-                placeholder="Phone Number"
-                className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
-              />
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    placeholder="Phone Number"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
 
-              <textarea
-                rows="5"
-                placeholder="Your Message"
-                className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
-              />
+                  <textarea
+                    rows="5"
+                    name="message"
+                    placeholder="Your Message"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
 
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="w-full bg-[#6B091D] text-white py-4 rounded-full font-medium tracking-wide hover:bg-[#5A0717] transition"
-              >
-                Submit Enquiry
-              </motion.button>
-            </form>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    disabled={loading}
+                    className="w-full bg-[#6B091D] text-white py-4 rounded-full font-medium tracking-wide hover:bg-[#5A0717] transition"
+                  >
+                    {loading ? "Submitting..." : "Submit Enquiry"}
+                  </motion.button>
+                </form>
+              </>)}
           </motion.div>
 
         </div>

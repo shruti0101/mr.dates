@@ -8,6 +8,7 @@ import { Menu, X } from "lucide-react";
 import { categories } from "@/Data/data";
 import { usePathname } from "next/navigation";
 
+import { FaPhoneAlt } from "react-icons/fa";
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
@@ -156,7 +157,13 @@ export default function Navbar() {
             </Link>
           </nav>
 
+<div className="flex justify-center items-center">
 
+
+<a href="tel:+917065650411" className="text-white font-bold tracking-wider flex justify-center items-center gap-2 text-lg">
+  
+ <FaPhoneAlt/> +91 - 7065650411</a>
+</div>
           {/* CTA BUTTON */}
           <Link
             href="/contact"

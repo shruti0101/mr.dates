@@ -2,6 +2,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import Script from "next/script";
+import Stickyicons from "@/components/Stikcyicons";
+
 
 const monaSans = localFont({
   src: [
@@ -106,6 +108,7 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className={`${monaSans.variable} antialiased`}>
+        <Stickyicons></Stickyicons>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5RWCX3MN"

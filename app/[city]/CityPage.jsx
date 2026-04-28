@@ -91,6 +91,12 @@ export default function CityPage() {
         },
     ];
 
+    const phoneNumber = "+917065650411"; // 👉 replace with your number
+
+const getWhatsappLink = (product) =>
+  `https://wa.me/${phoneNumber}?text=Hi, I'm interested in ${product} from your website`;
+
+
     return (<>
         {/* Hero */}
         <section
@@ -108,6 +114,82 @@ export default function CityPage() {
                 Dates Supplier in {cityName}
             </h1>
         </section>
+
+           {/* Workstation  */}
+      <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100">
+  <h2 className="text-center text-3xl md:text-5xl font-bold mb-2">
+    Types of Dates We Offer
+  </h2>
+  <p className="text-center text-black mb-4 text-lg">
+    Our Dates Product Range
+  </p>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
+
+    {[
+      {
+        name: "Medjool Dates",
+        img: "/products/barariMedjool.webp",
+        desc: "Large, soft, and naturally sweet—ideal for premium consumption.",
+      },
+      {
+        name: "Ajwa Dates",
+        img: "/products/ajwa1.png",
+        desc: "Highly valued dates known for rich taste and health benefits.",
+      },
+      {
+        name: "Safawi Dates",
+        img: "/products/hana.webp",
+        desc: "Dark, soft-textured dates with a mildly sweet flavor.",
+      },
+      {
+        name: "Kimia Dates",
+        img: "/products/kimia5.webp",
+        desc: "Moist, tender dates popular for daily consumption.",
+      },
+      {
+        name: "Mabroom Dates",
+        img: "/products/al-shaffaMabroom.webp",
+        desc: "Elongated dates with a chewy texture and rich flavor.",
+      },
+      {
+        name: "Deglet Noor & Zahidi Dates",
+        img: "/products/ajwa3.webp",
+        desc: "Semi-dry dates suitable for cooking, baking, and bulk trade.",
+      },
+    ].map((item, i) => (
+      <div
+        key={i}
+        className="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transition group flex flex-col"
+      >
+        {/* IMAGE */}
+        <div className="w-full h-50 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+          <img
+            src={item.img}
+            alt={item.name}
+            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+
+        {/* CONTENT */}
+        <h3 className="font-semibold text-2xl mb-2">{item.name}</h3>
+        <p className="text-black text-lg leading-relaxed flex-grow">
+          {item.desc}
+        </p>
+
+        {/* WHATSAPP BUTTON */}
+        <a
+          href={getWhatsappLink(item.name)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 bg-green-500 hover:bg-green-600 text-white text-center py-2 rounded-lg text-sm font-medium transition"
+        >
+          WhatsApp Now
+        </a>
+      </div>
+    ))}
+  </div>
+</section>
 
         {/* main */}
         <section className="max-w-7xl mx-auto px-4 md:px-0  py-8">
@@ -291,96 +373,7 @@ export default function CityPage() {
             </div>
         </section>
 
-        {/* Workstation  */}
-        <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100">
-            <h2 className="text-center text-3xl md:text-5xl font-bold mb-2">
-                Types of Dates We Offer
-            </h2>
-            <p className="text-center text-black mb-4 text-lg">
-                Our Dates Product Range
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/barariMedjool.webp"
-                            alt="Medjool Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Medjool Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Large, soft, and naturally sweet—ideal for premium consumption.
-                    </p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/ajwa1.png"
-                            alt="Ajwa Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Ajwa Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Highly valued dates known for rich taste and health benefits.
-                    </p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/hana.webp"
-                            alt="Safawi Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Safawi Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Dark, soft-textured dates with a mildly sweet flavor.
-                    </p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/kimia5.webp"
-                            alt="Kimia Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Kimia Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Moist, tender dates popular for daily consumption.
-                    </p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/al-shaffaMabroom.webp"
-                            alt="Mabroom Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Mabroom Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Elongated dates with a chewy texture and rich flavor.
-                    </p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                    <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                        <img
-                            src="/products/ajwa3.webp"
-                            alt="Deglet Noor and Zahidi Dates"
-                            className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <h3 className="font-semibold text-2xl mb-2">Deglet Noor & Zahidi Dates</h3>
-                    <p className="text-black text-lg leading-relaxed">
-                        Semi-dry dates suitable for cooking, baking, and bulk trade.
-                    </p>
-                </div>
-            </div>
-        </section>
+     
 
         {/* Key features  */}
         <section className="mx-auto lg:px-15 px-5 py-8">

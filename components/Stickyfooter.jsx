@@ -11,29 +11,33 @@ const Stickyfooter = () => {
       <div className="flex justify-around items-center py-2">
 
         <Link href="/" className="flex flex-col items-center text-xs">
-          <Home size={26} />
+          <Home size={30} />
           <span>Home</span>
         </Link>
 
         <Link href="/products" className="flex flex-col items-center text-xs">
-          <ShoppingBag size={26} />
+          <ShoppingBag size={30} />
           <span>Products</span>
         </Link>
 
-        <Link href="/contact" className="flex flex-col items-center text-xs">
-          <Phone className="text-red-600" size={26} />
-          <span>Contact Us</span>
-        </Link>
+    <a href="tel:+917065650411" className="flex flex-col items-center text-xs group">
+  <div className="bg-red-500 p-2 rounded-full shadow-lg group-hover:scale-110 transition">
+    <Phone className="text-white" size={20} />
+  </div>
+  <span className="mt-1">Contact Us</span>
+</a>
 
-        <a
-          href="https://wa.me/917065650411"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col items-center text-xs"
-        >
-          <FaWhatsapp className="text-green-600 animate-pulse" size={27} />
-          <span>WhatsApp Us</span>
-        </a>
+     <a
+  href="https://wa.me/917065650411"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex flex-col items-center text-xs group"
+>
+  <div className="bg-green-500 p-2 rounded-full shadow-lg group-hover:scale-110 transition">
+    <FaWhatsapp className="text-white" size={22} />
+  </div>
+  <span className="mt-1">WhatsApp Us</span>
+</a>
 
       </div>
     </div>

@@ -1,0 +1,253 @@
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Phone, MapPin, Mail, Facebook, Instagram } from "lucide-react";
+import { usePathname } from "next/navigation";
+
+export default function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const pathname = usePathname();
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
+
+  return (
+    <footer className="relative text-white pt-10 pb-16 overflow-hidden">
+      {/* BACKGROUND IMAGE */}
+      <div
+        className="absolute inset-0 -z-20 bg-cover  bg-center"
+        style={{ backgroundImage: "url('/check4.webp')" }}
+        aria-hidden="true"
+      />
+
+      {/* DARK OVERLAY */}
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.5) 30%)",
+        }}
+        aria-hidden="true"
+      />
+
+      {/* TOP ACCENT */}
+      <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-amber-400 to-amber-600" />
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        {/* GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+          {/* BRAND */}
+          <div>
+            <Image
+              src="/logooo.webp"
+              width={150}
+              height={50}
+              alt="Mr. Dates"
+              className="object-cover"
+            />
+
+            <p className="leading-relaxed text-sm text-white mt-4">
+              Mr. Dates offers premium-quality dates and dry fruits, carefully
+              sourced from trusted farms. From daily nutrition to bulk and
+              wholesale supply, we deliver freshness, taste, and consistency you
+              can rely on.
+            </p>
+          </div>
+
+
+
+
+
+
+          {/* QUICK LINKS */}
+          <div>
+            <h3 className="font-serif font-semibold text-xl mb-4">
+              Quick Links
+            </h3>
+            <ul className="space-y-3 text-sm md:text-base tracking-wider">
+              {[
+                ["Home", "/"],
+                ["About Us", "/about"],
+                ["Blogs", "/blogs"],
+                ["Contact Us", "/contact"],
+                ["Products", "/products"],
+                ["Sitemap", "/sitemap"],
+              ].map(([label, href]) => (
+                <li key={label}>
+                  <Link
+                    href={href}
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+
+
+
+
+
+          {/* PRODUCTS */}
+          <div>
+            <h3 className="font-serif font-semibold text-xl mb-4">
+              Our Products
+            </h3>
+            <ul className="space-y-3 text-sm md:text-base tracking-wider">
+              {[
+                { name: "Kalmi Dates", link: "/categories/kalmi-dates" },
+                { name: "Ajwa Dates", link: "/categories/ajwa-dates" },
+                { name: "Barari Dates", link: "/categories/barari-dates" },
+                { name: "Dry Fruits", link: "/categories/dry-fruits" },
+                { name: "Kimia Dates", link: "/categories/kimia-dates" },
+                { name: "Mr. Dates Products", link: "/categories/mr-dates-products" },
+                { name: "Other Products", link: "/categories/other-products" },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.link}
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+
+
+
+          {/* CONTACT */}
+          <div>
+            <h3 className="font-serif font-semibold text-xl mb-4">
+              Contact Us
+            </h3>
+
+            <div className="space-y-4 text-sm">
+              {/* ADDRESS */}
+              <div className="flex gap-3 items-start">
+                <MapPin className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+                <p className="leading-relaxed">
+                  C-62, New Sabzi Mandi, Block C, Azadpur,
+                  <br />
+                  New Delhi – 110033,
+
+                </p>
+              </div>
+
+              {/* PHONE */}
+              <div className="flex gap-3 items-center">
+                <Phone className="w-5 h-5 text-amber-400 shrink-0" />
+                <a
+                  href="tel:+917065650411"
+                  className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                >
+                  +91 7065650411
+                </a>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <Phone className="w-5 h-5 text-amber-400 shrink-0" />
+                <a
+                  href="tel:+919773999082"
+                  className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                >
+                  +91 9773999082
+                </a>
+              </div>
+
+              {/* EMAILS */}
+              <div className="flex gap-3 items-start">
+                <Mail className="w-5 h-5 text-amber-400 mt-0.5 shrink-0" />
+                <div className="flex flex-col gap-1">
+                  <a
+                    href="mailto:sales@mrdates.in"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    sales@mrdates.in
+                  </a>
+                  <a
+                    href="mailto:customercare@mrdates.in"
+                    className="hover:text-amber-400 hover:underline underline-offset-4 decoration-amber-400"
+                  >
+                    customercare@mrdates.in
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* SOCIAL */}
+            <div className="flex gap-4 mt-6">
+              <a href="#" aria-label="Instagram">
+                <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-serif text-white font-semibold mb-3">
+              Trust Elite Certificate
+            </h3>
+            <p className="text-base text-white leading-relaxed mb-3">
+              We are proud to present the TrustElite Certificate of Excellence to Mr. Dates, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers            </p>
+
+            <div className="flex justify-center md:justify-end">
+              <img
+                src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759726401/trustseal_vltgii.webp"
+                alt="Trust Elite"
+                className="w-28 h-28 object-contain cursor-pointer hover:scale-105 transition"
+                onClick={() => setIsModalOpen(true)}
+              />
+
+              {isModalOpen && (
+                <div
+                  className="fixed inset-0 backdrop-blur-md bg-white/10 flex items-center mt-20 justify-center z-50"
+                  onClick={() => setIsModalOpen(false)}
+                >
+                  <div
+                    className="relative"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      className="absolute top-2 right-2 text-white text-2xl font-bold"
+                      onClick={() => setIsModalOpen(false)}
+                    >
+                      ✕
+                    </button>
+                    <img
+                      src="/trustElite.webp"
+                      alt="Trust Elite Full"
+                      className="w-[60vw] h-[75vh] rounded-lg shadow-lg"
+                    />
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* COPYRIGHT */}
+        <div className="mt-10 border-t border-white/10 pt-4 text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-2">
+            <p>© 2025 Mr. Dates. All Rights Reserved.</p>
+            <p>
+              Website Designed By Promozione Branding Pvt. Ltd. {"  "}
+              <a
+                href="https://promozionebranding.com/"
+                className="underline underline-offset-4 text-amber-500"
+              >
+                Website Designing Company
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

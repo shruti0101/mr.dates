@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+
+
+/*
+
+
+
+/* :root {
+  --font-sans: var(--font-poppins);
+  --font-mono: var(--font-geist-mono);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+} */
+
+
+
+.jodit-wysiwyg ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.jodit-wysiwyg ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.jodit-wysiwyg ul ul {
+  list-style: circle;
+}
+
+.jodit-wysiwyg ul ul ul {
+  list-style: square;
+}
+
+
+.jodit-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.jodit-content ul {
+  list-style-type: disc;
+  /* or circle, square */
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.jodit-content ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.jodit-content li {
+  margin: 5px 0;
+}
+
+
+body {
+  font-family: var(--font-mona-sans), system-ui, sans-serif;
+  overflow-x: hidden !important;
+}
+
+
+
+/* SCROLLBAR WIDTH */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* TRACK */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+
+  /* THIS MAKES IT SHORTER */
+
+}
+
+/* THUMB */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to right,
+    #f59e0b,
+    #ffb938,
+    #f59e0b
+  );
+
+  border-radius: 999px;
+}
+
+/* HOVER */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to right,
+    #e38b00,
+    #ffb938,
+    #e38b00
+  );
+}
+
+/* FIREFOX */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #f59e0b rgba(0, 0, 0, 0.08);
+}

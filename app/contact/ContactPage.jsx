@@ -1,0 +1,245 @@
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { toast } from "react-toastify";
+import axios from "axios";
+
+const ContactPage = () => {
+  const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = {
+      platform: "Premium Dates Website Contact Us",
+      platformEmail: "customercare@mrdates.in",
+      name: formData.get("contactPerson"),
+      email: formData.get("email"),
+      company: "",
+      phone: formData.get("phone"),
+      product: "Premium Dates Enquiry",
+      place: "Delhi",
+      message: formData.get("message"),
+    };
+
+    if (!data.phone || data.phone.length < 10)
+      return toast.error("Enter Valid Phone Number");
+
+    try {
+      setLoading(true);
+      const res = await axios.post("https://brandbnalo.com/api/form/add", data,
+        { validateStatus: (status) => status >= 200 && status < 500 }
+      );
+
+      if (res.status >= 200 && res.status < 300) {
+        setSubmitted(true);
+        setTimeout(() => {
+          e.target.reset();      // reset after UI change
+        }, 100);
+
+        setTimeout(() => {
+          setSubmitted(false);
+        }, 3000);
+      }
+
+    } catch (err) {
+      console.log("ERROR:", err?.response || err.message);
+      toast.error("Something went wrong");
+    }
+    finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="text-[#2B1B12]">
+
+      {/* ================= HERO ================= */}
+      <section
+        className="relative h-[50vh] md:h-[70vh] flex items-center justify-center text-center bg-cover bg-center"
+        style={{ backgroundImage: "url('/bg3.webp')" }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="relative z-10 px-6 text-white"
+        >
+          <h1 className=" text-3xl md:text-[85px] tracking-wide font-medium">
+            Contact Mr. Dates
+          </h1>
+          <p className="mt-4 max-w-2xl text-md mx-auto text-white/90">
+            Let’s connect for premium dates, bulk orders, or business enquiries
+          </p>
+        </motion.div>
+      </section>
+
+      {/* ================= CONTACT SECTION ================= */}
+      <section className="py-24 bg-[#FBF7F1]">
+        <div className="max-w-7xl mx-auto mt-10 px-6 grid grid-cols-1 lg:grid-cols-2 gap-20">
+
+          {/* ================= LEFT INFO ================= */}
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <div className="flex items-center gap-3 mb-4">
+              <span className="h-[1px] w-10 bg-[#B88A2E]" />
+              <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+                Get In Touch
+              </span>
+            </div>
+
+            <h2 className="text-4xl md:text-5xl font-semibold mb-6 text-[#111]">
+              We’d Love to Hear From You
+            </h2>
+
+            <p className="text-[20px] leading-[1.9] text-[#333] mb-10 max-w-[520px]">
+              Whether you’re looking for premium dates, wholesale supply,
+              corporate gifting, or retail partnership — our team is here to
+              assist you with reliable service and expert guidance.
+            </p>
+
+            {/* CONTACT DETAILS */}
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <Phone className="text-[#6B091D]" />
+                <div>
+                  <p className="font-semibold text-xl">Phone</p>
+                  <p className="text-black text-xl">+91 7065650411</p>
+
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <Phone className="text-[#6B091D]" />
+                <div>
+                  <p className="font-semibold text-xl">Phone</p>
+                  <p className="text-black text-xl">+91 9773999082</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <Mail className="text-[#6B091D]" />
+                <div>
+                  <p className="font-semibold text-xl">Email</p>
+                  <p className="text-black text-xl">customercare@mrdates.in</p>
+                  <p className="text-black text-xl">sales@mrdates.in</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <MapPin className="text-[#6B091D]" />
+                <div>
+                  <p className="font-semibold text-xl">Location</p>
+                  <p className="text-black text-xl">
+                    C-62, New Sabzi Mandi, Block C, Azadpur, <br /> Delhi, 110033
+                  </p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* <Image src="/leaf2.webp" width={400} height={400} alt="Leaf" className="absolute bottom-0 right-0 animate-pulse"></Image> */}
+
+
+
+          {/* ================= FORM ================= */}
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="bg-[#EFCDBA] rounded-[32px] p-10 shadow-[0_30px_90px_rgba(0,0,0,0.15)]"
+          >
+            {submitted ? (
+              <div className="text-center py-10">
+                <h2 className="text-2xl font-bold text-green-600">
+                  🎉 Thank You!
+                </h2>
+                <p className="text-gray-600 mt-2">
+                  Your enquiry has been submitted successfully.
+                </p>
+                <p className="text-gray-500 text-sm mt-1">
+                  Our team will contact you shortly.
+                </p>
+              </div>
+            ) : (
+              <>
+                <h3 className="font-serif text-2xl font-semibold mb-6 text-[#111]">
+                  Send Us a Message
+                </h3>
+
+                <form className="space-y-6" onSubmit={handleSubmit}>
+                  <input
+                    type="text"
+                    name="contactPerson"
+                    required
+                    placeholder="Your Name"
+                    className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
+                  />
+
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Email Address"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
+
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    placeholder="Phone Number"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
+
+                  <textarea
+                    rows="5"
+                    name="message"
+                    placeholder="Your Message"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                  />
+
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    disabled={loading}
+                    className="w-full bg-[#6B091D] text-white py-4 rounded-full font-medium tracking-wide hover:bg-[#5A0717] transition"
+                  >
+                    {loading ? "Submitting..." : "Submit Enquiry"}
+                  </motion.button>
+                </form>
+              </>)}
+          </motion.div>
+
+        </div>
+
+
+        <div className="h-full w-full mt-8">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.0136353497383!2d77.1712696!3d28.714073999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01beb907eaf7%3A0x5089b5634f28242e!2sMr%20Dates!5e1!3m2!1sen!2sin!4v1770445719419!5m2!1sen!2sin"
+            className="w-full h-[80vh] border-0"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Google Map - Mr Dates"
+          />
+        </div>
+
+
+      </section>
+
+    </div>
+  );
+};
+
+export default ContactPage;

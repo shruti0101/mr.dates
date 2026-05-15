@@ -4,13 +4,13 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import axios from "axios";
 import { toast } from "react-toastify";
-
+import { RecaptchaVerifier } from "firebase/auth";
 import {
-  RecaptchaVerifier,
+  
   signInWithPhoneNumber,
 } from "firebase/auth";
 
-import { auth } from "@/utils/firebase";
+import {auth} from "@/utils/firebase";
 
 export default function DatesPopupForm({
   onClose,
@@ -36,25 +36,41 @@ export default function DatesPopupForm({
     useState(null);
 
   // Initialize Firebase Recaptcha
-  useEffect(() => {
+useEffect(() => {
 
-    if (
-      typeof window !== "undefined" &&
-      !window.recaptchaVerifier
-    ) {
+  if (!isOpen) return;
 
-      window.recaptchaVerifier =
-        new RecaptchaVerifier(
-          auth,
-          "recaptcha-container",
-          {
-            size: "normal",
-          }
-        );
+  if (
+    typeof window !== "undefined" &&
+    !window.recaptchaVerifier
+  ) {
+
+    window.recaptchaVerifier =
+      new RecaptchaVerifier(
+        auth,
+        "recaptcha-container",
+        {
+          size: "normal",
+        }
+      );
+
+    window.recaptchaVerifier.render();
+
+  }
+
+  return () => {
+
+    if (window.recaptchaVerifier) {
+
+      window.recaptchaVerifier.clear();
+
+      window.recaptchaVerifier = null;
 
     }
 
-  }, []);
+  };
+
+}, [isOpen]);
 
   // Send OTP
   const sendOTP = async (phone) => {

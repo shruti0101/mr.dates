@@ -3,7 +3,7 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import Script from "next/script";
 import Stickyicons from "@/components/Stikcyicons";
-
+import { Toaster } from "react-hot-toast";
 
 const monaSans = localFont({
   src: [
@@ -118,6 +118,25 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
         <LayoutWrapper>{children}</LayoutWrapper>
+
+
+
+
+<Toaster
+  position="top-right"
+  reverseOrder={false}
+  toastOptions={{
+    duration: 2500,
+    style: {
+      background: "#000",
+      color: "#fff",
+      borderRadius: "12px",
+      padding: "14px 18px",
+      fontSize: "14px",
+    },
+  }}
+/>
+
       </body>
     </html>
   );

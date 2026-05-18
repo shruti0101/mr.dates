@@ -139,7 +139,7 @@ useEffect(() => {
 
   };
 
-  // Actual form submit API
+  //  form submit API
   const submitForm = async (data) => {
 
     try {
@@ -228,7 +228,7 @@ useEffect(() => {
     // Save form data temporarily
     setFormValues(data);
 
-    // If already verified → submit directly
+    
     if (isPhoneVerified) {
 
       await submitForm(data);

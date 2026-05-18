@@ -272,7 +272,7 @@ export const categories = [
       // 1
       {
         id: "mr-date-zubi",
-        name: "Mr. Dates Zubi",
+        name: "Mr. Dates Zubi (135 PER KG)",
         metaTitle: "Mr. Dates Zubi Dates | Bulk & Export Supplier | Mr. Dates",
         metaDescription:
           "Buy Mr. Dates Zubi Dates from Mr. Dates – trusted Dates Supplier. Soft, mildly sweet Zubi dates with export quality packing for wholesale, retail & bulk supply.",
@@ -280,7 +280,8 @@ export const categories = [
         excerpt:
           "Mr. Dates Zubi is a premium Zubi Dates variety supplied by a trusted Dates Supplier. Soft, naturally sweet, and rich in flavor. Perfect for retail, wholesale, and gifting. Carefully packed to preserve freshness and quality.",
 
-        variety: "Zubi Dates",
+        variety: "Zubi Dates",  
+        price:"Rs. 135 ",
 
         packaging: [
           { type: "box", weight: "5 Kg , 20 Pcs" },
@@ -378,7 +379,7 @@ export const categories = [
       // 2
       {
         id: "mr-dates-fard",
-        name: "Mr. Dates Fard Dates",
+        name: "Mr. Dates Fard Dates (320 PER KG)",
         metaTitle: "Mr. Dates Fard Dates | Bulk & Export Supplier | Mr. Dates",
         metaDescription:
           "Buy Mr. Dates Fard Dates from Mr. Dates – trusted Dates Supplier. Mildly sweet, firm & chewy Fard dates with export quality packing for wholesale, retail & bulk supply.",
@@ -386,6 +387,7 @@ export const categories = [
         excerpt:
           "Mr. Dates Fard are high-quality Fard Dates offered by a reliable Dates Supplier. Naturally sweet with a firm, tender texture. Ideal for retail, bulk supply, and export markets. Hygienically packed for consistent taste and freshness.",
 
+          price:"Rs. 320 ",
         variety: "Fard Dates",
 
         packaging: [
@@ -483,7 +485,7 @@ export const categories = [
       // 3
       {
         id: "mr-dates-medjoul-jumbo",
-        name: "Mr. Dates Medjoul (Jumbo)",
+        name: "Mr. Dates Medjoul Jumbo (1150 PER KG)",
         metaTitle:
           "Mr. Dates Medjoul Jumbo Dates | Bulk & Export Supplier | Mr. Dates",
         metaDescription:
@@ -493,7 +495,7 @@ export const categories = [
           "Mr. Dates Medjoul (Jumbo) are premium Medjoul Dates supplied by a professional Dates Supplier. Extra-large, soft, and naturally sweet. Perfect for retail, gifting, and bulk distribution. Carefully packed to maintain freshness and premium quality.",
 
         variety: "Medjoul Dates",
-
+price:"Rs. 1150 ",
         packaging: [
           { type: "box", weight: "6 Kg" },
           { type: "packaging size", weight: "500 Gm" },
@@ -589,7 +591,7 @@ export const categories = [
       // 4
       {
         id: "mr-dates-medjoul-large",
-        name: "Mr. Dates Medjoul (Large)",
+        name: "Mr. Dates Medjoul (Large) (1100 PER KG)",
         metaTitle:
           "Mr. Dates Medjoul Large Dates | Bulk & Export Supplier | Mr. Dates",
         metaDescription:
@@ -695,7 +697,7 @@ export const categories = [
       // 5
       {
         id: "mr-dates-bottle-dates-400g",
-        name: "Mr. Bottle Dates – 400g",
+        name: "Mr. Bottle Dates – 400g (220 PER KG)",
         metaTitle:
           "Mr. Bottle Dates 400g (6kg Box) | Premium Bottle Pack Dates Supplier in India",
         metaDescription:
@@ -705,7 +707,7 @@ export const categories = [
           "Mr. Bottle Dates are naturally sweet premium dates packed in a convenient 400g bottle container. Hygienic packaging, soft texture, and rich taste make them perfect for snacking, cooking, desserts, and daily nutrition.",
 
         variety: "Natural Dates",
-
+price:"Rs. 220 ",
         packaging: [
           { type: "bottle", weight: "400 Gm" },
           { type: "bulk pack", weight: "6 Kg" },
@@ -799,7 +801,7 @@ export const categories = [
       // 6
       {
         id: "mr-dates-bottle-dates-250g",
-        name: "Mr. Bottle Dates – 250g",
+        name: "Mr. Bottle Dates – 250g (240 PER KG)",
         metaTitle:
           "Mr. Bottle Dates 250g (6kg Box) | Premium Bottle Pack Dates Supplier in India",
         metaDescription:
@@ -809,7 +811,7 @@ export const categories = [
           "Mr. Bottle Dates are naturally sweet premium dates packed in a convenient 250g bottle container. Hygienic packaging, soft texture, and rich taste make them perfect for snacking, cooking, desserts, and daily nutrition.",
 
         variety: "Natural Dates",
-
+price:"Rs. 240",
         packaging: [
           { type: "bottle", weight: "250 Gm" },
           { type: "bulk pack", weight: "6 Kg" },
@@ -901,7 +903,7 @@ export const categories = [
       // 7
       {
         id: "plaza-bottle-dates-400g",
-        name: "Plaza Bottle Dates – 400g",
+        name: "Plaza Bottle Dates – 400g (220 PER KG)",
         metaTitle:
           "Plaza Bottle Dates 400g (6kg Box) | Premium Bottle Pack Dates Supplier",
         metaDescription:
@@ -911,7 +913,7 @@ export const categories = [
           "Plaza Bottle Dates are naturally sweet premium dates packed in a convenient 400g bottle container. Hygienic packaging, soft texture, and rich taste make them perfect for snacking, baking, smoothies, and desserts.",
 
         variety: "Natural Dates",
-
+price:"Rs. 220 ",
         packaging: [
           { type: "bottle", weight: "400 Gm" },
           { type: "bulk pack", weight: "6 Kg" },
@@ -1003,7 +1005,7 @@ export const categories = [
       // 9
       {
         id: "mr-dates-delicious-kimia-dates",
-        name: "Mr. Dates Delicious Kimia Dates",
+        name: "Mr. Dates Delicious Kimia Dates (1700 PER KG)",
         metaTitle:
           "Mr. Dates Delicious Kimia Dates | Premium Kimia Dates Supplier in India",
         metaDescription:
@@ -1013,7 +1015,7 @@ export const categories = [
           "Mr. Dates Delicious Kimia Dates are premium soft dates known for their dark color, smooth texture, and naturally sweet flavor. Perfect for healthy snacking, desserts, smoothies, and traditional recipes.",
 
         variety: "Kimia Dates",
-
+price:"Rs. 1700 Per Box",
         packaging: [
           { type: "box", weight: "Custom Packing Available" },
           { type: "pack", weight: "Custom Packing Available" },
@@ -1105,12 +1107,12 @@ export const categories = [
       // 10
       {
         id: "al-emirate-kalmi-dates-8kg",
-        name: "AL-Emirate Dates Kalmi – 8kg",
+        name: "AL-Emirate Dates Kalmi – 8kg (800 PER KG)",
         metaTitle:
           "AL-Emirate Kalmi Dates 8kg Box | Premium Kalmi Dates Supplier in India",
         metaDescription:
           "Buy AL-Emirate Kalmi Dates in an 8kg box. Premium quality Kalmi dates known for their rich taste, soft texture, and high nutritional value. Ideal for daily consumption, gifting, and bulk supply in India.",
-
+price:"Rs. 800 ",
         excerpt:
           "AL-Emirate Kalmi Dates are premium-quality dates known for their dark color, soft and chewy texture, and naturally rich sweetness. Ideal for healthy snacking, desserts, smoothies, and traditional meals.",
 
@@ -1309,7 +1311,7 @@ export const categories = [
         metaTitle:
           "Mr. Dates Delicious Sukkari 6kg Box | Premium Sukkari Dates Supplier in India",
         metaDescription:
-          "Buy Mr. Dates Delicious Sukkari in a 6kg box. Naturally sweet, soft, and premium quality Saudi dates perfect for daily consumption, gifting, and bulk supply across India.",
+          "Buy Mr. Dates Delicious and Fresh Sukkari in a 6kg box. Naturally sweet, soft, and premium quality Saudi dates perfect for daily consumption, gifting, and bulk supply across India.",
 
         excerpt:
           "Mr. Dates Delicious Sukkari Dates are premium-quality dates known for their golden-brown color, soft buttery texture, and rich caramel-like sweetness. Perfect for snacking, desserts, smoothies, and traditional meals.",

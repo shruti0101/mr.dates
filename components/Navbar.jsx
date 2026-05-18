@@ -4,13 +4,51 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+
 import { categories } from "@/Data/data";
 import { usePathname } from "next/navigation";
 
 import { FaPhoneAlt } from "react-icons/fa";
+
+
+
+import {
+  Menu,
+  X,
+  ShoppingCart,
+  Heart,
+} from "lucide-react";
+
+import CartDrawer from "@/store/cartDrawer";
+
+import { useCartStore } from "@/store/cartStore";
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+
+
+
+  // cart store
+
+  const [cartOpen, setCartOpen] = useState(false);
+
+const cart = useCartStore((state) => state.cart);
+
+const wishlist = useCartStore(
+  (state) => state.wishlist
+);
+
+const loadStorageData = useCartStore(
+  (state) => state.loadStorageData
+);
+
+
+
+
+useEffect(() => {
+  loadStorageData();
+}, []);
+  
   const [megaOpen, setMegaOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -42,6 +80,27 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 z-50 w-full">
+
+   {/* ===================== TOPBAR ===================== */}
+    <div className="bg-black text-white border-b border-white/10">
+      <div className="mx-auto max-w-7xl flex items-center justify-center gap-10 px-5 py-2">
+        
+        <Link
+          href="/shop"
+          className="text-sm md:text-lg uppercase tracking-[0.25em] font-semibold hover:text-[#F8CC19] transition"
+        >
+          Shop
+        </Link>
+
+        <Link
+          href="/learn"
+          className="text-sm md:text-lg uppercase tracking-[0.25em] font-semibold hover:text-[#F8CC19] transition"
+        >
+          Learn
+        </Link>
+      </div>
+    </div>
+
       {/* ===================== NAVBAR ===================== */}
       <motion.div
         initial={{ y: -30, opacity: 0 }}
@@ -157,12 +216,45 @@ export default function Navbar() {
             </Link>
           </nav>
 
-<div className="flex justify-center items-center">
+<div className="hidden md:flex items-center gap-6">
 
+  {/* PHONE */}
+  <a
+    href="tel:+917065650411"
+    className={`${navTextClass} hover:text-[#F8CC19] transition font-bold tracking-wider flex items-center gap-2 text-lg`}
+  >
+    <FaPhoneAlt />
 
-<a href="tel:+917065650411" className={` ${navTextClass} hover:text-[#F8CC19] transition  font-bold tracking-wider flex justify-center items-center gap-2 text-lg`}>
-  
- <FaPhoneAlt/> +91 - 7065650411</a>
+    +91 - 7065650411
+  </a>
+
+  {/* WISHLIST */}
+  <Link
+    href="/wishlist"
+    className={`relative ${navTextClass} hover:text-[#F8CC19] transition`}
+  >
+    <Heart size={24} />
+
+    {wishlist.length > 0 && (
+      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] h-5 w-5 rounded-full flex items-center justify-center">
+        {wishlist.length}
+      </span>
+    )}
+  </Link>
+
+  {/* CART */}
+  <button
+    onClick={() => setCartOpen(true)}
+    className={`relative ${navTextClass} hover:text-[#F8CC19] transition`}
+  >
+    <ShoppingCart size={24} />
+
+    {cart.length > 0 && (
+      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] h-5 w-5 rounded-full flex items-center justify-center">
+        {cart.length}
+      </span>
+    )}
+  </button>
 </div>
           {/* CTA BUTTON */}
           <Link
@@ -183,7 +275,7 @@ export default function Navbar() {
         </div>
       </motion.div>
 
-      {/* ===================== MOBILE MENU (OUTSIDE HEADER) ===================== */}
+      {/*  MOBILE MENU (OUTSIDE HEADER)  */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -245,6 +337,7 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 className="mt-6 inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#FFF8C6] text-black"
               >
+
                 <img src="/date.png" className="h-7 w-7" alt="" />
                 Get a Quote
               </Link>
@@ -252,6 +345,12 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
+
+
+      <CartDrawer
+  open={cartOpen}
+  setOpen={setCartOpen}
+/>
     </header>
   );
 }

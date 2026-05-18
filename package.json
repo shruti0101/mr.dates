@@ -21,11 +21,13 @@
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
     "react-toastify": "^11.0.5",
     "sharp": "^0.34.5",
     "swiper": "^12.0.3",
-    "vanilla-tilt": "^1.8.1"
+    "vanilla-tilt": "^1.8.1",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

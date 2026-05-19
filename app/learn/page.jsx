@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { CheckCheck } from "lucide-react";
 import {
   Phone,
   Mail,
@@ -16,7 +17,19 @@ export default function HeroSection() {
   const [message, setMessage] = useState("");
 
 
+  const client = [
+        {
+            image: "/client1.webp"
+        },
 
+        {
+            image: "/client2.webp"
+        },
+
+        {
+            image: "/client3.webp"
+        },
+    ]
 
 const handleSubscribe = async (e) => {
     e.preventDefault();
@@ -128,28 +141,33 @@ const blogs = [
         {/* CENTER CONTENT */}
         <div className="max-w-4xl flex flex-col items-center text-center">
           
-          {/* BADGE */}
-          <div className="bg-[#CDEFEA] shadow-[0_6px_0_rgba(0,0,0,0.25)] border-2 border-black/10 rounded-lg px-8 py-4 mb-8">
-            <p className="text-[#ff4b6e] font-black text-lg md:text-2xl flex items-center gap-3">
-              Loved by 17k+ subscribers
-              <span className="text-3xl">❤️</span>
-            </p>
-          </div>
+       {/* BADGE */}
+<div className="bg-[#F6E7C8] shadow-[0_6px_0_rgba(0,0,0,0.25)] border-2 border-black/10 rounded-lg px-8 py-4 mb-8">
+  <p className="text-[#8d5a00] font-black text-lg md:text-2xl flex items-center gap-3">
+    Premium Quality Dates • Farm Fresh 🌴
+  </p>
+</div>
 
-          {/* HEADING */}
-          <h1 className="text-white font-black leading-[1] text-5xl md:text-7xl tracking-tight">
-            Discover the Truth About{" "}
-            <span className="bg-[#B8F36A] text-black px-4 py-1 inline-block rounded-md">
-              Wellness
-            </span>
-          </h1>
+{/* HEADING */}
+<h1 className="text-white font-black leading-[1] text-5xl md:text-7xl tracking-tight">
+  Experience The Taste Of{" "}
+  <span className="bg-[#B8F36A] text-black px-4 py-1 inline-block rounded-md">
+    Premium Dates
+  </span>
+</h1>
 
-          {/* SUBTEXT */}
-          <p className="mt-8 text-white/90 text-lg md:text-2xl leading-relaxed max-w-3xl font-medium">
-            Learn science-backed insights on nutrition, supplements,
-            collagen, fitness, and everyday health — explained in a
-            simple and engaging way.
-          </p>
+{/* SUBTEXT */}
+<p className="mt-8 text-white/90 text-lg md:text-2xl leading-relaxed max-w-3xl font-medium">
+  Discover handpicked premium dates sourced with care —
+  naturally rich in nutrition, freshness, and authentic taste.
+  Perfect for healthy snacking, gifting, and everyday wellness.
+</p>
+
+
+{/* SMALL TEXT */}
+<p className="mt-10 text-white/80 text-sm md:text-base tracking-wide">
+  100% Natural • Rich In Nutrients • Perfect For Gifting • Premium Quality
+</p>
 
           {/* BUTTONS */}
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-6">
@@ -160,98 +178,15 @@ const blogs = [
 
           </div>
 
-          {/* SMALL TEXT */}
-          <p className="mt-10 text-white/70 text-sm md:text-base tracking-wide">
-            Trusted wellness education • Backed by research • Easy to understand
-          </p>
+     
         </div>
       </div>
     </section>
 
 
 
-    <section className="w-full py-14 bg-[#f8f7f4]">
-      <div className="max-w-7xl mx-auto px-6">
-        
-        {/* HEADING */}
-        <div className="text-center max-w-3xl mx-auto">
-          <p className="uppercase tracking-[0.3em] text-[#8d2957] font-bold">
-            Latest Articles
-          </p>
 
-          <h2 className="mt-2 text-4xl md:text-6xl font-black text-black leading-tight">
-            Explore Our{" "}
-            <span className="bg-[#B8F36A] px-3">
-              Wellness Blogs
-            </span>
-          </h2>
-
-          <p className="mt-4 text-lg text-black/70 leading-relaxed">
-            Read expert-backed articles about health, collagen,
-            nutrition, fitness, and mindful living.
-          </p>
-        </div>
-
-        {/* BLOG GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-          {blogs.map((blog) => (
-            <div
-              key={blog.id}
-              className="group bg-white rounded-[28px] overflow-hidden border-[3px] border-black shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:-translate-y-2 transition-all duration-300"
-            >
-              
-              {/* IMAGE */}
-              <div className="relative h-[260px] overflow-hidden">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition duration-500"
-                />
-
-                {/* CATEGORY */}
-                <div className="absolute top-5 left-5 bg-[#B8F36A] text-black px-4 py-2 rounded-full text-sm font-black uppercase tracking-wide">
-                  {blog.category}
-                </div>
-              </div>
-
-              {/* CONTENT */}
-              <div className="p-6">
-                <h3 className="text-2xl font-black leading-tight text-black">
-                  {blog.title}
-                </h3>
-
-                <p className="mt-4 text-black/70 leading-relaxed">
-                  {blog.desc}
-                </p>
-
-                {/* BUTTON */}
-                <Link
-                  href={blog.link}
-                  className="mt-8 inline-flex items-center gap-2 text-black font-black uppercase tracking-wide hover:text-[#8d2957] transition"
-                >
-                  Read More
-                  <ArrowRight size={18} />
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* CTA */}
-        <Link href="/blogs" className="flex justify-center mt-10">
-          <button className="bg-black text-white px-10 py-5 rounded-full text-lg font-black uppercase tracking-wide hover:bg-[#8d2957] transition">
-            View All Blogs
-          </button>
-        </Link>
-      </div>
-    </section>
-
-
-
-
-    
-            {/* intro */}
+        {/* intro */}
             <section
             
                 className="relative lg:py-20 py-10 bg-[#FBF7F1] overflow-hidden"
@@ -330,6 +265,264 @@ const blogs = [
 
                 </div>
             </section>
+
+
+
+
+
+
+
+
+
+            {/* best dates */}
+            <section
+          
+                className="bg-[#EEF1EA] md:py-16 py-8 px-4 md:px-12"
+            >
+
+                <div className="max-w-7xl mx-auto  text-[#111]">
+
+                    {/* ================= HEADER BADGE ================= */}
+                    <div className="flex items-center gap-2 mb-2 bg-[#f4ea9d] text-black px-5 py-3 rounded-full text-sm font-medium w-fit ">
+                        <span>BEST DATES</span>
+                        <Image
+                            width={35}
+                            height={35}
+                            src="/date.png"
+                            alt="Dates icon"
+                        />
+                    </div>
+
+                    {/* ================= HERO CONTENT ================= */}
+                    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-16 gap-6 items-center mb-16">
+                        <h1 className="text-3xl sm:text-4xl lg:text-[65px] font-bold leading-tight max-w-[650px] ">
+                            PURE DATES. NATURAL ENERGY. REAL GOODNESS.
+                        </h1>
+
+                        <div>
+                            <p className="text-lg sm:text-[20px] max-w-[520px] mb-6 text-[#333]">
+                                MR DATES brings you premium-quality dates sourced from the finest farms.
+                                Naturally sweet, rich in nutrients, and packed with energy — our dates
+                                are perfect for everyday snacking, gifting, and bulk supply.
+                            </p>
+
+                            <div className="flex flex-wrap items-center gap-10">
+                                <div>
+                                    <span className="text-lg">⭐️⭐️⭐️⭐️⭐️</span>
+                                    <p className="font-bold mt-2 leading-tight">
+                                        4.8/5 <br />
+                                        <span className="text-sm font-normal text-[#444]">
+                                            Trusted by 15,000+ happy customers
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div className="flex items-center">
+                                    {client.map((u, i) => (
+                                        <img
+                                            key={i}
+                                            src={u.image}
+                                            width={50}
+                                            height={50}
+                                            alt="Customer"
+                                            className="w-12 h-12 rounded-full border-2 border-white object-cover -ml-3 first:ml-0 shadow-md"
+                                        />
+                                    ))}
+                                    <div className="bg-[#6B091D] text-white px-3 py-2 rounded-full -ml-3 text-sm shadow-md">
+                                        15k+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* ================= ROW 1 ================= */}
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-14 items-stretch">
+                        {/* Image */}
+                        <div className="relative group">
+                            <Image
+                                width={500}
+                                height={500}
+                                src="/aboutpage/1.webp"
+                                alt="Premium dates"
+                                className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
+                            />
+                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                                Premium Dates
+                            </button>
+                        </div>
+
+                        {/* Info */}
+                        <div className="bg-[#8E1013] text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold mb-3">
+                                    Naturally Sweet. Purely Nutritious.
+                                </h3>
+                                <div className="h-px w-full bg-white/40 mb-4" />
+                                <ul className="space-y-6 text-lg">
+                                    {[
+                                        "100% natural dates with no added sugar or preservatives",
+                                        "Rich source of energy, fiber, and essential minerals",
+                                        "Carefully sourced from trusted farms for premium quality",
+                                        "Perfect for daily snacking, gifting, and bulk supply",
+                                        "Hygienically packed to ensure freshness & extended shelf life"
+                                    ].map((item, i) => (
+                                        <li key={i} className="flex items-start gap-2">
+                                            <CheckCheck size={16} />
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Image */}
+                        <div className="relative group">
+                            <Image
+                                width={500}
+                                height={500}
+                                src="/banner/2.webp"
+                                alt="Bulk dates supply"
+                                className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
+                            />
+                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                                Bulk Orders
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* ================= ROW 2 ================= */}
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+                        <div className="lg:col-span-2 relative group">
+                            <Image
+                                width={1000}
+                                height={1000}
+                                src="/slider/1.webp"
+                                alt="Handpicked dates"
+                                className="max-w-full h-auto rounded-2xl object-cover shadow-lg"
+                            />
+                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                                Handpicked Quality
+                            </button>
+                        </div>
+
+                        <div className="bg-[#8E1013]  text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold mb-3">
+                                    The Authentic Taste of Premium Dates
+                                </h3>
+                                <div className="h-px w-full bg-white/40 mb-4 " />
+                                <ul className="space-y-6 text-lg">
+                                    {[
+                                        "Soft texture and rich natural sweetness in every bite",
+                                        "Ideal for health-conscious consumers and fitness diets",
+                                        "Trusted by retailers, wholesalers, and corporate buyers",
+                                        "Hygienically packed to preserve freshness and quality",
+                                        "Long shelf life with consistent taste and premium quality",
+                                        "Perfect for bulk supply, gifting, and everyday consumption"
+
+
+
+
+                                    ].map((item, i) => (
+                                        <li key={i} className="flex items-start gap-2">
+                                            <CheckCheck size={16} />
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+    <section className="w-full py-14 bg-[#f8f7f4]">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* HEADING */}
+        <div className="text-center max-w-3xl mx-auto">
+          <p className="uppercase tracking-[0.3em] text-[#8d2957] font-bold">
+            Latest Articles
+          </p>
+
+          <h2 className="mt-2 text-4xl md:text-6xl font-black text-black leading-tight">
+            Explore Our{" "}
+            <span className="bg-[#B8F36A] px-3">
+              Wellness Articles
+            </span>
+          </h2>
+
+          <p className="mt-4 text-lg text-black/70 leading-relaxed">
+            Read expert-backed articles about health, collagen,
+            nutrition, fitness, and mindful living.
+          </p>
+        </div>
+
+        {/* BLOG GRID */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          {blogs.map((blog) => (
+            <div
+              key={blog.id}
+              className="group bg-white rounded-[28px] overflow-hidden border-[3px] border-black shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:-translate-y-2 transition-all duration-300"
+            >
+              
+              {/* IMAGE */}
+              <div className="relative h-[260px] overflow-hidden">
+                <Image
+                  src={blog.image}
+                  alt={blog.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+
+                {/* CATEGORY */}
+                <div className="absolute top-5 left-5 bg-[#B8F36A] text-black px-4 py-2 rounded-full text-sm font-black uppercase tracking-wide">
+                  {blog.category}
+                </div>
+              </div>
+
+              {/* CONTENT */}
+              <div className="p-6">
+                <h3 className="text-2xl font-black leading-tight text-black">
+                  {blog.title}
+                </h3>
+
+                <p className="mt-4 text-black/70 leading-relaxed">
+                  {blog.desc}
+                </p>
+
+                {/* BUTTON */}
+                <Link
+                  href={blog.link}
+                  className="mt-8 inline-flex items-center gap-2 text-black font-black uppercase tracking-wide hover:text-[#8d2957] transition"
+                >
+                  Read More
+                  <ArrowRight size={18} />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <Link href="/blogs" className="flex justify-center mt-10">
+          <button className="bg-black text-white px-10 py-5 rounded-full text-lg font-black uppercase tracking-wide hover:bg-[#8d2957] transition">
+            View All Blogs
+          </button>
+        </Link>
+      </div>
+    </section>
+
+
+
+
+    
+        
 
 
 

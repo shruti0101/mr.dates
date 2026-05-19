@@ -68,7 +68,7 @@ export default function Footer() {
               {[
                 ["Home", "/"],
                 ["About Us", "/about"],
-                ["Blogs", "/blogs"],
+                ["Articles", "/blogs"],
                 ["Contact Us", "/contact"],
                 ["Products", "/products"],
                 ["Sitemap", "/sitemap"],
@@ -235,7 +235,7 @@ export default function Footer() {
         {/* COPYRIGHT */}
         <div className="mt-10 border-t border-white/10 pt-4 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
-            <p>© 2025 Mr. Dates. All Rights Reserved.</p>
+            <p>© 2026 Mr. Dates. All Rights Reserved.</p>
             <p>
               Website Designed By Promozione Branding Pvt. Ltd. {"  "}
               <a

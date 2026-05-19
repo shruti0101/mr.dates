@@ -70,9 +70,9 @@ useEffect(() => {
   if (adminLayout) return null;
 
   const isSingleProduct =
-    pathname.startsWith("/products/") && pathname !== "/products";
-
-  const navTextClass = isSingleProduct ? "text-black" : "text-white";
+    pathname.startsWith("/products/") && pathname !== "/products" ||
+    pathname.startsWith("/checkout/") && pathname !== "/products";
+  const navTextClass = isSingleProduct ? "text-black" : "text-black";
 
   const mobicon = isSingleProduct ? "text-black" : "text-white";
 
@@ -88,7 +88,7 @@ useEffect(() => {
     
     {/* SHOP TAB */}
     <Link
-      href="/shop"
+      href="/products"
       className="relative w-1/2 h-full flex items-center justify-center bg-[#f3ecef] text-black font-extrabold uppercase tracking-[0.2em] text-lg z-10"
     >
       {/* angled shape */}
@@ -131,8 +131,8 @@ useEffect(() => {
           ${isSingleProduct
             ? "bg-[#FDFBF7] text-black shadow-lg"
             : scrolled
-              ? "bg-black/40 backdrop-blur-md shadow-lg"
-              : "bg-transparent"
+              ? "bg-white/70 backdrop-blur-md shadow-lg"
+              : "bg-white"
           }
         `}
       >
@@ -140,7 +140,7 @@ useEffect(() => {
           {/* LOGO */}
           <Link href="/">
             <Image
-              src={isSingleProduct ? "/logo-black.webp" : "/logooo.webp"}
+              src="/logo-black.webp" 
               alt="Brand Logo"
               width={isSingleProduct ? 100 : 120}
               height={40}

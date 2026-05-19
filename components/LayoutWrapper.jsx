@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { usePathname } from "next/navigation";
 import Topbar from "@/components/Topbar";
-
+import Popside from "@/components/Popupside";
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
 
@@ -24,7 +24,9 @@ export default function LayoutWrapper({ children }) {
 
   return (
     <>
-      {!hideNavbar && <Topbar />}
+
+    <Topbar/>
+<Popside/>
 
       {!hideNavbar && <Navbar />}
 

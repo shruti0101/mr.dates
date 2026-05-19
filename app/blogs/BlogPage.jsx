@@ -44,7 +44,7 @@ const BlogPage = () => {
           </span>
 
           <h1 className="max-w-6xl mx-auto tracking-tight text-3xl md:text-[85px] font-medium leading-tight">
-            Our Blogs
+            Our Articles
           </h1>
 
           <p className="mt-6 max-w-3xl mx-auto text-base md:text-lg text-white/90 leading-relaxed">
@@ -58,7 +58,7 @@ const BlogPage = () => {
       </motion.div>
 
       <section className="py-10 md:px-15 px-5">
-        <h2 className='md:text-3xl text-xl text-center font-bold'>Explore Our Blogs</h2>
+      
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
           {loading ? <>

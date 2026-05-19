@@ -253,7 +253,7 @@ useEffect(() => {
     href="/wishlist"
     className={`relative ${navTextClass} hover:text-[#F8CC19] transition`}
   >
-    <Heart size={24} />
+    <Heart size={28} />
 
     {wishlist.length > 0 && (
       <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] h-5 w-5 rounded-full flex items-center justify-center">
@@ -267,7 +267,7 @@ useEffect(() => {
     onClick={() => setCartOpen(true)}
     className={`relative ${navTextClass} hover:text-[#F8CC19] transition`}
   >
-    <ShoppingCart size={24} />
+    <ShoppingCart size={28} />
 
     {cart.length > 0 && (
       <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] h-5 w-5 rounded-full flex items-center justify-center">

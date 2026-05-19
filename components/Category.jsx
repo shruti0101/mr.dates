@@ -35,7 +35,7 @@ const Category = () => {
     { title: "Ajwa Dates", image: "/products/ajwa3.webp", link: "/categories/ajwa-dates" },
     { title: "Barari Dates", image: "/products/brarichocolate.webp", link: "/categories/barari-dates" },
     { title: " Kimia Dates", image: "/products/kimia5.webp", link: "/categories/kimia-dates" },
-    { title: "Kalmi Dates", image: "/products/kalmi3.webp", link: "/categories/kalmi-gold-dates" },
+    { title: "Kalmi Dates", image: "/products/kalmi3.webp", link: "/categories/kalmi-dates" },
     { title: "Medjool Dates", image: "/products/mediumMedjool.webp", link: "/categories/medjool-dates" },
     { title: "Mebroom Dates", image: "/products/dateCrownMabroom.webp", link: "/categories/mabroom-dates" },
     { title: "California Almonds", image: "/products/independentAlmondsPouch.webp", link: "/categories/california-almonds" },

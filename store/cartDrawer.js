@@ -66,12 +66,17 @@ export default function CartDrawer({ open, setOpen }) {
                 Add some products to continue shopping
               </p>
 
+
+<Link href="/products">
+
+
               <button
                 onClick={() => setOpen(false)}
                 className="mt-6 bg-black text-white px-6 py-3 rounded-xl"
               >
                 Continue Shopping
               </button>
+</Link>
             </div>
           ) : (
             <div className="space-y-5">

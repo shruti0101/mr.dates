@@ -46,6 +46,8 @@ const customers = [
   "Diya from Shimla",
 ];
 
+
+
 const products = [
   "Premium Medjoul Dates",
   "Ajwa Dates Box",
@@ -94,12 +96,30 @@ export default function SalesPopup() {
       const product =
         products[Math.floor(Math.random() * products.length)];
 
-      const times = [
-        "2 minutes ago",
-        "5 minutes ago",
-        "10 minutes ago",
-        "20 minutes ago",
-      ];
+   const times = [
+  "Just now",
+  "1 minute ago",
+  "2 minutes ago",
+  "4 minutes ago",
+  "5 minutes ago",
+  "7 minutes ago",
+  "9 minutes ago",
+  "10 minutes ago",
+  "12 minutes ago",
+  "15 minutes ago",
+  "18 minutes ago",
+  "20 minutes ago",
+  "22 minutes ago",
+  "25 minutes ago",
+  "28 minutes ago",
+  "30 minutes ago",
+  "35 minutes ago",
+  "40 minutes ago",
+  "45 minutes ago",
+  "50 minutes ago",
+  "1 hour ago",
+  "2 hours ago",
+];
 
       const time =
         times[Math.floor(Math.random() * times.length)];
@@ -115,13 +135,13 @@ export default function SalesPopup() {
     
       setTimeout(() => {
         setVisible(false);
-      }, 5000);
+      }, 3000);
     };
 
 
-    const initialTimer = setTimeout(showPopup, 2000);
+    const initialTimer = setTimeout(showPopup, 800);
 
-    const interval = setInterval(showPopup, 12000);
+    const interval = setInterval(showPopup, 4500);
 
     return () => {
       clearTimeout(initialTimer);

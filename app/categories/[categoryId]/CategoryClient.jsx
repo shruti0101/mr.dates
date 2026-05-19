@@ -6,7 +6,9 @@ import { categories } from "@/Data/data";
 import Slider from "@/components/Slider";
 import { useState,useEffect } from "react";
 import CategoryCitySection from "@/components/CategoryCitySection";
-
+import { ShoppingCart } from "lucide-react";
+import { useCartStore } from "@/store/cartStore";
+import toast from "react-hot-toast";
 export default function CategoryPage({ category }) {
   if (!category) {
     return (
@@ -18,6 +20,7 @@ export default function CategoryPage({ category }) {
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 const [loading, setLoading] = useState(true);
+const addToCart = useCartStore((state) => state.addToCart);
 
 useEffect(() => {
   setLoading(true);
@@ -50,7 +53,7 @@ if (loading) {
 
 
     
-      {/* ================= HERO ================= */}
+      {/*  HERO  */}
       <section
         style={{ backgroundImage: "url('/bg3.webp')" }}
         className="relative bg-cover bg-center h-[60vh] md:h-[90vh]"
@@ -188,49 +191,72 @@ if (loading) {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 ">
 
-              {category.products.map((product) => (
-                <Link
-                  key={product.id}
-                  href={`/products/${product.id}`}
-                  className="group block "
-                >
-                  {/* IMAGE */}
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b]">
+           {category.products.map((product) => (
+  <div
+    key={product.id}
+    className="group block bg-white rounded-2xl overflow-hidden border border-[#6b1f2b] shadow-sm hover:shadow-xl transition-all duration-300"
+  >
+    {/* PRODUCT LINK */}
+    <Link href={`/products/${product.id}`}>
+      {/* IMAGE */}
+      <div className="relative aspect-[3/4] overflow-hidden">
+        
+        {/* Badge */}
+        {product.badge && (
+          <span
+            className={`absolute top-4 left-4 z-10 px-4 py-2 text-xs tracking-widest uppercase text-white
+            ${
+              product.badge === "bestseller"
+                ? "bg-[#8b2d36]"
+                : "bg-black/50"
+            }`}
+          >
+            {product.badge === "bestseller"
+              ? "Best Seller"
+              : "Limited"}
+          </span>
+        )}
 
-                    {/* Badge (optional) */}
-                    {product.badge && (
-                      <span
-                        className={`absolute top-4 left-4 z-10 px-4 py-2 text-xs tracking-widest uppercase text-white
-            ${product.badge === "bestseller"
-                            ? "bg-[#8b2d36]"
-                            : "bg-black/50"
-                          }`}
-                      >
-                        {product.badge === "bestseller" ? "Best Seller" : "Limited"}
-                      </span>
-                    )}
+        <Image
+          src={product.image.src}
+          alt={product.name}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          priority={false}
+        />
+      </div>
 
-                    <Image
-                      src={product.image.src}
-                      alt={product.name}
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-105"
-                      priority={false}
-                    />
-                  </div>
+      {/* TEXT */}
+      <div className="mt-6 text-center px-4">
+        <h3 className="text-[22px] font-serif text-[#6b1f2b]">
+          {product.name}
+        </h3>
 
-                  {/* TEXT */}
-                  <div className="mt-6 text-center">
-                    <h3 className="text-[22px] font-serif text-[#6b1f2b]">
-                      {product.name}
-                    </h3>
+        <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
+          {product.variety || "Premium Selection"}
+        </p>
+      </div>
+    </Link>
 
-                    <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
-                      {product.variety || "Premium Selection"}
-                    </p>
-                  </div>
-                </Link>
-              ))}
+    {/* BUTTON */}
+    <div className="p-4 pt-6">
+      <button
+        onClick={() => {
+          addToCart({
+            ...product,
+            quantity: 1,
+          });
+
+          toast.success("Added to cart");
+        }}
+        className="w-full bg-[#6b1f2b] hover:bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
+      >
+        <ShoppingCart size={18} />
+        Add To Cart
+      </button>
+    </div>
+  </div>
+))}
 
             </div>
 

@@ -108,6 +108,7 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className={`${monaSans.variable} antialiased`}>
+     
         <Stickyicons></Stickyicons>
         <noscript>
           <iframe

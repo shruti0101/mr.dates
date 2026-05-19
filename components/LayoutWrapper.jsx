@@ -1,33 +1,36 @@
 "use client";
 
-// import { usePathname } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import LenisProvider from "@/app/providers/LenisProvider";
-import Stickyfooter from "./Stickyfooter";
+import { usePathname } from "next/navigation";
+import Topbar from "@/components/Topbar";
 
 export default function LayoutWrapper({ children }) {
-//   const pathname = usePathname();
+  const pathname = usePathname();
 
-  // Hide Navbar/Footer on /studio routes
-//   const hideLayout = pathname.startsWith("/studio" , "/login");
+  // Hide navbar/topbar
+  const hideNavbarRoutes = ["/studio", "/login", "/learn"];
+
+  // Hide footer only on these routes
+  const hideFooterRoutes = ["/studio", "/login"];
+
+  const hideNavbar = hideNavbarRoutes.some((route) =>
+    pathname.startsWith(route)
+  );
+
+  const hideFooter = hideFooterRoutes.some((route) =>
+    pathname.startsWith(route)
+  );
 
   return (
     <>
+      {!hideNavbar && <Topbar />}
 
-    <LenisProvider>
-      <Navbar />
+      {!hideNavbar && <Navbar />}
+
       {children}
-      <Stickyfooter></Stickyfooter>
-      <Footer />
-    </LenisProvider>
+
+      {!hideFooter && <Footer />}
     </>
   );
 }
-
-
-//   <>
-//       {!hideLayout && <Navbar />}
-//       {children}
-//       {!hideLayout && <Footer />}
-//     </>

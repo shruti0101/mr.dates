@@ -61,7 +61,7 @@ const Category = () => {
     <section
       ref={sectionRef}
 
-      className="relative py-20 overflow-hidden [perspective:1200px] bg-[#DCECE9] "
+      className="relative py-20 overflow-hidden [perspective:1200px] bg-[#decdfc] "
     >
 
       <div className="absolute inset-0 bg-black/10 "></div>

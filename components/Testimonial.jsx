@@ -96,17 +96,62 @@ const testimonials = [
 
 export default function ProteinCards() {
   return (
-    <section className="w-full bg-[#F4D99A] py-10">
+    <section className="w-full bg-[#F4D99A] ">
       {/* TOP HEADING */}
-      <div className="mb-10 px-8 md:px-14">
-  
+  <div className="mb-14 px-8 md:px-14">
 
-        <h2 className=" text-center text-4xl font-black leading-[1] tracking-[-2px] text-black md:text-6xl">
-        Real people Real Reviews
-      
-   
-        </h2>
-      </div>
+
+
+  {/* MAIN HEADING */}
+  <div
+    className="
+      flex flex-col items-center
+      justify-center gap-6
+      lg:flex-row lg:items-end
+    "
+  >
+
+    {/* BIG TEXT */}
+    <h2
+      className="
+        text-start
+        text-[3rem]
+        font-black
+        leading-[0.9]
+        tracking-[-1px]
+        text-[#0B132B]
+        sm:text-[4.5rem]
+        md:text-[6rem]
+        
+      "
+    >
+      Real people.
+      <br className="block lg:hidden" />
+      {" "}Real love.
+    </h2>
+
+    {/* SIDE TEXT */}
+    <p
+      className="
+        max-w-[320px]
+        text-center
+        text-lg
+        leading-[1.6]
+        text-black
+        md:text-2xl
+        lg:mb-3 lg:text-left
+      "
+      style={{
+        fontFamily: "monospace",
+      }}
+    >
+      We’re blessed! Because
+      <br />
+      we have you{" "}
+      <span className="text-[#C03A7A] text-3xl">♡</span>
+    </p>
+  </div>
+</div>
 
       {/* SCROLL WRAPPER */}
       <div

@@ -14,9 +14,9 @@ import FaqDatesSupplier from "@/components/Faq";
 import Cta from "@/components/Cta";
 
 import Parallex from "@/components/Parallex";
-import CitySection from "@/components/CitySection";
+// import CitySection from "@/components/CitySection";
 import DatesPopupForm from "@/components/Popup";
-
+import HealthBenefitsSection from "@/components/Health";
 export default function Home() {
   return (
     <>
@@ -24,6 +24,7 @@ export default function Home() {
 
       <HeroDatesExact></HeroDatesExact>
       <Slider></Slider>
+      <HealthBenefitsSection></HealthBenefitsSection>
       <AboutSection></AboutSection>
       {/* <Check></Check> */}
       <Category></Category>
@@ -44,7 +45,7 @@ export default function Home() {
       <Cta></Cta>
       <Benefit></Benefit>
       <FaqDatesSupplier></FaqDatesSupplier>
-      <CitySection />
+      {/* <CitySection /> */}
     </>
   );
 }

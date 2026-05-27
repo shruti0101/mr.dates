@@ -179,15 +179,7 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* SOCIAL */}
-            <div className="flex gap-4 mt-6">
-              <a href="#" aria-label="Instagram">
-                <Instagram className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-              </a>
-              <a href="#" aria-label="Facebook">
-                <Facebook className="w-5 h-5 text-amber-500 hover:scale-110 transition" />
-              </a>
-            </div>
+         
           </div>
 
           <div>

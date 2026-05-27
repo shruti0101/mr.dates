@@ -229,7 +229,7 @@ useEffect(() => {
             </Link>
 
             <Link
-              href="/contact"
+              href="/contact" 
               className={`text-[18px] tracking-widest font-bold uppercase ${navTextClass} hover:text-[#F8CC19] transition`}
             >
               Contact

@@ -279,9 +279,9 @@ useEffect(() => {
           {/* CTA BUTTON */}
           <Link
             href="/contact"
-            className="hidden md:inline-flex items-center gap-3 px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
+            className=" md:inline-flex items-center flex gap-1 md:gap-3 px-5 md:px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
           >
-            <img src="/date_1.webp" alt="" className="h-8 w-8" />
+            <img src="/date_1.webp" alt="" className="h-8 w-8 pb-1" />
             Get a Quote
           </Link>
 
@@ -352,15 +352,7 @@ useEffect(() => {
                 ))}
               </div>
 
-              <Link
-                href="/contact"
-                onClick={() => setMobileOpen(false)}
-                className="mt-6 inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#FFF8C6] text-black"
-              >
-
-                <img src="/date.png" className="h-7 w-7" alt="" />
-                Get a Quote
-              </Link>
+             
             </div>
           </motion.div>
         )}

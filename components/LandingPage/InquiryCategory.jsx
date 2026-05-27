@@ -120,7 +120,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-                    className=" mx-auto text-white mb-10 text-lg md:text-2xl"
+                    className=" mx-auto text-white mb-5 md:mb-10 text-lg md:text-2xl"
                 >
                     Discover India's widest range of <strong>premium dates, dry fruits,</strong>{" "}
                     and <strong>healthy snacks</strong>  Sourced direct from farms – Bulk Supply available for Retailers, Distributors, and Exporters at unbeatable wholesale prices.
@@ -136,7 +136,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     viewport={{ once: true }}
                     className="
     grid grid-cols-2 lg:grid-cols-4 
-    gap-4 lg:gap-10 mt-16 max-w-7xl mx-auto
+    gap-4 lg:gap-10 md:mt-16 max-w-7xl mx-auto
   "
                 >
                     {category.map((item, index) => (
@@ -203,10 +203,10 @@ const InquiryCategory = ({ setFormOpen }) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-                    className="mt-12"
+                    className="mt-8 md:mt-12"
                 >
                     <button className="group relative inline-flex items-center gap-3 px-7 py-3 rounded-full bg-amber-500 hover:bg-amber-600 text-white text-lg md:text-xl font-bold overflow-hidden cursor-pointer">
-                        <span className="relative z-10 flex h-7 w-7">
+                        <span className="relative z-10 flex mb-3 h-7 w-7">
                             <img src="/date_1.webp" alt="Date" className="h-9 w-9 object-contain" />
                         </span>
                         <Link href="/products" className="relative z-10 ">

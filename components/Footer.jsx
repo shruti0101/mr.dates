@@ -231,13 +231,14 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p>© 2026 Mr. Dates. All Rights Reserved.</p>
             <p>
-              Website Designed By Promozione Branding Pvt. Ltd. {"  "}
-              <a
-                href="https://promozionebranding.com/"
-                className="underline underline-offset-4 text-amber-500"
-              >
-                Website Designing Company
-              </a>
+              Website Designed By   Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a>
             </p>
           </div>
         </div>

@@ -1933,7 +1933,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/AjwaDates.webp",
+          src: "/products/AjwaDatesN.webp",
           alt: "Ajwa Dates",
         },
       },
@@ -5951,7 +5951,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/shanshaha.webp",
+          src: "/products/shanshahaN.webp",
           alt: "Premium Shanshaha Dates",
         },
       },
@@ -8968,7 +8968,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/kimia3.webp",
+          src: "/products/kimia3N.webp",
           alt: "Kimia Dates Original",
         },
       },
@@ -9493,7 +9493,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/goldkimia.webp",
+          src: "/products/goldkimiaN.webp",
           alt: "Kimia Gold Dates",
         },
       },
@@ -15032,7 +15032,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/barariTunisian.webp",
+          src: "/products/barariTunisianN.webp",
           alt: "Barari Tunisian Dates",
         },
       },
@@ -15738,7 +15738,7 @@ price:"Rs. 800 ",
         ],
 
         image: {
-          src: "/products/gulfZahidi.webp",
+          src: "/products/gulf-zahidiN.webp",
           alt: "Black Fruits",
         },
       },

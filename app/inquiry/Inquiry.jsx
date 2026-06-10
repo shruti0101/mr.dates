@@ -30,7 +30,7 @@ export default function Inquiry() {
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="relative md:px-12 mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-5">
                 <div className="text-white md:pl-8 p-0">
-                    <h1 className="font-serif font-bold text-[27px] sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
+                    <h1 className="font-serif mt-5 font-bold text-[27px] sm:text-4xl md:text-5xl leading-tight capitalize mb-2">
                         Premium Quality Dates Supplier in India
                     </h1>
 
@@ -81,7 +81,7 @@ export default function Inquiry() {
         <InquiryCategory setFormOpen={setFormOpen} />
 
         {/* client testimonials */}
-        <div className="bg-amber-50 text-black py-14 px-4 border border-amber-200">
+        <div className="bg-amber-50 text-black py-8 md:py-14 px-4 border border-amber-200">
             <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div className="flex flex-col items-center text-center p-6 rounded-xl bg-amber-100 border border-amber-200 hover:shadow-lg hover:shadow-amber-200/50 transition duration-300">
                     <Users className="mb-3 text-amber-600" size={30} />
@@ -293,7 +293,7 @@ export default function Inquiry() {
         </section>
 
         {/* CTA */}
-        <section className="w-full bg-amber-500  text-white py-5">
+        <section className="w-full bg-amber-500  text-white py-7">
             <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="md:text-left text-center">
                     <Link href={"/"} className="text-2xl font-semibold">
@@ -324,7 +324,7 @@ export default function Inquiry() {
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-2 text-center">
                 Order Online or Contact Us
             </h2>
-            <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-4 text-center">
+            <p className="text-gray-900 text-lg px-4 md:px-0 md:text-xl leading-relaxed mb-4 text-center">
                 Looking for healthy dates for your store, restaurant or export business? Contact us today!
             </p>
             <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">

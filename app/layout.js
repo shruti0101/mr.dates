@@ -68,6 +68,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+         <meta
+          name="google-site-verification"
+          content="nR5uA4YIFmPF7RvVGRxF-NeXzSUdZPXah77Et35rbFs"
+        />
         {/* <!-- Google Tag Manager --> */}
         <Script
           id="gtm-script"

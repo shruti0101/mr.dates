@@ -135,13 +135,13 @@ export default function SalesPopup() {
     
       setTimeout(() => {
         setVisible(false);
-      }, 3000);
+      }, 6000);
     };
 
 
-    const initialTimer = setTimeout(showPopup, 800);
+    const initialTimer = setTimeout(showPopup, 2000);
 
-    const interval = setInterval(showPopup, 4500);
+    const interval = setInterval(showPopup, 5000);
 
     return () => {
       clearTimeout(initialTimer);
@@ -151,13 +151,13 @@ export default function SalesPopup() {
 
   return (
     <div
-      className={`fixed bottom-6 left-6 z-[9999] transition-all duration-500 ${
+      className={`fixed bottom-4 left-4 z-[9999] transition-all hidden md:block duration-500 ${
         visible
           ? "translate-y-0 opacity-100"
           : "translate-y-10 opacity-0"
       }`}
     >
-      <div className="bg-white w-[340px] border border-black/10 rounded-2xl shadow-2xl p-4 flex items-start gap-4">
+      <div className="bg-white w-[280px] border border-black/10 rounded-2xl shadow-2xl flex items-start  p-2 gap-4">
         
         {/* ICON */}
         <div className="min-w-[52px] h-[52px] rounded-full bg-[#B8F36A] flex items-center justify-center">

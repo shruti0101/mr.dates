@@ -136,7 +136,7 @@ useEffect(() => {
           }
         `}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-2">
+        <div className="mx-auto flex max-w-7xl items-center justify-between  py-2">
           {/* LOGO */}
           <Link href="/">
             <Image
@@ -178,47 +178,201 @@ useEffect(() => {
                 Our Products
               </Link>
 
-              <AnimatePresence>
-                {megaOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 14 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 14 }}
-                    transition={{ duration: 0.3, ease: "easeOut" }}
-                    onWheel={(e) => e.stopPropagation()}
-                    className="
-            absolute left-1/2 top-full mt-5 w-[1180px]
-            max-h-[80vh] overflow-y-auto overflow-x-hidden
-            z-50
-            -translate-x-1/2 rounded-3xl bg-white p-20
-            shadow-[0_40px_90px_-25px_rgba(0,0,0,0.3)]
-          "
-                  >
-                    <div className="grid grid-cols-6 gap-10">
-                      {categories.map((cat) => (
-                        <Link
-                          key={cat.id}
-                          href={`/categories/${cat.id}`}
-                          className="group"
-                        >
-                          <div className="relative aspect-square rounded-2xl bg-gray-100">
-                            <Image
-                              src={cat.image}
-                              alt={cat.name}
-                              width={1000}
-                              height={1000}
-                              className="object-fill p-2 transition-transform duration-500 group-hover:scale-125"
-                            />
-                          </div>
-                          <h4 className="mt-4 tracking-[1.2] text-xl text-center font-bold text-black">
-                            {cat.name}
-                          </h4>
-                        </Link>
-                      ))}
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+            <AnimatePresence>
+  {megaOpen && (
+ <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  exit={{ opacity: 0, y: 20 }}
+  transition={{ duration: 0.35 }}
+  onWheel={(e) => e.stopPropagation()}
+  className="
+    absolute top-full mt-6
+    -translate-x-1/4
+    w-[1280px]
+    max-h-[80vh]
+    overflow-y-auto
+    overflow-x-hidden
+    rounded-[32px]
+    bg-white/95
+    backdrop-blur-xl
+    border border-[#8d2957]/10
+    shadow-[0_35px_80px_rgba(0,0,0,0.12)]
+    z-50
+  "
+>
+      <div className="grid grid-cols-12 min-h-[580px]">
+        
+        {/* LEFT FEATURED SECTION */}
+        <div className="col-span-3 relative bg-[#f8f2f5] p-8">
+          
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#8d2957] via-[#d89ab8] to-transparent" />
+
+          <span className="uppercase tracking-[0.3em] text-xs text-[#8d2957]">
+            Featured Collection
+          </span>
+
+          <h2 className="mt-3 text-4xl font-serif leading-tight text-black">
+            Discover
+           
+            Timeless Beauty of Dates
+          </h2>
+
+          <p className="mt-3 text-gray-700 text-md leading-relaxed">
+            Explore our premium skincare and wellness
+            collections crafted for modern lifestyles.
+          </p>
+
+       <div className="relative  flex justify-center">
+  <div className="plate-spin">
+    <Image
+      src="/img4.webp"
+      alt="Plate"
+      width={700}
+      height={700}
+      className="w-[270px] h-[270px] object-cover"
+    />
+  </div>
+</div>
+
+          <Link
+            href="/products"
+            className="
+              mt-8 inline-flex
+              items-center gap-3
+              rounded-full
+              bg-[#8d2957]
+              px-7 py-4
+              text-white
+              font-medium
+              hover:scale-105
+              transition
+            "
+          >
+            Shop Collection →
+          </Link>
+        </div>
+
+        {/* RIGHT CATEGORY GRID */}
+        <div className="col-span-9 p-10">
+          
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <h3 className="text-3xl font-bold">
+                Shop by Category {"   "} <span className="text-[#C03A7A] text-3xl"> {"   "} ♡</span>
+              </h3>
+              <p className="text-gray-700 mt-1">
+                Explore our curated collections
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-6 gap-4">
+            {categories.map((cat) => (
+              <Link
+                key={cat.id}
+                href={`/categories/${cat.id}`}
+                className="group"
+              >
+                <div
+                  className="
+                    relative overflow-hidden
+                    rounded-3xl
+                    bg-[#faf7f8]
+                    border border-transparent
+                    transition-all duration-500
+                    hover:border-[#8d2957]/20
+                    hover:shadow-xl
+                    hover:-translate-y-2
+                  "
+                >
+                  <div className="aspect-square overflow-hidden">
+                    <Image
+                      src={cat.image}
+                      alt={cat.name}
+                      width={500}
+                      height={500}
+                      className="
+                        w-full h-full object-cover
+                        transition-transform duration-700
+                        group-hover:scale-110
+                      "
+                    />
+                  </div>
+
+                  <div className="p-4">
+                    <h4
+                      className="
+                        text-center
+                        font-semibold
+                        text-[15px]
+                        tracking-wide
+                      "
+                    >
+                      {cat.name}
+                    </h4>
+
+                    <span
+                      className="
+                        block text-center
+                        mt-2 text-xs
+                        uppercase tracking-widest
+                        text-[#8d2957]
+                        opacity-0
+                        transition
+                        group-hover:opacity-100
+                      "
+                    >
+                      Explore →
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Bottom Luxury Strip */}
+          <div
+            className="
+              mt-8 rounded-3xl
+              bg-gradient-to-r
+              from-[#f8f2f5]
+              via-white
+              to-[#f8f2f5]
+              p-6
+              flex items-center justify-between
+            "
+          >
+            <div>
+              <h4 className="font-semibold text-lg">
+                Exclusive Online Collections
+              </h4>
+              <p className="text-gray-500 text-sm">
+                Luxury beauty essentials curated for you.
+              </p>
+            </div>
+
+            <Link
+              href="/products"
+              className="
+                px-6 py-3
+                rounded-full
+                border border-[#8d2957]
+                text-[#8d2957]
+                font-medium
+                hover:bg-[#8d2957]
+                hover:text-white
+                transition
+              "
+            >
+              View All Products
+            </Link>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
             </div>
 
             <Link
@@ -299,9 +453,9 @@ useEffect(() => {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
+            exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.3 }}
             className="
               md:hidden 
@@ -309,6 +463,7 @@ useEffect(() => {
               bg-white 
               flex flex-col
               z-[999]
+              overflow-y-auto
             "
           >
             {/* HEADER ROW */}

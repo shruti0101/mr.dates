@@ -71,11 +71,11 @@ export default function FaqDatesSupplier() {
 
   return (
     <section
-      style={{ backgroundImage: "url(/faq.webp)" }}
+      style={{ backgroundImage: "url(/bg3.webp)" }}
       className="relative bg-cover bg-center bg-fixed py-16"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60 z-0"></div>
+      <div className="absolute inset-0 bg-black/40 z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-6xl px-6">

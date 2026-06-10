@@ -109,3 +109,18 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #f59e0b rgba(0, 0, 0, 0.08);
 }
+
+
+
+.plate-spin {
+  animation: rotatePlate 20s linear infinite;
+}
+
+@keyframes rotatePlate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

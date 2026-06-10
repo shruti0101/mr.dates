@@ -49,19 +49,55 @@ export default function CheckoutPage() {
     });
   };
 
-  const handleOrder = async (e) => {
-    e.preventDefault();
+ const handleOrder = async (e) => {
+  e.preventDefault();
 
-    if (cart.length === 0) {
-      toast.error("Your cart is empty");
-      return;
-    }
+  if (cart.length === 0) {
+    toast.error("Your cart is empty");
+    return;
+  }
 
-    setLoading(true);
+  setLoading(true);
 
-    try {
-      const orderMessage = `
-🛍️ NEW ORDER
+  try {
+    const orderRes = await fetch("/api/create-order", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        amount: totalPrice,
+      }),
+    });
+
+    const order = await orderRes.json();
+
+    const options = {
+      key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+
+      amount: order.amount,
+
+      currency: order.currency,
+
+      name: "Your Brand Name",
+
+      description: "Product Purchase",
+
+      order_id: order.id,
+
+      prefill: {
+        name: formData.name,
+        email: formData.email,
+        contact: formData.phone,
+      },
+
+      theme: {
+        color: "#8b2d36",
+      },
+
+      handler: async function (response) {
+        const orderMessage = `
+🛍️ NEW PAID ORDER
 
 👤 Name: ${formData.name}
 📞 Phone: ${formData.phone}
@@ -86,34 +122,44 @@ Price: ${item.price}
 
 ━━━━━━━━━━━━━━━
 
-💰 Total: ₹${totalPrice}
-      `;
+💰 Total Paid: ₹${totalPrice}
 
-      const whatsappURL = `https://wa.me/917065650411?text=${encodeURIComponent(
-        orderMessage
-      )}`;
+Payment ID:
+${response.razorpay_payment_id}
+`;
 
-      window.open(whatsappURL, "_blank");
+        const whatsappURL = `https://wa.me/917065650411?text=${encodeURIComponent(
+          orderMessage
+        )}`;
 
-      toast.success("Redirecting to WhatsApp");
+        window.open(whatsappURL, "_blank");
 
-      clearCart();
+        toast.success("Payment Successful");
 
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        address: "",
-        city: "",
-        state: "",
-        pincode: "",
-      });
-    } catch (error) {
-      toast.error("Something went wrong");
-    }
+        clearCart();
 
-    setLoading(false);
-  };
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          address: "",
+          city: "",
+          state: "",
+          pincode: "",
+        });
+      },
+    };
+
+    const razorpay = new window.Razorpay(options);
+
+    razorpay.open();
+  } catch (error) {
+    console.error(error);
+    toast.error("Payment Failed");
+  }
+
+  setLoading(false);
+};
 
   return (
     <section className="min-h-screen bg-[#FDFBF7] pt-40 pb-20 px-6">

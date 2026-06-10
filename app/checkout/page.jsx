@@ -73,7 +73,10 @@ export default function CheckoutPage() {
     const order = await orderRes.json();
 
     const options = {
-      key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+    key:
+  process.env
+    .NEXT_PUBLIC_RAZORPAY_KEY_ID ||
+  "rzp_live_xxxxxxxx",
 
       amount: order.amount,
 
@@ -95,8 +98,53 @@ export default function CheckoutPage() {
         color: "#8b2d36",
       },
 
-      handler: async function (response) {
-        const orderMessage = `
+     handler: async function (response) {
+  try {
+    const verifyRes = await fetch(
+      "/api/verify-payment",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          razorpay_order_id:
+            response.razorpay_order_id,
+
+          razorpay_payment_id:
+            response.razorpay_payment_id,
+
+          razorpay_signature:
+            response.razorpay_signature,
+
+          customer: {
+            name: formData.name,
+            phone: formData.phone,
+            email: formData.email,
+            address: formData.address,
+            city: formData.city,
+            state: formData.state,
+            pincode: formData.pincode,
+          },
+
+          items: cart,
+
+          amount: totalPrice,
+        }),
+      }
+    );
+
+    const result =
+      await verifyRes.json();
+
+    if (!result.success) {
+      toast.error(
+        "Payment verification failed"
+      );
+      return;
+    }
+
+    const orderMessage = `
 🛍️ NEW PAID ORDER
 
 👤 Name: ${formData.name}
@@ -105,7 +153,9 @@ export default function CheckoutPage() {
 
 📍 Address:
 ${formData.address}
-${formData.city}, ${formData.state} - ${formData.pincode}
+${formData.city},
+${formData.state}
+${formData.pincode}
 
 ━━━━━━━━━━━━━━━
 
@@ -128,26 +178,42 @@ Payment ID:
 ${response.razorpay_payment_id}
 `;
 
-        const whatsappURL = `https://wa.me/917065650411?text=${encodeURIComponent(
-          orderMessage
-        )}`;
+    const whatsappURL =
+      `https://wa.me/917065650411?text=${encodeURIComponent(
+        orderMessage
+      )}`;
 
-        window.open(whatsappURL, "_blank");
+    window.open(
+      whatsappURL,
+      "_blank"
+    );
 
-        toast.success("Payment Successful");
+    clearCart();
 
-        clearCart();
+    toast.success(
+      "Payment Successful"
+    );
 
-        setFormData({
-          name: "",
-          phone: "",
-          email: "",
-          address: "",
-          city: "",
-          state: "",
-          pincode: "",
-        });
-      },
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      address: "",
+      city: "",
+      state: "",
+      pincode: "",
+    });
+
+    window.location.href =
+      "/order-success";
+  } catch (err) {
+    console.error(err);
+
+    toast.error(
+      "Verification failed"
+    );
+  }
+}
     };
 
     const razorpay = new window.Razorpay(options);

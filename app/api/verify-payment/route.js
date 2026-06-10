@@ -1,7 +1,7 @@
 import crypto from "crypto";
 import { NextResponse } from "next/server";
 
-import { connectDB } from "@/Database/db";
+import { connect } from "@/Database/db";
 import Order from "@/models/Order";
 
 export async function POST(req) {
@@ -31,7 +31,7 @@ export async function POST(req) {
       );
     }
 
-    await connectDB();
+    await connect();
 
     await Order.create({
       customer: body.customer,

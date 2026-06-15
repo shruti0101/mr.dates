@@ -201,7 +201,7 @@ export default function Footer() {
 
               {isModalOpen && (
                 <div
-                  className="fixed inset-0 backdrop-blur-md bg-white/10 flex items-center mt-20 justify-center z-50"
+                  className="fixed inset-0 backdrop-blur-md bg-white/10 flex items-center mt-20 justify-center z-9999999"
                   onClick={() => setIsModalOpen(false)}
                 >
                   <div

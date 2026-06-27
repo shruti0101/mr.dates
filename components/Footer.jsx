@@ -39,7 +39,7 @@ export default function Footer() {
           {/* BRAND */}
           <div>
             <Image
-              src="/logooo.webp"
+              src="/Mr-dates-logo-neww.png"
               width={150}
               height={50}
               alt="Mr. Dates"

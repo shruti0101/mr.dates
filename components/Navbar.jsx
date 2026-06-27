@@ -140,11 +140,11 @@ useEffect(() => {
           {/* LOGO */}
           <Link href="/">
             <Image
-              src="/logo-black.webp" 
+              src="/Mr-dates-logo-neww.png" 
               alt="Brand Logo"
               width={isSingleProduct ? 100 : 120}
-              height={40}
-              className="object-contain"
+              height={10}
+              className="object-contain "
             />
           </Link>
 

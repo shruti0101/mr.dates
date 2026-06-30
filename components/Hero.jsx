@@ -58,19 +58,19 @@ export default function HeroDatesExact() {
   const [visibleIndex, setVisibleIndex] = useState(0);
 
   const bgImagesDesktop = [
-    "/check10.webp",
-    "/check12.webp",
-    "/check13.webp",
-    "/check12.webp",
-    "/dryfigBanner.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check12_ox9x0d.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check11_thgos7.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800837/check10_ylhbxu.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800964/dryfigBanner_rwabsk.png",
   ];
 
   const bgImagesMobile = [
-    "/KIMIADATES.webp",
-    "/FARDDATE.webp",
-    "/CHOCOLATEDATES.webp",
-    "/MEDJOUL.webp",
-    "/DRIEDFIGS.webp",
+   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check12_ox9x0d.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check11_thgos7.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800837/check10_ylhbxu.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800964/dryfigBanner_rwabsk.png",
   ];
 
   const [isMobile, setIsMobile] = useState(false);

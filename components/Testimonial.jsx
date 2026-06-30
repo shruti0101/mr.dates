@@ -7,7 +7,7 @@ const testimonials = [
   {
     quote: " Freshness You Can Truly Taste ",
     name: "Amaan Bakali",
-    image: "/new/1.jpg",
+    image: "/new/1.webp",
     backText:
       "Truly delivers freshness you can taste in every bite. Their premium quality dates are soft, naturally sweet, and carefully packed to maintain hygiene and flavor. Every pack feels fresh and authentic, making them perfect for healthy snacking, gifting, and daily nutrition. The quality and taste consistently exceed expectations every time.",
   },
@@ -15,7 +15,7 @@ const testimonials = [
   {
     quote: " Premium Quality in Every Pack ",
     name: "Ankush Datar",
-    image: "/new/2.png",
+    image: "/new/2.webp",
     backText:
       "Offers premium quality in every pack with fresh, soft, and naturally delicious dates. The hygienic packaging and carefully selected products reflect their commitment to quality and customer satisfaction. Whether for daily healthy snacking or festive gifting, their dates consistently deliver authentic taste, freshness, and a truly premium experience every time.",
   },
@@ -23,7 +23,7 @@ const testimonials = [
   {
     quote: " Best Dates I’ve Ever Tried ",
     name: "Khushi Verma",
-    image: "/new/3.png",
+    image: "/new/3.webp",
     backText:
       "Offers some of the best dates I’ve ever tried. The texture is soft, the taste is naturally rich and sweet, and the freshness is unmatched. Their premium packaging and consistent quality make every purchase satisfying. Perfect for healthy eating, gifting, and enjoying authentic premium dates every single day.",
   },
@@ -31,7 +31,7 @@ const testimonials = [
   {
     quote: " Trusted Quality with Every Bite ",
     name: "Dhruv Patel",
-    image: "/new/5.png",
+    image: "/new/5.webp",
     backText:
       "Delivers trusted quality with every bite through its fresh, premium, and carefully selected dates. The rich taste, soft texture, and hygienic packaging make their products stand out from ordinary market options. Perfect for daily nutrition, healthy snacking, and festive gifting, Mr. Dates consistently offers freshness and authenticity customers can trust.",
   },
@@ -39,7 +39,7 @@ const testimonials = [
   {
     quote: " Carefully Selected Premium Dates ",
     name: "Riya Sehgal",
-    image: "/new/6.png",
+    image: "/new/6.webp",
     backText:
       "Offers carefully selected premium dates known for their freshness, softness, and natural sweetness. Every pack reflects high quality and hygienic packaging standards, ensuring a rich and authentic taste experience. Whether for healthy snacking, gifting, or daily nutrition, their premium dates deliver exceptional quality and satisfaction with every purchase.",
   },
@@ -47,7 +47,7 @@ const testimonials = [
   {
     quote: " A Perfect Blend of Taste & Quality ",
     name: "Rohit Mehta",
-    image: "/new/7.png",
+    image: "/new/7.webp",
     backText:
       "Delivers a perfect blend of taste and quality with its fresh, naturally sweet, and premium dates. Every product is carefully packed to maintain hygiene and freshness, ensuring a satisfying experience every time. Their rich flavor, soft texture, and consistent quality make them ideal for healthy snacking and gifting.",
   },
@@ -55,7 +55,7 @@ const testimonials = [
   {
     quote: " Exceptional Freshness and Packaging ",
     name: "Ronit Mishra",
-    image: "/new/8.png",
+    image: "/new/8.webp",
     backText:
       "Stands out for its exceptional freshness and premium packaging. The dates are soft, naturally sweet, and carefully packed to preserve quality and hygiene. Every order feels fresh and authentic, making them perfect for healthy snacking, gifting, and daily nutrition. Their attention to quality truly creates a premium customer experience.",
   },
@@ -63,7 +63,7 @@ const testimonials = [
   {
     quote: " The Finest Dates for Everyday Nutrition ",
     name: "Shubham Verma",
-    image: "/new/10.avif",
+    image: "/new/10.webp",
     backText:
       "Provides some of the finest dates for everyday nutrition. Their dates are naturally sweet, rich in taste, and packed with freshness and quality. Carefully selected and hygienically packed, they make a healthy and delicious snack for daily consumption while also being perfect for gifting and special occasions.",
   },
@@ -71,7 +71,7 @@ const testimonials = [
   {
     quote: " Premium Dates That Exceed Expectations ",
     name: "Arjun Singh",
-    image: "/new/9.png",
+    image: "/new/9.webp",
     backText:
       "Offers premium dates that truly exceed expectations in taste, freshness, and quality. Every pack contains carefully selected dates with a soft texture and naturally rich sweetness. Their hygienic packaging and consistent quality make them an excellent choice for healthy snacking, gifting, and enjoying authentic premium dates every day.",
   },

@@ -100,7 +100,7 @@ export default function AboutSection() {
                 "
               >
                 <img
-                  src="/test.png"
+                  src="/test.webp"
                   alt="Snack Smart Live Sweet"
                   className="w-[280px] object-contain drop-shadow-2xl"
                 />
@@ -172,7 +172,7 @@ export default function AboutSection() {
                   "
                 >
                   <Image
-                    src="/cc.jpeg"
+                    src="/cc.webp"
                     alt="Premium Dates"
                     width={400}
                     height={400}

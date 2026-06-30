@@ -59,7 +59,7 @@ useEffect(() => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  /*  Lock background scroll when menu is open */
+
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "auto";
   }, [mobileOpen]);
@@ -83,8 +83,8 @@ useEffect(() => {
    {/*  TOPBAR  */}
 
 
-<div className="w-full bg-[#f3ecef] border-b border-black/10">
-  <div className="relative flex items-center justify-between h-[54px] overflow-hidden">
+<div className="w-full bg-[#f3ecef] border-b border-black/10 ">
+  <div className="relative flex items-center justify-between h-[42px] overflow-hidden">
     
     {/* SHOP TAB */}
     <Link
@@ -121,13 +121,13 @@ useEffect(() => {
   </div>
 </div>
 
-      {/* ===================== NAVBAR ===================== */}
+     
       <motion.div
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={`
-          transition-colors duration-500
+          transition-colors duration-500 
           ${isSingleProduct
             ? "bg-[#FDFBF7] text-black shadow-lg"
             : scrolled
@@ -136,15 +136,15 @@ useEffect(() => {
           }
         `}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between  py-2">
+        <div className="mx-auto px-3 md:px-0 flex max-w-7xl items-center justify-between  ">
           {/* LOGO */}
           <Link href="/">
             <Image
-              src="/Mr-dates-logo-neww.png" 
+              src="/logo.webp" 
               alt="Brand Logo"
-              width={isSingleProduct ? 100 : 120}
-              height={10}
-              className="object-contain "
+        width={50}
+              height={50}
+              className="object-cover h-17 w-17 md:h-27 md:w-27"
             />
           </Link>
 
@@ -165,7 +165,6 @@ useEffect(() => {
               About
             </Link>
 
-            {/* ===== MEGA MENU (NOW IN THE MIDDLE) ===== */}
             <div
               onMouseEnter={() => setMegaOpen(true)}
               onMouseLeave={() => setMegaOpen(false)}
@@ -203,7 +202,7 @@ useEffect(() => {
 >
       <div className="grid grid-cols-12 min-h-[580px]">
         
-        {/* LEFT FEATURED SECTION */}
+   
         <div className="col-span-3 relative bg-[#f8f2f5] p-8">
           
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#8d2957] via-[#d89ab8] to-transparent" />
@@ -433,7 +432,7 @@ useEffect(() => {
           {/* CTA BUTTON */}
           <Link
             href="/contact"
-            className=" md:inline-flex items-center flex gap-1 md:gap-3 px-5 md:px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
+            className="hidden md:inline-flex items-center flex gap-1 md:gap-3 px-5 md:px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
           >
             <img src="/date_1.webp" alt="" className="h-8 w-8 pb-1" />
             Get a Quote
@@ -444,7 +443,7 @@ useEffect(() => {
             onClick={() => setMobileOpen(true)}
             className={`md:hidden ${mobicon}`}
           >
-            <Menu size={28} />
+            <Menu className="text-black" size={28} />
           </button>
         </div>
       </motion.div>

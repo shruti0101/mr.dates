@@ -87,7 +87,7 @@ export default function ProductPage({ params }) {
       </Head>
 
       {/* MAIN */}
- <section className="relative bg-[#FDFBF7] py-16 mt-10">
+ <section className="relative bg-[#FDFBF7] py-16 mt-18">
 
   {/* Background Blurs */}
   <div className="absolute top-0 left-0 w-96 h-96 bg-[#C8921C]/10 rounded-full blur-3xl"></div>

@@ -118,9 +118,9 @@ const blogs = [
           {/* LOGO */}
           <Link href="/" className="leading-none">
             <Image
-              src="/logo-black.webp"
+              src="/logo.webp"
               alt="Brand Logo"
-              width={120}
+              width={100}
               height={40}
             />
           </Link>

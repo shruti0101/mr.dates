@@ -83,36 +83,48 @@ useEffect(() => {
    {/*  TOPBAR  */}
 
 
-<div className="w-full bg-[#f3ecef] border-b border-black/10 ">
-  <div className="relative flex items-center justify-between h-[42px] overflow-hidden">
-    
-    {/* SHOP TAB */}
+<div className="w-full overflow-hidden border-b border-black/10 bg-[#f3ecef]">
+  <div className="flex h-[48px]">
+
+    {/* SHOP */}
     <Link
       href="/products"
-      className="relative w-1/2 h-full flex items-center justify-center bg-[#f3ecef] group hover:bg-black transition-colors duration-150 text-black font-extrabold uppercase tracking-[0.2em] text-lg z-10"
+      className="group relative flex w-1/2 items-center justify-center overflow-visible bg-[#f3ecef] font-extrabold uppercase tracking-[0.2em] text-black transition-all duration-300 hover:bg-black"
     >
-      {/* angled shape */}
+      {/* Triangle */}
       <div
-        className="absolute right-[-40px] transition-colors duration-150 group group-hover:bg-black top-0 h-full w-[80px] bg-[#f3ecef]"
+        className="absolute -right-10 top-0 z-20 h-full w-20 bg-inherit"
         style={{
           clipPath: "polygon(0 0, 100% 0, 0 100%)",
         }}
       />
 
-      <span className="relative flex items-center gap-2">
-        <ShoppingBag size={20} className="group-hover:text-[#f3ecef]" strokeWidth={2.5} />
-        <span className=" group-hover:text-[#f3ecef] ">Shop</span>
+      <span className="relative z-30 flex items-center gap-2">
+        <ShoppingBag
+          size={20}
+          strokeWidth={2.5}
+          className="transition-colors duration-300 group-hover:text-white"
+        />
+
+        <span className="transition-colors duration-300 group-hover:text-white">
+          Shop
+        </span>
       </span>
     </Link>
 
-    {/* LEARN TAB */}
+    {/* LEARN */}
     <Link
       href="/learn"
-      className="relative w-1/2 h-full flex items-center justify-center group bg-[#8d2957] transition-colors duration-150 hover:bg-[#f3ecef] text-white font-extrabold uppercase tracking-[0.2em] text-lg"
+      className="group relative z-10 flex w-1/2 items-center justify-center bg-[#072143] font-extrabold uppercase tracking-[0.2em] text-[#D2AF53] transition-all duration-300 hover:bg-[#f3ecef]"
     >
       <span className="flex items-center gap-2">
-        <BookOpen size={20} className="group-hover:text-[#8d2957] transition-colors duration-150" strokeWidth={2.5} />
-        <span className="underline group-hover:text-[#8d2957] transition-colors duration-150 underline-offset-4">
+        <BookOpen
+          size={20}
+          strokeWidth={2.5}
+          className="transition-colors duration-300 group-hover:text-[#072143]"
+        />
+
+        <span className="underline underline-offset-4 transition-colors text-[#D2AF53] duration-300 group-hover:text-[#072143]">
           Learn
         </span>
       </span>
@@ -195,7 +207,7 @@ useEffect(() => {
     rounded-[32px]
     bg-white/95
     backdrop-blur-xl
-    border border-[#8d2957]/10
+    border border-[#072143]/10
     shadow-[0_35px_80px_rgba(0,0,0,0.12)]
     z-50
   "
@@ -205,9 +217,9 @@ useEffect(() => {
    
         <div className="col-span-3 relative bg-[#f8f2f5] p-8">
           
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#8d2957] via-[#d89ab8] to-transparent" />
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#072143] via-[#d89ab8] to-transparent" />
 
-          <span className="uppercase tracking-[0.3em] text-xs text-[#8d2957]">
+          <span className="uppercase tracking-[0.3em] text-xs text-[#072143]">
             Featured Collection
           </span>
 
@@ -240,7 +252,7 @@ useEffect(() => {
               mt-8 inline-flex
               items-center gap-3
               rounded-full
-              bg-[#8d2957]
+              bg-[#072143]
               px-7 py-4
               text-white
               font-medium
@@ -280,7 +292,7 @@ useEffect(() => {
                     bg-[#faf7f8]
                     border border-transparent
                     transition-all duration-500
-                    hover:border-[#8d2957]/20
+                    hover:border-[#072143]/20
                     hover:shadow-xl
                     hover:-translate-y-2
                   "
@@ -316,7 +328,7 @@ useEffect(() => {
                         block text-center
                         mt-2 text-xs
                         uppercase tracking-widest
-                        text-[#8d2957]
+                        text-[#072143]
                         opacity-0
                         transition
                         group-hover:opacity-100
@@ -356,10 +368,10 @@ useEffect(() => {
               className="
                 px-6 py-3
                 rounded-full
-                border border-[#8d2957]
-                text-[#8d2957]
+                border border-[#072143]
+                text-[#072143]
                 font-medium
-                hover:bg-[#8d2957]
+                hover:bg-[#072143]
                 hover:text-white
                 transition
               "

@@ -79,7 +79,7 @@ export default function HeroDatesExact() {
       setIsMobile(window.innerWidth < 768);
     };
 
-    checkScreen(); // run once
+    checkScreen(); 
     window.addEventListener("resize", checkScreen);
 
     return () => window.removeEventListener("resize", checkScreen);

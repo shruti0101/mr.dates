@@ -195,12 +195,18 @@ const ContactPage = () => {
                   />
 
                   <input
-                    type="tel"
-                    name="phone"
-                    required
-                    placeholder="Phone Number"
-                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
-                  />
+  type="tel"
+  name="phone"
+  required
+  placeholder="Phone Number"
+  maxLength={10}
+  pattern="[0-9]{10}"
+  title="Please enter a valid 10-digit phone number"
+  onInput={(e) => {
+    e.target.value = e.target.value.replace(/\D/g, "").slice(0, 10);
+  }}
+  className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
+/>
 
                   <textarea
                     rows="5"

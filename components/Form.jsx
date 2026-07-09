@@ -90,6 +90,11 @@ const ContactForm = () => {
             <input
               type="tel"
               name="phone"
+               maxLength={10}
+  pattern="[0-9]{10}"
+   onInput={(e) => {
+    e.target.value = e.target.value.replace(/\D/g, "").slice(0, 10);
+  }}
               required
               placeholder="Your Phone Number"
               className="w-full px-4 py-2 border border-white rounded-lg text-white placeholder-white"

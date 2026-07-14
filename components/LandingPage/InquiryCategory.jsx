@@ -122,7 +122,7 @@ const InquiryCategory = ({ setFormOpen }) => {
                     transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
                     className=" mx-auto text-white mb-5 md:mb-10 text-lg md:text-2xl"
                 >
-                    Discover India's widest range of <strong>premium dates, dry fruits,</strong>{" "}
+                    Discover India's widest range of <strong>premium dates</strong>{" "}
                     and <strong>healthy snacks</strong>  Sourced direct from farms – Bulk Supply available for Retailers, Distributors, and Exporters at unbeatable wholesale prices.
                 </motion.p>
 

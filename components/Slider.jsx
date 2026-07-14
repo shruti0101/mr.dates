@@ -23,9 +23,9 @@ const categories = [
   { title: "Tunisian Dates", image: "/slider/tunisian.webp", bg: "#2A140F", link: "/categories/tunisian-dates" },
 
   { title: "Seedless Dates", image: "/slider/seedles.webp", bg: "#2A140F", link: "/categories/seedless-dates" },
-  { title: "Dry Apricot", image: "/slider/dry.webp", bg: "#1C1814", link: "/categories/dry-apricot" },
-  { title: "Cashew Nuts", image: "/slider/cashew.webp", bg: "#C9A26A", link: "/categories/cashew-nuts" },
-  { title: "California Almond", image: "/slider/almond.webp", bg: "#D1B07C", link: "/categories/california-almonds" },
+  // { title: "Dry Apricot", image: "/slider/dry.webp", bg: "#1C1814", link: "/categories/dry-apricot" },
+  // { title: "Cashew Nuts", image: "/slider/cashew.webp", bg: "#C9A26A", link: "/categories/cashew-nuts" },
+  // { title: "California Almond", image: "/slider/almond.webp", bg: "#D1B07C", link: "/categories/california-almonds" },
 ];
 
 export default function CategorySlider() {

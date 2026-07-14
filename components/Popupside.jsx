@@ -53,7 +53,7 @@ const products = [
   "Ajwa Dates Box",
   "Kimia Dates Pack",
   "Saudi Arabian Dates",
-  "Dry Fruit Gift Box",
+  // "Dry Fruit Gift Box",
   "Mabroom Dates",
   "Safawi Dates",
   "Khudri Dates",

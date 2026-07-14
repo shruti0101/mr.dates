@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const leftFaqs = [
   {
     q: "Is Mr. Dates a trusted dates supplier?",
-    a: "Yes, Mr. Dates is a trusted dates supplier offering premium-quality dates and dry fruits. We focus on freshness, authenticity, and consistent quality in every product we deliver.",
+    a: "Yes, Mr. Dates is a trusted dates supplier offering premium-quality dates. We focus on freshness, authenticity, and consistent quality in every product we deliver.",
   },
   {
     q: "What types of dates do you supply?",
@@ -17,20 +17,20 @@ const leftFaqs = [
     q: "Do you provide wholesale dates and bulk orders?",
     a: "Yes, Mr. Dates specializes in wholesale dates and bulk dates supply, serving retailers, corporates, and distributors with reliable service and competitive pricing.",
   },
-  {
+   {
     q: "Are your dates hygienically processed?",
     a: "Absolutely. All our products are carefully handpicked and hygienically processed under strict quality control to preserve natural taste, freshness, and nutritional value.",
   },
-  {
-    q: "Do you supply dry fruits and nuts as well?",
-    a: "Yes, along with dates, we are also a reliable dry fruits supplier, offering premium dry fruits, nuts, and healthy snack options.",
-  },
+  // {
+  //   q: "Do you supply dry fruits and nuts as well?",
+  //   a: "Yes, along with dates, we are also a reliable dry fruits supplier, offering premium dry fruits, nuts, and healthy snack options.",
+  // },
 ];
 
 const rightFaqs = [
   {
     q: "Are your products suitable for daily consumption and gifting?",
-    a: "Yes, our premium dates and dry fruits are ideal for daily consumption, festive gifting, corporate gifting, and special occasions.",
+    a: "Yes, our premium dates dates are ideal for daily consumption, festive gifting, corporate gifting, and special occasions.",
   },
   {
     q: "Do you cater to retailers and corporate buyers?",
@@ -44,10 +44,10 @@ const rightFaqs = [
     q: "Can I order different date varieties in one bulk order?",
     a: "Yes, we offer flexible bulk dates ordering, allowing customers to choose multiple varieties based on their requirements.",
   },
-  {
-    q: "Why should I choose Mr. Dates as my dates supplier?",
-    a: "Mr. Dates stands out as a reliable dates supplier due to premium sourcing, hygienic processing, wholesale availability, consistent quality, and customer-focused service.",
-  },
+  // {
+  //   q: "Why should I choose Mr. Dates as my dates supplier?",
+  //   a: "Mr. Dates stands out as a reliable dates supplier due to premium sourcing, hygienic processing, wholesale availability, consistent quality, and customer-focused service.",
+  // },
 ];
 
 /* Animations */

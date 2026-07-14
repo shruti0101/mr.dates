@@ -36,7 +36,7 @@ export default function page() {
         <div className="bg-white p-6 md:p-8 rounded-2xl shadow-sm">
           <p className="text-gray-700 md:text-2xl leading-relaxed">
             At <span className="font-semibold text-black">Mr.dates</span>, we are
-            committed to delivering fresh and premium quality dates and dry fruits
+            committed to delivering fresh and premium quality dates and 
             to our customers in a safe and timely manner. Please read our shipping
             policy carefully to understand how we process and deliver your orders.
           </p>

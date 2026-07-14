@@ -405,19 +405,21 @@ export default function AboutSection() {
                 className="
                   group relative inline-flex items-center gap-4
                   overflow-hidden rounded-full
-                  bg-[#4E2A1A]
+                  bg-[#072143]
                   px-8 py-4
                   text-white
                   shadow-[0_15px_40px_rgba(0,0,0,0.2)]
                   transition-all duration-300
-                  hover:bg-[#9c735a]
+                  // hover:bg-[#9c735a]
+                  group
+                  hover:text-[#072143]
                 "
               >
                 {/* HOVER BG */}
-                <span className="absolute left-0 top-0 h-full w-0 bg-[#8d2957] transition-all duration-700 ease-out group-hover:w-full" />
+                <span className="absolute left-0 hover:text-[#072143] top-0 h-full w-0 bg-[#debd6a] transition-all duration-700 ease-out group-hover:w-full" />
 
                 {/* ICON */}
-                <span className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white">
+                <span className="relative z-10 flex h-10 w-10 group-hover:bg-[#072143]  items-center justify-center rounded-full bg-[#debd6a]">
                   <img
                     src="/date_1.webp"
                     alt="Date fruit"
@@ -428,13 +430,13 @@ export default function AboutSection() {
                 {/* TEXT */}
                 <Link
                   href="/products"
-                  className="relative z-10 text-lg font-bold"
+                  className="relative text-[#debd6a] group-hover:text-[#072143]  z-10 text-lg font-bold"
                 >
                   Shop Premium Dates
                 </Link>
 
                 {/* ARROW */}
-                <ArrowUpRight className="relative z-10 transition-transform duration-300 group-hover:rotate-45" />
+                <ArrowUpRight className="relative z-10 text-[#debd6a] group-hover:text-[#072143] transition-transform duration-300 group-hover:rotate-45" />
               </button>
             </motion.div>
           </div>
@@ -463,7 +465,7 @@ function FeatureCard({ icon, text }) {
         backdrop-blur-xl
       "
     >
-      <div className="text-[#ff4d8d]">
+      <div className="text-[#072143]">
         {icon}
       </div>
 

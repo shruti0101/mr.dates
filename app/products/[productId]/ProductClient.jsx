@@ -125,7 +125,7 @@ export default function ProductPage({ params }) {
       </span>
 
       {/* TITLE */}
-      <h1 className="mt-5 text-5xl lg:text-6xl font-light text-[#5a1624] leading-none">
+      <h1 className="mt-5 text-5xl lg:text-6xl font-light text-[#072143] leading-none">
         {product.name}
       </h1>
 
@@ -146,7 +146,7 @@ export default function ProductPage({ params }) {
             Starting From
           </p>
 
-          <h2 className="text-4xl font-light text-[#5a1624]">
+          <h2 className="text-4xl font-light text-[#072143]">
             {selectedPack?.price || product.price}
           </h2>
         </div>
@@ -162,7 +162,7 @@ export default function ProductPage({ params }) {
       {/* PACKAGING */}
       <div className="mt-10">
 
-        <h3 className="text-sm uppercase tracking-[0.25em] text-[#5a1624] mb-5">
+        <h3 className="text-sm uppercase tracking-[0.25em] text-[#072143] mb-5">
           Select Packaging
         </h3>
 
@@ -186,7 +186,7 @@ export default function ProductPage({ params }) {
                 >
                   <div className="text-center">
 
-                    <span className="block text-3xl font-serif text-[#5a1624]">
+                    <span className="block text-3xl font-serif text-[#072143]">
                       {pack.weight}
                     </span>
 
@@ -205,7 +205,7 @@ export default function ProductPage({ params }) {
       {/* QUANTITY */}
       <div className="mt-10">
 
-        <h3 className="font-semibold text-[#5a1624] mb-4">
+        <h3 className="font-semibold text-[#072143] mb-4">
           Quantity
         </h3>
 
@@ -260,7 +260,7 @@ export default function ProductPage({ params }) {
 
           <button
             onClick={handleAddToWishlist}
-            className="w-full bg-gradient-to-r from-[#7a1f2b] to-[#5a1624] text-white py-4 rounded-2xl text-lg tracking-[0.15em] flex items-center justify-center gap-3 hover:scale-[1.02] transition-all"
+            className="w-full bg-gradient-to-r from-[#d2af53] to-[#072143] text-white py-4 rounded-2xl text-lg tracking-[0.15em] flex items-center justify-center gap-3 hover:scale-[1.02] transition-all"
           >
             Add To Wishlist
             <Heart size={22} />
@@ -277,21 +277,21 @@ export default function ProductPage({ params }) {
 
           <div className="bg-white rounded-2xl p-5 text-center border border-[#eee4d7] shadow-sm hover:shadow-lg transition">
             <div className="text-3xl mb-3">🌿</div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[#5a1624]">
+            <p className="text-xs uppercase tracking-[0.2em] text-[#072143]">
               Organic
             </p>
           </div>
 
           <div className="bg-white rounded-2xl p-5 text-center border border-[#eee4d7] shadow-sm hover:shadow-lg transition">
             <div className="text-3xl mb-3">💎</div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[#5a1624]">
+            <p className="text-xs uppercase tracking-[0.2em] text-[#072143]">
               Premium Quality
             </p>
           </div>
 
           <div className="bg-white rounded-2xl p-5 text-center border border-[#eee4d7] shadow-sm hover:shadow-lg transition">
             <div className="text-3xl mb-3">🚚</div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[#5a1624]">
+            <p className="text-xs uppercase tracking-[0.2em] text-[#072143]">
               Global Shipping
             </p>
           </div>
@@ -322,7 +322,7 @@ export default function ProductPage({ params }) {
               Crafted Details 🌿
             </span>
 
-            <h2 className="text-[80px] leading-tight  text-[#6b1f2b] max-md:text-[44px]">
+            <h2 className="text-[80px] leading-tight  text-[#072143] max-md:text-[44px]">
               Product Attributes
             </h2>
 
@@ -334,7 +334,7 @@ export default function ProductPage({ params }) {
                   <span className="block text-xs tracking-[0.2em] uppercase text-[#8b7b6a]">
                     Variety
                   </span>
-                  <span className="block mt-2 text-xl font-serif text-[#6b1f2b]">
+                  <span className="block mt-2 text-xl font-serif text-[#072143]">
                     {product.variety}
                   </span>
                 </div>
@@ -346,7 +346,7 @@ export default function ProductPage({ params }) {
                   <span className="block text-xs tracking-[0.2em] uppercase text-[#8b7b6a]">
                     Texture
                   </span>
-                  <span className="block mt-2 text-xl font-serif text-[#6b1f2b]">
+                  <span className="block mt-2 text-xl font-serif text-[#072143]">
                     Soft &amp; Fleshy
                   </span>
                 </div>
@@ -361,7 +361,7 @@ export default function ProductPage({ params }) {
                     return (
                       <h3
                         key={index}
-                        className="text-[28px] font-serif text-[#6b1f2b] leading-tight max-md:text-[22px]"
+                        className="text-[28px] font-serif text-[#072143] leading-tight max-md:text-[22px]"
                       >
                         {block.text}
                       </h3>
@@ -405,7 +405,7 @@ export default function ProductPage({ params }) {
                 height="90"
                 viewBox="0 0 64 64"
                 fill="none"
-                stroke="#6b1f2b"
+                stroke="#072143"
                 strokeWidth="1.6"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -417,7 +417,7 @@ export default function ProductPage({ params }) {
               </svg>
             </div>
 
-            <h3 className="text-[34px] font-serif text-[#6b1f2b] max-md:text-[26px]">
+            <h3 className="text-[34px] font-serif text-[#072143] max-md:text-[26px]">
               Product Specifications
             </h3>
 
@@ -440,7 +440,7 @@ export default function ProductPage({ params }) {
                     {spec.label}
                   </span>
 
-                  <span className="font-medium text-lg text-[#6b1f2b] text-right max-w-[55%] max-md:max-w-full max-md:text-left max-md:text-base">
+                  <span className="font-medium text-lg text-[#072143] text-right max-w-[55%] max-md:max-w-full max-md:text-left max-md:text-base">
                     {spec.value}
                   </span>
                 </div>
@@ -462,7 +462,7 @@ export default function ProductPage({ params }) {
           {/* Section Header */}
           <p className="italic text-[#b0895a] mb-3">Curated Selection 🤎</p>
 
-          <h2 className="text-[36px] md:text-[56px] font-serif text-[#6b1f2b] mb-10 max-md:text-[28px]">
+          <h2 className="text-[36px] md:text-[56px] font-serif text-[#072143] mb-10 max-md:text-[28px]">
             You May Also Desire
           </h2>
 
@@ -479,7 +479,7 @@ export default function ProductPage({ params }) {
                   className="group"
                 >
                   {/* Image Card */}
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#6b1f2b] bg-black/20">
+                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#072143] bg-black/20">
                     {/* Badge */}
                     {item.badge && (
                       <span
@@ -502,7 +502,7 @@ export default function ProductPage({ params }) {
 
                   {/* Text Content */}
                   <div className="mt-6 text-center">
-                    <h3 className="text-[22px] font-serif text-[#6b1f2b] max-md:text-[18px]">
+                    <h3 className="text-[22px] font-serif text-[#072143] max-md:text-[18px]">
                       {item.name}
                     </h3>
 

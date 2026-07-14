@@ -32,8 +32,8 @@ export default function LeadingDatesSupplier() {
               <strong>premium dates, bulk dates,</strong> and{" "}
               <strong>wholesale dates</strong> to retailers, corporates, and
               individual buyers. Alongside our dates collection, we are also a
-              reliable <strong>dry fruits supplier</strong>, providing{" "}
-              <strong>premium dry fruits</strong>, nuts, and{" "}
+              reliable <strong>supplier</strong>, providing{" "}
+              <strong>premium </strong>
               <strong>healthy snacks</strong> that meet the highest quality
               standards.
             </p>
@@ -77,7 +77,6 @@ export default function LeadingDatesSupplier() {
             >
               {[
                 "Trusted dates supplier with a wide range of premium dates",
-                "Reliable dry fruits supplier offering premium dry fruits and nuts",
                 "Bulk and wholesale dates availability for businesses",
                 "Hygienic processing and quality-controlled packaging",
                 "Fresh, authentic taste with consistent quality",

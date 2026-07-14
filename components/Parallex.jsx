@@ -54,7 +54,7 @@ const flowers = [
     <section className="w-full overflow-hidden">
       {/* HEADING */}
       <div className="max-w-7xl mx-auto px-4 py-8 text-center">
-        <span className="uppercase tracking-[0.35em] text-sm text-[#6B091D]">
+        <span className="uppercase tracking-[0.35em] text-sm text-[#072143]">
           Our Bestsellers
         </span>
 

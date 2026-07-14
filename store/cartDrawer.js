@@ -107,7 +107,7 @@ export default function CartDrawer({ open, setOpen }) {
                       </p>
                     )}
 
-                    <p className="text-[#8b2d36] font-bold text-lg mt-2">
+                    <p className="text-[#072143] font-bold text-lg mt-2">
                       {item.price}
                     </p>
 
@@ -173,7 +173,7 @@ export default function CartDrawer({ open, setOpen }) {
             <Link
               href="/checkout"
               onClick={() => setOpen(false)}
-              className="w-full bg-black text-white py-4 rounded-xl flex items-center justify-center text-lg hover:bg-[#8b2d36] transition"
+              className="w-full bg-black text-white py-4 rounded-xl flex items-center justify-center text-lg hover:bg-[#072143] transition"
             >
               Proceed To Checkout
             </Link>

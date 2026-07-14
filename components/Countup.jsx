@@ -11,7 +11,7 @@ const Countup = () => {
         <div
           className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center
                      rounded-3xl px-8 py-15
-                     bg-gradient-to-r from-[#62493E] to-[#62493E]
+                     bg-[#072143]
                      text-white"
         >
           {/* Item 1 */}

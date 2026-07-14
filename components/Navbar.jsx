@@ -444,7 +444,7 @@ useEffect(() => {
           {/* CTA BUTTON */}
           <Link
             href="/contact"
-            className="hidden md:inline-flex items-center flex gap-1 md:gap-3 px-5 md:px-7 py-3 rounded-full bg-[#FFF8C6] text-md font-medium"
+            className="hidden md:inline-flex items-center text-[#d2af53] flex gap-1 md:gap-3 px-5 md:px-7 py-3 rounded-full bg-[#072143] text-md font-medium"
           >
             <img src="/date_1.webp" alt="" className="h-8 w-8 pb-1" />
             Get a Quote

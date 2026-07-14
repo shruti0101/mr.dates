@@ -85,7 +85,7 @@ export default function CityPage() {
         },
         {
             title: "Trusted by Customers & Businesses",
-            desc: `Preferred by retailers, dry fruit traders, sweet shops, hotels, and households across ${cityName}.`,
+            desc: `Preferred by retailers, traders, sweet shops, hotels, and households across ${cityName}.`,
             icon: Handshake,
             img: "/slider/mejdooldates.webp",
         },
@@ -338,7 +338,7 @@ const getWhatsappLink = (product) =>
                                 <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-green-100 group-hover:scale-110 transition">
                                     <Store className="w-6 h-6 text-green-600" />
                                 </div>
-                                <span className="font-semibold text-lg">Retail & wholesale dry fruit stores</span>
+                                <span className="font-semibold text-lg">Retail & wholesale stores</span>
                             </li>
                             <li className="flex items-center gap-4 p-4 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group">
                                 <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-100 group-hover:scale-110 transition">
@@ -437,7 +437,7 @@ const getWhatsappLink = (product) =>
                     </div>
                     <h3 className="font-semibold text-2xl mb-2 text-black">Retailers & Wholesalers</h3>
                     <p className="text-black text-lg leading-relaxed">
-                        Consistent supply for dry fruit and grocery stores.
+                        Consistent supply for  and grocery stores.
                     </p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center group">
@@ -506,7 +506,7 @@ const getWhatsappLink = (product) =>
                     <div className="space-y-3">
                         <div>
                             <span className="text-sm uppercase tracking-wide text-gray-500">Client</span>
-                            <p className="text-lg font-semibold">Dry Fruit Wholesale Distributor</p>
+                            <p className="text-lg font-semibold"> Wholesale Distributor</p>
                         </div>
                         <div>
                             <span className="text-sm uppercase tracking-wide text-gray-500">Location</span>
@@ -547,7 +547,7 @@ const getWhatsappLink = (product) =>
         </section>
 
         {/* CTA */}
-        <section className="w-full bg-amber-500  text-white py-5">
+        <section className="w-full bg-[#072143]  text-white py-5">
             <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="md:text-left text-center">
                     <Link href={"/"} className="text-2xl font-semibold">

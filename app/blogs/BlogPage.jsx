@@ -49,7 +49,7 @@ const BlogPage = () => {
 
           <p className="mt-6 max-w-3xl mx-auto text-base md:text-lg text-white/90 leading-relaxed">
             Discover expert insights, product knowledge, sourcing guides, and
-            industry trends from the world of premium dates & dry fruits.
+            industry trends from the world of premium dates .
             Crafted to inform, inspire, and elevate your buying decisions.
           </p>
 

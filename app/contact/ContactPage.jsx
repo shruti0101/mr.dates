@@ -92,7 +92,7 @@ const ContactPage = () => {
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="h-[1px] w-10 bg-[#B88A2E]" />
-              <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+              <span className="uppercase font-['IBM_Plex_Serif'] tracking-[0.25em] text-xs font-semibold text-[#072143]">
                 Get In Touch
               </span>
             </div>
@@ -110,7 +110,7 @@ const ContactPage = () => {
             {/* CONTACT DETAILS */}
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <Phone className="text-[#6B091D]" />
+                <Phone className="text-[#072143]" />
                 <div>
                   <p className="font-semibold text-xl">Phone</p>
                   <p className="text-black text-xl">+91 7065650411</p>
@@ -119,7 +119,7 @@ const ContactPage = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <Phone className="text-[#6B091D]" />
+                <Phone className="text-[#072143]" />
                 <div>
                   <p className="font-semibold text-xl">Phone</p>
                   <p className="text-black text-xl">+91 9773999082</p>
@@ -127,7 +127,7 @@ const ContactPage = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <Mail className="text-[#6B091D]" />
+                <Mail className="text-[#072143]" />
                 <div>
                   <p className="font-semibold text-xl">Email</p>
                   <p className="text-black text-xl">customercare@mrdates.in</p>
@@ -136,7 +136,7 @@ const ContactPage = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <MapPin className="text-[#6B091D]" />
+                <MapPin className="text-[#072143]" />
                 <div>
                   <p className="font-semibold text-xl">Location</p>
                   <p className="text-black text-xl">
@@ -183,7 +183,7 @@ const ContactPage = () => {
                     name="contactPerson"
                     required
                     placeholder="Your Name"
-                    className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
+                    className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#072143]"
                   />
 
                   <input
@@ -191,7 +191,7 @@ const ContactPage = () => {
                     name="email"
                     required
                     placeholder="Email Address"
-                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#072143]"
                   />
 
                   <input
@@ -205,21 +205,21 @@ const ContactPage = () => {
   onInput={(e) => {
     e.target.value = e.target.value.replace(/\D/g, "").slice(0, 10);
   }}
-  className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#6B091D]"
+  className="w-full px-5 py-4 rounded-xl border border-white focus:outline-none focus:border-[#072143]"
 />
 
                   <textarea
                     rows="5"
                     name="message"
                     placeholder="Your Message"
-                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#6B091D]"
+                    className="w-full px-5 py-4 rounded-xl border border-white focusfocus:outline-none focus:border-[#072143]"
                   />
 
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     disabled={loading}
-                    className="w-full bg-[#6B091D] text-white py-4 rounded-full font-medium tracking-wide hover:bg-[#5A0717] transition"
+                    className="w-full bg-[#072143] text-white py-4 rounded-full font-medium tracking-wide hover:bg-[#d2af53] hover:text-black transition"
                   >
                     {loading ? "Submitting..." : "Submit Enquiry"}
                   </motion.button>

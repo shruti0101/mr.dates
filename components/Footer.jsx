@@ -47,7 +47,7 @@ export default function Footer() {
             />
 
             <p className="leading-relaxed text-sm text-white mt-4">
-              Mr. Dates offers premium-quality dates and dry fruits, carefully
+              Mr. Dates offers premium-quality dates , carefully
               sourced from trusted farms. From daily nutrition to bulk and
               wholesale supply, we deliver freshness, taste, and consistency you
               can rely on.
@@ -102,7 +102,7 @@ export default function Footer() {
                 { name: "Kalmi Dates", link: "/categories/kalmi-dates" },
                 { name: "Ajwa Dates", link: "/categories/ajwa-dates" },
                 { name: "Barari Dates", link: "/categories/barari-dates" },
-                { name: "Dry Fruits", link: "/categories/dry-fruits" },
+                // { name: "Dry Fruits", link: "/categories/dry-fruits" },
                 { name: "Kimia Dates", link: "/categories/kimia-dates" },
                 { name: "Mr. Dates Products", link: "/categories/mr-dates-products" },
                 { name: "Other Products", link: "/categories/other-products" },

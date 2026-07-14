@@ -100,7 +100,7 @@ const AboutPage = () => {
                     </h1>
 
                     <p className="mt-6 max-w-2xl mx-auto text-base md:text-lg text-white">
-                        Premium Dates & Dry Fruits | Trusted Supplier | Quality You Can
+                        Premium Dates | Trusted Supplier | Quality You Can
                         Taste
                     </p>
                 </div>
@@ -126,7 +126,7 @@ const AboutPage = () => {
                         {/* Luxury Tag */}
                         <div className="inline-flex items-center gap-3 mb-3">
                             <span className="h-[1px] w-10 bg-[#B88A2E]" />
-                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#072143]">
                                 About Mr. Dates
                             </span>
 
@@ -139,8 +139,8 @@ const AboutPage = () => {
                         </h2>
 
                         <p className="text-[20px] leading-[1.9] mb-4 text-black max-w-[640px]">
-                            <span className=" text-[#6B091D]">Mr. Dates</span> is a
-                            premium dates and dry fruits brand dedicated to delivering authentic
+                            <span className=" text-[#072143]">Mr. Dates</span> is a
+                            premium dates  brand dedicated to delivering authentic
                             taste, superior quality, and natural nutrition. We work closely with
                             trusted farms and suppliers to bring you the finest handpicked dates —
                             rich in flavor, freshness, and goodness.
@@ -156,15 +156,15 @@ const AboutPage = () => {
                         {/* Trust Metrics */}
                         <div className="flex  flex-wrap gap-10 mt-6">
                             <div>
-                                <p className="text-3xl font-bold text-[#6B091D]">15k+</p>
+                                <p className="text-3xl font-bold text-[#072143]">15k+</p>
                                 <p className="text-sm text-  mt-1">Happy Customers</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-[#6B091D]">100%</p>
+                                <p className="text-3xl font-bold text-[#072143]">100%</p>
                                 <p className="text-sm text-[#555] mt-1">Natural Products</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-[#6B091D]">Trusted</p>
+                                <p className="text-3xl font-bold text-[#072143]">Trusted</p>
                                 <p className="text-sm text-[#555] mt-1">Retail & Wholesale</p>
                             </div>
                         </div>
@@ -246,7 +246,7 @@ const AboutPage = () => {
                                             className="w-12 h-12 rounded-full border-2 border-white object-cover -ml-3 first:ml-0 shadow-md"
                                         />
                                     ))}
-                                    <div className="bg-[#6B091D] text-white px-3 py-2 rounded-full -ml-3 text-sm shadow-md">
+                                    <div className="bg-[#072143] text-white px-3 py-2 rounded-full -ml-3 text-sm shadow-md">
                                         15k+
                                     </div>
                                 </div>
@@ -265,13 +265,13 @@ const AboutPage = () => {
                                 alt="Premium dates"
                                 className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
                             />
-                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                            <button className="absolute bottom-4 left-4 bg-[#072143] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
                                 Premium Dates
                             </button>
                         </div>
 
                         {/* Info */}
-                        <div className="bg-[#8E1013] text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+                        <div className="bg-[#072143] text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
                             <div>
                                 <h3 className="text-xl font-semibold mb-3">
                                     Naturally Sweet. Purely Nutritious.
@@ -303,7 +303,7 @@ const AboutPage = () => {
                                 alt="Bulk dates supply"
                                 className="w-full h-[400px] rounded-2xl object-cover shadow-lg"
                             />
-                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                            <button className="absolute bottom-4 left-4 bg-[#d2af53] text-black px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
                                 Bulk Orders
                             </button>
                         </div>
@@ -319,12 +319,12 @@ const AboutPage = () => {
                                 alt="Handpicked dates"
                                 className="max-w-full h-auto rounded-2xl object-cover shadow-lg"
                             />
-                            <button className="absolute bottom-4 left-4 bg-[#6B091D] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
+                            <button className="absolute bottom-4 left-4 bg-[#072143] text-white px-4 py-3 rounded-lg text-sm shadow-lg transition group-hover:scale-105">
                                 Handpicked Quality
                             </button>
                         </div>
 
-                        <div className="bg-[#8E1013]  text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+                        <div className="bg-[#072143]  text-white rounded-2xl p-6 shadow-xl flex flex-col justify-between">
                             <div>
                                 <h3 className="text-xl font-semibold mb-3">
                                     The Authentic Taste of Premium Dates
@@ -373,7 +373,7 @@ const AboutPage = () => {
                         {/* Accent */}
                         <div className="flex items-center gap-3 mb-6">
                             <span className="h-[1px] w-10 bg-[#B88A2E]" />
-                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#072143]">
                                 Our Mission
                             </span>
                         </div>
@@ -383,8 +383,8 @@ const AboutPage = () => {
                         </h3>
 
                         <p className="text-[17px] leading-[1.9] text-[#111]">
-                            At <span className="font-semibold text-[#6B091D]">Mr. Dates</span>, our
-                            mission is to deliver premium-quality dates and dry fruits that reflect
+                            At <span className="font-semibold text-[#072143]">Mr. Dates</span>, our
+                            mission is to deliver premium-quality dates  that reflect
                             purity, freshness, and authentic taste. We are committed to responsible
                             sourcing, strict hygiene standards, and careful processing — ensuring
                             every product supports healthy living and natural nutrition.
@@ -396,7 +396,7 @@ const AboutPage = () => {
                         {/* Accent */}
                         <div className="flex items-center gap-3 mb-6">
                             <span className="h-[1px] w-10 bg-[#B88A2E]" />
-                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#6B091D]">
+                            <span className="uppercase  tracking-[0.25em] text-xs font-semibold text-[#072143]">
                                 Our Vision
                             </span>
                         </div>
@@ -407,7 +407,7 @@ const AboutPage = () => {
 
                         <p className="text-[17px] leading-[1.9] text-[#111]">
                             Our vision is to become one of India’s most trusted and respected brands
-                            for premium dates and dry fruits — recognized across retail, wholesale,
+                            for premium dates  — recognized across retail, wholesale,
                             and export markets for quality, integrity, and consistency. We aim to
                             build lasting relationships through transparency, reliability, and
                             exceptional customer experience.
@@ -464,13 +464,13 @@ const AboutPage = () => {
                             <div
                                 key={i}
                                 variants={cardAnim}
-                                className="group relative overflow-hidden border border-[#E6E1D9] rounded-2xl bg-[#6B091D] p-6 transition"
+                                className="group relative overflow-hidden border border-[#E6E1D9] rounded-2xl bg-[#072143] p-6 transition"
                             >
                                 {/* TOP → BOTTOM OVERLAY */}
-                                <span className="absolute inset-0 bg-[#6B091D]/90 translate-y-[-100%] group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+                                <span className="absolute inset-0 bg-[#072143]/90 translate-y-[-100%] group-hover:translate-y-0 transition-transform duration-500 ease-out" />
 
                                 {/* LEFT → RIGHT OVERLAY */}
-                                <span className="absolute inset-0 bg-[#6B091D]/60 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-700 ease-out delay-150" />
+                                <span className="absolute inset-0 bg-[#072143]/60 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-700 ease-out delay-150" />
 
                                 {/* CONTENT */}
                                 <div className="relative z-10">

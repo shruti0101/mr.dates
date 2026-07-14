@@ -83,7 +83,7 @@ export default function CheckoutPage() {
         },
 
         theme: {
-          color: "#8b2d36",
+          color: "#072143",
         },
         modal: {
           ondismiss: () => {
@@ -215,22 +215,22 @@ ${response.razorpay_payment_id}
       <div className="max-w-7xl mx-auto">
         {/* HEADER */}
         <div className="mb-14">
-          <p className="uppercase tracking-[0.3em] text-sm text-[#8b2d36]">
+          <p className="uppercase tracking-[0.3em] text-sm text-[#072143]">
             Secure Checkout
           </p>
 
-          <h1 className="text-5xl md:text-7xl text-[#6b1f2b] mt-3">Checkout</h1>
+          <h1 className="text-5xl md:text-7xl text-[#072143] mt-3">Checkout</h1>
         </div>
 
         {cart.length === 0 ? (
           <div className="bg-white rounded-3xl p-16 text-center shadow-sm">
-            <h2 className="text-3xl text-[#6b1f2b]">Your cart is empty</h2>
+            <h2 className="text-3xl text-[#072143]">Your cart is empty</h2>
 
             <p className="mt-3 text-gray-500">Add products before checkout.</p>
 
             <Link
               href="/products"
-              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#8b2d36] transition"
+              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#072143] transition"
             >
               Continue Shopping
             </Link>
@@ -242,7 +242,7 @@ ${response.razorpay_payment_id}
               onSubmit={handleOrder}
               className="bg-white rounded-3xl p-8 shadow-sm border border-[#eee]"
             >
-              <h2 className="text-3xl text-[#6b1f2b] mb-8">Billing Details</h2>
+              <h2 className="text-3xl text-[#072143] mb-8">Billing Details</h2>
 
               <div className="grid md:grid-cols-2 gap-5">
                 <input
@@ -320,7 +320,7 @@ ${response.razorpay_payment_id}
               <button
                 type="submit"
                 disabled={loading}
-                className="mt-8 w-full bg-black text-white py-5 rounded-2xl flex items-center justify-center gap-3 hover:bg-[#8b2d36] transition text-lg disabled:opacity-50"
+                className="mt-8 w-full bg-black text-white py-5 rounded-2xl flex items-center justify-center gap-3 hover:bg-[#072143] transition text-lg disabled:opacity-50"
               >
                 {loading ? "Processing..." : "Place Order"}
 
@@ -330,7 +330,7 @@ ${response.razorpay_payment_id}
 
             {/* RIGHT */}
             <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#eee] h-fit sticky top-32">
-              <h2 className="text-3xl text-[#6b1f2b]">Order Summary</h2>
+              <h2 className="text-3xl text-[#072143]">Order Summary</h2>
 
               {/* PRODUCTS */}
               <div className="mt-8 space-y-5">
@@ -346,7 +346,7 @@ ${response.razorpay_payment_id}
                     </div>
 
                     <div className="flex-1">
-                      <h3 className="text-lg text-[#6b1f2b]">{item.name}</h3>
+                      <h3 className="text-lg text-[#072143]">{item.name}</h3>
 
                       <p className="text-sm text-gray-500 mt-1">
                         {item.pack?.weight || "-"}
@@ -355,7 +355,7 @@ ${response.razorpay_payment_id}
                       <div className="flex items-center justify-between mt-2">
                         <span>Qty: {item.quantity}</span>
 
-                        <span className="font-semibold text-[#8b2d36]">
+                        <span className="font-semibold text-[#072143]">
                           {item.price}
                         </span>
                       </div>
@@ -369,7 +369,7 @@ ${response.razorpay_payment_id}
                 <div className="flex items-center justify-between text-2xl font-semibold">
                   <span>Total</span>
 
-                  <span className="text-[#8b2d36]">₹{totalPrice}</span>
+                  <span className="text-[#072143]">₹{totalPrice}</span>
                 </div>
               </div>
 

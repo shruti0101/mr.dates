@@ -25,11 +25,11 @@ export default function WishlistPage() {
 
         {/* HEADING */}
         <div className="mb-14">
-          <p className="uppercase tracking-[0.3em] text-sm text-[#8b2d36]">
+          <p className="uppercase tracking-[0.3em] text-sm text-[#072143]">
             Your Favorites
           </p>
 
-          <h1 className="text-5xl md:text-7xl text-[#6b1f2b] mt-3">
+          <h1 className="text-5xl md:text-7xl text-[#072143] mt-3">
             Wishlist
           </h1>
         </div>
@@ -37,7 +37,7 @@ export default function WishlistPage() {
         {/* EMPTY */}
         {wishlist.length === 0 ? (
           <div className="bg-white rounded-3xl p-16 text-center shadow-sm">
-            <h2 className="text-3xl text-[#6b1f2b]">
+            <h2 className="text-3xl text-[#072143]">
               Your wishlist is empty
             </h2>
 
@@ -47,7 +47,7 @@ export default function WishlistPage() {
 
             <Link
               href="/products"
-              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#8b2d36] transition"
+              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#072143] transition"
             >
               Continue Shopping
             </Link>
@@ -77,7 +77,7 @@ export default function WishlistPage() {
                   {/* CONTENT */}
                   <div className="p-6">
 
-                    <h2 className="text-3xl text-[#6b1f2b]">
+                    <h2 className="text-3xl text-[#072143]">
                       {item.name}
                     </h2>
 
@@ -87,7 +87,7 @@ export default function WishlistPage() {
                       </p>
                     )}
 
-                    <p className="mt-4 text-2xl font-semibold text-[#8b2d36]">
+                    <p className="mt-4 text-2xl font-semibold text-[#072143]">
                       {item.price}
                     </p>
 
@@ -103,7 +103,7 @@ export default function WishlistPage() {
                             item.pack
                           )
                         }
-                        className="flex-1 bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#8b2d36] transition"
+                        className="flex-1 bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#072143] transition"
                       >
                         Add To Cart
 

@@ -102,7 +102,7 @@ export default function AboutStoreSection() {
                 At <strong>Mr. Dates</strong>, we are dedicated to delivering
                 superior quality and authentic taste in every product. As a
                 trusted <strong>dates supplier</strong>, we carefully source
-                premium dates and dry fruits to meet the highest standards of
+                premium dates to meet the highest standards of
                 freshness, nutrition, and consistency.
               </motion.p>
 
@@ -139,19 +139,19 @@ export default function AboutStoreSection() {
                 whileTap={{ scale: 0.96 }}
                 className="
                   cursor-pointer group relative inline-flex items-center gap-3
-                  px-7 py-3 rounded-full bg-[#7A4A2E]
+                  px-7 py-3 rounded-full bg-[#072143]
                   text-white text-md md:text-xl font-bold overflow-hidden
-                  transition-colors duration-300 hover:bg-[#6A3F25]
+                  transition-colors duration-300 hover:bg-[#27374c]
                 "
               >
                 {/* Chocolate wave */}
                 <span className="pointer-events-none absolute left-0 top-0 h-full w-0 group-hover:w-full transition-all duration-700 ease-out">
-                  <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="h-full w-full">
+                  {/* <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="h-full w-full">
                     <path
                       d="M0,0 C20,20 20,80 0,100 L100,100 L100,0 Z"
                       fill="#4E2A1A"
                     />
-                  </svg>
+                  </svg> */}
                 </span>
 
                 {/* Date Image */}

@@ -133,7 +133,7 @@ const Page = () => {
     "
   >
     
-    <h3 className="text-3xl font-serif text-[#3b2a10] mb-5">
+    <h3 className="text-3xl font-serif text-[#072143] mb-5">
       Categories
     </h3>
 
@@ -148,7 +148,7 @@ const Page = () => {
           }}
           className={`group w-full flex items-center justify-between rounded-xl px-4 py-4 transition-all ${
             selectedCategory === "all"
-              ? "bg-[#3b2a10] text-white"
+              ? "bg-[#072143] text-white"
               : "text-[#5a4320] hover:bg-[#f6ead1]"
           }`}
         >
@@ -168,7 +168,7 @@ const Page = () => {
             }}
             className={`group w-full flex items-center justify-between rounded-xl px-4 py-4 transition-all ${
               selectedCategory === cat.id
-                ? "bg-[#3b2a10] text-white"
+                ? "bg-[#072143] text-white"
                 : "text-[#5a4320] hover:bg-[#f6ead1]"
             }`}
           >
@@ -196,7 +196,7 @@ const Page = () => {
               
               {/* RESULT COUNT */}
               <div className="mb-8  flex items-center justify-between">
-                <h2 className="text-2xl font-serif text-[#3b2a10]">
+                <h2 className="text-2xl font-serif text-[#072143]">
                   {selectedCategory === "all"
                     ? "All Products"
                     : categories.find(
@@ -258,7 +258,7 @@ const Page = () => {
 
           toast.success("Added to cart");
         }}
-        className="flex-1 bg-[#3b2a10] hover:bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 transition"
+        className="flex-1 bg-[#072143] hover:bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 transition"
       >
         <ShoppingCart size={18} />
         Add To Cart
@@ -266,7 +266,7 @@ const Page = () => {
 
       <Link
         href={`/products/${product.id}`}
-        className="px-4 py-3 border border-[#3b2a10] rounded-xl hover:bg-[#3b2a10] hover:text-white transition"
+        className="px-4 py-3 border border-[#072143] rounded-xl hover:bg-[#072143] hover:text-white transition"
       >
         View
       </Link>

@@ -122,7 +122,7 @@ const Category = () => {
           transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className=" mx-auto text-black mb-10 text-sm sm:text-2xl"
         >
-          Discover our best sellers featuring <strong>premium dates, dry fruits,</strong>{" "}
+          Discover our best sellers featuring <strong>premium dates,</strong>{" "}
           and <strong>healthy snacks</strong> crafted by a trusted{" "}
           <strong>dates supplier.</strong>
         </motion.p>
@@ -185,9 +185,10 @@ const Category = () => {
           whileTap={{ scale: 0.97 }}
           transition={{ duration: 0.2 }}
           className="
-            w-full bg-[#62493e] hover:bg-[#4f3a31]
+            w-full bg-[#072143] hover:bg-[#001127]
             text-white text-md font-medium py-2.5
             rounded-full shadow-md
+            hover:text-[#d2af53]
             transition-colors duration-300
           "
         >

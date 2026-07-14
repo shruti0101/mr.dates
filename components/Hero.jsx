@@ -43,7 +43,7 @@ const products = [
     title: "anjeer ",
     main: "/products/anjeer.webp",
     thumb: "/img2.webp",
-    desc: "As a trusted dry fruits supplier, we offer premium Anjeer (Dry Figs) with natural sweetness and a soft, chewy bite. Perfect for healthy snacking, gifting, and culinary use—packed hygienically to maintain freshness and quality.",
+    desc: "As a trusted supplier, we offer premium Anjeer (Dry Figs) with natural sweetness and a soft, chewy bite. Perfect for healthy snacking, gifting, and culinary use—packed hygienically to maintain freshness and quality.",
   },
 ];
 

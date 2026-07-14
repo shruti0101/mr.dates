@@ -38,11 +38,11 @@ export default function CartPage() {
 
         {/* HEADING */}
         <div className="mb-14">
-          <p className="uppercase tracking-[0.3em] text-sm text-[#8b2d36]">
+          <p className="uppercase tracking-[0.3em] text-sm text-[#072143]">
             Your Order
           </p>
 
-          <h1 className="text-5xl md:text-7xl text-[#6b1f2b] mt-3">
+          <h1 className="text-5xl md:text-7xl text-[#072143] mt-3">
             Shopping Cart
           </h1>
         </div>
@@ -50,7 +50,7 @@ export default function CartPage() {
         {/* EMPTY */}
         {cart.length === 0 ? (
           <div className="bg-white rounded-3xl p-16 text-center shadow-sm">
-            <h2 className="text-3xl text-[#6b1f2b]">
+            <h2 className="text-3xl text-[#072143]">
               Your cart is empty
             </h2>
 
@@ -60,7 +60,7 @@ export default function CartPage() {
 
             <Link
               href="/products"
-              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#8b2d36] transition"
+              className="inline-flex mt-8 bg-black text-white px-8 py-4 rounded-xl hover:bg-[#072143] transition"
             >
               Continue Shopping
             </Link>
@@ -93,7 +93,7 @@ export default function CartPage() {
                   <div className="flex-1 flex flex-col justify-between">
 
                     <div>
-                      <h2 className="text-3xl text-[#6b1f2b]">
+                      <h2 className="text-3xl text-[#072143]">
                         {item.name}
                       </h2>
 
@@ -103,7 +103,7 @@ export default function CartPage() {
                         </p>
                       )}
 
-                      <p className="mt-4 text-2xl font-semibold text-[#8b2d36]">
+                      <p className="mt-4 text-2xl font-semibold text-[#072143]">
                         {item.price}
                       </p>
                     </div>
@@ -168,7 +168,7 @@ export default function CartPage() {
             {/* RIGHT */}
             <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#eee] h-fit sticky top-32">
 
-              <h3 className="text-3xl text-[#6b1f2b]">
+              <h3 className="text-3xl text-[#072143]">
                 Order Summary
               </h3>
 
@@ -190,7 +190,7 @@ export default function CartPage() {
                 <div className="border-t pt-5 flex items-center justify-between text-2xl font-semibold">
                   <span>Total</span>
 
-                  <span className="text-[#8b2d36]">
+                  <span className="text-[#072143]">
                     ₹{totalPrice}
                   </span>
                 </div>
@@ -199,7 +199,7 @@ export default function CartPage() {
               {/* BUTTON */}
               <Link
                 href="/checkout"
-                className="mt-8 w-full bg-black text-white py-4 rounded-2xl flex items-center justify-center gap-3 hover:bg-[#8b2d36] transition text-lg"
+                className="mt-8 w-full bg-black text-white py-4 rounded-2xl flex items-center justify-center gap-3 hover:bg-[#072143] transition text-lg"
               >
                 Proceed To Checkout
 

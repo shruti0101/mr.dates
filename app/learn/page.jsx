@@ -74,7 +74,7 @@ const blogs = [
   {
     id: 1,
     title: "Dates Benefits: Mr. Dates Is a Trusted Dates Supplier",
-    desc: "Dates ko duniya ke sabse healthy aur nutritious dry fruits mein count kiya jata hai. Ye sirf ek tasty fruit nahi balki energy, nutrition aur health benefits ka powerful source bhi hain. ",
+    desc: "Dates ko duniya ke sabse healthy aur nutritious mein count kiya jata hai. Ye sirf ek tasty fruit nahi balki energy, nutrition aur health benefits ka powerful source bhi hain. ",
     image: "/faq.webp",
     link:"/blogs/dates-benefits-trusted-dates-supplier",
     category: "Wellness",
@@ -217,7 +217,7 @@ const blogs = [
 
                         <p className="text-[20px] leading-[1.9] mb-4 text-black max-w-[640px]">
                             <span className=" text-[#6B091D]">Mr. Dates</span> is a
-                            premium dates and dry fruits brand dedicated to delivering authentic
+                            premium dates and brand dedicated to delivering authentic
                             taste, superior quality, and natural nutrition. We work closely with
                             trusted farms and suppliers to bring you the finest handpicked dates —
                             rich in flavor, freshness, and goodness.

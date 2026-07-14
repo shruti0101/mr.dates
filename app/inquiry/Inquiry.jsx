@@ -114,10 +114,10 @@ export default function Inquiry() {
             <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center gap-10">
                 <div className="md:w-1/2">
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-                        Welcome to MR Dates – Premium Quality Dates & Dry Fruits Supplier
+                        Welcome to MR Dates – Premium Quality Dates & Supplier
                     </h2>
                     <p className="text-black text-xl md:text-2xl leading-relaxed mb-6">
-                        Welcome to MR Dates, your trusted partner for premium quality dates, dry fruits, and natural nuts in India.
+                        Welcome to MR Dates, your trusted partner for premium quality dates, and natural nuts in India.
                         We specialize in delivering the finest Medjool & organic dates — sourced from the best farms, healthy, chemical-free, and fresh.
                         Whether you are a retailer, exporter, wholesaler, or health-conscious buyer, we deliver fresh, nutrient-rich dates at competitive prices.
                     </p>
@@ -129,7 +129,7 @@ export default function Inquiry() {
                 <div className="md:w-1/2">
                     <img
                         src="/banner/2.webp"
-                        alt="MR Dates Premium Quality Dates & Dry Fruits"
+                        alt="MR Dates Premium Quality Dates"
                         className="w-full h-108 rounded-lg shadow-lg object-cover"
                     />
                 </div>
@@ -335,7 +335,7 @@ export default function Inquiry() {
                 <div className="md:block hidden">
                     <img
                         src="/check2.webp"
-                        alt="MR Dates Premium Quality Dates & Dry Fruits"
+                        alt="MR Dates Premium Quality Dates "
                         className="w-full h-104 rounded-lg shadow-lg object-cover"
                     />
                 </div>

@@ -38,8 +38,8 @@ if (loading) {
   return (
     <div className="fixed inset-0 z-[999] flex items-center justify-center bg-white">
       <div className="flex flex-col items-center gap-6">
-        <div className="w-12 h-12 border-4 border-[#6b1f2b] border-t-transparent rounded-full animate-spin"></div>
-        <p className="text-[#6b1f2b] tracking-widest uppercase text-sm">
+        <div className="w-12 h-12 border-4 border-[#072143] border-t-transparent rounded-full animate-spin"></div>
+        <p className="text-[#072143] tracking-widest uppercase text-sm">
           Loading...
         </p>
       </div>
@@ -90,7 +90,7 @@ if (loading) {
               {/* Drawer */}
               <div className="absolute left-0 top-0 h-full w-[280px] h-110vh overflow-scroll bg-[#faf7ef] p-6 shadow-xl">
                 <div className="mb-10 flex items-center justify-between">
-                  <h3 className="font-serif text-3xl tracking-wide text-[#3b2a10]">
+                  <h3 className="font-serif text-3xl tracking-wide text-[#072143]">
                     Our Category
                   </h3>
                   <button onClick={() => setIsSidebarOpen(false)}>
@@ -109,8 +109,8 @@ if (loading) {
                           onClick={() => setIsSidebarOpen(false)}
                           className={`flex items-center justify-between rounded-xl px-4 py-3 transition-all
                         ${isActive
-                              ? "bg-[#3b2a10] text-white shadow"
-                              : "text-[#5a4320] hover:bg-[#efe3c8]"
+                              ? "bg-[#072143] text-white shadow"
+                              : "text-[#072143] hover:bg-[#efe3c8]"
                             }`}
                         >
                           <span className="text-lg font-medium tracking-wide">
@@ -137,7 +137,7 @@ if (loading) {
     pr-2
   ">
 
-              <h3 className="font-serif text-4xl tracking-wide text-[#3b2a10]">
+              <h3 className="font-serif text-4xl tracking-wide text-[#072143]">
                 Our Category
               </h3>
 
@@ -152,8 +152,8 @@ if (loading) {
                         className={`group flex items-center justify-between
               rounded-xl px-4 py-3 transition-all
               ${isActive
-                            ? "bg-[#3b2a10] text-white shadow"
-                            : "text-[#5a4320] hover:bg-[#efe3c8]"
+                            ? "bg-[#072143] text-white shadow"
+                            : "text-[#072143] hover:bg-[#d2af53]"
                           }`}
                       >
                         <span className="font-medium text-2xl tracking-wide">
@@ -182,7 +182,7 @@ if (loading) {
             <div className="mb-10 flex lg:hidden">
               <button
                 onClick={() => setIsSidebarOpen(true)}
-                className="flex items-center gap-2 rounded-full border border-[#3b2a10] px-6 py-3 text-sm tracking-widest uppercase text-[#3b2a10] "
+                className="flex items-center gap-2 rounded-full border border-[#072143] px-6 py-3 text-sm tracking-widest uppercase text-[#072143] "
               >
                 <Menu size={16} />
                 Explore Our Categories
@@ -194,7 +194,7 @@ if (loading) {
            {category.products.map((product) => (
   <div
     key={product.id}
-    className="group block bg-white rounded-2xl overflow-hidden border border-[#6b1f2b] shadow-sm hover:shadow-xl transition-all duration-300"
+    className="group block bg-white rounded-2xl overflow-hidden border border-[#072143] shadow-sm hover:shadow-xl transition-all duration-300"
   >
     {/* PRODUCT LINK */}
     <Link href={`/products/${product.id}`}>
@@ -228,7 +228,7 @@ if (loading) {
 
       {/* TEXT */}
       <div className="mt-6 text-center px-4">
-        <h3 className="text-[22px] font-serif text-[#6b1f2b]">
+        <h3 className="text-[22px] font-serif text-[#072143]">
           {product.name}
         </h3>
 
@@ -249,7 +249,7 @@ if (loading) {
 
           toast.success("Added to cart");
         }}
-        className="w-full bg-[#6b1f2b] hover:bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
+        className="w-full bg-[#072143] hover:bg-black text-white py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
       >
         <ShoppingCart size={18} />
         Add To Cart

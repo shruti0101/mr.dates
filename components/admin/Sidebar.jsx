@@ -51,6 +51,27 @@ export default function Sidebar({ setSidebarOpen, sidebarOpen }) {
           <PlusCircle size={20} />
           New Blog
         </Link>
+        <Link
+          href="/admin/allCategory"
+          className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition"
+        >
+          <PlusCircle size={20} />
+          All Category
+        </Link>
+        <Link
+          href="/admin/allProducts"
+          className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition"
+        >
+          <PlusCircle size={20} />
+          All Products
+        </Link>
+        <Link
+          href="/admin/new"
+          className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition"
+        >
+          <PlusCircle size={20} />
+          New Prduct
+        </Link>
 
         <button
           onClick={handleLogout}

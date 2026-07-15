@@ -25,7 +25,7 @@ export default function LayoutWrapper({ children }) {
   return (
     <>
 
-    <Topbar/>
+    {!hideNavbarRoutes &&<Topbar/>}
 <Popside/>
 
       {!hideNavbar && <Navbar />}

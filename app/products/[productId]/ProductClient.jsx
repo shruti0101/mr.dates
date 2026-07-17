@@ -16,22 +16,24 @@ import {
 import Head from "next/head";
 import Image from "next/image";
 
-export default function ProductPage({ params }) {
-  const { productId } = React.use(params);
+export default function ProductPage({ product }) {
+  // const { productId } = React.use(params);
+
+  // console.log(product)
 
   const allProducts = categories.flatMap((c) => c.products);
 
-  const product = allProducts.find(
-    (p) => p.id === productId
-  );
+  // const product = allProducts.find(
+  //   (p) => p.id === productId
+  // );
 
   const [cartOpen, setCartOpen] = useState(false);
 
   const [quantity, setQuantity] = useState(1);
 
-  const [selectedPack, setSelectedPack] = useState(
-    product?.packaging?.[0] || null
-  );
+ const [selectedPack, setSelectedPack] = useState(
+  product?.packaging?.[0] || ""
+);
 
   // ================= STORE =================
 
@@ -63,6 +65,7 @@ export default function ProductPage({ params }) {
 
   const handleAddToCart = () => {
     addToCart(product, quantity, selectedPack);
+    console.log(product)
 
     setCartOpen(true);
   };
@@ -87,14 +90,13 @@ export default function ProductPage({ params }) {
       </Head>
 
       {/* MAIN */}
- <section className="relative bg-[#FDFBF7] py-16 mt-18">
+ <section className="relative bg-[#FDFBF7] py-16  mt-18">
 
   {/* Background Blurs */}
   <div className="absolute top-0 left-0 w-96 h-96 bg-[#C8921C]/10 rounded-full blur-3xl"></div>
   <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#7a1f2b]/10 rounded-full blur-3xl"></div>
 
-  <div className="w-full mx-auto px-6 lg:px-22 grid lg:grid-cols-2 gap-14 items-start">
-
+<div className="w-full mx-auto px-6 lg:px-22 pt-10 h-auto grid lg:grid-cols-2 gap-14 items-start">
     {/* LEFT IMAGE */}
     <div className="lg:sticky top-30">
 
@@ -105,8 +107,8 @@ export default function ProductPage({ params }) {
         </span>
 
         <Image
-          src={product.image.src}
-          alt={product.image.alt || product.name}
+          src={product.image}
+          alt={product.image}
           width={550}
           height={550}
           priority
@@ -135,7 +137,7 @@ export default function ProductPage({ params }) {
 
       {/* DESCRIPTION */}
       <p className="mt-6 text-lg leading-relaxed text-gray-700 max-w-2xl">
-        {product.excerpt}
+        {product.shortDescription}
       </p>
 
       {/* PRICE */}
@@ -147,7 +149,7 @@ export default function ProductPage({ params }) {
           </p>
 
           <h2 className="text-4xl font-light text-[#072143]">
-            {selectedPack?.price || product.price}
+            Rs. {selectedPack?.price || product.price}
           </h2>
         </div>
 
@@ -166,40 +168,33 @@ export default function ProductPage({ params }) {
           Select Packaging
         </h3>
 
-        {Array.isArray(product.packaging) &&
-          product.packaging.length > 0 && (
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+       {Array.isArray(product.packaging) &&
+  product.packaging.length > 0 && (
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      {product.packaging.map((pack, index) => (
+        <button
+          key={index}
+          onClick={() => setSelectedPack(pack)}
+          className={`rounded-2xl py-5 border transition-all duration-300 hover:-translate-y-1
+            ${
+              selectedPack === pack
+                ? "border-[#C8921C] bg-gradient-to-b from-[#fffaf0] to-[#f6efe5] shadow-xl"
+                : "border-[#ece2d3] bg-white hover:border-[#C8921C]/50 hover:shadow-lg"
+            }`}
+        >
+          <div className="text-center">
+            <span className="block text-3xl font-serif text-[#072143]">
+              {pack}
+            </span>
 
-              {product.packaging.map((pack, index) => (
-
-                <button
-                  key={index}
-                  onClick={() => setSelectedPack(pack)}
-                  className={`rounded-2xl py-5 border transition-all duration-300 hover:-translate-y-1
-
-                  ${
-                    selectedPack?.weight === pack.weight
-                      ? "border-[#C8921C] bg-gradient-to-b from-[#fffaf0] to-[#f6efe5] shadow-xl"
-                      : "border-[#ece2d3] bg-white hover:border-[#C8921C]/50 hover:shadow-lg"
-                  }
-                  `}
-                >
-                  <div className="text-center">
-
-                    <span className="block text-3xl font-serif text-[#072143]">
-                      {pack.weight}
-                    </span>
-
-                    <span className="text-xs uppercase tracking-[0.2em] text-gray-500">
-                      Pack Size
-                    </span>
-
-                  </div>
-                </button>
-
-              ))}
-            </div>
-          )}
+            <span className="text-xs uppercase tracking-[0.2em] text-gray-500">
+              Pack Size
+            </span>
+          </div>
+        </button>
+      ))}
+    </div>
+  )}
       </div>
 
       {/* QUANTITY */}
@@ -355,49 +350,62 @@ export default function ProductPage({ params }) {
 
             {/*  PRODUCT DESCRIPTION  */}
             <div className=" mt-10 space-y-8 max-w-xl">
-              {product.description.map((block, index) => {
-                switch (block.type) {
-                  case "h2":
-                    return (
-                      <h3
-                        key={index}
-                        className="text-[28px] font-serif text-[#072143] leading-tight max-md:text-[22px]"
-                      >
-                        {block.text}
-                      </h3>
-                    );
+             <div className="mt-10 max-w-xl">
+  <h2 className="text-[28px] font-serif text-[#072143] mb-6">
+    Product Overview
+  </h2>
 
-                  case "p":
-                    return (
-                      <p
-                        key={index}
-                        className="text-[18px] leading-[1.8] text-black max-md:text-[16px]"
-                      >
-                        {block.text}
-                      </p>
-                    );
+  <div
+    className="    jodit-wysiwyg"
+    dangerouslySetInnerHTML={{
+      __html: product.productOverview,
+    }}
+  />
+</div>
 
-                  case "ul":
-                    return (
-                      <ul
-                        key={index}
-                        className="list-disc pl-6 space-y-3 text-[17px] text-black max-md:text-[15px]"
-                      >
-                        {block.items.map((item, i) => (
-                          <li key={i}>{item}</li>
-                        ))}
-                      </ul>
-                    );
+<div className="mt-12 max-w-xl">
+  <h2 className="text-[28px] font-serif text-[#072143] mb-6">
+    Key Features
+  </h2>
 
-                  default:
-                    return null;
-                }
-              })}
+  <div
+    className="jodit-wysiwyg"
+    dangerouslySetInnerHTML={{
+      __html: product.keyFeatures,
+    }}
+  />
+</div>
+
+<div className="mt-12 max-w-xl">
+  <h2 className="text-[28px] font-serif text-[#072143] mb-6">
+    Health Benefits
+  </h2>
+
+  <div
+    className="jodit-wysiwyg"
+    dangerouslySetInnerHTML={{
+      __html: product.healthBenefits,
+    }}
+  />
+</div>
+
+<div className="mt-12 max-w-xl">
+  <h2 className="text-[28px] font-serif text-[#072143] mb-6">
+    Why Choose Us
+  </h2>
+
+  <div
+    className="jodit-wysiwyg "
+    dangerouslySetInnerHTML={{
+      __html: product.whyChoose,
+    }}
+  />
+</div>
             </div>
           </div>
 
           {/*  RIGHT CARD  */}
-          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-270 max-md:p-6 max-md:static">
+          <div className="order-1 md:order-2 md:sticky top-10 bg-white relative rounded-3xl p-12  shadow-sm h-fit max-md:p-6 max-md:static">
             {/* Decorative Icon */}
             <div className="absolute top-8 right-8 opacity-10">
               <svg
@@ -427,17 +435,17 @@ export default function ProductPage({ params }) {
 
             {/*  SPECS TABLE  */}
             <div className="mt-5 space-y-4 text-[16px]">
-              {product.specs.map((spec, index) => (
+              {product.specifications.map((spec, index) => (
                 <div
                   key={index}
                   className={`flex justify-between max-md:flex-col max-md:gap-1 ${
-                    index !== product.specs.length - 1
+                    index !== product?.specs?.length - 1
                       ? "border-b border-dotted pb-2"
                       : ""
                   }`}
                 >
                   <span className="text-black text-lg max-md:text-base">
-                    {spec.label}
+                    {spec.key}
                   </span>
 
                   <span className="font-medium text-lg text-[#072143] text-right max-w-[55%] max-md:max-w-full max-md:text-left max-md:text-base">
@@ -457,18 +465,18 @@ export default function ProductPage({ params }) {
 
 
       {/* RELATED */}
-     <section className="bg-[#FDFBF7]  py-20 max-md:py-14">
-        <div className="max-w-7xl mx-auto px-6 max-md:px-4">
+     {/* <section className="bg-[#FDFBF7]  py-20 max-md:py-14">
+        <div className="max-w-7xl mx-auto px-6 max-md:px-4"> */}
           {/* Section Header */}
-          <p className="italic text-[#b0895a] mb-3">Curated Selection 🤎</p>
+          {/* <p className="italic text-[#b0895a] mb-3">Curated Selection 🤎</p> */}
 
-          <h2 className="text-[36px] md:text-[56px] font-serif text-[#072143] mb-10 max-md:text-[28px]">
+          {/* <h2 className="text-[36px] md:text-[56px] font-serif text-[#072143] mb-10 max-md:text-[28px]">
             You May Also Desire
-          </h2>
+          </h2> */}
 
           {/* Product Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 max-md:gap-6">
-            {categories
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 max-md:gap-6"> */}
+            {/* {categories
               .find((c) => c.products.some((p) => p.id === product.id))
               ?.products.filter((p) => p.id !== product.id)
               .slice(0, 4)
@@ -477,11 +485,11 @@ export default function ProductPage({ params }) {
                   key={item.id}
                   href={`/products/${item.id}`}
                   className="group"
-                >
+                > */}
                   {/* Image Card */}
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#072143] bg-black/20">
+                  {/* <div className="relative aspect-[3/4] overflow-hidden rounded-lg border-1 border-[#072143] bg-black/20"> */}
                     {/* Badge */}
-                    {item.badge && (
+                    {/* {item.badge && (
                       <span
                         className={`absolute top-4 left-4 z-10 px-4 py-2 text-xs tracking-widest uppercase text-white
                 ${item.badge === "bestseller" ? "bg-[#8b2d36]" : "bg-black"}`}
@@ -490,18 +498,18 @@ export default function ProductPage({ params }) {
                           ? "Best Seller"
                           : "Limited"}
                       </span>
-                    )}
+                    )} */}
 
-                    <Image
+                    {/* <Image
                       src={item.image.src}
                       alt={item.name}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
+                    /> */}
+                  {/* </div> */}
 
                   {/* Text Content */}
-                  <div className="mt-6 text-center">
+                  {/* <div className="mt-6 text-center">
                     <h3 className="text-[22px] font-serif text-[#072143] max-md:text-[18px]">
                       {item.name}
                     </h3>
@@ -509,12 +517,12 @@ export default function ProductPage({ params }) {
                     <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">
                       {item.variety || "Premium Selection"}
                     </p>
-                  </div>
-                </a>
-              ))}
-          </div>
-        </div>
-      </section>
+                  </div> */}
+                {/* </a> */}
+              {/* ))} */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </section> */}
 
       {/* CART DRAWER */}
       <CartDrawer

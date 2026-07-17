@@ -25,6 +25,8 @@ import { useCartStore } from "@/store/cartStore";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+    const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
 
 
   // cart store
@@ -58,6 +60,26 @@ useEffect(() => {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+    useEffect(() => {
+    fetchCategories();
+  }, []);
+
+
+   async function fetchCategories() {
+    try {
+      const res = await fetch("/api/category");
+      const data = await res.json();
+
+      if (data.success) {
+        setCategories(data.categories);
+      }
+    } catch (error) {
+      console.error("Error fetching categories:", error);
+    } finally {
+      setLoading(false);
+    }
+  }
 
 
   useEffect(() => {
@@ -282,7 +304,7 @@ useEffect(() => {
             {categories.map((cat) => (
               <Link
                 key={cat.id}
-                href={`/categories/${cat.id}`}
+                href={`/categories/${cat.slug}`}
                 className="group"
               >
                 <div

@@ -193,6 +193,7 @@ ${response.razorpay_payment_id}
       };
 
       const razorpay = new window.Razorpay(options);
+      console.log(razorpay)
 
       razorpay.on("payment.failed", function (response) {
         console.error("Razorpay payment failed", response);
@@ -204,6 +205,7 @@ ${response.razorpay_payment_id}
     } catch (error) {
       console.error(error);
       toast.error("Payment Failed");
+      toast.error(error);
       window.location.href = "/order-failure";
     }
 
@@ -338,7 +340,7 @@ ${response.razorpay_payment_id}
                   <div key={index} className="flex gap-4">
                     <div className="relative w-20 h-20 rounded-xl overflow-hidden shrink-0">
                       <Image
-                        src={item.image.src}
+                        src={item.image}
                         alt={item.name}
                         fill
                         className="object-cover"
@@ -349,7 +351,7 @@ ${response.razorpay_payment_id}
                       <h3 className="text-lg text-[#072143]">{item.name}</h3>
 
                       <p className="text-sm text-gray-500 mt-1">
-                        {item.pack?.weight || "-"}
+                        {item.pack || "-"}
                       </p>
 
                       <div className="flex items-center justify-between mt-2">

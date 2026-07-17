@@ -1,29 +1,16 @@
-import { categories } from "@/Data/data";
 import ProductClient from "./ProductClient";
-         
+import { getProduct } from "@/lib/getCategory";
+import { notFound } from "next/navigation";
 
-           import { ShoppingCart, Heart } from "lucide-react";
 export async function generateMetadata({ params }) {
-  // NEW: await params
   const { productId } = await params;
 
-  if (!productId) {
-    return {
-      title: "Premium Dates Collection | Mr. Dates",
-      description: "Explore our wide range of high-quality dates.",
-    };
-  }
-
-  const allProducts = categories.flatMap((c) => c.products || []);
-
-  const product = allProducts.find(
-    (p) => p?.id?.toLowerCase() === productId.toLowerCase()
-  );
+  const product = await getProduct(productId);
 
   if (!product) {
     return {
-      title: "Premium Dates Collection | Mr. Dates",
-      description: "Explore our wide range of high-quality dates.",
+      title: "Product Not Found",
+      description: "The requested product does not exist.",
     };
   }
 
@@ -33,11 +20,23 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: product.metaTitle || product.name,
       description: product.metaDescription || product.name,
-      images: [product.image?.src || product.image],
+      images: product.image ? [product.image] : [],
     },
   };
 }
 
-export default function Page({ params }) {
-  return <ProductClient params={params} />;
+export default async function Page({ params }) {
+  const { productId } = await params;
+
+  const product = await getProduct(productId);
+
+  if (!product) {
+    notFound();
+  }
+
+  return (
+    <ProductClient
+      product={JSON.parse(JSON.stringify(product))}
+    />
+  );
 }

@@ -9,7 +9,11 @@ import CategoryCitySection from "@/components/CategoryCitySection";
 import { ShoppingCart } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import toast from "react-hot-toast";
-export default function CategoryPage({ category }) {
+export default function CategoryPage({ category,categories,products }) {
+
+
+
+  
   if (!category) {
     return (
       <h2 className="text-center text-red-500 mt-20 text-xl">
@@ -142,13 +146,13 @@ if (loading) {
               </h3>
 
               <ul className="space-y-2">
-                {categories.map((cat) => {
+                {categories?.map((cat) => {
                   const isActive = cat.id === category.id;
 
                   return (
                     <li key={cat.id}>
                       <Link
-                        href={`/categories/${cat.id}`}
+                        href={`/categories/${cat.slug}`}
                         className={`group flex items-center justify-between
               rounded-xl px-4 py-3 transition-all
               ${isActive
@@ -191,13 +195,13 @@ if (loading) {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 ">
 
-           {category.products.map((product) => (
-  <div
+           {products.map((product) => (
+   <div
     key={product.id}
     className="group block bg-white rounded-2xl overflow-hidden border border-[#072143] shadow-sm hover:shadow-xl transition-all duration-300"
-  >
+  > 
     {/* PRODUCT LINK */}
-    <Link href={`/products/${product.id}`}>
+     <Link href={`/products/${product.slug}`}> 
       {/* IMAGE */}
       <div className="relative aspect-[3/4] overflow-hidden">
         
@@ -218,7 +222,7 @@ if (loading) {
         )}
 
         <Image
-          src={product.image.src}
+          src={product.image}
           alt={product.name}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -256,8 +260,7 @@ if (loading) {
       </button>
     </div>
   </div>
-))}
-
+ ))} 
             </div>
 
             {(category.name == "Dry Figs" || category.name == "Kalmi Dates" || category.name == "Kimia Dates" || category.name == "Fresh Dates" || category.name == "Packaged Dates") &&

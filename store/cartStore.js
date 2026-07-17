@@ -10,8 +10,8 @@ export const useCartStore = create((set, get) => ({
 
   addToCart: (product, quantity = 1, selectedPack = null) => {
     const cartItem = {
-      id: product.id,
-      name: product.name,
+      id: product.slug,
+      name: product.productName,
       image: product.image,
       price: selectedPack?.price || product.price,
       quantity,

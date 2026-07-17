@@ -8,6 +8,8 @@ import { useCartStore } from "@/store/cartStore";
 export default function CartDrawer({ open, setOpen }) {
   const cart = useCartStore((state) => state.cart);
 
+  console.log(cart)
+
   const removeFromCart = useCartStore(
     (state) => state.removeFromCart
   );
@@ -88,9 +90,10 @@ export default function CartDrawer({ open, setOpen }) {
                   {/* IMAGE */}
                   <div className="w-28 h-28 relative rounded-xl overflow-hidden bg-gray-100 shrink-0">
                     <Image
-                      src={item.image.src}
-                      alt={item.name}
+                      src={item.image}
+                      alt={item.image}
                       fill
+                      
                       className="object-cover"
                     />
                   </div>
@@ -101,14 +104,14 @@ export default function CartDrawer({ open, setOpen }) {
                       {item.name}
                     </h3>
 
-                    {item.pack?.weight && (
+                    {item?.pack && (
                       <p className="text-sm text-gray-500 mt-1">
-                        Pack: {item.pack.weight}
+                        Pack: {item.pack}
                       </p>
                     )}
 
                     <p className="text-[#072143] font-bold text-lg mt-2">
-                      {item.price}
+                      Rs. {item.price} /-
                     </p>
 
                     {/* QUANTITY */}

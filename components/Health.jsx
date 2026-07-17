@@ -14,21 +14,21 @@ export default function FunkyHealthSection() {
       title: "Natural Energy",
       desc: "Quick natural fuel without sugar crashes.",
       icon: <Flame className="w-6 h-6" />,
-      color: "bg-[#FFB703]",
+      color: "bg-[#072143]",
       rotate: "-rotate-3",
     },
     {
       title: "Heart Friendly",
       desc: "Packed with potassium & antioxidants.",
       icon: <Heart className="w-6 h-6" />,
-      color: "bg-[#FB7185]",
+      color: "bg-[#CDA530]",
       rotate: "rotate-2",
     },
     {
       title: "Gut Healthy",
       desc: "Fiber-rich goodness for better digestion.",
       icon: <Leaf className="w-6 h-6" />,
-      color: "bg-[#8B5CF6]",
+      color: "bg-[#081E3F]",
       rotate: "-rotate-2",
     },
   ];
@@ -135,13 +135,13 @@ export default function FunkyHealthSection() {
 
             <FloatingSticker
               text="No Sugar Added"
-              className="top-40 -left-10 bg-[#FB7185]"
+              className="top-40 text-white -left-10 bg-[#081E3F]"
               delay={1}
             />
 
             <FloatingSticker
               text="Antioxidants"
-              className="bottom-24 -left-10 bg-[#8B5CF6]"
+              className="bottom-24 -left-10 bg-[#CDA530]"
               delay={2}
             />
 
@@ -156,20 +156,20 @@ export default function FunkyHealthSection() {
               <div
                 key={index}
              
-                className={`${item.color} ${item.rotate} max-w-[270px] rounded-[30px] border-[4px] border-black p-5 shadow-[8px_8px_0px_#000] cursor-pointer`}
+                className={`${item.color} ${item.rotate} max-w-[270px] rounded-[30px] border-[4px] border-yellow-600 p-5 shadow-[8px_8px_0px_#000] cursor-pointer`}
               >
 
                 <div className="flex items-center gap-3">
-                  <div className="bg-black text-white p-3 rounded-2xl">
+                  <div className="bg-white text-black p-3 rounded-2xl">
                     {item.icon}
                   </div>
 
-                  <h3 className="font-black text-xl">
+                  <h3 className="text-white text-xl">
                     {item.title}
                   </h3>
                 </div>
 
-                <p className="mt-3 leading-6 text-black/80 font-medium">
+                <p className="mt-3 leading-6 text-white font-medium">
                   {item.desc}
                 </p>
 

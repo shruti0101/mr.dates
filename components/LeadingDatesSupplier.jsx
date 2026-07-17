@@ -6,7 +6,7 @@ export default function LeadingDatesSupplier() {
   return (
     <motion.section
    
-      className="bg-[#e5beb5] lg:py-20 py-10"
+      className="bg-[#CDA530] lg:py-20 py-10"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}

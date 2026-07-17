@@ -50,7 +50,7 @@ const Category = () => {
 
   return (
 
-        <section className="relative py-20 overflow-hidden bg-[#decdfc]">
+        <section className="relative py-20 overflow-hidden bg-[#081E3F]/90">
       <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Decorative Images */}
@@ -72,11 +72,11 @@ const Category = () => {
 
       {/* Content */}
       <div className="relative w-full mx-auto px-4 sm:px-8 text-center">
-        <h2 className="text-3xl sm:text-5xl font-bold text-black mb-3">
+        <h2 className="text-3xl sm:text-5xl font-bold text-white mb-3">
           Our Categories
         </h2>
 
-        <p className="mx-auto text-black mb-10 text-sm sm:text-2xl">
+        <p className="mx-auto text-white mb-10 text-sm sm:text-2xl">
           Discover our best sellers featuring <strong>premium dates,</strong>{" "}
           and <strong>healthy snacks</strong> crafted by a trusted{" "}
           <strong>dates supplier.</strong>

@@ -70,10 +70,10 @@ const flowers = [
 
       {/* SLIDER */}
       <div
-        className="relative w-full text-white"
-        style={{ backgroundImage: "url(/check12.webp)" }}
+        className="relative w-full text-white bg-cover bg-center"
+        style={{ backgroundImage: "url(/allprod.png)" }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/70" />
 
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 lg:py-12 py-8">
           {/* LEFT CONTENT */}

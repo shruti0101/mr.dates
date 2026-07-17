@@ -142,7 +142,7 @@ const currentProducts = filteredProducts.slice(
   <div
     className="relative h-[45vh] md:h-[80vh] flex items-center justify-center text-center"
     style={{
-      backgroundImage: "url('/bg3.webp')",
+      backgroundImage: "url('/allprod.png')",
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}
@@ -161,7 +161,7 @@ const currentProducts = filteredProducts.slice(
         All Products
       </h1>
 
-      <p className="mt-4 text-gray-200 text-base md:text-lg">
+      <p className="mt-4 text-white text-base md:text-lg">
         Explore our complete range of premium dates
       </p>
     </div>

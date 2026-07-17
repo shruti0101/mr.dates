@@ -63,10 +63,18 @@ export default function CheckoutPage() {
 
       const order = await orderRes.json();
 
+      // Ensure server created an order successfully before opening Razorpay
+      if (!orderRes.ok || !order || !order.id) {
+        console.error("Create order failed:", order);
+        toast.error("Unable to create order. Please try again later.");
+        setLoading(false);
+        return;
+      }
+
       const options = {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "rzp_live_xxxxxxxx",
 
-        amount: order.amount,
+        amount: order.amount || totalPrice * 100,
 
         currency: order.currency,
 
@@ -121,13 +129,15 @@ export default function CheckoutPage() {
               }),
             });
 
-            const result = await verifyRes.json();
+ const result = await verifyRes.json();
 
-            if (!result.success) {
-              toast.error("Payment verification failed");
-              window.location.href = "/order-failure";
-              return;
-            }
+console.log("Verify Status:", verifyRes.status);
+console.log("Verify Result:", result);
+
+if (!verifyRes.ok || !result.success) {
+  alert(JSON.stringify(result, null, 2));
+  return;
+}
 
             const orderMessage = `
 🛍️ NEW PAID ORDER

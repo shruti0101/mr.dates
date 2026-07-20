@@ -13,11 +13,15 @@ const CATEGORY_API = "/api/category";
 const EMPTY_FORM = {
   productName: "",
   slug: "",
-  price: "",
   category: "",
   shortDescription: "",
   variety: "",
-  packaging: "",
+  packaging: [
+    {
+      packaging: "",
+      price: "",
+    },
+  ],
   metaTitle: "",
   metaDescription: "",
   productOverview: "",
@@ -81,23 +85,23 @@ export default function Page() {
   }
 
   function handleChange(e) {
-  const { name, value } = e.target;
+    const { name, value } = e.target;
 
-  setFormData((prev) => ({
-    ...prev,
-    [name]: value,
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
 
-    // Auto-generate slug from product name
-    ...(name === "productName" && {
-      slug: value
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, "-")          // spaces -> -
-        .replace(/[^a-z0-9-]/g, "")    // remove special characters
-        .replace(/-+/g, "-"),          // remove duplicate -
-    }),
-  }));
-}
+      // Auto-generate slug from product name
+      ...(name === "productName" && {
+        slug: value
+          .toLowerCase()
+          .trim()
+          .replace(/\s+/g, "-") // spaces -> -
+          .replace(/[^a-z0-9-]/g, "") // remove special characters
+          .replace(/-+/g, "-"), // remove duplicate -
+      }),
+    }));
+  }
 
   function handleImageChange(e) {
     const file = e.target.files?.[0];
@@ -110,7 +114,7 @@ export default function Page() {
   // ---- Specifications helpers ----
   function handleSpecChange(index, field, value) {
     setSpecifications((prev) =>
-      prev.map((row, i) => (i === index ? { ...row, [field]: value } : row))
+      prev.map((row, i) => (i === index ? { ...row, [field]: value } : row)),
     );
   }
 
@@ -124,7 +128,9 @@ export default function Page() {
 
   function resetSpecifications(specs) {
     if (specs && specs.length > 0) {
-      setSpecifications(specs.map((s) => ({ key: s.key || "", value: s.value || "" })));
+      setSpecifications(
+        specs.map((s) => ({ key: s.key || "", value: s.value || "" })),
+      );
     } else {
       setSpecifications([{ ...EMPTY_SPEC_ROW }]);
     }
@@ -139,12 +145,51 @@ export default function Page() {
 
   function openCreate() {
     setEditingProduct(null);
-    setFormData(EMPTY_FORM);
+    setFormData({
+      ...EMPTY_FORM,
+      packaging: [
+        {
+          packaging: "",
+          price: "",
+        },
+      ],
+    });
     resetEditorRefs(EMPTY_FORM);
     resetSpecifications([]);
     setImageFile(null);
     setImagePreview("");
     setShowForm(true);
+  }
+
+  function handlePackageChange(index, field, value) {
+    const updated = [...formData.packaging];
+
+    updated[index][field] = field === "price" ? value : value;
+
+    setFormData((prev) => ({
+      ...prev,
+      packaging: updated,
+    }));
+  }
+
+  function addPackageRow() {
+    setFormData((prev) => ({
+      ...prev,
+      packaging: [
+        ...prev.packaging,
+        {
+          packaging: "",
+          price: "",
+        },
+      ],
+    }));
+  }
+
+  function removePackageRow(index) {
+    setFormData((prev) => ({
+      ...prev,
+      packaging: prev.packaging.filter((_, i) => i !== index),
+    }));
   }
 
   function openEdit(product) {
@@ -156,8 +201,15 @@ export default function Page() {
       category: product.category?._id || product.category || "",
       shortDescription: product.shortDescription,
       variety: product.variety,
-      price: product.price,
-      packaging: product.packaging?.join(", "),
+      packaging:
+        product.packaging?.length > 0
+          ? product.packaging
+          : [
+              {
+                packaging: "",
+                price: "",
+              },
+            ],
       metaTitle: product.metaTitle,
       metaDescription: product.metaDescription,
       productOverview: product.productOverview || "",
@@ -203,7 +255,6 @@ export default function Page() {
       const fd = new FormData();
       fd.append("productName", formData.productName);
       fd.append("slug", formData.slug);
-      fd.append("price", formData.price);
       fd.append("category", formData.category);
       fd.append("shortDescription", formData.shortDescription);
       fd.append("variety", formData.variety);
@@ -214,11 +265,15 @@ export default function Page() {
       fd.append("healthBenefits", benefitsRef.current);
       fd.append("whyChoose", whyChooseRef.current);
 
-      const packagingArr = formData.packaging
-        .split(",")
-        .map((i) => i.trim())
-        .filter(Boolean);
-      fd.append("packaging", JSON.stringify(packagingArr));
+      fd.append(
+        "packaging",
+        JSON.stringify(
+          formData.packaging.map((item) => ({
+            packaging: item.packaging,
+            price: Number(item.price),
+          })),
+        ),
+      );
 
       // Drop any blank rows (empty key or value) before sending
       const cleanedSpecs = specifications
@@ -330,29 +385,57 @@ export default function Page() {
                   onChange={handleChange}
                   className="border rounded-lg p-3"
                 />
-                <input
-                  type="number"
-                  name="price"
-                  placeholder="Price"
-                  value={formData.price}
-                  onChange={handleChange}
-                  min="0"
-                  step="1"
-                  onKeyDown={(e) => {
-                    if (["e", "E", "+", "-", "."].includes(e.key)) {
-                      e.preventDefault();
-                    }
-                  }}
-                  className="border rounded-lg p-3"
-                />
 
-                <input
-                  name="packaging"
-                  placeholder="Packaging (comma separated)"
-                  value={formData.packaging}
-                  onChange={handleChange}
-                  className="border rounded-lg p-3"
-                />
+                <div>
+                  <div className="flex justify-between items-center mb-2">
+                    <label className="font-medium">Packaging & Price</label>
+
+                    <button
+                      type="button"
+                      onClick={addPackageRow}
+                      className="bg-blue-600 text-white px-3 py-1 rounded"
+                    >
+                      + Add Package
+                    </button>
+                  </div>
+
+                  {formData.packaging.map((pkg, index) => (
+                    <div key={index} className="flex gap-3 mb-3">
+                      <input
+                        type="text"
+                        placeholder="Package"
+                        value={pkg.packaging}
+                        onChange={(e) =>
+                          handlePackageChange(
+                            index,
+                            "packaging",
+                            e.target.value,
+                          )
+                        }
+                        className="border rounded-lg p-3 flex-1"
+                      />
+
+                      <input
+                        type="number"
+                        placeholder="Price"
+                        value={pkg.price}
+                        onChange={(e) =>
+                          handlePackageChange(index, "price", e.target.value)
+                        }
+                        className="border rounded-lg p-3 w-40"
+                      />
+
+                      <button
+                        type="button"
+                        onClick={() => removePackageRow(index)}
+                        disabled={formData.packaging.length === 1}
+                        className="bg-red-500 text-white px-3 rounded"
+                      >
+                        <Trash2 size={18} />
+                      </button>
+                    </div>
+                  ))}
+                </div>
 
                 <div>
                   <div className="mb-2 flex items-center justify-between">

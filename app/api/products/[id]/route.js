@@ -43,6 +43,7 @@ export async function DELETE(req, { params }) {
 }
 
 //update product
+// UPDATE PRODUCT
 export async function PUT(req, { params }) {
   try {
     await connect();
@@ -63,33 +64,82 @@ export async function PUT(req, { params }) {
 
     const formData = await req.formData();
 
+    // Basic Fields
     const productName = formData.get("productName");
     const slug = formData.get("slug");
     const category = formData.get("category");
     const shortDescription = formData.get("shortDescription");
-    const variety = formData.get("variety");
-    const price = Number(formData.get("price"));
-    const metaTitle = formData.get("metaTitle");
-    const metaDescription = formData.get("metaDescription");
-    const productOverview = formData.get("productOverview");
-    const keyFeatures = formData.get("keyFeatures");
-    const healthBenefits = formData.get("healthBenefits");
-    const whyChoose = formData.get("whyChoose");
+    const variety = formData.get("variety") || "";
 
+    // SEO
+    const metaTitle = formData.get("metaTitle") || "";
+    const metaDescription = formData.get("metaDescription") || "";
+
+    // Editor Fields
+    const productOverview = formData.get("productOverview") || "";
+    const keyFeatures = formData.get("keyFeatures") || "";
+    const healthBenefits = formData.get("healthBenefits") || "";
+    const whyChoose = formData.get("whyChoose") || "";
+
+    // Arrays
     const packaging = JSON.parse(formData.get("packaging") || "[]");
     const specifications = JSON.parse(
       formData.get("specifications") || "[]"
     );
 
-    // Existing image values
+    // =============================
+    // Packaging Validation
+    // =============================
+
+    if (!Array.isArray(packaging) || packaging.length === 0) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Please add at least one package.",
+        },
+        { status: 400 }
+      );
+    }
+
+    for (const item of packaging) {
+      if (
+        !item.packaging ||
+        item.price === "" ||
+        item.price === null ||
+        item.price === undefined
+      ) {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "Each package must have a package name and price.",
+          },
+          { status: 400 }
+        );
+      }
+
+      item.price = Number(item.price);
+
+      if (isNaN(item.price) || item.price < 0) {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "Package price must be a valid number.",
+          },
+          { status: 400 }
+        );
+      }
+    }
+
+    // =============================
+    // Existing Image
+    // =============================
+
     let image = product.image;
     let imageFileId = product.imageFileId;
 
-    // New uploaded file
     const file = formData.get("image");
 
     if (file && file.name) {
-      // Delete old image from R2
       if (imageFileId) {
         await deleteFromR2(imageFileId);
       }
@@ -108,15 +158,37 @@ export async function PUT(req, { params }) {
       imageFileId = uploadedImage.key;
     }
 
+    // =============================
+    // Check Slug
+    // =============================
+
+    const existingSlug = await Product.findOne({
+      slug: slug.toLowerCase(),
+      _id: { $ne: id },
+    });
+
+    if (existingSlug) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Slug already exists.",
+        },
+        { status: 400 }
+      );
+    }
+
+    // =============================
+    // Update Product
+    // =============================
+
     const updatedProduct = await Product.findByIdAndUpdate(
       id,
       {
         productName,
-        slug,
+        slug: slug.toLowerCase(),
         category,
         shortDescription,
         variety,
-        price,
         packaging,
         specifications,
         metaTitle,
@@ -151,7 +223,6 @@ export async function PUT(req, { params }) {
     );
   }
 }
-
 //get product by ID
 export async function GET(req, { params }) {
   try {

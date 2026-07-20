@@ -10,34 +10,37 @@ export async function POST(req) {
   try {
     await connect();
 
-    // Must read as FormData, not JSON — a File object cannot be
-    // serialized through JSON.stringify/req.json().
     const formData = await req.formData();
 
-    console.log(formData)
-
+    // Basic Fields
     const productName = formData.get("productName");
     const slug = formData.get("slug");
     const category = formData.get("category");
-    const price = Number(formData.get("price")); ;
     const shortDescription = formData.get("shortDescription");
     const variety = formData.get("variety") || "";
+
+    // SEO
     const metaTitle = formData.get("metaTitle") || "";
     const metaDescription = formData.get("metaDescription") || "";
+
+    // Jodit Fields
     const productOverview = formData.get("productOverview") || "";
     const keyFeatures = formData.get("keyFeatures") || "";
     const healthBenefits = formData.get("healthBenefits") || "";
     const whyChoose = formData.get("whyChoose") || "";
 
-    console.log(typeof price)
-
-    console.log("clicked")
-
-    // Arrays/objects are sent as JSON strings inside FormData
+    // Arrays
     const packaging = JSON.parse(formData.get("packaging") || "[]");
-    const specifications = JSON.parse(formData.get("specifications") || "[]");
+    const specifications = JSON.parse(
+      formData.get("specifications") || "[]"
+    );
 
+    // Image
     const file = formData.get("image");
+
+    // =============================
+    // Validation
+    // =============================
 
     if (!productName || !slug || !category || !shortDescription) {
       return NextResponse.json(
@@ -47,6 +50,45 @@ export async function POST(req) {
         },
         { status: 400 }
       );
+    }
+
+    if (!Array.isArray(packaging) || packaging.length === 0) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Please add at least one package.",
+        },
+        { status: 400 }
+      );
+    }
+
+    for (const item of packaging) {
+      if (
+        !item.packaging ||
+        item.price === "" ||
+        item.price === null ||
+        item.price === undefined
+      ) {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "Each package must have a package name and price.",
+          },
+          { status: 400 }
+        );
+      }
+
+      item.price = Number(item.price);
+
+      if (isNaN(item.price) || item.price < 0) {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "Package price must be a valid positive number.",
+          },
+          { status: 400 }
+        );
+      }
     }
 
     if (!file || typeof file === "string" || file.size === 0) {
@@ -59,6 +101,7 @@ export async function POST(req) {
       );
     }
 
+    // Check Slug
     const exists = await Product.findOne({
       slug: slug.toLowerCase(),
     });
@@ -73,9 +116,13 @@ export async function POST(req) {
       );
     }
 
-    // Upload to Cloudflare R2
+    // =============================
+    // Upload Image
+    // =============================
+
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
+
     const fileName = `${Date.now()}-${file.name}`;
 
     const uploadedImage = await uploadToR2({
@@ -84,6 +131,10 @@ export async function POST(req) {
       fileName,
       contentType: file.type,
     });
+
+    // =============================
+    // Create Product
+    // =============================
 
     const product = await Product.create({
       productName,
@@ -95,7 +146,6 @@ export async function POST(req) {
       specifications,
       productOverview,
       keyFeatures,
-      price,
       healthBenefits,
       whyChoose,
       image: uploadedImage.url,
@@ -103,8 +153,6 @@ export async function POST(req) {
       metaTitle,
       metaDescription,
     });
-
-    console.log("done")
 
     return NextResponse.json(
       {
@@ -144,7 +192,7 @@ export async function GET() {
       products,
     });
   } catch (error) {
-    console.log(error);
+    console.error(error);
 
     return NextResponse.json(
       {

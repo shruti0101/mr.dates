@@ -16,9 +16,25 @@ const specificationSchema = new mongoose.Schema(
   { _id: false }
 );
 
+const packagingSchema = new mongoose.Schema(
+  {
+    packaging: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    price: {
+      type: Number,
+      required: true,
+      min: 0,
+    },
+  },
+  { _id: false }
+);
+
 const productSchema = new mongoose.Schema(
   {
-    // Basic Details
     productName: {
       type: String,
       required: true,
@@ -44,10 +60,6 @@ const productSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    price: {
-      type: Number,
-      
-    },
 
     variety: {
       type: String,
@@ -55,18 +67,10 @@ const productSchema = new mongoose.Schema(
       trim: true,
     },
 
-    // Multiple Packaging Options
-    packaging: [
-      {
-        type: String,
-        trim: true,
-      },
-    ],
+    packaging: [packagingSchema],
 
-    // Specifications (Key-Value Pair)
     specifications: [specificationSchema],
 
-    // Jodit Editor HTML
     productOverview: {
       type: String,
       default: "",
@@ -87,7 +91,6 @@ const productSchema = new mongoose.Schema(
       default: "",
     },
 
-    // Product Image
     image: {
       type: String,
       required: true,
@@ -98,7 +101,6 @@ const productSchema = new mongoose.Schema(
       default: "",
     },
 
-    // SEO
     metaTitle: {
       type: String,
       default: "",
@@ -108,10 +110,6 @@ const productSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-
-  
-
-   
   },
   {
     timestamps: true,

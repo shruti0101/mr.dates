@@ -32,7 +32,7 @@ export default function ProductPage({ product }) {
   const [quantity, setQuantity] = useState(1);
 
  const [selectedPack, setSelectedPack] = useState(
-  product?.packaging?.[0] || ""
+  product?.packaging?.[0] || null
 );
 
   // ================= STORE =================
@@ -64,14 +64,27 @@ export default function ProductPage({ product }) {
   }
 
   const handleAddToCart = () => {
-    addToCart(product, quantity, selectedPack);
+    addToCart(
+  {
+    ...product,
+    selectedPackage: selectedPack,
+    price: selectedPack.price,
+  },
+  quantity
+);
     console.log(product)
 
     setCartOpen(true);
   };
 
   const handleAddToWishlist = () => {
-    addToWishlist(product, selectedPack);
+   addToWishlist(
+  {
+    ...product,
+    selectedPackage: selectedPack,
+    price: selectedPack.price,
+  }
+);
 
     toast.success("Added to wishlist");
   };
@@ -79,12 +92,12 @@ export default function ProductPage({ product }) {
   return (
     <>
       <Head>
-        <title>{product.metaTitle || product.name}</title>
+        <title>{product.metaTitle || product.productName}</title>
 
         <meta
           name="description"
           content={
-            product.metaDescription || product.name
+            product.metaDescription || product.productName
           }
         />
       </Head>
@@ -149,15 +162,15 @@ export default function ProductPage({ product }) {
           </p>
 
           <h2 className="text-4xl font-light text-[#072143]">
-            Rs. {selectedPack?.price || product.price}
+            Rs. {selectedPack?.price}
           </h2>
         </div>
 
-        {selectedPack?.weight && (
-          <span className="bg-[#f6efe5] px-4 py-2 rounded-full text-[#7a1f2b] font-medium">
-            {selectedPack.weight}
-          </span>
-        )}
+        {selectedPack?.packageing && (
+  <span className="bg-[#f6efe5] px-4 py-2 rounded-full text-[#7a1f2b] font-medium">
+    {selectedPack.packaging}
+  </span>
+)}
 
       </div>
 
@@ -184,7 +197,7 @@ export default function ProductPage({ product }) {
         >
           <div className="text-center">
             <span className="block text-3xl font-serif text-[#072143]">
-              {pack}
+              {pack.packaging}
             </span>
 
             <span className="text-xs uppercase tracking-[0.2em] text-gray-500">

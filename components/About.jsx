@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+
 import {
   Sparkles,
   ArrowUpRight,
@@ -29,26 +29,13 @@ export default function AboutSection() {
       />
 
       {/* FLOATING SHAPES */}
-      <motion.div
-        animate={{
-          rotate: 360,
-        }}
-        transition={{
-          duration: 22,
-          repeat: Infinity,
-          ease: "linear",
-        }}
+      <div
+       
         className="absolute top-12 left-10 h-40 w-40 rounded-full border-[18px] border-black/5"
       />
 
-      <motion.div
-        animate={{
-          y: [0, -18, 0],
-        }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-        }}
+      <div
+      
         className="absolute bottom-10 left-10 h-24 w-24 rounded-[30px] bg-[#ff4d8d]/10"
       />
 
@@ -59,25 +46,8 @@ export default function AboutSection() {
           <div className="relative">
 
             {/* FUNKY FLOATING TEXT */}
-            <motion.div
-              initial={{
-                opacity: 0,
-                scale: 0.8,
-                rotate: -12,
-              }}
-              whileInView={{
-                opacity: 1,
-                scale: 1,
-                rotate: -8,
-              }}
-              transition={{
-                duration: 1,
-                delay: 0.4,
-              }}
-              animate={{
-                y: [0, -12, 0],
-                rotate: [-8, -5, -8],
-              }}
+            <div
+            
               className="
                 absolute 
                 -top-50
@@ -106,14 +76,8 @@ export default function AboutSection() {
                 />
 
                 {/* MINI BADGE */}
-                <motion.div
-                  animate={{
-                    rotate: [0, 6, -6, 0],
-                  }}
-                  transition={{
-                    duration: 5,
-                    repeat: Infinity,
-                  }}
+                <div
+                 
                   className="
                     absolute 
                     -bottom-5 
@@ -130,31 +94,16 @@ export default function AboutSection() {
                   "
                 >
                   CLEAN SNACK ✦
-                </motion.div>
+                </div>
               </div>
-            </motion.div>
+            </div>
 
             {/* IMAGES GRID */}
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
 
               {/* BACK IMAGE */}
-              <motion.div
-                initial={{
-                  opacity: 0,
-                  x: -80,
-                  rotate: -5,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  x: 0,
-                  rotate: -2,
-                }}
-                transition={{ duration: 0.9 }}
-                whileHover={{
-                  y: -10,
-                  rotate: 0,
-                  scale: 1.02,
-                }}
+              <div
+              
                 className="hidden md:block"
               >
                 <div
@@ -181,26 +130,11 @@ export default function AboutSection() {
 
                   <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent" />
                 </div>
-              </motion.div>
+              </div>
 
               {/* FRONT IMAGE */}
-              <motion.div
-                initial={{
-                  opacity: 0,
-                  x: 80,
-                  rotate: 5,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  x: 0,
-                  rotate: 2,
-                }}
-                transition={{ duration: 0.9 }}
-                whileHover={{
-                  y: -10,
-                  rotate: 0,
-                  scale: 1.02,
-                }}
+              <div
+                
               >
                 <div
                   className="
@@ -225,18 +159,12 @@ export default function AboutSection() {
 
                   <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent" />
                 </div>
-              </motion.div>
+              </div>
             </div>
 
             {/* FLOATING PILL */}
-            <motion.div
-              animate={{
-                y: [0, -10, 0],
-              }}
-              transition={{
-                duration: 4,
-                repeat: Infinity,
-              }}
+            <div
+           
               className="
                 absolute 
                 -bottom-6 
@@ -255,17 +183,15 @@ export default function AboutSection() {
               <span className="text-sm font-bold tracking-wide">
                 PREMIUM • NATURAL • CLEAN
               </span>
-            </motion.div>
+            </div>
           </div>
 
           {/* RIGHT CONTENT */}
           <div>
 
             {/* TOP TAG */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
+            <div
+            
               className="
                 inline-flex items-center gap-3
                 rounded-full
@@ -288,11 +214,11 @@ export default function AboutSection() {
                 height={32}
                 alt="Dates"
               />
-            </motion.div>
+            </div>
 
            
        {/* HEADING */}
-<motion.div
+<div
   initial={{ opacity: 0, y: 70 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.9 }}
@@ -300,7 +226,7 @@ export default function AboutSection() {
 >
 
   {/* FLOATING STICKER IMAGE */}
-  <motion.img
+  <img
     animate={{
       y: [0, -10, 0],
       rotate: [-6, -2, -6],
@@ -341,12 +267,10 @@ export default function AboutSection() {
     looked this good.
   </h2>
 
-</motion.div>
+</div>
             {/* DESCRIPTION */}
-            <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+            <p
+             
               className="
                 mt-8
                 max-w-2xl
@@ -364,7 +288,7 @@ export default function AboutSection() {
               Carefully sourced and hygienically packed, our dates
               are free from unnecessary additives and refined sugar —
               making them the perfect clean snack for modern living.
-            </motion.p>
+            </p>
 
             {/* FEATURE CARDS */}
             <div className="mt-10 grid grid-cols-2 gap-4">
@@ -392,7 +316,7 @@ export default function AboutSection() {
             </div>
 
             {/* BUTTON */}
-            <motion.div
+            <div
               whileHover={{
                 scale: 1.03,
               }}
@@ -438,7 +362,7 @@ export default function AboutSection() {
                 {/* ARROW */}
                 <ArrowUpRight className="relative z-10 text-[#debd6a] group-hover:text-[#072143] transition-transform duration-300 group-hover:rotate-45" />
               </button>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>
@@ -450,11 +374,8 @@ export default function AboutSection() {
 
 function FeatureCard({ icon, text }) {
   return (
-    <motion.div
-      whileHover={{
-        y: -5,
-        scale: 1.03,
-      }}
+    <div
+    
       className="
         flex items-center gap-3
         rounded-2xl
@@ -472,6 +393,6 @@ function FeatureCard({ icon, text }) {
       <span className="font-semibold text-black/80">
         {text}
       </span>
-    </motion.div>
+    </div>
   );
 }

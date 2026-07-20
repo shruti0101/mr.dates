@@ -10,7 +10,7 @@ export default function CartDrawer({ open, setOpen }) {
 
   console.log(cart)
 
-  const removeFromCart = useCartStore(
+  const removeFromCart = useCartStore(  
     (state) => state.removeFromCart
   );
 
@@ -83,20 +83,26 @@ export default function CartDrawer({ open, setOpen }) {
           ) : (
             <div className="space-y-5">
               {cart.map((item, index) => (
+
+                
                 <div
                   key={index}
                   className="flex gap-4 border-b pb-5"
                 >
+          
                   {/* IMAGE */}
-                  <div className="w-28 h-28 relative rounded-xl overflow-hidden bg-gray-100 shrink-0">
-                    <Image
-                      src={item.image}
-                      alt={item.image}
-                      fill
-                      
-                      className="object-cover"
-                    />
-                  </div>
+             <div className="w-28 h-28 relative rounded-xl overflow-hidden bg-gray-100 shrink-0">
+  <Image
+    src={typeof item.image === "object" ? item.image.src : item.image}
+    alt={
+      typeof item.image === "object"
+        ? item.image.alt
+        : item.name
+    }
+    fill
+    className="object-cover"
+  />
+</div>
 
                   {/* CONTENT */}
                   <div className="flex-1">
@@ -104,11 +110,14 @@ export default function CartDrawer({ open, setOpen }) {
                       {item.name}
                     </h3>
 
-                    {item?.pack && (
-                      <p className="text-sm text-gray-500 mt-1">
-                        Pack: {item.pack}
-                      </p>
-                    )}
+               {item?.pack && (
+  <p className="text-sm text-gray-500 mt-1">
+    Pack:{" "}
+    {typeof item.pack === "object"
+      ? `${item.pack.type ?? ""} ${item.pack.weight ?? ""}`
+      : item.pack}
+  </p>
+)}
 
                     <p className="text-[#072143] font-bold text-lg mt-2">
                       Rs. {item.price} /-

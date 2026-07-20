@@ -233,7 +233,7 @@ if (loading) {
       {/* TEXT */}
       <div className="mt-6 text-center px-4">
         <h3 className="text-[22px] font-serif text-[#072143]">
-          {product.name}
+          {product.productName}
         </h3>
 
         <p className="mt-2 text-xs tracking-[0.25em] uppercase text-[#8b7b6a]">

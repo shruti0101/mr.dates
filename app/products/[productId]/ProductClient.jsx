@@ -141,7 +141,7 @@ export default function ProductPage({ product }) {
 
       {/* TITLE */}
       <h1 className="mt-5 text-5xl lg:text-6xl font-light text-[#072143] leading-none">
-        {product.name}
+        {product.productName}
       </h1>
 
       <p className="mt-4 text-lg italic text-[#9b7a42]">

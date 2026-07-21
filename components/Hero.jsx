@@ -140,27 +140,27 @@ export default function HeroDatesExact() {
   }, []);
 
   /* ✅ LENIS (proper RAF cancel) */
-  useEffect(() => {
-    const lenis = new Lenis({
-      smoothWheel: true,
-      lerp: 0.08,
-    });
+  // useEffect(() => {
+  //   const lenis = new Lenis({
+  //     smoothWheel: true,
+  //     lerp: 0.08,
+  //   });
 
-    let rafId;
+  //   let rafId;
 
-    const raf = (time) => {
-      lenis.raf(time);
-      ScrollTrigger.update();
-      rafId = requestAnimationFrame(raf); // ✅ IMPORTANT
-    };
+  //   const raf = (time) => {
+  //     lenis.raf(time);
+  //     ScrollTrigger.update();
+  //     rafId = requestAnimationFrame(raf); // ✅ IMPORTANT
+  //   };
 
-    rafId = requestAnimationFrame(raf);
+  //   rafId = requestAnimationFrame(raf);
 
-    return () => {
-      cancelAnimationFrame(rafId);
-      lenis.destroy();
-    };
-  }, []);
+  //   return () => {
+  //     cancelAnimationFrame(rafId);
+  //     lenis.destroy();
+  //   };
+  // }, []);
 
   /* ✅ MAIN IMAGE EXIT */
   useEffect(() => {

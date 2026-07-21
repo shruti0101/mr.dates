@@ -35,8 +35,8 @@ async function fetchData() {
       fetch("/api/products"),
     ]);
 
-    const categoryData = await categoryRes.json();
-    const productData = await productRes.json();
+    const categoryData = await categoryRes?.json();
+    const productData = await productRes?.json();
 
     if (categoryData.success) {
       setCategories(categoryData.categories);
@@ -229,19 +229,12 @@ const currentProducts = filteredProducts.slice(
                 </Link>
 
                 <div className="px-6 pb-6">
-                  <button
-                    onClick={() => {
-                      addToCart({
-                        ...product,
-                        quantity: 1,
-                      });
-
-                      toast.success("Added to cart");
-                    }}
-                    className="w-full bg-[#072143] text-white py-3 rounded-xl"
-                  >
-                    Add To Cart
-                  </button>
+                 <Link
+  href={`/products/${product.slug}`}
+  className="block w-full bg-[#072143] text-white py-3 rounded-xl text-center hover:bg-[#0a2d5c] transition"
+>
+  View Details
+</Link>
                 </div>
               </div>
             ))}

@@ -47,7 +47,6 @@ const products = [
   },
 ];
 
-
 export default function HeroDatesExact() {
   const thumbRefs = useRef([]);
   const driver = useRef({ progress: 0 });
@@ -66,7 +65,7 @@ export default function HeroDatesExact() {
   ];
 
   const bgImagesMobile = [
-   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
+    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
     "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check12_ox9x0d.webp",
     "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check11_thgos7.webp",
     "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800837/check10_ylhbxu.webp",
@@ -74,17 +73,17 @@ export default function HeroDatesExact() {
   ];
 
   const [isMobile, setIsMobile] = useState(false);
- useEffect(() => {
+  useEffect(() => {
     const checkScreen = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
-    checkScreen(); 
+    checkScreen();
     window.addEventListener("resize", checkScreen);
 
     return () => window.removeEventListener("resize", checkScreen);
   }, []);
-  
+
   const bgImages = isMobile ? bgImagesMobile : bgImagesDesktop;
 
   /* gsap thumb */
@@ -127,14 +126,12 @@ export default function HeroDatesExact() {
         },
       });
 
-      thumbRefs.current.forEach((el) => {
-        if (!el) return;
+      thumbRefs.current.forEach((el, i) => {
         gsap.to(el, {
-          rotate: 360,
-          duration: 30,
-          repeat: -1,
-          ease: "none",
-          transformOrigin: "50% 50%",
+          rotate: i === activeIndex ? 360 : 0,
+          duration: 8,
+          repeat: i === activeIndex ? -1 : 0,
+          overwrite: true,
         });
       });
     });
@@ -204,9 +201,11 @@ export default function HeroDatesExact() {
         x: 0,
         rotate: 0,
         scale: 1,
-        duration: 2.6,
-        ease: "power4.out",
-      }
+        // duration: 2.6,
+        duration: 1.8,
+        ease: "power3.out",
+        ease: "power3.out",
+      },
     );
   }, [visibleIndex]);
 
@@ -214,7 +213,7 @@ export default function HeroDatesExact() {
     <>
       <section
         style={{ backgroundImage: `url(${bgImages[activeIndex]})` }}
-        className="h-[70vh] md:h-[110vh] relative md:bg-center bg-cover flex items-center justify-center transition-all duration-1000"
+        className="h-[70vh] md:h-[110vh] relative md:bg-center bg-cover flex items-center justify-center transition-opacity duration-1000"
       >
         <div className="absolute inset-0 bg-black/50" />
 
@@ -327,20 +326,20 @@ export default function HeroDatesExact() {
                     </span>
 
                     {/* Text */}
-                    <Link href="/products" className="relative z-10 font-poppins font-bold">
+                    <Link
+                      href="/products"
+                      className="relative z-10 font-poppins font-bold"
+                    >
                       Explore More
                     </Link>
                   </button>
 
                   <Link
                     href="/about"
-
                     className="flex tracking-wider items-center gap-2 text-sm md:text-lg font-semibold text-white hover:text-white transition cursor-pointer"
                   >
                     Know More →
                   </Link>
-
-
                 </div>
 
                 <motion.div
@@ -363,7 +362,7 @@ export default function HeroDatesExact() {
               <Image
                 width={650}
                 height={760}
-                className="absolute  z-30 right-20 -top-20 animate-pulse"
+                className="absolute  z-30 right-20 -top-20 animate-[float_5s_ease-in-out_infinite]"
                 src="/leaf2.webp"
                 alt=""
               />
@@ -417,6 +416,8 @@ export default function HeroDatesExact() {
                   src={products[visibleIndex].main}
                   className="w-[600] will-change-transform"
                   alt=""
+                  priority
+                  quality={90}
                   draggable={false}
                 />
               </motion.div>

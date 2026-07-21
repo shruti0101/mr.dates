@@ -88,7 +88,7 @@ export default function WishlistPage() {
                     )}
 
                     <p className="mt-4 text-2xl font-semibold text-[#072143]">
-                      {item.price}
+                      Rs. {item.price}
                     </p>
 
                     {/* ACTIONS */}

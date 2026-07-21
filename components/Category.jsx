@@ -32,14 +32,14 @@ const Category = () => {
       link: "/categories/medjool-dates",
     },
     {
-      title: "Mebroom Dates",
-      image: "/products/dateCrownMabroom.webp",
-      link: "/categories/mabroom-dates",
+      title: "Fard Dates",
+      image: "/products/fradDates.webp",
+      link: "/categories/fard-dates",
     },
     {
-      title: "California Almonds",
-      image: "/products/independentAlmondsPouch.webp",
-      link: "/categories/california-almonds",
+      title: "Rabbi Dates",
+      image: "/products/ggtRabbi.webp",
+      link: "/categories/rabbi-dates",
     },
     {
       title: "Dry Figs",

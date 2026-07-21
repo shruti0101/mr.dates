@@ -66,10 +66,10 @@ export default function WishlistPage() {
                   <Link href={`/products/${item.id}`}>
                     <div className="relative h-[350px] overflow-hidden">
                       <Image
-                        src={item.image.src}
+                        src={item.image}
                         alt={item.name}
                         fill
-                        className="object-cover hover:scale-105 transition duration-700"
+                        className="object-contain hover:scale-105 transition duration-700"
                       />
                     </div>
                   </Link>

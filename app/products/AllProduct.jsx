@@ -196,12 +196,12 @@ const currentProducts = filteredProducts.slice(
             </h2>
 
             <p className="text-sm text-gray-500">
-              {filteredProducts.length} Products
+              {products.length} Products
             </p>
           </div>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
             {currentProducts.map((product) => (
               <div
                 key={product._id}
@@ -222,9 +222,9 @@ const currentProducts = filteredProducts.slice(
                       {product.productName}
                     </h2>
 
-                    <p className="text-sm text-gray-500 mt-2">
+                    {/* <p className="text-sm text-gray-500 mt-2">
                       ₹{product.price}
-                    </p>
+                    </p> */}
                   </div>
                 </Link>
 

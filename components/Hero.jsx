@@ -56,12 +56,20 @@ export default function HeroDatesExact() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [visibleIndex, setVisibleIndex] = useState(0);
 
+  // const bgImagesDesktop = [
+  //   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
+  //   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check12_ox9x0d.webp",
+  //   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check11_thgos7.webp",
+  //   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800837/check10_ylhbxu.webp",
+  //   "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800964/dryfigBanner_rwabsk.png",
+  // ];
+
   const bgImagesDesktop = [
-    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check13_dbiorg.webp",
-    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check12_ox9x0d.webp",
-    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800838/check11_thgos7.webp",
-    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800837/check10_ylhbxu.webp",
-    "https://res.cloudinary.com/dcefpzfe0/image/upload/v1782800964/dryfigBanner_rwabsk.png",
+    "banner.webp",
+    "banner1.webp",
+    "banner2.webp",
+    "banner3.webp",
+    "banner4.webp",
   ];
 
   const bgImagesMobile = [
